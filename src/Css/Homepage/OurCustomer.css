@@ -1,0 +1,30 @@
+.slick-slider div{
+    background-color: #e6f0fd;
+}
+
+.slick-slider{
+     background-color: none;
+     margin: 0px 400px;
+     width: 79%;  
+}
+
+.custom-man{
+    max-width: 1920;
+     margin: 'auto' ;
+    background:#e6f0fd;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-direction: column;
+      
+}
+.customer-child{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+.box-white{
+    background-color: white;
+    margin: 40px;
+}

@@ -1,0 +1,291 @@
+#submit {
+    width: "150px";
+    height: "50px";
+    background: linear-gradient(to bottom, #0160E7, #053480);
+    margin-top: 50px;
+    color: white;
+}
+
+#Technology-focus-grid {
+    background: white !important;
+    width: 320px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-1 {
+    width: 380px;
+  margin: 0px 1.5px;
+}
+
+.contact-2 {
+    width: 350px;
+    margin: 0px 1.5px;
+}
+
+.contact-3 {
+    width: 200px;
+    margin: 0px 1.5px;
+}
+
+#about-soham {
+    font-size: 40px;
+    font-weight: 600;
+    color: #053480;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.aboutsectiocolor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    margin: auto;
+}
+.leadership{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+#leadership-name{
+    font-weight: 700;
+    margin: 5px;
+    font-size: 22px;
+    color: #053480;
+
+}
+.leadership-p{
+    font-size: 20px;
+    color: #053480;
+}
+
+@media (max-width:1625px) {
+    #aboutsectionimg {
+        height: 300px;
+    }
+
+    .sir {
+        width: 280px;
+    }
+
+    .contact-1 {
+        width: 280px;
+    }
+
+    .contact-2 {
+        width: 280px;
+    }
+
+    .contact-3 {
+        width: 180px;
+    }
+}
+
+@media (max-width:1320px) {
+    #aboutsectionimg {
+        height: 290px;
+    }
+
+    #typography {
+        font-size: 15px;
+       
+    }
+    #about-heading{
+        font-size: 30px;
+    }
+    #Ready{
+        font-size: 25px;
+     }
+     #select{
+ font-size: 20px;
+     }
+   
+
+}
+
+/* form contorl */
+@media (max-width:768px) {
+    #form-control {
+        box-shadow: none !important;
+        width: 100%;
+    }
+
+    .about-typography {
+        width:80%;
+    
+    }
+
+    #aboutsectiontypo {
+        width: 75% !important;
+        padding: 0%;
+        margin: 0%;
+     
+    }
+
+    #aboutsectionimg {
+        height: 420px;
+        margin-bottom: 10px;
+    }
+    .contact-1 {
+        width: 270px;
+    }
+
+    .contact-2 {
+        width: 270px;
+    }
+
+    .contact-3 {
+        width: 270px;
+    }
+    #Ready{
+        font-size: 20px;
+     }
+     #select{
+ font-size: 18px;
+     }
+}
+
+@media (max-width:576px) {
+    #aboutsectionimg {
+        width: 450px;
+        margin-top: 0px;
+        padding-top: 0%;
+    }
+    #aboutsectiontypo {
+        width: 90% !important;
+        padding: 0%;
+        margin: 0%;
+     
+    }
+    #team {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-1 {
+        width: 100%;
+    }
+
+    .contact-2 {
+        width: 100%;
+    }
+
+    .contact-3 {
+        width: 100%;
+    }
+   
+    .css-1coc09t{
+        padding: 45px !important;     
+    }
+}
+
+
+/* form section */
+@media (max-width:480px) {
+    #form-control {
+        width: 350px;
+        padding: 10px;
+    }
+
+    #aboutsectionimg {
+        width: 350px;
+        margin-top: 0px;
+        padding-top: 0%;
+    }
+    #Ready{
+       font-size: 20px;
+    }
+    #select{
+font-size: 18px;
+    }
+}
+
+
+
+/* someour work2 */
+@media (max-width:420px) {
+    #heading {
+        text-align: center;
+    }
+
+    #heading2 {
+        font-size: 15px;
+        padding: 15px 30px;
+        margin: 10px;
+
+    }
+
+    #card {
+        width: 320px;
+        margin: 20px;
+       
+    }
+
+    #form-control {
+        width: 350px;
+        padding: 10px;
+    }
+
+    #aboutsectionimg {
+        width: 350px;
+        margin-top: 0px;
+        padding-top: 0%;
+    }
+
+}
+
+
+@media (max-width:375px) {
+    #aboutsectionimg {
+        height: 230px;
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+
+    #about-soham {
+        font-size: 25px;
+    }
+
+    .sir {
+        width: 200px;
+    }
+
+    #heading2 {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+
+    #cardnew {
+        width: 260px;
+        margin: 20px;
+        height: 420px;
+    }
+}
+
+@media (max-width:320px) {
+    #form-control {
+        width: 300px !important;
+        padding: 10px;
+    }
+
+    #heading2 {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+
+    #cardnew {
+        width: 260px;
+        margin: 20px;
+        height: 420px;
+    }
+}

@@ -1,0 +1,142 @@
+.map-img {
+    background-size: cover;
+    background-position: "center";
+    object-fit: cover;
+    width: 100%;
+
+}
+
+
+
+.GETINTOUCH2 {
+    background: linear-gradient(to bottom, #0160E7, #053480);
+    border-radius: 0 18px 18px 0px;
+}
+
+@media (max-width:1800px) {
+ 
+}
+
+@media (max-width:1600px) {
+    
+
+    #send-us-message {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width:1350px) {
+    .GETINTOUCH {
+        width: 100%;
+
+    }
+
+    .GETINTOUCH1 {
+        width: 100%;
+    }
+
+    .GETINTOUCH2 {
+        border-radius: 17px;
+    }
+
+   
+
+    #send-us-message {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width:610px) {
+    #boxShadow {
+        box-shadow: none !important;
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .GETINTOUCH {
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .css-1cu5i81 {
+        padding: 0% !important;
+    }
+
+    .GETINTOUCH2 {
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width:480px) {
+    .GETINTOUCH {
+        width: 100%;
+    }
+
+    .GETINTOUCH2 {
+        width: 480px !important;
+    }
+
+    .css-hzj0qs {
+        padding: 10% !important;
+    }
+
+    .css-1evx3p9 {
+        width: 480px !important;
+    }
+
+    #categories {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+}
+
+@media (max-width:420px) {
+    .GETINTOUCH {
+        width: 100%;
+    }
+
+    .GETINTOUCH1 {
+        width: 100%;
+    }
+
+
+
+    .css-1evx3p9 {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:375px) {
+    .GETINTOUCH {
+        width: 100%;
+    }
+
+    .GETINTOUCH1 {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width:320px) {
+
+    .css-jlj68f {
+        width: 100% !important;
+    }
+
+    .GETINTOUCH {
+        width: 100%;
+    }
+
+
+
+
+}

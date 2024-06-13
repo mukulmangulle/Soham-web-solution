@@ -1,0 +1,209 @@
+#blog-card {
+  width: 31%;
+  height: 540px;
+  margin: 1.5% 1%;
+
+}
+.blogsimg {
+
+  height: 260px;
+  width: 100%;
+}
+
+#card-heading {
+  font-weight: 700;
+  color: #053480;
+  line-height: 25px;
+  font-size: 22px;
+  margin-bottom: 1%;
+
+}
+
+#card-typography {
+  font-size: 16px;
+  line-height: 180%;
+  padding-top: 2%;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.view-more {
+  background: linear-gradient(to bottom, #0160E7, #053480);
+  font-size: 15px;
+  width: 200px;
+  color: white !important;
+}
+
+
+
+
+@media (max-width:1600px) {
+  #blog-card {
+    height:490px;
+
+  }
+
+  #card-heading {
+    font-size: 20px;
+  }
+
+  #card-typography {
+    font-size: 13px;
+    line-height: 180%;
+  }
+
+  .blogsimg {
+
+    height: 240px;
+    width: 100%;
+
+  }
+}
+
+
+@media (max-width:1320px) {
+
+  .blogsimg {
+    height: 220px;
+    width: 100%;
+  }
+  #blog-card {
+    height: 450px;
+  
+   
+  }
+  #card-typography {
+   
+    line-height: 160%;
+  }
+}
+
+
+@media (max-width:1200px) {
+ 
+
+  #card-heading {
+    font-size: 17px;
+  }
+
+  #card-typography {
+    font-size: 12px;
+    line-height:180%;
+  }
+
+  .blogsimg {
+
+    height: 180px;
+    width: 100%;
+
+  }
+}
+
+
+@media (max-width:1080px) {
+  #blog-card {
+    height: 380px;
+   
+  }
+  
+
+  #card-heading {
+    font-size: 16px;
+    line-height: 1rem;
+  }
+
+  #card-typography {
+    font-size: 11px;
+    line-height:150%;
+  }
+
+  .blogsimg {
+
+    height: 180px;
+    width: 100%;
+
+  }
+}
+
+
+
+@media (max-width:800px) {
+  #blog-card {
+    height: 420px;
+    width: 290px;
+  
+  }
+
+  #card-heading {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+
+  #card-typography {
+    font-size: 11px;
+    line-height: 160%;
+  }
+
+  .blogsimg {
+    height: 190px;
+  }
+}
+
+@media (max-width:720px) {
+  #blog-card {
+    height: 450px;
+    width: 100%;
+    margin: 15px 0%;
+
+  }
+
+  #card-heading {
+    font-size: 20px;
+  }
+
+  #card-typography {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .blogsimg {
+    height: 50%;
+  }
+}
+
+
+
+
+@media (max-width:480px) {
+  #blog480-center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #blog-card {
+    height: 420px;
+    width: 290px;
+  
+
+  }
+
+  #card-heading {
+    font-size: 14px;
+  }
+
+  #card-typography {
+    font-size: 11px;
+    line-height: 200%;
+  }
+
+  .blogsimg {
+    height: 190px;
+  }
+
+}

@@ -1,0 +1,42 @@
+.navbar {
+  
+    z-index: 1;
+    max-width: 1920px;
+    background-color:#053480;
+    margin: auto;
+}
+ 
+.ul-box {
+    display: flex;
+    align-items: top;
+    margin: 0%;
+}
+
+.fontSize16 {
+    color: white;
+    text-decoration: "none";
+    font-size: 16px; 
+}
+
+
+
+.down-arrow {
+    width: 12px;
+    margin: 6px;
+}
+
+#hire-button {
+    width: 170px;
+    color: white;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+@media (max-width:320px) {
+    #sws-logo {
+        width: 180px;
+    }
+}
