@@ -71,7 +71,7 @@ const BoxCategories = ({ Api_url }) => {
                 <Link
                   to={`/${process.env.SLUG_URL}/categories/${categoriescontent?.slug}/`}
                   state={{ id: categoriescontent?.id, name: categoriescontent?.name }}
-                  style={{ textDecoration: "none" }}
+                  className="text-decortion"
                 >
                   <Typography id='card-heading'>
                     {categoriescontent.name}

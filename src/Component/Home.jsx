@@ -13,6 +13,7 @@ import Insta from "../assets/media/insta.svg"
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchcontents } from '../features/content/contentSlice';
 import CircularProgress from '@mui/material/CircularProgress';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -40,10 +41,12 @@ const Home = () => {
                         {contents.homeData.subheading}
                     </Typography>
 
-                    <Box id="schadule-meeting" paddingTop={2} display={"flex"} paddingBottom={4} >
+                    <Box id="schadule-meeting" paddingTop={2} display={"flex"} 
+                    paddingBottom={4} >
+                        <Link to="https://calendly.com/sws-contact" style={{  textDecoration: "none",  display:"flex"  }}>
                         <Typography  id='home-p2 ' marginRight={2}  color="#FFFFFF" variant='h6' fontWeight={500}>Schadule Meeting </Typography>
                         <img src={Arrow} width={25} alt="" />
-
+                       </Link>
                     </Box>
                 </Box>
 
@@ -55,18 +58,17 @@ const Home = () => {
 
             <Box className="home-lastSection flex-between" width={'84.5%'} paddingY={3} flexWrap={"wrap"}  >
                 <Box display={'flex'} alignItems={"center"} >
-                    <img src={Call} alt="" />
-                    <Typography className='fontSize14 color-white'  marginLeft={1}  >
-                        {contents.homeData.contactInfo.number}
-                    </Typography>
+                <a style={{  textDecoration: "none" , display:"flex" }} href="tel:%20+91%207879231700" display={'flex'} margin={0.5}  >
+                                <img src={Call} alt="" />
+                                <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
+                            </a>
                 </Box>
 
-                <Box display={'flex'} alignItems={"center"}  >
+                <a href="mailto:contact@sohamsolution.com"  alignItems={"center"} style={{  textDecoration: "none" ,display:"flex" }} >
+
                     <img src={Email} alt="" />
-                    <Typography className='fontSize14 color-white' marginLeft={1}>
-                        {contents.homeData.contactInfo.email}
-                    </Typography>
-                </Box>
+                    <Typography   id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
+                </a>
 
 
                 <Box display={'flex'} alignItems={"center"}    >
@@ -74,6 +76,7 @@ const Home = () => {
                     <Typography className='fontSize14 color-white' marginLeft={1}>
                         {contents.homeData.contactInfo.link}
                     </Typography>
+                    
                 </Box>
 
                 <Box width={140} className="flex-between" >

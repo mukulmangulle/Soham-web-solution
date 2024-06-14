@@ -1,6 +1,12 @@
-@media (max-width:920PX) {
+@media (max-width:900PX) {
     .header{
         display: none;
     }
 }
+.header-responsive{
+    width: 85%;
+}
 
+.header img{
+       height: 12px;
+}

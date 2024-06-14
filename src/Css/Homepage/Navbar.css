@@ -1,11 +1,19 @@
 .navbar {
-  
     z-index: 1;
     max-width: 1920px;
-    background-color:#053480;
+    background-color: #053480;
     margin: auto;
 }
- 
+
+.navbar .flex-center {
+    width: 100%;
+}
+
+.navbar .navbar-height {
+    height: 90px;
+    width: 86%;
+}
+
 .ul-box {
     display: flex;
     align-items: top;
@@ -15,28 +23,54 @@
 .fontSize16 {
     color: white;
     text-decoration: "none";
-    font-size: 16px; 
+    font-size: 16px !important;
+ 
 }
-
-
 
 .down-arrow {
     width: 12px;
     margin: 6px;
 }
 
-#hire-button {
+.navbar .hire-button {
     width: 170px;
     color: white;
     height: 50px;
-    font-size: 15px;
+    font-size: 18px;
     display: flex;
     border: 1px solid white;
     border-radius: 5px;
 }
 
-@media (max-width:320px) {
-    #sws-logo {
-        width: 180px;
+.navbar .hire-button:hover {
+    background-color: white;
+    color: #053480;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px 2px rgb(147, 147, 147);
+}
+
+@media (max-width:1500px) {
+    .navbar .navbar-height {
+        height: 70px;
+        width: 86%;
     }
+
+    .sws-logo {
+        width: 150px;
+            }
+    .fontSize16 {
+               font-size: 13px !important;
+         }
+
+    .navbar .hire-button {
+        width: 140px;
+        color: white;
+        height: 40px;
+        font-size: 16px;
+    }
+    .down-arrow {
+        width: 8px;
+        margin: 6px;
+    }
+   
 }

@@ -33,7 +33,7 @@ const ContactUsSohamweb = () => {
       </Box>
 
       <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>
-        <Typography id="about-soham" variant='h3' fontSize={40} fontWeight={'600'} color={"#053480"} textAlign={'center'} paddingTop={5} paddingX={3} > Contact Us Soham Web</Typography>
+        {/* <Typography id="about-soham" variant='h3' fontSize={40} fontWeight={'600'} color={"#053480"} textAlign={'center'} paddingTop={5} paddingX={3} > Contact Us Soham Web</Typography> */}
         <Typography id="Typography-black" paddingY={2} width={"71%"} paddingBottom={7}>
           In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
           demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used

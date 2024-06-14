@@ -27,11 +27,11 @@ const ServiceContaint = () => {
 
 
                             </Typography>
-                            {/* <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{  textDecoration: "none" }} >
+                            <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{  textDecoration: "none" }} >
                                  <Button sx={{marginTop:"10px"}}  className='apply-now' >
                                 Read More
                             </Button> 
-                            </Link>*/}
+                            </Link>
 
                         </Box>
                         <Box className="img-container"   >

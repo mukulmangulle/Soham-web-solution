@@ -50,14 +50,15 @@ function Partner() {
                         <Box flex={1}>
                             <Typography fontSize={"30px"} color={"#FFFFFF"} > {contents.ourPartner.childBox.content}</Typography>
                         </Box>
-                        <Box id="life-soham">
-                            <Button sx={{ padding: "10px", width: "220px", height: "57px", border: "1px solid white", color: "05180", fontSize: "25px", fontWeight: 700, background: "white" }}>Life@Soham</Button>
+                        <Box >
+                            <Button id="Life-soham">Life in Soham</Button>
                         </Box>
                     </Box>
                 </Box>
             </Box>
+            
         </>
-    );
+    );F
 }
 
 export default Partner;

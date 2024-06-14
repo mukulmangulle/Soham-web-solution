@@ -11,7 +11,7 @@ const Shopify = () => {
         <>
           <Box>
                 <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Shopify Department</Typography>
+                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Shopify Development</Typography>
                 </Box>
             </Box>
 

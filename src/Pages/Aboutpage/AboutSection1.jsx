@@ -27,7 +27,7 @@ const AboutSection1 = () => {
       <Box sx={{ maxWidth: 1920, margin: 'auto' }}>
 
         <Box className="flex-center-coulmn" textAlign={'center'}>
-          <Typography paddingY={1} id='Heading-h2' variant='h2' >
+          <Typography marginTop={3}    id='Heading-h2' variant='h2' >
             {contents.aboutData.subheading}
           </Typography>
           

@@ -48,7 +48,7 @@
 
 @media (max-width:1340px) {
     .web-devlopment{
-          width: 80%;
+          width: 80% !important;
     }
  
  
@@ -57,7 +57,14 @@
     }
 
     .web-devlopment-typo {
-        font-size: 12px; 
+        font-size: 14px !important; 
+      
+    }
+    .web-devlopment-child{
+        width: 160px;
+        margin: 5px 2px;
+       
+    
     }
    
    

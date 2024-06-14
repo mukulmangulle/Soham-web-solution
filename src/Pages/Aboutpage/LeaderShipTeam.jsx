@@ -20,7 +20,7 @@ const LeaderShipTeam = () => {
 
     return (
         <>
-            <Box className="padding-top-bottom leadership">
+            <Box className=" leadership">
                 <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'}>
                     <Typography paddingY={1} id='Heading-h2' variant='h2' >
                         {contents.Leadership.heading}

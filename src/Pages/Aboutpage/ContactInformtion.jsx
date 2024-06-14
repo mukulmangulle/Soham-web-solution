@@ -22,7 +22,7 @@ const ContactInformtion = () => {
   return (
     <>
       <Box className="padding-top-bottom" sx={{ maxWidth: 1920, margin: 'auto' }}>
-        <Typography id='Heading-h2' variant='h2'>CONTACT INFORMATIION</Typography>
+        <Typography id='Heading-h2' variant='h2'>CONTACT INFOMATION</Typography>
         <Typography margin={2} fontSize={21} textAlign={'center'}>Our some of these projects may seem interesting to you</Typography>
 
 
@@ -30,7 +30,7 @@ const ContactInformtion = () => {
 
           <Box id="form-control" style={boxShadowStyle} paddingTop={5} paddingBottom={1} paddingX={7} width={"80%"} borderRadius={3} marginTop={3} >
             <Box width={"100%"}  >
-              <Typography id="Ready" variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Readay To work with us ? Tell us More about your Project Requirement</Typography>
+              <Typography id="Ready" variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Ready To work with us ? Tell us More about your Project Requirement</Typography>
               <Typography variant="h3" fontSize={"30px"} fontWeight={600} color={"#053480"} gutterBottom>
              
               </Typography>
@@ -88,7 +88,7 @@ const ContactInformtion = () => {
           variant="filled"
           margin="normal"
         /> */}
-                <Input1 label="Meassge" />
+                <Input1 label="Message" />
 
               </Box>
               <Box className="contact-2"  padding={0}   >

@@ -11,7 +11,7 @@ const Carditem = ({ blogcontent }) => {
           <Link
             to={`/${process.env.SLUG_URL}/${blogcontent?.slug}/`}
             state={{ id: blogcontent?.id }}
-            style={{ textDecoration: "none" }}
+            className="text-decortion"
           >
             <Typography id='card-heading'>
               {blogcontent?.title.rendered}

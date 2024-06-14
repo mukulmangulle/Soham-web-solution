@@ -45,8 +45,7 @@ const LatestBlog = ({ Api_url }) => {
                                 <Link
                                     to={`/${process.env.SLUG_URL}/${blog?.slug}/`}
                                     state={{ id: blog?.id }}
-
-                                    style={{ textDecoration: "none" }}
+                                    className="text-decortion"
                                     id='date-title'>
                                     {blog.title.rendered}
                                 </Link>

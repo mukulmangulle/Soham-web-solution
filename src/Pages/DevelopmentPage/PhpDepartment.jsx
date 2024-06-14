@@ -9,7 +9,7 @@ const PHPDevelopment = () => {
         <>
             <Box>
                 <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Php Department</Typography>
+                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Php Development</Typography>
                 </Box>
             </Box>
 
