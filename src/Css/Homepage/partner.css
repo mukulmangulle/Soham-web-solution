@@ -1,9 +1,4 @@
-    .size-img {
-    /* width: 220px; */
-    /* height: 70px; */
-    margin: 20px;
-   
-}
+
 
 
 #Life-soham{
@@ -30,38 +25,72 @@
     box-shadow: 0px 0px 10px 0px #ffffff;
 }
 
-@media (max-width:1600px) {
-    .size-img {
-        width: 140px;
-        height: 60px;
-        margin: 10px;
-       
-    }
+.partner .partner-centert div{
+    width: 90%;
+  margin-top: 3rem;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+
+.partner .partner-centert img{
+    width: 11% !important;
+    height: 70px;
+    margin: 20px;
 }
 
 
-@media (max-width:1200px) {
-    .size-img {
-        width: 100px;
-        height: 60px;
-        margin: 10px;
+
+
+
+@media (max-width:1365px) {
+    
+.partner .partner-centert div{
+    width: 90%;
+  margin-top: 1rem;
+   
+ 
+}
+    .partner .partner-centert img{
+        width: 11% !important;
+        height: 70px;
+        margin: 20px;
+        
+    }
+}
+@media (max-width:1080px) {
+    .partner .partner-centert div{
+        width: 100%;
+       margin-top: 1rem;
        
+     
+    }
+    .partner .partner-centert img{
+        width: 10%;
+        height: 50px;
+        margin: 8px;
+        
     }
 }
 
-
-@media (max-width:480px) {
+@media (max-width:768px) {
     #want {
         height: auto;
         padding: 20px;
     }
-
-    .size-img {
-        width: 190px;
+    .partner .partner-centert img{
+        width:150px !important;
         height: 80px;
         margin-top: 1%;
         margin-bottom: 1%;
-        }
+        margin: 10px;
+        
+    }
+    .partner .partner-centert div {
+        margin :0px 30px;
+    }
         #partner-centert{
             width: 50%;
             display: "flex";
@@ -72,6 +101,23 @@
            
         }
 
+}
+
+@media (max-widtrh:520px) {
+    .partner .partner-centert div {
+         display:  flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+    }
+    .partner .partner-centert img{
+        width:400px!important;
+        height: 60px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 10px;
+        
+    }
 }
 
 @media (max-width:700px) {

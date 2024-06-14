@@ -20,14 +20,14 @@ function Partner() {
 
     return (
         <>
-            <Box  paddingTop={"5rem"} sx={{ maxWidth: "1920px", margin: 'auto' }} >
+            <Box  className="width1920 padding-top-bottom partner"   >
                 <Box className="flex-center" flexDirection={'column'} flexWrap={'nowrap'}>
                     <Typography id='Heading-h2' variant='h2' >
                         {contents.ourPartner.heading}
                     </Typography>
                 </Box>
-                <Box className="flex-center"   >
-                    <Box id="partner-centert" marginTop={7} width={"80%"} className="flex-between" alignItems={"center"} flexDirection={'coulmn'} flexWrap={'wrap'}>
+                <Box className="flex-center partner-centert "   >
+                    <Box >
                         <img className='size-img' src={Parent1} alt="" />
 
                         <img className='size-img' src={Parent2} alt="" />

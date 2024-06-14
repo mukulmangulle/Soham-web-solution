@@ -18,7 +18,7 @@
 
 
 .padding-top-bottom {
-    padding: 5rem 0rem;
+    padding: 3rem 0rem;
 
 }
 
@@ -130,7 +130,7 @@
 
 @media (max-width:1600px) {
     #Heading-h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #h4 {
@@ -156,6 +156,10 @@
     .header .fontSize14 {
         font-size: 12px;
     }
+    .padding-top-bottom {
+        padding: 2.5rem 0rem;
+    
+    }
 
 }
 
@@ -163,6 +167,10 @@
 @media (max-width:1080px) {
     #Heading-h2 {
         font-size: 37px;
+    }
+    .padding-top-bottom {
+        padding: 1.8rem 0rem;
+    
     }
 }
 

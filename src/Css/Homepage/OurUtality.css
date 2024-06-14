@@ -1,5 +1,5 @@
 .our-utality-p {
-    width: 70%;
+    width: 75%;
     text-align: center;
     padding-top: 2rem;
 }
@@ -11,36 +11,43 @@
 .margin2{
     margin:2px ;
 }
-
-.our-box{
+.web-devlopment P {
     width: 120px;
     font-size: 16px;
     margin: 1px;
-    line-height: 1px;
+    line-height: 16px;
+    
+ 
+  
 }
+
 .web-devlopment{
     flex-wrap: wrap;
     padding: 3rem 0rem 0rem 0rem;
+    width: 70%;
 }
 
 
 @media (max-width:1500px) {
     .web-devlopment{
-          width: 90%;
+          width: 80%;
     }
  
  
-    .web-devlopment-img {
+    .web-devlopment img {
         height: 40px;
+        
     }
 
-    .web-devlopment-typo {
+    .web-devlopment P {
         font-size: 16px;
+        
       
     }
-    .web-devlopment-child{
+    .web-devlopment div{
         width: 180px;
         margin: 5px;
+       
     
     }
 }
@@ -52,17 +59,17 @@
     }
  
  
-    .web-devlopment-img {
+    .web-devlopment img {
         height: 35px;
     }
 
-    .web-devlopment-typo {
+    .web-devlopment P {
         font-size: 14px !important; 
       
     }
-    .web-devlopment-child{
+    .web-devlopment div{
         width: 160px;
-        margin: 5px 2px;
+        margin: 8px 2px;
        
     
     }
@@ -85,7 +92,7 @@
       
     }
     
-    .web-devlopment-child {
+    .web-devlopment div {
         width: 200px;
  
      
@@ -93,12 +100,12 @@
     .our-utality-p {
         width: 380px;
     }
-    .web-devlopment-img {
+    .web-devlopment img {
         height: 50px;
         margin: 10px 0px;
     }
 
-    .web-devlopment-typo {
+    .web-devlopment P {
         font-size: 16px;
         width: 350px;
     }
@@ -112,11 +119,11 @@
         width:90%;
     }
 
-    .web-devlopment-img {
+    .web-devlopment img {
         height: 50px;
     }
 
-    .web-devlopment-typo {
+    .web-devlopment P {
         font-size: 16px;
         width: 120px;
         

@@ -6,11 +6,14 @@
     background: url(../../assets/work/bg.svg);
     object-fit: cover;
     background-repeat: no-repeat;
-
-
 }
 
-#view-work {
+.work .content{
+    width: 100%;
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.work .view-work {
     width: 170px;
     height: 40px;
     font-size: 17px;
@@ -21,7 +24,7 @@
     padding: 5px 0px;
 }
 
-#view-work:hover {
+.work .view-work:hover {
     background-color: #053480;
     color: white;
     border: none;
@@ -38,8 +41,12 @@
 #heading {
     padding: 1px;
 }
+.work .card-section{
+       width: 80%;
+       flex-wrap: wrap;
+}
 
-#card {
+.work .card {
     position: relative;
     border: 1px solid #053480;
     background-color: white;
@@ -49,8 +56,10 @@
     width: 420px;
     height: 500px;
     padding: 1rem;
+       display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-
 
 
 
@@ -86,13 +95,15 @@
 }
 
 @media (max-width:1780px) {
-    #card {
-        width: 350px;
+    .work .card {
+        width: 370px ;
+        height: 450px ;
         padding: 0%;
         padding-bottom: 10px;
+        
     }
 
-    #view-work {
+    .work .view-work {
         margin: 0px;
         width: 150px;
         height: 35px;
@@ -107,15 +118,16 @@
 
 
 @media (max-width:1500px) {
-    #card {
+    .work .card {
         width: 320px;
-        height: 450px;
+        height: 360px !important ;
         padding: 5px;
         padding-bottom: 10px;
         margin: 15px;
+        
     }
 
-    #view-work {
+    .work .view-work {
         margin: 0px;
         width: 130px;
         height: 28px;
@@ -134,33 +146,41 @@
 
 @media (max-width:1320px) {
 
-    #card {
-        width: 280px;
-        height: 380px;
+    .work .card{
+        width: 280px ;
+        height: 350px !important;
         padding: 5px;
         padding-bottom: 10px;
         margin: 10px;
     }
+    .work .card-section{
+        width: 85%;
+        flex-wrap: wrap;
+ }
   
    
 }
 
-@media (max-width:1130px) {
-    #card {
-        width: 250px;
-        height: 380px;
+
+@media (max-width:1320px) {
+
+    .work .card{
+        width: 280px ;
+        height: 350px !important;
         padding: 5px;
         padding-bottom: 10px;
         margin: 10px;
     }
-  
-   
+    .work .card-section{
+        width: 85%;
+        flex-wrap: wrap;
+ }
 }
 
-@media (max-width:480px) {
+@media (max-width:1060px) {
 
 
-    #card {
+    .work .card {
         width: 300px;
         height: 400px;
         padding: 5px;
@@ -168,7 +188,7 @@
         margin: 15px;
     }
 
-    #view-work {
+    .work .view-work {
         margin: 0px;
         width: 130px;
         height: 28px;
@@ -186,7 +206,7 @@
 }
 
 @media (max-width:375px) {
-    #card {
+    .work .card{
         width: 380px;
         height: 380px;
         padding: 5px;
@@ -194,7 +214,7 @@
         margin: 15px;
     }
 
-    #view-work {
+    .work .view-work{
         margin: 0px;
         width: 130px;
         height: 28px;

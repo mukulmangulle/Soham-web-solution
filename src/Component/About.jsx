@@ -1,6 +1,6 @@
 
-import React, {  useEffect } from 'react';
-import { Box,  Typography } from "@mui/material";
+import React, { useEffect } from 'react';
+import { Box, Typography } from "@mui/material";
 import Ab0 from "../assets/About/devendra.svg"
 import Ab1 from "../assets/About/ab1.svg"
 import Ab2 from "../assets/About/ab2.svg"
@@ -20,10 +20,10 @@ function OurCustomer() {
 
 
     return (
-  
-          <Box  className="padding-top-bottom"  sx={{ maxWidth: 1920, margin: 'auto'}}>
-            <Box  className="flex-center" flexDirection={'column'} textAlign={"center"} >
-                <Typography id='Heading-h2' variant='h2' paddingX={1} >
+
+        <Box className="padding-top-bottom width1920"  >
+            <Box className=" flex-center" flexDirection={'column'} textAlign={"center"} >
+                <Typography className='Heading-h2' variant='h2' paddingX={1} >
                     {contents.aboutus.heading}
                 </Typography>
                 <Typography className='about-pre' >
@@ -35,8 +35,6 @@ function OurCustomer() {
                 <Box id="dev" borderRadius={50} width={350} height={350} bgcolor={"#053480"} color={'white'} display={'flex'} alignItems={'center'} justifyContent={'center'} >
 
                 </Box>
-
-
 
                 <Box id="dev" display={'flex'} alignItems={'center'} justifyContent={'space-between'} width={'100%'} >
 
@@ -58,7 +56,9 @@ function OurCustomer() {
                         <Box>
                             <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer2.name}
                             </Typography>
-                            <Typography color={'white'}>         {contents.aboutus.childContainer2.designation}</Typography>
+                            <Typography color={'white'}>
+                                {contents.aboutus.childContainer2.designation}
+                            </Typography>
                         </Box>
                         <Box margin={1} fontSize={12} width={220}>
                             {contents.aboutus.childContainer2.testimonial}
@@ -71,7 +71,9 @@ function OurCustomer() {
                         <img src={Ab3} alt="" />
                         <Box>
                             <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer3.name}</Typography>
-                            <Typography color={'white'}>         {contents.aboutus.childContainer3.designation}</Typography>
+                            <Typography color={'white'}>
+                                {contents.aboutus.childContainer3.designation}
+                            </Typography>
                         </Box>
                         <Box fontSize={12} margin={1} width={220}>
                             {contents.aboutus.childContainer3.testimonial}
@@ -82,7 +84,9 @@ function OurCustomer() {
                     <Box className="blank" >
                         <Box>
                             <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer4.name}</Typography>
-                            <Typography color={'white'}>         {contents.aboutus.childContainer4.designation}</Typography>
+                            <Typography color={'white'}>
+                                {contents.aboutus.childContainer4.designation}
+                            </Typography>
                         </Box>
                         <Box fontSize={12} margin={1} width={220}>
                             {contents.aboutus.childContainer4.testimonial}
@@ -95,7 +99,9 @@ function OurCustomer() {
                         <img src={Ab2} alt="" />
                         <Box>
                             <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer5.name}</Typography>
-                            <Typography color={'white'}>         {contents.aboutus.childContainer5.designation}</Typography>
+                            <Typography color={'white'}>
+                                {contents.aboutus.childContainer5.designation}
+                            </Typography>
                         </Box>
                         <Box fontSize={12} margin={1} width={220}>
                             {contents.aboutus.childContainer5.testimonial}
@@ -105,9 +111,9 @@ function OurCustomer() {
                 </Box>
 
             </Box>
-            
+
         </Box>
-    
+
     );
 }
 

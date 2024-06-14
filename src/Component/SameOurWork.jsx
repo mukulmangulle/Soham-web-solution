@@ -19,21 +19,21 @@ const SameOurWork = () => {
     }, [dispatch]);
 
     return (
-        <Box sx={{ maxWidth: 1920, margin: 'auto' }}  className="work flex-center-coulmn padding-top-bottom" >
-            <Box display={'flex'} alignItems={'center'} flexDirection={'column'} >
+        <Box className="work flex-center-coulmn padding-top-bottom width1920" >
+            <Box className="flex-center-coulmn"  >
                 <Typography variant='h2' id="Heading-h2"   >
                     {contents.SomeourWorks.heading}
                 </Typography>
-                <Typography width={"100%"} id="Typography-black" paddingBottom={5} paddingTop={2}>
+                <Typography className='content' id="Typography-black" >
                     {contents.SomeourWorks.contant}
                 </Typography>
             </Box>
 
-            <Box width={"80%"}  className="flex-center" flexWrap={'wrap'} >
+            <Box  className="flex-center card-section"  >
 
             
-                    <Box  className="flex-center "  id="card" >
-                        <Box  margin={3}>
+                    <Box  className="flex-center card "  >
+                        <Box  >
                             <Box className="work-background flex-center" width={100} height={100} >
                                 <img src={Work2} alt="" />
                             </Box>
@@ -49,14 +49,14 @@ const SameOurWork = () => {
                             </Typography>
                         </Box>
                         <CardActions>
-                            <Button id='view-work' >View Work</Button>
+                            <Button className='view-work' >View Work</Button>
                         </CardActions>
                     </Box>
               
 
                     
-                        <Box  className="flex-center" id="card">
-                            <Box  margin={3}>
+                        <Box  className="flex-center card" >
+                            <Box >
                                 <Box className="work-background flex-center" width={100} height={100} >
                                     <img src={Work2} alt="" />
                                 </Box>
@@ -72,14 +72,14 @@ const SameOurWork = () => {
                                 </Typography>
                             </Box>
                             <CardActions>
-                                <Button id='view-work' >View Work</Button>
+                                <Button className='view-work' >View Work</Button>
                             </CardActions>
                         </Box>
                    
 
             
-                    <Box className="flex-center"id="card" >
-                        <Box  margin={3}>
+                    <Box className="flex-center card" >
+                        <Box  >
                             <Box className="work-background flex-center" width={100} height={100} >
                                 <img src={Work3} alt="" />
                             </Box>
@@ -89,12 +89,12 @@ const SameOurWork = () => {
                             <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
                                 {contents.SomeourWorks.card.title3}
                             </Typography>
-                            <Typography className=' ludo-earn-p ' >
+                            <Typography className='ludo-earn-p ' >
                                 {contents.SomeourWorks.card.description3}
                             </Typography>
                         </Box>
                         <CardActions>
-                            <Button id='view-work' >View Work</Button>
+                            <Button className='view-work' >View Work</Button>
                         </CardActions>
                     </Box>
                
