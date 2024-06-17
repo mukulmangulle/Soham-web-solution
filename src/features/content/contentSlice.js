@@ -15,7 +15,7 @@ const contentSlice = createSlice({
         {
           number: "+91 78792-317000",
           email: "contact@sohamsolution.com",
-          link: "whatsApp",
+          link: "WhatsApp",
         },
       },
       ourutility: {

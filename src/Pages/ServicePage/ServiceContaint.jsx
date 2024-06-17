@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom'
 const ServiceContaint = () => {
     return (
         <>
-            <Box className="width1920 flex-center"   >
+            <Box maxWidth={"1920px"} margin={"auto"} display={'flex'} alignItems={'center'} justifyContent={'center'} >
                 <Box className="service-man" width={"84%"} display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} >
 
                     {/* 1 */}
@@ -51,7 +51,8 @@ const ServiceContaint = () => {
                         </Box>
                         <Box width={617} id="devlopment-text" >
                             <Typography variant='h4' id="typo-fray-hrading">WordPress Development</Typography>
-                            <Typography id="Typo-gray-start" >We offers all possible WordPress services, ranging from custom WordPress theme development, plugin customization, WordPress speed optimization, SEO
+                            <Typography id="Typo-gray-start" >We offers all possible WordPress services, ranging from custom WordPress theme development, plugin customization, WordPress speed optimization, 
+
                             </Typography>
                             <Link to={`/${process.env.SLUG_URL}/services/wordpress-development/`} style={{  textDecoration: "none" }} >
                                  <Button sx={{marginTop:"10px"}} type="submit" className='apply-now' >
@@ -131,7 +132,9 @@ const ServiceContaint = () => {
                         </Box>
                         <Box width={617} id="devlopment-text">
                             <Typography variant='h4' id="typo-fray-hrading">Ecommerce Development</Typography>
-                            <Typography id="Typo-gray-start">We develop e-commerce platforms that feature personalized chatbots and payment gateway integration with PayPal, 
+                            <Typography id="Typo-gray-start">We develop e-commerce platforms that feature personalized chatbots and payment gateway integration with PayPal, Authorize.Net, and FirstData. In addition, 
+
+
                             </Typography>
                             <Link to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{  textDecoration: "none" }} >
                                  <Button sx={{marginTop:"10px"}} type="submit" className='apply-now' >
