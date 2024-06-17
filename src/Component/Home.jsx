@@ -67,13 +67,13 @@ const Home = () => {
                 </a>
 
 
-                <Box display={'flex'} alignItems={"center"}    >
+                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0' display={'flex'} alignItems={"center"}    >
                     <img src={Whatsapp} alt="" />
                     <Typography className='fontSize14 color-white' marginLeft={1}>
                         {contents.homeData.contactInfo.link}
                     </Typography>
 
-                </Box>
+                </a>
 
                 <Box width={140} className="flex-between" >
                     <a href="https://www.facebook.com/sohamsolution/">
