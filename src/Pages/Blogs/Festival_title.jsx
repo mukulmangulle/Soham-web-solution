@@ -19,15 +19,18 @@ const Festival_title = ({ Api_url }) => {
 
   return (
     <>
-      <Box id="about-background">
-        <Typography id='Heading-h2' variant='h2'paddingTop={10} paddingBottom={5} >
+      <Box id="about-background"  >
+        <Typography id='Heading-h2' variant='h2' className='padding-top-bottom' >
           {showLoader ? <CircularProgress  /> : name}
         </Typography>
       </Box>
       {!showLoader && (
         <>
           <BoxCategories Api_url={Api_url} />
-          {/* <Categories_name/> */}
+         {/* <Box className="width1920 flex-center">
+         <Categories_name/>
+         </Box> */}
+
         </>
       )}
     </>

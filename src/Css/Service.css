@@ -149,7 +149,7 @@
     }
 
     #typo-fray-hrading {
-        font-size: 22px;
+        font-size: 22px !important;
 
     }
 
@@ -158,7 +158,7 @@
     }
 
     #Typo-gray-start {
-        font-size: 15px;
+        font-size: 15px !important;
         padding: 8px 0px;
     }
 }

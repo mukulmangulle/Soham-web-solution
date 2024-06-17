@@ -11,10 +11,6 @@
      width: 70%;
 }
 
-#Hr-excutive {
-     font-size: 32px;
-     font-weight: 600;
-}
 
 .we-man {
    width: 85%;
@@ -55,11 +51,7 @@
  }
 
 @media (max-width:1600px) {
-    
-#Hr-excutive {
-     font-size: 25px;
-    
-}
+
 
 .we-man .we-img-section{
      height: 400px;
@@ -93,10 +85,7 @@
 
 @media (max-width:1300px) {
     
-     #Hr-excutive {
-          font-size: 22px;
-     }
-     
+    
      .we-man .we-img-section{
           height: 300px;
       }
@@ -128,10 +117,7 @@
      .career-pregraph {
           width: 100%;
      }
-     #Hr-excutive {
-          font-size: 22px;
-         
-     }
+     
       
      .we-man .we-img-section{
           height: 300px;
@@ -171,10 +157,7 @@
           justify-content: center;
           flex-direction: column !important;
      }
-     #Hr-excutive {
-          font-size: 20px;
-         
-     } 
+    
      
  .we-man .growing{
      width: 90%;
@@ -197,10 +180,7 @@
 }
 
 @media (max-width:576px) {
-     #Hr-excutive {
-          font-size: 18px;
-         
-     }
+    
      .we-man .growing{
           width: 100%;
           padding: 0px 0.2rem;
@@ -213,10 +193,7 @@
     
 }
 @media (max-width:480px) {
-     #Hr-excutive {
-          font-size: 14px;
-         
-     }
+    
      .we-man .we-img-section{
           height: 100%;
         

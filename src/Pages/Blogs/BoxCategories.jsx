@@ -51,8 +51,8 @@ const BoxCategories = ({ Api_url }) => {
 
   return (
     <>
-      <Box maxWidth={'1920px'} margin={"auto"} display={'flex'} alignItems={'center'} justifyContent={"center"} marginY={6} flexDirection={"column"}>
-        <Box id="blog480-center" width={"85%"} display={'flex'} alignItems={"center"} flexWrap={"wrap"} margin={"auto"}>
+      <Box className="width1920 flex-center flex-coulmn box-card" >
+        <Box className="blog480-center" >
           {Array.isArray(blogContentForPageTwo) ? (
             blogContentForPageTwo.map((blog) => (
               <Carditem key={blog.id} blogcontent={blog} />
@@ -62,10 +62,10 @@ const BoxCategories = ({ Api_url }) => {
           )}
         </Box>
 
-        <Box width={"85%"}  >
-          <Typography variant='h3' id='Heading-h2' color={'#053480'} fontWeight={600} marginY={6}   >All Categories</Typography>
+        <Box  className="box-section" >
+          <Typography variant='h3' id='Heading-h2'  className='box-all-categories'>All Categories</Typography>
 
-          <Box id="categories" display={'flex'} alignItems={'center'} justifyContent={"space-between"} flexWrap={'wrap'}>
+          <Box  className="flex-between-wrap box-center"  >
             {categoriescontents?.slice(0, 4).map((categoriescontent) => (
               <Box className="categories-box" key={categoriescontent?.id}>
                 <Link

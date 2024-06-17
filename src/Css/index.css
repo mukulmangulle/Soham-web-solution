@@ -100,13 +100,16 @@
     text-align: center;
 }
 
-#Typography-gray-career {
+.Typography-gray-career {
     font-size: 22px;
     color: gray;
     text-align: start;
+  
 
 }
-
+.display-flex{
+    display: flex;
+}
 
 #Typography-black {
     font-size: 22px;
@@ -127,6 +130,9 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+
 
 @media (max-width:1600px) {
     #Heading-h2 {
@@ -164,6 +170,7 @@
         padding: 2rem 0rem !important;
     
     }
+  
 
 }
 
@@ -180,12 +187,18 @@
         padding: 1.5rem 0rem !important;
     
     }
+    .Typography-gray-career {
+        font-size: 17px ;
+        width: 100%;
+    
+    }
 
 }
 
 @media (max-width:768px) {
     #Heading-h2 {
         font-size: 30px;
+        margin: 1.5rem 0px !important;
     }
 
     #Typography-gray {
@@ -203,16 +216,25 @@
     #h4 {
         font-size: 28px;
     }
-
+    .Typography-gray-career {
+        font-size: 14px ;
+    
+    }
 }
 
 @media (max-width:576px) {
     #Heading-h2 {
         font-size: 30px;
+        margin: 1rem 0px !important;
     }
 
     #h4 {
         font-size: 25px;
+    }
+    .Typography-gray-career {
+        font-size: 12px ;
+        
+    
     }
 }
 
@@ -235,6 +257,7 @@
 @media (max-width:375px) {
     #Heading-h2 {
         font-size: 25px;
+        
     }
 
     #h4 {
