@@ -68,16 +68,42 @@
       
     }
     .web-devlopment div{
-        width: 160px;
-        margin: 8px 2px;
-       
+        width: 145px !important;
+        margin: 8px 1px;
+         
     
-    }
-   
-   
-    
+    } 
 
 }
+
+
+
+@media (max-width:920px) {
+    .web-devlopment{
+          width: 80% !important;
+    }
+ 
+ 
+    .web-devlopment img {
+        height: 40px;
+    }
+
+    .web-devlopment P {
+        font-size: 15px !important; 
+      
+    }
+    .web-devlopment div{
+        width:180px !important;
+        margin: 8px 5px;
+      
+         
+    
+    } 
+
+}
+
+
+
 
 
 

@@ -5,7 +5,10 @@
     margin-top: 50px;
     color: white;
 }
-
+.about-welcome{
+    width: 55%;
+  
+  }
 #Technology-focus-grid {
     background: white !important;
     width: 320px;
@@ -43,8 +46,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1920px;
-    margin: auto;
+   
 }
 .leadership{
     width: 100%;
@@ -55,20 +57,20 @@
     flex-direction: column;
    
 }
-#leadership-name{
+.team .name{
     font-weight: 700;
     margin: 5px;
     font-size: 22px;
     color: #053480;
 
 }
-.leadership-p{
+.team .leadership-p{
     font-size: 20px;
     color: #053480;
 }
 
 @media (max-width:1625px) {
-    #aboutsectionimg {
+    .aboutsectiocolor img {
         height: 300px;
     }
 
@@ -90,13 +92,12 @@
 }
 
 @media (max-width:1320px) {
-    #aboutsectionimg {
+    #aboutsectiocolor {
         height: 290px;
     }
 
     #typography {
         font-size: 16px;
-       
     }
     #about-heading{
         font-size: 30px;
@@ -107,8 +108,35 @@
      #select{
  font-size: 20px;
      }
+     .sir{
+           height:240px;
+           width: 100%;
+     }
    
 
+}
+
+@media (max-width: 992px) {
+    .sir{
+       height: 180px;
+    }
+    .team .name{
+         font-size: 15px;
+    }
+    .team .leadership-p{
+            font-size: 14px ;
+    }
+}
+
+@media (max-width:992px) {
+    #typography {
+        font-size: 16px;
+       text-align: center;
+      
+    }
+    .about-welcome{
+        width: 90%;
+    }
 }
 
 /* form contorl */
@@ -123,14 +151,14 @@
     
     }
 
-    #aboutsectiontypo {
+    .aboutsectiocolor div {
         width: 75% !important;
         padding: 0%;
         margin: 0%;
      
     }
 
-    #aboutsectionimg {
+    #aboutsectiocolor img {
         height: 420px;
         margin-bottom: 10px;
     }
@@ -154,18 +182,18 @@
 }
 
 @media (max-width:576px) {
-    #aboutsectionimg {
+    .aboutsectiocolor img{
         width: 450px;
         margin-top: 0px;
         padding-top: 0%;
     }
-    #aboutsectiontypo {
+    .aboutsectiocolor div  {
         width: 90% !important;
-        padding: 0%;
+        padding: 0%;    
         margin: 0%;
      
     }
-    #team {
+    .leadership .team {
         text-align: center;
         width: 100%;
         display: flex;
@@ -197,7 +225,7 @@
         padding: 10px;
     }
 
-    #aboutsectionimg {
+    .aboutsectiocolor img{
         width: 350px;
         margin-top: 0px;
         padding-top: 0%;
@@ -236,7 +264,7 @@ font-size: 18px;
         padding: 10px;
     }
 
-    #aboutsectionimg {
+    .aboutsectiocolor img {
         width: 350px;
         margin-top: 0px;
         padding-top: 0%;
@@ -246,7 +274,7 @@ font-size: 18px;
 
 
 @media (max-width:375px) {
-    #aboutsectionimg {
+    .aboutsectiocolor img {
         height: 230px;
         margin-top: -50px;
         margin-bottom: 10px;

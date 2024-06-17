@@ -42,16 +42,14 @@ function Partner() {
                     </Box>
                 </Box>
 
-                <Box className="flex-center" maxWidth={"1920px"}  margin={"auto"} >
-                    <Box id='want' paddingX={5} width={"85%"} height={280}
-                        borderRadius={10} className="flex-center"
-                        flexWrap={'wrap'} position={"relative"} top={120}>
+                <Box className="flex-center man-want width1920"  >
+                    <Box className='want flex-center' >
 
                         <Box flex={1}>
-                            <Typography fontSize={"30px"} color={"#FFFFFF"} > {contents.ourPartner.childBox.content}</Typography>
+                            <Typography  > {contents.ourPartner.childBox.content}</Typography>
                         </Box>
                         <Box >
-                            <Button id="Life-soham">Life in Soham</Button>
+                            <Button>Life@Soham</Button>
                         </Box>
                     </Box>
                 </Box>

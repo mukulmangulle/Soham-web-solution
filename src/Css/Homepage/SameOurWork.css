@@ -178,37 +178,42 @@
 }
 
 @media (max-width:1060px) {
-
+     .work .card-section{
+        width: 90%;
+    
+   
+     }
 
     .work .card {
-        width: 300px;
-        height: 400px;
-        padding: 5px;
+        width: 210px;
+        height: 300px !important;
+        padding: 3px;
         padding-bottom: 0px;
-        margin: 15px;
+        margin: 10px 7px;
     }
 
     .work .view-work {
         margin: 0px;
-        width: 130px;
-        height: 28px;
+        width: 110px;
+        height: 20px;
         font-size: 12px;
     }
 
     .card-heading {
-        font-size: 18px !important;
+        font-size: 15px !important;
     }
 
     .ludo-earn-p {
-        padding: 8px;
-        font-size: 10px !important;
+        padding: 2px;
+        font-size: 9px !important;
     }
+    
 }
 
-@media (max-width:375px) {
+@media (max-width:480px) {
     .work .card{
-        width: 380px;
-        height: 380px;
+        width: 380px !important;
+        height: 100% !important;
         padding: 5px;
         padding-bottom: 10px;
         margin: 15px;

@@ -15,8 +15,12 @@
 }
 .about-welcome{
   width: 55%;
-
-}
+  display: flex;
+  align-items:start;
+  justify-content:center;
+  flex-direction: column;
+  padding: 1.5rem;
+ }
 
 .blank{
   width:190px;

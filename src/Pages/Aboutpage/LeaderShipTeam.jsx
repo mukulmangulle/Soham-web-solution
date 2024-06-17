@@ -32,20 +32,20 @@ const LeaderShipTeam = () => {
                 </Box>
 
 
-                <Box id="team" padding={3} width={'90%'} display={'flex'} alignItems={'center'} justifyContent={"space-evenly"} flexWrap={'wrap'}>
+                <Box className="team" padding={3} width={'90%'} display={'flex'} alignItems={'center'} justifyContent={"space-evenly"} flexWrap={'wrap'}>
                     <Box className="flex-center-column" margin={2}>
                         <img className='sir' src={co1} alt="" />
-                        <Typography id="leadership-name" >Neeraj Malakar</Typography>
+                        <Typography className="name" >Neeraj Malakar</Typography>
                         <Typography className='leadership-p' >Founder & CEO</Typography>
                     </Box>
                     <Box className="flex-center-column" margin={2}>
                         <img className='sir' src={co2} alt=""  />
-                        <Typography id="leadership-name">Anil Meena</Typography>
+                        <Typography className="name">Anil Meena</Typography>
                         <Typography className='leadership-p'>CTO & COO</Typography>
                     </Box>
                     <Box className="flex-center-column" margin={2}>
                         <img className='sir' src={co3} alt=""  />
-                        <Typography id="leadership-name">Ravi Yadav</Typography>
+                        <Typography className="name">Ravi Yadav</Typography>
                         <Typography className='leadership-p'>Founder & CEO</Typography>
                     </Box>
                 </Box>

@@ -9,7 +9,7 @@ const Careermain = () => {
         <>
             <Box>
                 <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' padding={7} >Career</Typography>
+                    <Typography id='Heading-h2' variant='h2' className='padding-top-bottom'>Career</Typography>
                 </Box>
             </Box>
  

@@ -1,41 +1,52 @@
-
-
-
-#Life-soham{
+.want button {
     padding: 10px;
     width: 220px;
     height: 57px;
     border: 1px solid white;
     color: #0160E7;
     font-size: 25px;
-    font-weight:700;
+    font-weight: 700;
     background-color: white;
 }
 
 
-#Life-soham:hover{
-  color:  white;
-  background-color:rgba(255, 255, 255, 0);
+.want button:hover {
+    color: white;
+    background-color: #ffffff00;
 }
 
 
 
-#want {
+.man-want .want {
     background: linear-gradient(to bottom, #053480, #0160E7);
-    box-shadow: 0px 0px 10px 0px #ffffff;
-}
-
-.partner .partner-centert div{
-    width: 90%;
-  margin-top: 3rem;
-   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
  
+    box-shadow: 0px 0px 10px 0px #ffffff;
+    padding: 0rem 5rem;
+    width: 85%;
+    height: 280px;
+    border-radius: 20px;
+    position: relative;
+    top: 180px;
+    flex-wrap: wrap;
+
 }
 
-.partner .partner-centert img{
+.want p {
+    font-size: 30px;
+    color: white;
+}
+
+.partner .partner-centert div {
+    width: 90%;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.partner .partner-centert img {
     width: 11% !important;
     height: 70px;
     margin: 20px;
@@ -46,78 +57,145 @@
 
 
 @media (max-width:1365px) {
-    
-.partner .partner-centert div{
-    width: 90%;
-  margin-top: 1rem;
-   
- 
-}
-    .partner .partner-centert img{
+
+    .partner .partner-centert div {
+        width: 90%;
+        margin-top: 1rem;
+
+
+    }
+
+    .partner .partner-centert img {
         width: 11% !important;
         height: 70px;
         margin: 20px;
-        
+
     }
-}
-@media (max-width:1080px) {
-    .partner .partner-centert div{
-        width: 100%;
-       margin-top: 1rem;
-       
+
+   
+    .man-want .want {
      
+        height: 220px;
+        border-radius: 20px;
+        position: relative;
+        top: 150px;
+        flex-wrap: wrap;
+        padding: 0rem 2rem;
     }
-    .partner .partner-centert img{
+    .want p {
+        font-size: 25px;
+
+    }
+
+
+    .want button {
+        padding: 10px;
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+        background-color: white;
+    }
+
+
+
+}
+
+@media (max-width:1080px) {
+    .partner .partner-centert div {
+        width: 100%;
+        margin-top: 1rem;
+
+
+    }
+
+    .partner .partner-centert img {
         width: 10%;
         height: 50px;
         margin: 8px;
-        
+
     }
 }
 
 @media (max-width:768px) {
-    #want {
-        height: auto;
-        padding: 20px;
-    }
-    .partner .partner-centert img{
-        width:150px !important;
-        height: 80px;
+    
+
+    .partner .partner-centert img {
+        width: 80px !important;
+        height: 50px;
         margin-top: 1%;
         margin-bottom: 1%;
         margin: 10px;
-        
+
     }
+
     .partner .partner-centert div {
-        margin :0px 30px;
+        margin: 0px 30px;
     }
-        #partner-centert{
-            width: 50%;
-            display: "flex";
-            align-items: center;
-            justify-content: "center";
-            margin: auto;
-            padding-top: 10px;
-           
-        }
+
+    #partner-centert {
+        width: 50%;
+        display: "flex";
+        align-items: center;
+        justify-content: "center";
+        margin: auto;
+        padding-top: 10px;
+
+    }
+
+    .man-want .want {
+       
+        height: 180px;
+        border-radius: 20px;
+        position: relative;
+        top: 120px;
+        flex-wrap: wrap;
+    }
+
+    .want p {
+        font-size: 20px;
+               color: white;
+    }
+    
+
+
+.want button{
+   
+    width: 150px;
+    height: 45px;
+   
+    font-size: 18px;
+    font-weight:700;
+}
 
 }
 
+
 @media (max-widtrh:520px) {
     .partner .partner-centert div {
-         display:  flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-    .partner .partner-centert img{
-        width:400px!important;
+
+    .partner .partner-centert img {
+        width: 400px !important;
         height: 60px;
         margin-top: 1%;
         margin-bottom: 1%;
         margin: 10px;
-        
+
     }
+    .man-want .want {
+     
+        box-shadow: 0px 0px 10px 0px #ffffff;
+        height: 150px;
+        border-radius: 20px;
+        position: relative;
+        top: 100px;
+       
+    }
+   
 }
 
 @media (max-width:700px) {
@@ -128,5 +206,4 @@
         justify-content: center;
     }
 }
-
 

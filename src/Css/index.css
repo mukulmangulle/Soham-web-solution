@@ -18,7 +18,7 @@
 
 
 .padding-top-bottom {
-    padding: 3rem 0rem;
+    padding: 3rem 0rem !important;
 
 }
 
@@ -160,6 +160,10 @@
         padding: 2.5rem 0rem;
     
     }
+    .padding-top-bottom {
+        padding: 2rem 0rem !important;
+    
+    }
 
 }
 
@@ -172,6 +176,11 @@
         padding: 1.8rem 0rem;
     
     }
+    .padding-top-bottom {
+        padding: 1.5rem 0rem !important;
+    
+    }
+
 }
 
 @media (max-width:768px) {

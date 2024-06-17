@@ -60,11 +60,11 @@ const Footer = () => {
                     <Box className="footer-sec3 " >
                         <Typography id="footer-h3" variant="h3"  >{contents.footerData.policyLinks.heading}</Typography>
                         <Box className="footer3-box" marginTop={2}  >
-                            <Typography id="typography">{contents.footerData.policyLinks.text1}</Typography>
-                            <Typography id="typography">{contents.footerData.policyLinks.text2}</Typography>
-                            <Typography id="typography">{contents.footerData.policyLinks.text3}</Typography>
-                            <Typography id="typography">{contents.footerData.policyLinks.text4}</Typography>
-                            <Typography id="typography">{contents.footerData.policyLinks.text5}</Typography>
+                            <Typography >{contents.footerData.policyLinks.text1}</Typography>
+                            <Typography>{contents.footerData.policyLinks.text2}</Typography>
+                            <Typography >{contents.footerData.policyLinks.text3}</Typography>
+                            <Typography >{contents.footerData.policyLinks.text4}</Typography>
+                            <Typography >{contents.footerData.policyLinks.text5}</Typography>
                         </Box>
 
                     </Box>
@@ -97,7 +97,7 @@ const Footer = () => {
                             <a href="https://www.google.com/maps/place/Soham+Web+Solution+-+Web+Development+Company/@22.9648902,76.0458359,17z/data=!4m14!1m7!3m6!1s0x3963177600d4efb5:0x33c81c908e54629c!2sSoham+Web+Solution+-+Web+Development+Company!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9!3m5!1s0x3963177600d4efb5:0x33c81c908e54629c!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9"
                                className="text-decortion" style={{display: "flex" }}  margin={0.5} >
                                 <img id="logo-margin" src={Location} alt="" />
-                                <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text5}</Typography>
+                                <Typography color={"white"} paddingLeft={1}>{contents.footerData.contactDetails.text5}</Typography>
                             </a>
                         </Box>
                     </Box>
