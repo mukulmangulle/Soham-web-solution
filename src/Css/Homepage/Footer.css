@@ -1,5 +1,9 @@
+.footer{
+background-color: #053480;}
+
+
 .footer-sec1 {
-    width: 290px;
+    width: 20%;
     margin: 1rem;
 }
 
@@ -10,12 +14,13 @@
    
 }
 .footer-sec-icon{
-   width: 240px;
+   width: 200px;
    margin-top: 1.2rem;
+   
 }
 
 .footer-sec2 {
-    width: 200px;
+    width: 15%;
     margin: 1rem;
 }
 .footer-sec2 p {
@@ -30,13 +35,13 @@
 }
 
 .footer-sec3 {
-    width: 25%;
+    width: 20%;
     margin: 1rem;
 
 }
 
 .footer-sec4 {
-    width: 25%;
+    width: 20%;
     margin: 1rem;
 
 }
@@ -50,8 +55,15 @@
 
  
  }
-
-
+ .footer .copyright{
+        background-color:#297df2;
+        width: 100%;
+        padding: 2px;
+        font-size: 16px;
+        text-align:center;
+        color: white;
+        
+ }
 
 @media (max-width:1600px) {
    #footer-h3 {
@@ -59,6 +71,13 @@
        font-weight: 600;
        margin-bottom: 1rem;
      }
+     .footer .copyright p{
+       font-size: 14px;
+        padding: 1.5px;
+        
+        
+ }
+
 }
 
 @media (max-width:1420px) {
@@ -66,8 +85,25 @@
         width: 230px;
         margin: 1rem;
 
-
     }
+    .footer-sec1 p {
+      
+        font-size: 13px !important;
+       
+    }
+    .footer-sec3 p {
+      
+        font-size: 13px !important;
+       
+    }
+    .footer-sec4 p {
+      
+        font-size: 13px !important;
+       
+    }
+    
+    
+    
     #footer-h3 {
        font-size: 20px;
        font-weight: 600;
@@ -91,10 +127,26 @@
     }
 
     .footer-sec4 {
-        width:220px;
+        width:25% !important;
         margin: 1rem;
 
     }
+    .footer .copyright p{
+        font-size: 12px;
+         padding: 1.5px;
+         
+         
+  }
+}
+
+@media (max-width:1080px) {
+
+    .footer-sec4 {
+        width:100% !important;
+        margin: 1rem;
+ 
+    }
+  
 }
 
 
@@ -128,11 +180,55 @@
    }
 
    .footer-sec4 {
-       width:250px;
+       width:250px !important;
        margin: 1rem;
 
    }
+   .footer .copyright p{
+    font-size: 12px;
+     padding: 1.5px;
+     
+     
+}
 }
 
 
 
+
+@media (max-width:720px) {
+    .footer-sec1 {
+        width: 300px;
+        margin: 1rem;
+ 
+ 
+    }
+    #footer-h3 {
+       font-size: 20px;
+       font-weight: 600;
+       margin-bottom: 1rem;
+     }
+ 
+ 
+ 
+    .footer-sec2 {
+        width:100%;
+        margin: 1rem;
+        
+    }
+ 
+    .footer-sec3 {
+        width: 100%;
+        margin: 1rem;
+    }
+ 
+    .footer-sec4 {
+        width:100% !important;
+        margin: 1rem;
+ 
+    }
+  
+ }
+ 
+ 
+ 
+ 

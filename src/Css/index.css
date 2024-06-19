@@ -152,7 +152,7 @@
     }
 
     #typography {
-        font-size: 16px;
+        font-size: 13px !important;
     }
 
     .header {
@@ -198,7 +198,7 @@
 @media (max-width:768px) {
     #Heading-h2 {
         font-size: 30px;
-        margin: 1.5rem 0px !important;
+        margin: 1rem 0px !important;
     }
 
     #Typography-gray {
@@ -270,3 +270,12 @@
 
 }
 
+
+.bg-img{
+    background-image: url("../assets/AboutSection1/about-background.svg") ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  

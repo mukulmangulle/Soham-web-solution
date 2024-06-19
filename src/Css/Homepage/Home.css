@@ -3,9 +3,9 @@
     max-width: 1920px;
     margin: auto;
 }
-.home-continer{
+.home .home-continer{
     padding-top: 5rem;
-    width: 85%;
+    width: 85.5%;
 }
 .home-continer .home-content{
     width: 590px;

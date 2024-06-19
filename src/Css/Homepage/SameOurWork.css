@@ -176,10 +176,10 @@
 
     .work .card {
         width: 210px;
-        height: 300px !important;
-        padding: 3px;
-        padding-bottom: 0px;
+        height: 320px !important;
+       padding: 10PX 3PX;
         margin: 10px 7px;
+
     }
 
     .work .view-work {

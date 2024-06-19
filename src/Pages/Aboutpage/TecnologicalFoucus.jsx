@@ -96,7 +96,7 @@ export default function CustomizedTabs() {
 
 
   return (
-    <Box sx={{ maxWidth: 1920, margin: 'auto' }}>
+    <Box className="" sx={{ maxWidth: 1920, margin: 'auto' }}>
 
 
       <Box bgcolor={'#e6f0fd'} padding={5} width={"100%"} className="flex-center-coulmn">

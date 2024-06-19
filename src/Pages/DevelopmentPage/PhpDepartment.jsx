@@ -8,8 +8,8 @@ const PHPDevelopment = () => {
     return (
         <>
             <Box>
-                <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Php Development</Typography>
+                <Box className="bg-img width1920 padding-top-bottom" >
+                    <Typography id='Heading-h2' variant='h2' >Php Development</Typography>
                 </Box>
             </Box>
 

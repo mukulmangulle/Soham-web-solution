@@ -14,6 +14,15 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchcontents } from '../features/content/contentSlice';
 import CircularProgress from '@mui/material/CircularProgress';
 import { Link } from 'react-router-dom';
+import { MdEmail } from "react-icons/md";
+import { IoCall } from "react-icons/io5";
+import { FaFacebookF } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
+
+
 
 const Home = () => {
     const dispatch = useDispatch()
@@ -52,46 +61,49 @@ const Home = () => {
             </Box>
 
 
-            <Box className="home-lastSection flex-between" width={'84.5%'} paddingY={3} flexWrap={"wrap"}  >
+            <Box className="home-lastSection flex-between" width={'85.5%'} paddingY={3} flexWrap={"wrap"}  >
                 <Box display={'flex'} alignItems={"center"} >
-                    <a style={{ textDecoration: "none", display: "flex" }} href="tel:%20+91%207879231700" display={'flex'} margin={0.5}  >
-                        <img src={Call} alt="" />
+                    <a style={{ textDecoration: "none", display: "flex", alignItems:"center"}} href="tel:%20+91%207879231700"  margin={0.5}  >
+                        <IoCall fontSize={20} color='white'/>
+                        
                         <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                     </a>
                 </Box>
 
-                <a href="mailto:contact@sohamsolution.com" alignItems={"center"} style={{ textDecoration: "none", display: "flex" }} >
+                <a href="mailto:contact@sohamsolution.com"  style={{ textDecoration: "none", display: "flex"  ,alignItems:"center"}} >
 
-                    <img src={Email} alt="" />
+                < MdEmail fontSize={20} color='white' />
                     <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
                 </a>
 
+                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0'  alignItems={"center"} style={{ textDecoration: "none",  display:"flex"}}  >
 
-                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0' display={'flex'} alignItems={"center"}    >
-                    <img src={Whatsapp} alt="" />
-                    <Typography className='fontSize14 color-white' marginLeft={1}>
-                        {contents.homeData.contactInfo.link}
-                    </Typography>
-
+                <img src={Whatsapp} alt="" />
+                    <Typography id="typography" paddingLeft={1}>
+                    {contents.homeData.contactInfo.link}
+                        </Typography>
                 </a>
+
+
+
 
                 <Box width={140} className="flex-between" >
                     <a href="https://www.facebook.com/sohamsolution/">
-                        <img src={Facebook} alt="" />
+                    <FaFacebookF color='white' fontSize={20}/>
                     </a>
 
                     <a href='https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web'>
-                        <img src={X} alt="" />
+                    <BsTwitterX  color='white'fontSize={20}/>
                     </a>
 
                     <a href='https://in.linkedin.com/company/soham-web-solution'>
-                        <img src={Linkdin} alt="" />
-                    </a>
+                    <FaLinkedinIn  color='white'fontSize={20}/>                    </a>
 
                     <a href="https://www.instagram.com/sohamwebsolution/">
-                        <img src={Insta} alt="" />
+                    <AiFillInstagram color='white' fontSize={20} />
                     </a>
-                   
+
+
 
                 </Box>
             </Box>

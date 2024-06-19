@@ -12,7 +12,6 @@
 }
 
 
-
 #card-typography {
   font-size: 16px;
   line-height: 180%;
@@ -40,6 +39,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
+    height: 100%;
 }
 .box-section{
     width: 85%;
@@ -179,7 +179,7 @@
 
 
 @media (max-width:480px) {
-  .blog480-center {
+  .box-card .blog480-center {
     width: 100%;
     display: flex;
     align-items: center;
@@ -204,4 +204,9 @@
     height: 190px;
   }
 
+}
+
+.css-1ohe0vz {
+
+  padding: 0% !important;
 }

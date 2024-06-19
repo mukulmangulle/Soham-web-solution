@@ -27,6 +27,12 @@
     width: 70%;
 }
 
+.web-devlopment img {
+      margin-right: 10px;
+     
+    
+}
+
 
 @media (max-width:1500px) {
     .web-devlopment{
@@ -119,7 +125,7 @@
     }
     
     .web-devlopment div {
-        width: 200px;
+        width: 200px !important;
  
      
     }
@@ -128,11 +134,14 @@
     }
     .web-devlopment img {
         height: 50px;
-        margin: 10px 0px;
+        margin-top: 10px;
+        margin-bottom: 10PX;
+        margin-right: 10px;
+        width: 100%;
     }
 
     .web-devlopment P {
-        font-size: 16px;
+        font-size: 16px !important;
         width: 350px;
     }
 

@@ -13,7 +13,7 @@ const contentSlice = createSlice({
         subheading: "Hire Our Developers to Get Highly Appreciating  Developments",
         contactInfo:
         {
-          number: "+91 78792-317000",
+          number: "+91 78792-31700",
           email: "contact@sohamsolution.com",
           link: "WhatsApp",
         },
@@ -99,7 +99,7 @@ const contentSlice = createSlice({
         },
         contactDetails: {
           heading: "Contact Info",
-          text1: "+91 78792-317000",
+          text1: "+91 78792-31700",
           text2: "+91 70003-35673",
           text3: "+91 77480-18188",
           text4: "contact@sohamsolution.com",

@@ -51,7 +51,7 @@ const BoxCategories = ({ Api_url }) => {
 
   return (
     <>
-      <Box className="width1920 flex-center flex-coulmn box-card" >
+      <Box className="width1920 flex-center flex-coulmn box-card " >
         <Box className="blog480-center" >
           {Array.isArray(blogContentForPageTwo) ? (
             blogContentForPageTwo.map((blog) => (
@@ -67,13 +67,13 @@ const BoxCategories = ({ Api_url }) => {
 
           <Box  className="flex-between-wrap box-center"  >
             {categoriescontents?.slice(0, 4).map((categoriescontent) => (
-              <Box className="categories-box" key={categoriescontent?.id}>
+              <Box className="categories-box " key={categoriescontent?.id}>
                 <Link
                   to={`/${process.env.SLUG_URL}/categories/${categoriescontent?.slug}/`}
                   state={{ id: categoriescontent?.id, name: categoriescontent?.name }}
                   className="text-decortion"
                 >
-                  <Typography id='card-heading'>
+                  <Typography id='card-heading' >
                     {categoriescontent.name}
                   </Typography>
                 </Link>

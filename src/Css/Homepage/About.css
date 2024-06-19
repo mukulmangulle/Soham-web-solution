@@ -2,11 +2,7 @@
   background: linear-gradient(to bottom, rgba(1, 95, 229, 1),rgba(5, 52, 130, 1) );
 }
 
-#about-background{
-  background-image: url(../assets/AboutSection1/about-background.svg);
-  background-size: cover;
-  object-fit: cover;
-}
+
 .about-pre{
   width: 67%;
   padding-top:1rem;

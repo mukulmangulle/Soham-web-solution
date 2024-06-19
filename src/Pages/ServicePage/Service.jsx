@@ -7,8 +7,8 @@ const Service = () => {
   return (
     <>
       <Box>
-                <Box id="about-background" >
-                    <Typography  id='Heading-h2' variant='h2'  padding={7} >Service</Typography>
+                <Box className="bg-img width1920 padding-top-bottom">
+                    <Typography  id='Heading-h2' variant='h2' >Service</Typography>
                 </Box>
             </Box>
             

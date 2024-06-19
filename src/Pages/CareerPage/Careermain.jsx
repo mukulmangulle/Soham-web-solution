@@ -7,8 +7,8 @@ import CareerForm from './CareerTogglepage/CareerForm'
 const Careermain = () => {
     return (
         <>
-            <Box>
-                <Box id="about-background" >
+            <Box  className="bg-img width1920">
+                <Box >
                     <Typography id='Heading-h2' variant='h2' className='padding-top-bottom'>Career</Typography>
                 </Box>
             </Box>

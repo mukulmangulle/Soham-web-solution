@@ -19,8 +19,8 @@ const Festival_title = ({ Api_url }) => {
 
   return (
     <>
-      <Box id="about-background"  >
-        <Typography id='Heading-h2' variant='h2' className='padding-top-bottom' >
+      <Box className="bg-img width1920"  >
+        <Typography id='Heading-h2' variant='h2'className='padding-top-bottom' marginTop={"1rem"}  >
           {showLoader ? <CircularProgress  /> : name}
         </Typography>
       </Box>

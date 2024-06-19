@@ -25,11 +25,13 @@ const AllBlogs = ({ Api_url }) => {
 
     return (
         <>
-            <Typography variant='h2' id='Heading-h2' paddingTop={"5rem"}>
+           <Box className="bg-img width1920">
+           <Typography variant='h2' id='Heading-h2' className='padding-top-bottom bg-img' >
                 All Blogs
             </Typography>
+           </Box>
             <Box sx={{ maxWidth: 1920, margin: 'auto' }} className="padding-top-bottom" display={"flex"} alignItems={"center"} justifyContent={"center"}>
-                <Box id="blog480-center" width={"84%"} display={'flex'} alignItems={"center"} justifyContent={"space-between"} flexWrap={"wrap"}>
+                <Box id="blog480-center" width={"87%"} display={'flex'} alignItems={"center"} justifyContent={"space-between"} flexWrap={"wrap"}>
                     {blogcontents.map((blogcontent) => (
                         <Carditem key={blogcontent?.id} blogcontent={blogcontent} />
                     ))}

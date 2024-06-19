@@ -51,7 +51,7 @@ const Singlecontent = ({ Api_url }) => {
   return (
     <>
       <Box maxWidth={"1920px"} margin={'auto'} className="flex-center" marginY={5} flexDirection={"column"}>
-        <Box id="about-background">
+        <Box className="bg-img width1920">
           <Typography id="heading-1" variant='h2'>
             {blog?.title?.rendered}
           </Typography>

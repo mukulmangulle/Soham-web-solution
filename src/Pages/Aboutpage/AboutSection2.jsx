@@ -15,11 +15,11 @@ const AboutSection2 = () => {
   }, [dispatch]);
 return (
     <>
-<Box id="about-background" >
-        <Typography id='Heading-h2' variant='h2' paddingY={6} >
+<Box  className="bg-img width1920" >
+        <Typography id='Heading-h2' className='padding-top-bottom'  variant='h2'  >
           {contents.aboutData.heading} </Typography>
       </Box>
-      <Box className='aboutsectiocolor padding-top-bottom ' >
+      <Box className='aboutsectiocolor padding-top-bottom width1920 ' >
 
         <img   src={AboutSectionimg} alt="" />
 

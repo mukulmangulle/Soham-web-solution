@@ -27,8 +27,8 @@ const ContactUsSohamweb = () => {
     );
   }
   return (
-    <Box maxWidth={"1920px"} margin={'auto'}>
-      <Box  id="about-background" >
+    <Box >
+      <Box  className="bg-img width1920" >
         <Typography  id='Heading-h2' variant='h2' padding={7} >Contact Us</Typography>
       </Box>
 

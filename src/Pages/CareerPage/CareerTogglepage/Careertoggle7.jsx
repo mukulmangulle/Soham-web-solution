@@ -69,7 +69,7 @@ function Careertoggle7() {
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >•  Organize training & development initiatives to enhance employee skills.
+                                <Typography  className="Typography-gray-career margin-left-1" >  Organize training & development initiatives to enhance employee skills.
                                 </Typography>
 
                             </Box>
