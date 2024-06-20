@@ -9,11 +9,13 @@ import Form  from "./Form"
 const Shopify = () => {
     return (
         <>
-          <Box>
-                <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Shopify Development</Typography>
+          
+            <Box>
+                <Box className="bg-img  padding-top-bottom" >
+                    <Typography id='Heading-h2' variant='h1' >Shopify Development</Typography>
                 </Box>
             </Box>
+
 
             <Box className="padding-top-bottom" maxWidth={"1920px"} margin={'auto'} display={"flex"} alignItems={"center"} justifyContent={"center"}>
                 <Box width={"84%"} display={"flex"} alignItems={"center"} justifyContent={"center"}>

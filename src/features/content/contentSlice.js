@@ -91,7 +91,7 @@ const contentSlice = createSlice({
           text5: "Blog",
         },
         policyLinks: {
-          heading: "Our Plicies",
+          heading: "Our Policy",
           text1: "Privacy Policy",
           text2: "Terms & Conditions",
           text3: "Support and Maintenance Packages",

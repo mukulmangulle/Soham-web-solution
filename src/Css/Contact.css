@@ -14,6 +14,11 @@
     background: linear-gradient(to bottom, #0160E7, #053480);
     border-radius: 0 18px 18px 0px;
 }
+.get_in_touch P{
+    text-align: start;
+    font-size: 18px;
+    align-items: center;
+} 
 
 @media (max-width:1600px) {
     .css-191zsrp-MuiTypography-root{

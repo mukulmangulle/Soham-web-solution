@@ -9,9 +9,9 @@ import Form  from "./Form"
 const Graphic = () => {
     return (
         <>
-     <Box>
-                <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Graphic Designing</Typography>
+    <Box>
+                <Box className="bg-img  padding-top-bottom" >
+                    <Typography id='Heading-h2' variant='h1' >Graphic Designing</Typography>
                 </Box>
             </Box>
             <Box className="padding-top-bottom" maxWidth={"1920px"} margin={'auto'} display={"flex"} alignItems={"center"} justifyContent={"center"}>

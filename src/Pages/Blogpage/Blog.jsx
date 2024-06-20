@@ -7,7 +7,7 @@ const Blog = () => {
         <>
 
             <Box className="bg-img" >
-                <Typography id='Heading-h2' variant='h2' className='padding-top-bottom' >Blog</Typography>
+                <Typography id='Heading-h2' variant='h1' className='padding-top-bottom' >Blog</Typography>
             </Box>
 
          <blogLatestBlog/>

@@ -9,7 +9,7 @@ const Service = () => {
     <>
       <Box >
                 <Box className="bg-img  padding-top-bottom">
-                    <Typography  id='Heading-h2' variant='h2' >Service</Typography>
+                    <Typography  id='Heading-h2' variant='h1' >Services</Typography>
                 </Box>
             </Box>
             

@@ -4,16 +4,17 @@ import React from 'react'
 import Php from "../../assets/Service/php.svg"
 import BlogButton from '../../Child-Component/ServiceButton'
 import Service from './Service'
-import Form  from "./Form"
+import Form from "./Form"
 
 const WebDesigning = () => {
     return (
         <>
-         <Box>
-                <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Web Designing</Typography>
+            <Box>
+                <Box className="bg-img  padding-top-bottom" >
+                    <Typography id='Heading-h2' variant='h1' >Web Designing</Typography>
                 </Box>
             </Box>
+
             <Box className="padding-top-bottom" maxWidth={"1920px"} margin={'auto'} display={"flex"} alignItems={"center"} justifyContent={"center"}>
                 <Box width={"84%"} display={"flex"} alignItems={"center"} justifyContent={"center"}>
                     <Box id="man-reverce1" width={"100%"} className="flex-between-wrap"  >
@@ -33,7 +34,7 @@ const WebDesigning = () => {
                 </Box>
             </Box>
 
-            
+
             <Service />
             <Form />
 

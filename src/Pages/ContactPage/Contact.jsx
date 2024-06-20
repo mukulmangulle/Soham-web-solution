@@ -8,9 +8,14 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchFormData } from '../../features/Form/FormSlice';
 import Footer2 from '../../Component/Footer2';
 
+import Facebook from "../../assets/footer/facebook.svg"
+import Insta from "../../assets/footer/insta.svg"
+import Twitter from "../../assets/footer/twitter.svg"
+import Linkdin from "../../assets/footer/linkdin.svg"
+
 const Contact = () => {
     const dispatch = useDispatch();
-    const { formData, isLoading } = useSelector((state) => state.Form); 
+    const { formData, isLoading } = useSelector((state) => state.Form);
 
     const [localFormData, setLocalFormData] = useState({
         name: '',
@@ -32,7 +37,7 @@ const Contact = () => {
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify(localFormData) 
+                body: JSON.stringify(localFormData)
             });
             if (!response.ok) {
                 throw new Error("Failed to send message");
@@ -53,7 +58,7 @@ const Contact = () => {
                 <Box id="boxShadow" borderRadius={4} margin={5} sx={{ boxShadow: "0px 0px 20px 1px gray" }}>
                     <Box className="GETINTOUCH" display={'flex'} justifyContent={"space-between"} width={'100%'} flexWrap={'wrap'} >
                         <Box className="GETINTOUCH1" padding={7} width={{ xl: "900px", xs: "100%", sm: "100%", md: "60%" }}  >
-                            <Typography className="send-us-message"   textAlign={"center"} fontWeight={600} color={"#053480"} margin={2} >Send Us a Message</Typography>
+                            <Typography className="send-us-message" textAlign={"center"} fontWeight={600} color={"#053480"} margin={2} >Send Us a Message</Typography>
                             <form onSubmit={handleSubmit}>
                                 <FormControl>
                                     <Grid container spacing={2} justifyContent="center">
@@ -79,40 +84,79 @@ const Contact = () => {
                                 </FormControl>
                             </form>
                         </Box>
-                        <Box width={{ xl: "550px", xs: "100%", sm: "100%", md: "40%" }} className="GETINTOUCH2" paddingY={5} paddingX={13} >
-                            <Typography variant='h4' id="h4" color={"white"} >Get in Touch</Typography>
+                        <Box width={{ xl: "550px", xs: "100%", sm: "100%", md: "40%" }} className="GETINTOUCH2" paddingY={10} paddingX={10} >
+                            <Typography  variant='h4' id="h4" color={"white"} >Get in Touch</Typography>
                             <Box>
-                                <Box paddingY={1.5}>
+                                <Box paddingY={0.5}>
                                     <Typography id="h4" color={"white"} >Phone</Typography>
                                 </Box>
-                                <Box >
-                                    <Typography id="typography" color={"white"} >+9009 140 325</Typography>
-                                    <Typography id="typography" color={"white"} >+91 787 923 1700</Typography>
-                                    <Typography id="typography" color={"white"} >+91 774 801 8188</Typography>
-                                </Box>
-                            </Box>
-                            <Box>
-                                <Box paddingY={1.5}>
-                                    <Typography color={"white"} id="h4" >Email</Typography>
-                                </Box>
-                                <Box>
-                                    <Typography id="typography" color={"white"} >contact@sohamsolution.com</Typography>
-                                    <Typography id="typography" color={"white"} >hr@sohamsolution.com</Typography>
-                                    <Typography id="typography" color={"white"} >soham.solution@yahoo.com</Typography>
-                                </Box>
-                            </Box>
-                            <Box paddingY={1.5}>
-                                <Box>
-                                    <Typography color={"white"} id="h4">Address</Typography>
-                                </Box>
-                                <Box>
-                                    <Typography id="typography" color={"white"} >
-                                        12 Civil Line Chamunda Complex,
-                                        Dewas, Madhya Pradesh, PIN:
-                                        455001
+                                <Box className='get_in_touch'>
+                                    <Typography  color={"white"} >+91 78792-31700
+                                    </Typography>
+                                    <Typography color={"white"} >+91 70003-35673
+                                    </Typography>
+                                    <Typography      color={"white"} >+91 7984740805
                                     </Typography>
                                 </Box>
                             </Box>
+                            <Box>
+                                <Box paddingY={0.5}>
+                                    <Typography color={"white"} id="h4" >Email</Typography>
+                                </Box>
+                                <Box className='get_in_touch'>
+                                    <Typography  color={"white"} > contact@sohamsolution.com</Typography>
+                                    <Typography  color={"white"} >hr@sohamsolution.com
+                                    </Typography>
+                                    <Typography  color={"white"} >soham.solution@yahoo.com</Typography>
+                                </Box>
+                            </Box>
+                            <Box paddingY={0.5}>
+                                <Box>
+                                    <Typography color={"white"} id="h4">Address</Typography>
+                                </Box>
+                                <Box className='get_in_touch'>
+                                    <Typography  color={"white"} >
+                                        12 Civil Lines, Chamunda Complex, Dewas
+                                    </Typography>
+                                </Box>
+                            </Box>
+
+                            <Box paddingY={0.5}>
+                                <Box>
+                                    <Typography color={"white"} id="h4">Business Hours
+                                    </Typography>
+                                </Box>
+                                <Box className='get_in_touch'>
+                                    <Typography  color={"white"} >
+                                        Monday - Saturday: 10:00 AM - 10:00 PM
+                                    </Typography>
+                                    <Typography  color={"white"} >
+                                        Sunday: Closed
+                                    </Typography>
+                                </Box>
+                            </Box>
+
+                            <Box paddingY={0.5}>
+                                <Box>
+                                    <Typography color={"white"} id="h4">
+                                        Follow Us on Social Media
+                                    </Typography>
+                                </Box>
+                                <Box >
+                                <Box className="flex-between footer-sec-icon" width={150} >
+                            <a href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
+                            <a href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
+                            
+                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
+
+
+
+                        </Box>
+                                </Box>
+                            </Box>
+
+
                         </Box>
                     </Box>
                 </Box>
@@ -120,7 +164,7 @@ const Contact = () => {
             <Box maxWidth={"1920px"} margin={"auto"}>
                 <img className='map-img' src={Map} alt="" />
             </Box>
-            <Footer2/>
+            <Footer2 />
         </>
     )
 }

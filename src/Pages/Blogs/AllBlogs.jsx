@@ -27,7 +27,7 @@ const AllBlogs = ({ Api_url }) => {
     return (
         <Box>
            <Box className="bg-img ">
-           <Typography variant='h2' id='Heading-h2' className='padding-top-bottom bg-img' >
+           <Typography variant='h1' id='Heading-h2' className='padding-top-bottom bg-img' >
                 All Blogs
             </Typography>
            </Box>

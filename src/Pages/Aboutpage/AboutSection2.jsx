@@ -16,7 +16,7 @@ const AboutSection2 = () => {
 return (
     <>
 <Box  className="bg-img " >
-        <Typography id='Heading-h2' className='padding-top-bottom'  variant='h2'  >
+        <Typography id='Heading-h2' className='padding-top-bottom'  variant='h1'  >
           {contents.aboutData.heading} </Typography>
       </Box>
       <Box className='aboutsectiocolor padding-top-bottom width1920 ' >

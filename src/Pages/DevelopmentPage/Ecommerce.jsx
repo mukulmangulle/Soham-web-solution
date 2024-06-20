@@ -8,9 +8,9 @@ import Form  from "./Form"
 
 const Ecommerce = () => {
     return (
-        <>  <Box>
-        <Box id="about-background" >
-            <Typography id='Heading-h2' variant='h2' paddingTop={7} >E-Commerce Development</Typography>
+        <> <Box>
+        <Box className="bg-img  padding-top-bottom" >
+            <Typography id='Heading-h2' variant='h1' >Ecommerce Development</Typography>
         </Box>
     </Box>
             <Box className="padding-top-bottom" maxWidth={"1920px"} margin={'auto'} display={"flex"} alignItems={"center"} justifyContent={"center"}>

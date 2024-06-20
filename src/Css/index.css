@@ -83,7 +83,7 @@
 }
 
 #h4 {
-    font-size: 32px;
+    font-size: 25px;
 
 }
 
@@ -133,14 +133,13 @@
 
 
 
-
 @media (max-width:1600px) {
     #Heading-h2 {
         font-size: 35px ;
     }
 
     #h4 {
-        font-size: 25px;
+        font-size: 20px ;
     }
 
     #Typography-gray {
@@ -216,6 +215,7 @@
 
     #h4 {
         font-size: 28px;
+
     }
     .Typography-gray-career {
         font-size: 14px ;
@@ -292,5 +292,5 @@
   
   .journey{
        width: 100%;
-       padding-bottom: 3rem;
+       padding-bottom: rem;
   }

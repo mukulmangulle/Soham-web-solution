@@ -8,9 +8,10 @@ import Form from "./Form"
 const WordPress = () => {
     return (
         <>
+           
             <Box>
-                <Box id="about-background" >
-                    <Typography id='Heading-h2' variant='h2' paddingTop={7} >Wordpress Development</Typography>
+                <Box className="bg-img  padding-top-bottom" >
+                    <Typography id='Heading-h2' variant='h1' >Wordpress Development</Typography>
                 </Box>
             </Box>
 
@@ -18,7 +19,7 @@ const WordPress = () => {
                 <Box width={"84%"} display={"flex"} alignItems={"center"} justifyContent={"center"}>
                     <Box id="man-reverce1" width={"100%"} className="flex-between-wrap"  >
                         <Box width={617} id="devlopment-text">
-                            <Typography variant='h4' id="typo-fray-hrading" >PHP Development</Typography>
+                            <Typography variant='h4' id="typo-fray-hrading" >Wordpress Development</Typography>
                             <Typography id="Typo-gray-start">PHP development services focus on implementing secure
                                 and powerful server-sides web applications. Our company
                                 deliver robust CMSs, and web-based solutions, we manage

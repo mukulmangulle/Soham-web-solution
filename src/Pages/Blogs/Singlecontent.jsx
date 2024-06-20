@@ -53,7 +53,7 @@ const Singlecontent = ({ Api_url }) => {
     <>
       <Box  className="flex-center padding-top--bottom"  flexDirection={"column"}>
         <Box className="bg-img ">
-          <Typography id="heading-1" variant='h2'>
+          <Typography id="heading-1" variant='h1'>
             {blog?.title?.rendered}
           </Typography>
         </Box>
