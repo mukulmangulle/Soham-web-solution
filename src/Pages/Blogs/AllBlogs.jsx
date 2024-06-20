@@ -25,13 +25,13 @@ const AllBlogs = ({ Api_url }) => {
     }, [dispatch, isLoading]);
 
     return (
-        <>
+        <Box>
            <Box className="bg-img ">
            <Typography variant='h2' id='Heading-h2' className='padding-top-bottom bg-img' >
                 All Blogs
             </Typography>
            </Box>
-            <Box sx={{ maxWidth: 1920, margin: 'auto' }} className="padding-top-bottom" display={"flex"} alignItems={"center"} justifyContent={"center"}>
+            <Box  display={"flex"} alignItems={"center"} justifyContent={"center"}>
                 <Box id="blog480-center" width={"87%"} display={'flex'} alignItems={"center"} justifyContent={"space-between"} flexWrap={"wrap"}>
                     {blogcontents.map((blogcontent) => (
                         <Carditem key={blogcontent?.id} blogcontent={blogcontent} />
@@ -40,7 +40,7 @@ const AllBlogs = ({ Api_url }) => {
                 </Box>
             </Box>
             <Footer2/>
-        </>
+        </Box>
     );
 };
 

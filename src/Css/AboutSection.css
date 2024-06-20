@@ -5,22 +5,36 @@
     margin-top: 50px;
     color: white;
 }
-.about-welcome{
+
+.about-welcome {
     width: 55%;
-  
-  }
-#Technology-focus-grid {
-    background: white !important;
-    width: 320px;
-    height: 300px;
+
+}
+.tecno-content{
+     width: 100%;
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.techno .Technology-focus-grid {
+    background: white;
+    max-width: 250px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.techno .Technology-focus-grid img {
+    width: 70%;
+    padding: 2px;
+}
+
 .contact-1 {
     width: 380px;
-  margin: 0px 1.5px;
+    margin: 0px 1.5px;
 }
 
 .contact-2 {
@@ -41,30 +55,33 @@
     padding-top: 1rem;
 }
 
-.aboutsectiocolor{
+.aboutsectiocolor {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-   
+
 }
-.leadership{
+
+.leadership {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-   
+
 }
-.team .name{
+
+.team .name {
     font-weight: 700;
     margin: 5px;
     font-size: 22px;
     color: #053480;
 
 }
-.team .leadership-p{
+
+.team .leadership-p {
     font-size: 20px;
     color: #053480;
 }
@@ -89,6 +106,33 @@
     .contact-3 {
         width: 180px;
     }
+
+}
+
+@media (max-width:1500px) {
+
+    .techno .Technology-focus-grid {
+        background: white !important;
+        max-width: 210px;
+        height: 200px;
+    }
+
+    .css-heg063-MuiTabs-flexContainer {
+        gap: 15px
+    }
+
+    ;
+
+    .techno .Technology-focus-grid img {
+        width: 60%;
+        padding: 1px;
+    }
+
+    
+    .tecno-content button{
+        margin: 0% !important;
+        padding: 0% !important;
+    }
 }
 
 @media (max-width:1320px) {
@@ -99,43 +143,84 @@
     #typography {
         font-size: 16px;
     }
-    #about-heading{
+
+    #about-heading {
         font-size: 30px;
     }
-    #Ready{
-        font-size: 25px;
-     }
-     #select{
- font-size: 20px;
-     }
-     .sir{
-           height:240px;
-           width: 100%;
-     }
-   
 
+    #Ready {
+        font-size: 25px;
+    }
+
+    #select {
+        font-size: 20px;
+    }
+
+    .sir {
+        height: 240px;
+        width: 100%;
+    }
+    .techno .Technology-focus-grid {
+        background: white !important;
+        max-width:200px;
+        height: 200px;
+    }
+
+    .techno .css-heg063-MuiTabs-flexContainer {
+        gap: 12px
+    }
+
+    ;
+
+    .techno .Technology-focus-grid img {
+        width: 60%;
+        padding: 1px;
+    }
+   
+    
 }
 
 @media (max-width: 992px) {
-    .sir{
-       height: 180px;
+    .sir {
+        height: 180px;
     }
-    .team .name{
-         font-size: 15px;
+
+    .team .name {
+        font-size: 15px;
     }
-    .team .leadership-p{
-            font-size: 14px ;
+
+    .team .leadership-p {
+        font-size: 14px;
     }
 }
 
 @media (max-width:992px) {
     #typography {
         font-size: 16px;
-       text-align: center;
-      
+        text-align: center;
+
     }
-    .about-welcome{
+
+    .about-welcome {
         width: 90%;
+    }
+    
+    .techno .Technology-focus-grid {
+        background: white !important;
+        max-width:180px;
+        height: 160px;
+        text-align: center;
+    }
+
+    .css-heg063-MuiTabs-flexContainer {
+        gap: 5px
+    }
+
+    ;
+
+    .techno .Technology-focus-grid img {
+        width: 60%;
+        padding: 1px;
     }
 }
 
@@ -147,21 +232,22 @@
     }
 
     .about-typography {
-        width:80%;
-    
+        width: 80%;
+
     }
 
     .aboutsectiocolor div {
         width: 75% !important;
         padding: 0%;
         margin: 0%;
-     
+
     }
 
     #aboutsectiocolor img {
         height: 420px;
         margin-bottom: 10px;
     }
+
     .contact-1 {
         width: 270px;
     }
@@ -173,26 +259,43 @@
     .contact-3 {
         width: 270px;
     }
-    #Ready{
+
+    #Ready {
         font-size: 20px;
-     }
-     #select{
- font-size: 18px;
-     }
+    }
+
+    #select {
+        font-size: 18px;
+    }
+.techno .tecno-content{
+    width: 100%;
+    
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
+   
+}
+
+
+
+
+
 @media (max-width:576px) {
-    .aboutsectiocolor img{
+    .aboutsectiocolor img {
         width: 450px;
         margin-top: 0px;
         padding-top: 0%;
     }
-    .aboutsectiocolor div  {
+
+    .aboutsectiocolor div {
         width: 90% !important;
-        padding: 0%;    
+        padding: 0%;
         margin: 0%;
-     
+
     }
+
     .leadership .team {
         text-align: center;
         width: 100%;
@@ -200,6 +303,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .contact-1 {
         width: 100%;
     }
@@ -211,9 +315,9 @@
     .contact-3 {
         width: 100%;
     }
-   
-    .css-1coc09t{
-        padding: 45px !important;     
+
+    .css-1coc09t {
+        padding: 45px !important;
     }
 }
 
@@ -225,16 +329,18 @@
         padding: 10px;
     }
 
-    .aboutsectiocolor img{
+    .aboutsectiocolor img {
         width: 350px;
         margin-top: 0px;
         padding-top: 0%;
     }
-    #Ready{
-       font-size: 20px;
+
+    #Ready {
+        font-size: 20px;
     }
-    #select{
-font-size: 18px;
+
+    #select {
+        font-size: 18px;
     }
 }
 
@@ -256,7 +362,7 @@ font-size: 18px;
     #card {
         width: 320px;
         margin: 20px;
-       
+
     }
 
     #form-control {

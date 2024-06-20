@@ -20,7 +20,7 @@ const OurJourney = () => {
                 </Typography>
             </Box>
             <Box>
-                <img width={"100%"} src={Journey} alt="" />
+                <img className='journey' src={Journey} alt="" />
             </Box>
             <Footer2 />
         </>

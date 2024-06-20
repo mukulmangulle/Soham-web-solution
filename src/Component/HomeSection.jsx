@@ -38,7 +38,7 @@ const HomeSection = () => {
           <Home />
             <OurUtility />
             <SameOurWork />
-            {/* <About /> */}
+            <About />
             <OurCustomer />
             <OurPartner />
          <Footer/>

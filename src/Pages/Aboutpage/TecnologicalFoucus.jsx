@@ -99,7 +99,7 @@ export default function CustomizedTabs() {
     <Box className="" >
 
 
-      <Box bgcolor={'#e6f0fd'} padding={5} width={"100%"} className="flex-center-coulmn">
+      <Box bgcolor={'#e6f0fd'} padding={5} width={"100%"} className="flex-center-coulmn techno">
         <Box textAlign={'center'}>
 
           <Box className="flex-center-coulmn" width={"100%"} sx={{flexWrap:"wrap"}} >
@@ -123,14 +123,14 @@ export default function CustomizedTabs() {
               <StyledTabs
                 value={value}
                 onChange={handleChange}
-                aria-label="styled tabs example"
-                width={"100%"} display={"flex"} sx={{flexWrap:"wrap"}}>
+                aria-label="styled tabs example" className='tecno-content'
+                 display={"flex"} sx={{flexWrap:"wrap"}}>
 
                 <StyledTab
                   icon={
-                    <Grid label="Workflows" item xs={12} sm={6} >
-                      <Box id="Technology-focus-grid" >
-                        <img src={Laravel} alt="" width={200} padding={2} />
+                    <Grid  label="Workflows" item xs={12} sm={6} >
+                      <Box className="Technology-focus-grid" >
+                        <img  src={Laravel} alt=""  />
                       </Box>
                     </Grid>
                   } />
@@ -138,8 +138,8 @@ export default function CustomizedTabs() {
                 <StyledTab
                   icon={
                     <Grid label="Datasets" item xs={12} sm={6} >
-                      <Box id="Technology-focus-grid" >
-                        <img src={Codeignetor} width={200} alt="" padding={2} />
+                      <Box className="Technology-focus-grid" >
+                        <img src={Codeignetor} />
                       </Box>
                     </Grid>
                   } />
@@ -147,8 +147,8 @@ export default function CustomizedTabs() {
                 <StyledTab
                   icon={
                     <Grid label="Connections" item xs={12} sm={6} >
-                      <Box id="Technology-focus-grid" >
-                        <img src={Sql} width={200} alt="" padding={2} />
+                      <Box className="Technology-focus-grid" >
+                        <img src={Sql} />
                       </Box>
                     </Grid>
                   } />
@@ -156,8 +156,8 @@ export default function CustomizedTabs() {
                 <StyledTab
                   icon={
                     <Grid label="message" item xs={12} sm={6} >
-                      <Box id="Technology-focus-grid" >
-                        <img src={Node} width={200} alt="" />
+                      <Box className="Technology-focus-grid" >
+                        <img src={Node}  alt="" />
                       </Box>
                     </Grid>
                   } />

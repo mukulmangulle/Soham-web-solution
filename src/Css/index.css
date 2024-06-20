@@ -286,4 +286,11 @@
     background-size: cover;
     background-position: center;
   }
+  .css-1d9rq06-MuiTypography-root {
+    margin-top: 0% !important;
+  }
   
+  .journey{
+       width: 100%;
+       padding-bottom: 3rem;
+  }

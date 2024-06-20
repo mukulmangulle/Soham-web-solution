@@ -23,7 +23,7 @@ function OurCustomer() {
 
         <Box className="padding-top-bottom"  >
             <Box className=" flex-center" flexDirection={'column'} textAlign={"center"} >
-                <Typography className='Heading-h2' variant='h2' paddingX={1} >
+                <Typography id='Heading-h2' variant='h2'  >
                     {contents.aboutus.heading}
                 </Typography>
                 <Typography className='about-pre' >
