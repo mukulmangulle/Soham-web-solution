@@ -85,9 +85,10 @@ const contentSlice = createSlice({
         quickLinks: {
           heading: "Quick Links",
           text1: "About",
-          text2: "Career",
-          text3: "Contact Us",
-          text4: "Blog",
+          text2: "Services",
+          text3: "Career",
+          text4: "Contact Us",
+          text5: "Blog",
         },
         policyLinks: {
           heading: "Our Plicies",

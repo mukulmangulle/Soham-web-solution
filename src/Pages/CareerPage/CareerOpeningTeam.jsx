@@ -13,7 +13,7 @@ const CareerOpeningTeam = () => {
     return (
         <>
 
-            <Box maxWidth={"1920px"} className="padding-top-bottom" margin={"auto"} bgcolor={"#E6EBF3"} width={"100%"} display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
+            <Box  className="padding-top-bottom" margin={"auto"} bgcolor={"#E6EBF3"} width={"100%"} display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
                 <Typography id='Heading-h2' variant='h2'  marginBottom={"0.5rem"}  >
                     Current opnings in Team
                 </Typography>

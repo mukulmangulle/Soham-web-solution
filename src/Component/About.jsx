@@ -21,7 +21,7 @@ function OurCustomer() {
 
     return (
 
-        <Box className="padding-top-bottom width1920"  >
+        <Box className="padding-top-bottom"  >
             <Box className=" flex-center" flexDirection={'column'} textAlign={"center"} >
                 <Typography className='Heading-h2' variant='h2' paddingX={1} >
                     {contents.aboutus.heading}

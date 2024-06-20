@@ -136,7 +136,7 @@
 
 @media (max-width:1600px) {
     #Heading-h2 {
-        font-size: 35px;
+        font-size: 35px ;
     }
 
     #h4 {
@@ -170,6 +170,7 @@
         padding: 2rem 0rem !important;
     
     }
+ 
   
 
 }
@@ -222,6 +223,11 @@
     }
 }
 
+.css-iqley6-MuiTypography-root{
+    padding: 0% !important;
+}
+
+
 @media (max-width:576px) {
     #Heading-h2 {
         font-size: 30px;
@@ -246,7 +252,9 @@
     }
 
     #Typography-black {
-        font-size: 16px;
+        font-size: 12px;
+        width: 90%;
+        padding: 0% !important;
     }
 
     #typography {

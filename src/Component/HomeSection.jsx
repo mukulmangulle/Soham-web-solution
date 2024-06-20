@@ -7,6 +7,7 @@ import OurCustomer from "./OurCustomer";
 import OurPartner from "./OurPartner";
 import { useEffect, useState } from 'react';
 import { Box, CircularProgress } from '@mui/material';
+import Footer from './Footer';
 
 const HomeSection = () => {
     const [loading, setLoading] = useState(true);
@@ -33,12 +34,15 @@ const HomeSection = () => {
 
     return (
         <>
-            <Home />
+          <Box className="home-mane-1" >
+          <Home />
             <OurUtility />
             <SameOurWork />
             {/* <About /> */}
             <OurCustomer />
             <OurPartner />
+         <Footer/>
+          </Box>
         </>
     )
 }

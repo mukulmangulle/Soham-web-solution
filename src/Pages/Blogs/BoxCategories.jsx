@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import { fetchcategories } from '../../features/Categories/categoriesSlice';
 import Carditem from './Carditem';
+import Footer2 from '../../Component/Footer2';
 
 const BoxCategories = ({ Api_url }) => {
   const dispatch = useDispatch();
@@ -51,7 +52,7 @@ const BoxCategories = ({ Api_url }) => {
 
   return (
     <>
-      <Box className="width1920 flex-center flex-coulmn box-card " >
+      <Box className="flex-center flex-coulmn box-card " >
         <Box className="blog480-center" >
           {Array.isArray(blogContentForPageTwo) ? (
             blogContentForPageTwo.map((blog) => (
@@ -82,6 +83,7 @@ const BoxCategories = ({ Api_url }) => {
           </Box>
         </Box>
       </Box>
+      <Footer2/>
     </>
   );
 }

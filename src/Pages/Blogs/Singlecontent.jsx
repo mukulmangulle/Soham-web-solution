@@ -10,6 +10,7 @@ import Wordpress from "../../assets/single blog page/wordpress.svg";
 import { useLocation, useParams } from 'react-router';
 import Categories_name from './Categories_name';
 import NextPrevious from './NextPrevious';
+import Footer2 from '../../Component/Footer2';
 
 const Singlecontent = ({ Api_url }) => {
   const [blog, setBlog] = useState([]);
@@ -50,8 +51,8 @@ const Singlecontent = ({ Api_url }) => {
   }
   return (
     <>
-      <Box maxWidth={"1920px"} margin={'auto'} className="flex-center" marginY={5} flexDirection={"column"}>
-        <Box className="bg-img width1920">
+      <Box  className="flex-center padding-top--bottom"  flexDirection={"column"}>
+        <Box className="bg-img ">
           <Typography id="heading-1" variant='h2'>
             {blog?.title?.rendered}
           </Typography>
@@ -80,6 +81,7 @@ const Singlecontent = ({ Api_url }) => {
           <Categories_name Api_url={Api_url} />
         </Box>
       </Box>
+      <Footer2/>
     </>
   )
 }

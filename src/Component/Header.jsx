@@ -13,7 +13,7 @@ import { IoCall } from "react-icons/io5";
 
 const Header = () => {
     return (
-        <Box className='header width1920'>
+        <Box className='header'>
             <AppBar position="static">
                 <Box className="flex-center">
                     <Box className="header-responsive" >

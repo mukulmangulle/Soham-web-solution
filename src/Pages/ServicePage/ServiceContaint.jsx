@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom'
 const ServiceContaint = () => {
     return (
         <>
-            <Box maxWidth={"1920px"} margin={"auto"} display={'flex'} alignItems={'center'} justifyContent={'center'} >
+            <Box  display={'flex'} alignItems={'center'} justifyContent={'center'} >
                 <Box className="service-man" width={"84%"} display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} >
 
                     {/* 1 */}

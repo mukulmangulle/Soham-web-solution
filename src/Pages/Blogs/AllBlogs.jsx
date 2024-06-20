@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Carditem from './Carditem';
 import { fetchblogcontents } from '../../features/blog/blogsSlice';
 import AllPagination2 from './AllPagination2';
+import Footer2 from '../../Component/Footer2';
 
 const AllBlogs = ({ Api_url }) => {
     const dispatch = useDispatch();
@@ -25,7 +26,7 @@ const AllBlogs = ({ Api_url }) => {
 
     return (
         <>
-           <Box className="bg-img width1920">
+           <Box className="bg-img ">
            <Typography variant='h2' id='Heading-h2' className='padding-top-bottom bg-img' >
                 All Blogs
             </Typography>
@@ -38,6 +39,7 @@ const AllBlogs = ({ Api_url }) => {
                     {showPagination && <AllPagination2 Api_url={Api_url} />}
                 </Box>
             </Box>
+            <Footer2/>
         </>
     );
 };

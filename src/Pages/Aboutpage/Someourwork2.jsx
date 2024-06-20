@@ -22,7 +22,7 @@ const SameOurWork = () => {
     }, [dispatch]);
 
     return (
-        <Box className="work flex-center-coulmn padding-top-bottom width1920" >
+        <Box className="work flex-center-coulmn padding-top-bottom " >
             <Box className="flex-center-coulmn"  >
                 <Typography variant='h2' id="Heading-h2"   >
                     {contents.SomeourWorks.heading}

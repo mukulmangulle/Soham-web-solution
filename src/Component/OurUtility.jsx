@@ -22,7 +22,7 @@ const OurUtility = () => {
 
 
     return (
-        <Box className="flex-center padding-top-bottom  width1920" flexDirection={'column'}  >
+        <Box className="flex-center padding-top-bottom  " flexDirection={'column'}  >
             <Box className="flex-center-coulmn">
                 <Typography variant='h2' id='Heading-h2'>
                     {contents.ourutility.heading}

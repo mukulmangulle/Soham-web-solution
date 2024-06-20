@@ -28,8 +28,8 @@ const ContactUsSohamweb = () => {
   }
   return (
     <Box >
-      <Box  className="bg-img width1920" >
-        <Typography  id='Heading-h2' variant='h2' padding={7} >Contact Us</Typography>
+      <Box  className="bg-img padding-top-bottom" >
+        <Typography  id='Heading-h2' variant='h2'  >Contact Us</Typography>
       </Box>
 
       <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>

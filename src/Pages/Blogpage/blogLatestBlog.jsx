@@ -21,7 +21,7 @@ const blogLatestBlog = ({}) => {
     }, [dispatch]);
     return (
         <>
-            <Box sx={{ maxWidth: 1920, margin: 'auto' }} display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
+            <Box  display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
 
                 < Box  width={"84%"} >
                     <Box className="blog-pading-top" >

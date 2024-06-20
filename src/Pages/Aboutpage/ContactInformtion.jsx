@@ -21,7 +21,7 @@ const ContactInformtion = () => {
   };
   return (
     <>
-      <Box className="padding-top-bottom" sx={{ maxWidth: 1920, margin: 'auto' }}>
+      <Box className="padding-top-bottom">
         <Typography id='Heading-h2' variant='h2'>CONTACT INFOMATION</Typography>
         <Typography margin={2} fontSize={21} textAlign={'center'}>Our some of these projects may seem interesting to you</Typography>
 

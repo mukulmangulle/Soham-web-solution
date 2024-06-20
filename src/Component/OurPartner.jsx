@@ -8,6 +8,7 @@ import Parent5 from "../assets/parent/parent5.svg";
 import Parent6 from "../assets/parent/parent6.svg";
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchcontents } from '../features/content/contentSlice';
+import { Link } from 'react-router-dom';
 
 function Partner() {
     const dispatch = useDispatch()
@@ -20,7 +21,7 @@ function Partner() {
 
     return (
         <>
-            <Box  className="width1920 padding-top-bottom partner"   >
+            <Box  className=" padding-top-bottom partner"   >
                 <Box className="flex-center" flexDirection={'column'} flexWrap={'nowrap'}>
                     <Typography id='Heading-h2' variant='h2' >
                         {contents.ourPartner.heading}
@@ -46,10 +47,10 @@ function Partner() {
                     <Box className='want flex-center' >
 
                         <Box flex={1}>
-                            <Typography  > {contents.ourPartner.childBox.content}</Typography>
+                            <Typography > {contents.ourPartner.childBox.content}</Typography>
                         </Box>
                         <Box >
-                            <Button>Life@Soham</Button>
+                           <Link className='text-decortion' to={`/${process.env.SLUG_URL}/ourjourney/`}  ><Button>Life@Soham</Button></Link>
                         </Box>
                     </Box>
                 </Box>

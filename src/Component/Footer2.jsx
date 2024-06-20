@@ -21,7 +21,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 
 
-const Footer = () => {
+const Footer2 = () => {
     const dispatch = useDispatch()
     const { contents } = useSelector((state) => state.content);
 
@@ -34,8 +34,8 @@ const Footer = () => {
     return (
         <>
           
-            <Box width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
-                <Box width={'88%'} paddingTop={20} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
+            <Box  width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
+                <Box className="padding-top-bottom" width={'88%'}  display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
                     <Link to="/" >
             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
@@ -124,5 +124,5 @@ const Footer = () => {
         </>
     )
 }
-export default Footer;
+export default Footer2;
 

@@ -22,6 +22,8 @@ import WebDesigning from "./Pages/DevelopmentPage/WebDesigning";
 import Graphic from "./Pages/DevelopmentPage/Graphic";
 import Ecommerce from "./Pages/DevelopmentPage/Ecommerce";
 import { Height } from "@mui/icons-material";
+import { Box } from "@mui/material";
+import OurJourney from "./OurJourney";
 
 
 
@@ -31,7 +33,8 @@ function App() {
   let Api_url = "https://sohamsolution.com/wp-json/wp/v2/"
 
   return (
-    <Router>
+   <Box className="man-web width1920">
+     <Router>
       <ScrollToTop />
 
       {/* <Mnavbar /> */}
@@ -58,12 +61,14 @@ function App() {
         <Route path={`/${process.env.SLUG_URL}/services/graphic-designing/`} element={<Graphic />} />
         <Route path={`/${process.env.SLUG_URL}/services/ecommerce-development/`} element={<Ecommerce />} />
 
+        <Route path={`/${process.env.SLUG_URL}/ourjourney/`} element={<OurJourney/>} />
+
 
       </Routes>
 
-      <Footer />
 
     </Router>
+   </Box>
   );
 }
 

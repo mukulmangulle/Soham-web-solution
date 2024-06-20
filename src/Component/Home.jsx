@@ -63,20 +63,20 @@ const Home = () => {
 
             <Box className="home-lastSection flex-between" width={'85.5%'} paddingY={3} flexWrap={"wrap"}  >
                 <Box display={'flex'} alignItems={"center"} >
-                    <a style={{ textDecoration: "none", display: "flex", alignItems:"center"}} href="tel:%20+91%207879231700"  margin={0.5}  >
+                    <a className='text-decortion flex-center' href="tel:%20+91%207879231700"  margin={0.5}  >
                         <IoCall fontSize={20} color='white'/>
                         
                         <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                     </a>
                 </Box>
 
-                <a href="mailto:contact@sohamsolution.com"  style={{ textDecoration: "none", display: "flex"  ,alignItems:"center"}} >
+                <a href="mailto:contact@sohamsolution.com" className='text-decortion flex-center'  >
 
                 < MdEmail fontSize={20} color='white' />
                     <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
                 </a>
 
-                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0'  alignItems={"center"} style={{ textDecoration: "none",  display:"flex"}}  >
+                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0' className='text-decortion flex-center'   >
 
                 <img src={Whatsapp} alt="" />
                     <Typography id="typography" paddingLeft={1}>
@@ -87,20 +87,20 @@ const Home = () => {
 
 
 
-                <Box width={140} className="flex-between" >
+                <Box width={140} className="flex-between"  >
                     <a href="https://www.facebook.com/sohamsolution/">
-                    <FaFacebookF color='white' fontSize={20}/>
+                    <FaFacebookF color='white' fontSize={16}/>
                     </a>
 
                     <a href='https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web'>
-                    <BsTwitterX  color='white'fontSize={20}/>
+                    <BsTwitterX  color='white'fontSize={16}/>
                     </a>
 
                     <a href='https://in.linkedin.com/company/soham-web-solution'>
-                    <FaLinkedinIn  color='white'fontSize={20}/>                    </a>
+                    <FaLinkedinIn  color='white'fontSize={16}/>                    </a>
 
                     <a href="https://www.instagram.com/sohamwebsolution/">
-                    <AiFillInstagram color='white' fontSize={20} />
+                    <AiFillInstagram color='white' fontSize={16} />
                     </a>
 
 

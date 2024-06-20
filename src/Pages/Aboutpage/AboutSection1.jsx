@@ -24,7 +24,7 @@ const AboutSection1 = () => {
   };
   return (
     <>
-      <Box sx={{ maxWidth: 1920, margin: 'auto' }}>
+      <Box >
 
         <Box className="flex-center-coulmn" textAlign={'center'}>
           <Typography marginTop={3}    id='Heading-h2' variant='h2' >

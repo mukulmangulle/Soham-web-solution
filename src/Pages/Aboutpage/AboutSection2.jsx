@@ -15,7 +15,7 @@ const AboutSection2 = () => {
   }, [dispatch]);
 return (
     <>
-<Box  className="bg-img width1920" >
+<Box  className="bg-img " >
         <Typography id='Heading-h2' className='padding-top-bottom'  variant='h2'  >
           {contents.aboutData.heading} </Typography>
       </Box>
