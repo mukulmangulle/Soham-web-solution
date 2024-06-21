@@ -1,31 +1,33 @@
 .background-service {
-    width:600px;
-    height: 480px;
+    width:580px;
+    height: 460px;
     background-image: url("../assets/Service/background-service.svg");
     background-position: center;
     background-size: cover;
     object-fit: cover;
     background-position: center;
+  
 }
-.service-man{
-    width: 65%;
+.service-new .service-man{
+    width: 66%;
+    /* max-width: 1200px; */
 }
 
 
-#man-reverce1 img{
+.service-man .man-reverce1 img{
      height:420px;
     
 }
-#man-reverce2 img{
+.service-man .man-reverce2 img{
     height:420px;
 }
-#Typo-gray-start {
+.service-man .Typo-gray-start {
     font-size: 20px;
     color: gray;
-    padding: 2.5rem 0px;
+    padding: 1rem 0px;
 }
 
-#typo-fray-hrading {
+.service-man .typo-fray-hrading {
     color: #053480;
     font-size: 42px;
     font-weight: 600;
@@ -33,331 +35,239 @@
     flex-wrap: wrap;
 }
 
-.apply-now {
+.service-man .apply-now {
     background: linear-gradient(to bottom, #0160E7, #053480);
     font-size: 18px !important;
     width: 150px;
     height: 50px;
     color: white !important;
+    margin-top: 10px;
 }
-#devlopment-text {
+.service-man .devlopment-text {
     width: 42%;
 }
-#man-reverce1 {
+.service-man .man-reverce1  {
        margin: 2rem 0rem;
 }
 
-#man-reverce2 {
+.service-man .man-reverce2 {
     margin: 7rem 0rem;
+}
+.service-icon{
+    background: linear-gradient(to right, #0160E7, #053480 , #053480,#0160E7);
+    width: 61px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+}
+.service-icon svg{
+      font-size: 120px;
+      color: white;
+      padding: 10px;
+
 }
 
 
 
 @media (max-width:1600px) {
-    #man-reverce1  {
+    .service-man .man-reverce1   {
         height: 380PX;
     }
 
-    #man-reverce2 {
+    .service-man .man-reverce2 {
         height: 380PX;
     }
 
-    #devlopment-text {
-        width: 400PX;
+    .service-man .devlopment-text {
+        width: 360PX;
     }
 
 
    
-    #typo-fray-hrading {
+    .service-man .typo-fray-hrading {
         font-size: 30px;
     }
-    #Typo-gray-start {
+    .service-man .Typo-gray-start {
         font-size: 16px;
+        padding: 0.5rem 0px;
     }
-    .background-service {
-        width: 550px;
-        height: 440PX;
+    .service-man .background-service {
+        width: 450px;
+        height: 360PX;
 
     }
-    .background-service img {
-        height:300px !important;
+    .service-man .background-service img {
+        height:300px ;
     }
-    .service-man{
+   
+    
+.service-man .apply-now {
+   
+    font-size: 16px !important;
+    width: 120px;
+    height: 40px;
+    color: white !important;
+    margin-top: 5px;
+}
+}
+
+
+
+@media (max-width:1310px) {
+ 
+    .service-new .service-man{
         width: 70%;
     }
-    
-}
-
-@media (max-width:1200px) {
-    #man-reverce1 {
-        height: 500PX;
-    }
-
-    #man-reverce2 {
-        height: 400PX;
-    }
-
-    #devlopment-text {
-        width: 350PX;
-    }
-
    
-    #typo-fray-hrading {
+    .service-man .typo-fray-hrading {
         font-size: 28px;
 
+    } 
+    .service-man .Typo-gray-start{
+        font-size:14px;
     }
-    .background-service {
-        width: 430px;
-        height: 340PX;
-    }
-
-    .background-service img {
-        height: 230px;
-    }
-
-
-}
-
-@media (max-width:1020px) {
-    #man-reverce1 {
-        height: 380PX;
+    .service-man .background-service {
+        width: 400px;
+        height: 320PX;
     }
 
-    #man-reverce2 {
-        height: 380PX;
-    }
-
-    #devlopment-text {
-        width: 350PX;
-    }
-
-  
-
-    #typo-fray-hrading {
-        font-size: 22px;
-
+    .service-man .background-service img {
+        height: 220px ;
     }
 
 
-    #Typo-gray-start {
-        font-size: 18px;
-        padding: 8px 0px;
+ }
+
+ @media (max-width:1186px) {
+ 
+    .service-new .service-man{
+        width: 84%;
     }
-    #devlopment-text {
-        width: 100%;
-    }
-    .background-service {
-        width: 350px;
-        height: 280PX;
-    }
-    .background-service img {
-        height: 200px;
-    }
-}
-
-
-
-@media (max-width:850px) {
-    #man-reverce1 {
-        height: 100% !important;
-        margin: 10px 0px;
-    }
-
-    #man-reverce2 {
-        height: 100% !important;
-        margin: 10px 0px;
-    }
-
-
-    #man-reverce2 {
-        height: 200PX;
-    }
-
-    #devlopment-text {
-        width: 300PX;
-    }
-
-  
-    #typo-fray-hrading {
-        font-size: 22px !important;
-
-    }
-
    
+    .service-man .typo-fray-hrading {
+        font-size: 28px;
 
-    #Typo-gray-start {
-        font-size: 15px !important;
-        padding: 8px 0px;
+    } 
+    .service-man .Typo-gray-start{
+        font-size:14px;
     }
-    .background-service {
-        width: 290px;
-        height: 230PX;
+    .service-man .background-service {
+        width: 400px;
+        height: 320PX;
     }
-    .background-service img {
-        height: 150px;
-    }
-}
 
-@media (max-width:720px) {
-    #man-reverce1 {
-        height: 680PX;
-        width: 100%;
+    .service-man .background-service img {
+        height: 270px ;
+    }
+
+
+ }
+
+
+
+
+
+@media (max-width:920px) {
+    .service-man .man-reverce1{
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    #man-reverce2 {
-        height: 680PX;
-        width: 100%;
+    .service-man .man-reverce2 {
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
     }
 
-    #devlopment-text {
-        width: 95%;
+    .service-man .devlopment-text{
+        width: 350PX;
     }
 
+    .service-man .man-reverce1  {
+        margin: 2rem 0rem;
+ }
+ 
+ .service-man .man-reverce2 {
+     margin: 2rem 0rem;
+ }
 
-    #typo-fray-hrading {
-        font-size: 35px;
-    }
-
-   
-    #Typo-gray-start {
+    .service-man .typo-fray-hrading {
         font-size: 22px;
+
+    }
+
+
+    .service-man .Typo-gray-start {
+        font-size: 18px;
         padding: 8px 0px;
     }
-    .background-service {
-        width: 420px;
-        height: 330PX;
+    .service-man .devlopment-text {
+        width: 100%;
     }
-    .background-service img {
-        height: 220px;
+    .service-man .background-service {
+        width: 500px;
+        height: 400PX;
+    }
+
+    .service-man .background-service img {
+        height: 90% ;
     }
 }
 
-
-@media (max-width:480px) {
-    #man-reverce1 {
-        height: 530PX;
-        width: 100%;
-      
-    }
-
-    #man-reverce2 {
-        height: 530PX;
-        width: 100%;
-           }
-
-    #devlopment-text {
+ @media (max-width:576px) {
+    .service-new .service-man{
         width: 90%;
     }
-
-
-    #typo-fray-hrading {
-        font-size: 25px;
+    .service-man .background-service {
+        width:380px;
+        height: 300PX;
     }
-
-    
-    #Typo-gray-start {
-        font-size: 18px;
-        padding: 4px 0px;
+    .service-man .background-service img {
+        height:80% ;
     }
-    .background-service {
-        width: 350px;
-        height:280PX;
+    .service-man .Typo-gray-start {
+        font-size: 16px;
+       
     }
-
+    .service-man .man-reverce1  {
+        margin: 3rem 0rem;
+ }
  
-    .background-service img {
-        height: 200px;
-    }
-}
-
-
-@media (max-width:420px) {
-    #man-reverce1 {
-        height: 530PX;
-        width: 100%;
-      
-    }
-
-    #man-reverce2 {
-        height: 530PX;
-        width: 100%;
-        flex-wrap: wrap;
-       
-           }
-
-    #devlopment-text {
-        width: 90%;
-    }
-
+ .service-man .man-reverce2 {
+     margin: 2rem 0rem;
+ }
     
 
-    #typo-fray-hrading {
-        font-size: 25px;
+ }
+
+ @media (max-width:400px) {
+  
+    .service-man .background-service {
+        width:290px;
+        height: 230PX;
     }
-
-
-
-    #Typo-gray-start {
-        font-size: 18px;
-        padding: 4px 0px;
+    .service-man .background-service img {
+        height:80% ;
+        
     }
-    .background-service {
-        width: 300px;
-        height:240PX;
-    }
-
-   
-    .background-service img {
-        height: 160px;
-    }
-
-}
-
-
-@media (max-width:375px) {
-    #man-reverce1 {
-        height: 500PX;
-        width: 100%;
-      
-    }
-
-    #man-reverce2 {
-        height: 500PX;
-        width: 100%;
+    .service-man .Typo-gray-start {
+        font-size: 14px ;
        
-           }
-
-    #devlopment-text {
-        width: 90%;
     }
-
+    .service-man .man-reverce1  {
+        margin: 2rem 0rem;
+ }
+ 
+ .service-man .man-reverce2 {
+     margin: 2rem 0rem;
+ }
    
-
-    #typo-fray-hrading {
-        font-size: 25px;
-    }
-
-   
-
-    #Typo-gray-start {
-        font-size: 18px;
-        padding: 4px 0px;
-    }
-    .background-service {
-        width: 250px;
-        height: 200PX;
-    }
-
-    .background-service img {
-        height: 150px;
-    }
-
-}
-
+ }
