@@ -1,106 +1,172 @@
+// import React, { useEffect } from 'react'
+// import Box from '@mui/material/Box'
+// import CardActions from '@mui/material/CardActions';
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
+
+// import Work1 from '../../assets/work/work1.png'
+// import Work2 from "../../assets/work/work2.png"
+// import Work3 from "../../assets/work/work3.png"
+// import { useDispatch, useSelector } from 'react-redux';
+// import { fetchcontents } from '../../features/content/contentSlice';
+
+// const SameOurWork = () => {
+//     const dispatch = useDispatch()
+//     const { contents } = useSelector((state) => state.content);
 
 
-import React, { useEffect } from 'react'
-import Box from '@mui/material/Box'
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+//     useEffect(() => {
+//         dispatch(fetchcontents())
+//     }, [dispatch]);
 
-import Work1 from '../../assets/work/work1.png'
-import Work2 from "../../assets/work/work2.png"
-import Work3 from "../../assets/work/work3.png"
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchcontents } from '../../features/content/contentSlice';
+//     return (
+//         <Box className="work flex-center-coulmn padding-top-bottom " >
+//             <Box className="flex-center-coulmn"  >
+//                 <Typography variant='h2' id="Heading-h2"   >
+//                     {contents.SomeourWorks.heading}
+//                 </Typography>
+//                 <Typography className='content' id="Typography-black" >
+//                     {contents.SomeourWorks.contant}
+//                 </Typography>
+//             </Box>
 
-const SameOurWork = () => {
-    const dispatch = useDispatch()
-    const { contents } = useSelector((state) => state.content);
+//             <Box  className="flex-center card-section"  >
 
 
-    useEffect(() => {
-        dispatch(fetchcontents())
-    }, [dispatch]);
+//                     <Box  className="flex-center card "  >
+//                         <Box  >
+//                             <Box className="work-background flex-center" width={100} height={100} >
+//                                 <img src={Work2} alt="" />
+//                             </Box>
+//                         </Box>
 
+//                         <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
+//                             <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
+//                                 {contents.SomeourWorksection2.card.title2}
+//                             </Typography>
+//                             <Typography className='card-pregraph ludo-earn-p' >
+//                             {contents.SomeourWorksection2.card.description1}
+//                             </Typography>
+//                         </Box>
+//                         <CardActions>
+//                             <Button className='view-work' >View Work</Button>
+//                         </CardActions>
+//                     </Box>
+
+
+
+//                         <Box  className="flex-center card" >
+//                             <Box >
+//                                 <Box className="work-background flex-center" width={100} height={100} >
+//                                     <img src={Work2} alt="" />
+//                                 </Box>
+//                             </Box>
+
+//                             <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
+//                                 <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
+//                                 {contents.SomeourWorksection2.card.title2}                                </Typography>
+//                                 <Typography className='card-pregraph ludo-earn-p' >
+//                                 {contents.SomeourWorksection2.card.description2}
+//                                 </Typography>
+//                             </Box>
+//                             <CardActions>
+//                                 <Button className='view-work' >View Work</Button>
+//                             </CardActions>
+//                         </Box>
+
+
+
+//                     <Box className="flex-center card" >
+//                         <Box  >
+//                             <Box className="work-background flex-center" width={100} height={100} >
+//                                 <img src={Work3} alt="" />
+//                             </Box>
+//                         </Box>
+
+//                         <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
+//                             <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
+//                                                          {contents.SomeourWorksection2.card.title3}
+//                             </Typography>
+//                             <Typography className='ludo-earn-p ' >
+//                             {contents.SomeourWorksection2.card.description3}                            </Typography>
+//                         </Box>
+//                         <CardActions>
+//                             <Button className='view-work' >View Work</Button>
+//                         </CardActions>
+//                     </Box>
+
+//             </Box>
+//         </Box>
+//     )
+// }
+
+// export default SameOurWork
+
+
+
+import { Box, Card, CardContent, Typography } from '@mui/material'
+import React from 'react'
+import Red from "../../assets/AboutSection1/red11.svg"
+import Blue from "../../assets/AboutSection1/blue11.svg"
+
+const Someourwork2 = () => {
     return (
-        <Box className="work flex-center-coulmn padding-top-bottom " >
-            <Box className="flex-center-coulmn"  >
-                <Typography variant='h2' id="Heading-h2"   >
-                    {contents.SomeourWorks.heading}
-                </Typography>
-                <Typography className='content' id="Typography-black" >
-                    {contents.SomeourWorks.contant}
-                </Typography>
-            </Box>
+        <Box className="vision-man">
+            <Box className="vision-child flex-between ">
 
-            <Box  className="flex-center card-section"  >
-
-            
-                    <Box  className="flex-center card "  >
-                        <Box  >
-                            <Box className="work-background flex-center" width={100} height={100} >
-                                <img src={Work2} alt="" />
-                            </Box>
-                        </Box>
-
-                        <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
-                            <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
-                                {contents.SomeourWorksection2.card.title2}
-                            </Typography>
-                            <Typography className='card-pregraph ludo-earn-p' >
-                            {contents.SomeourWorksection2.card.description1}
-                            </Typography>
-                        </Box>
-                        <CardActions>
-                            <Button className='view-work' >View Work</Button>
-                        </CardActions>
-                    </Box>
-              
-
-                    
-                        <Box  className="flex-center card" >
+                <Box className="card_1">
+                    <Card className='V-CARD'>
+                        <CardContent >
                             <Box >
-                                <Box className="work-background flex-center" width={100} height={100} >
-                                    <img src={Work2} alt="" />
-                                </Box>
-                            </Box>
+                                <Box display={"flex"} alignItems={"center"}>
+                                    <img src={Blue} alt="" />
+                                    <Typography margin={2} gutterBottom variant="h5" component="div">
+                                        Vision
+                                    </Typography>
 
-                            <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
-                                <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
-                                {contents.SomeourWorksection2.card.title2}                                </Typography>
-                                <Typography className='card-pregraph ludo-earn-p' >
-                                {contents.SomeourWorksection2.card.description2}
+                                </Box>
+
+                                <Typography className='lizards' variant="body2" >
+                                    Lizards are a widespread group of squamate reptiles, with over 6,000
+                                    species, ranging across all continents except Antarctica
+                                    Lizards are a widespread group of squamate reptiles, with over 6,000
+                                    species, ranging across all continents except Antarctica
                                 </Typography>
                             </Box>
-                            <CardActions>
-                                <Button className='view-work' >View Work</Button>
-                            </CardActions>
-                        </Box>
-                   
+                        </CardContent>
+                    </Card>
 
-            
-                    <Box className="flex-center card" >
-                        <Box  >
-                            <Box className="work-background flex-center" width={100} height={100} >
-                                <img src={Work3} alt="" />
+                </Box>
+
+                <Box className="card_1">
+                    <Card className='V-CARD'>
+                        <CardContent >
+                            <Box >
+                                <Box display={"flex"} alignItems={"center"}>
+                                    <img src={Red} alt="" />
+
+                                    <Typography margin={2} gutterBottom variant="h5" component="div">
+                                        Mission
+                                    </Typography>
+
+                                </Box>
+
+
+                                <Typography className='lizards' variant="body2" >
+                                    Lizards are a widespread group of squamate reptiles, with over 6,000
+                                    species, ranging across all continents except Antarctica
+                                    Lizards are a widespread group of squamate reptiles, with over 6,000
+                                    species, ranging across all continents except Antarctica
+                                </Typography>
                             </Box>
-                        </Box>
+                        </CardContent>
+                    </Card>
 
-                        <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
-                            <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
-                                                         {contents.SomeourWorksection2.card.title3}
-                            </Typography>
-                            <Typography className='ludo-earn-p ' >
-                            {contents.SomeourWorksection2.card.description3}                            </Typography>
-                        </Box>
-                        <CardActions>
-                            <Button className='view-work' >View Work</Button>
-                        </CardActions>
-                    </Box>
-               
+                </Box>
+
             </Box>
         </Box>
     )
 }
 
-export default SameOurWork
-
+export default Someourwork2

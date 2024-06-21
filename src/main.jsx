@@ -22,7 +22,7 @@ import "./Css/categories.css"
 import "./Css/Homepage/Footer.css"
 import { Provider } from 'react-redux'
 import store from './features/store.js'
-
+import "./Css/Vision.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

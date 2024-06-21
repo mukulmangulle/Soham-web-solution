@@ -9,8 +9,8 @@ const contentSlice = createSlice({
     isError: false,
     contents: {
       homeData: {
-        heading: "Hire*Certified Magento 2 Developers from India",
-        subheading: "Hire Our Developers to Get Highly Appreciating  Developments",
+        heading: "We Trust In Creativity Enthusiasm  Commitment",
+        subheading: "Our company offers exceptional web development services with a focus on promptly addressing our clients' issues.",
         contactInfo:
         {
           number: "+91 78792-31700",
@@ -19,8 +19,8 @@ const contentSlice = createSlice({
         },
       },
       ourutility: {
-        heading: "OUR UTILITY",
-        contant: "Lemosys Infotech is a distinguished website development and web designing company serving to global clients  We provide highly professional services of the latest technology for web services to make your business more efficient and unique. We believe client service is not just a department but it’s a responsible job hence we maintain all possible high quality standard.",
+        heading: "Our Utility",
+        contant: "At Soham Web Solution, we harness cutting-edge technology and innovative strategies to create custom web and mobile applications. Our solutions are designed to enhance your business efficiency, streamline operations, and drive growth, providing real value and utility for your enterprise.",
         order: {
           text1: "web Designing & Development",
           text2: "Graphic Design",
@@ -30,8 +30,8 @@ const contentSlice = createSlice({
         }
       },
       SomeourWorks: {
-        heading: "SAME OUR WORK",
-        contant: "Our some of these projects may seem interesting to you",
+        heading: "SAME OUR WORK -> Our Work",
+        contant: "We take pleasure in providing premium mobile and online applications that are customized to meet the specific requirements of our customers. Innovative solutions that propel success and demonstrate our dedication to quality and client satisfaction are on display in our portfolio.",
         card: {
           title1: " Allan Flowers Market  ",
           description1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit  Curabitur elit risus, mattis a tincidunt quis, aliquet sit amet mauris. Cras nec massa enim. Aliquam congue imperdiet vestibulum.Quisque varius lectus eget est aliquet blandit. Sed et ante non neque volutpat gravida. Nulla dictum eros ac est consectetur sit amet tristique lectus ultrices.",
