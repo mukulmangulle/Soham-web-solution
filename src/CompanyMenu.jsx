@@ -33,9 +33,13 @@ function CompanyMenu() {
                 <div style={{ borderRadius: 20, position: 'absolute', top: '100%', left: '0', width: "280px", color: "#053480", background: "white", border: '1px solid #ccc' }}>
                     <ul style={{ display: "flex", flexDirection: "column", listStyleType: 'none', margin: 0, padding: 0, marginTop: 15, width: "280px", marginBottom: 15, marginLeft: 20 }} >
                         <Link to={`/${process.env.SLUG_URL}/about/`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}>About us</Link>
+                       
                         <Link to={`/${process.env.SLUG_URL}/career/`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}>Career</Link>
+                       
                         <Link to={`/${process.env.SLUG_URL}/services/`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}>Services</Link>
+                       
                         <Link to={`/${process.env.SLUG_URL}/blogs/`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}>Blogs</Link>
+                       
                         <Link to={`/${process.env.SLUG_URL}/contact-us/`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}>Contact us</Link>
                         {/* <Link to={`/${process.env.SLUG_URL}/bloges`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}> blog</Link> */}
                     </ul>

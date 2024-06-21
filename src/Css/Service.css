@@ -9,8 +9,14 @@
   
 }
 .service-new .service-man{
-    width: 66%;
-    /* max-width: 1200px; */
+    width: 100%;
+}
+.man_s_bg{
+    background: #e6f0fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -48,11 +54,21 @@
 }
 .service-man .man-reverce1  {
        margin: 2rem 0rem;
+       width: 70%;
+       display: flex;
+       align-items: center;
+       justify-content:space-between;
+
 }
 
 .service-man .man-reverce2 {
-    margin: 7rem 0rem;
+    margin: 3rem 0rem;
+width: 70%;
+display: flex;
+align-items: center;
+justify-content:space-between;
 }
+
 .service-icon{
     background: linear-gradient(to right, #0160E7, #053480 , #053480,#0160E7);
     width: 61px;
@@ -74,16 +90,10 @@
 
 
 @media (max-width:1600px) {
-    .service-man .man-reverce1   {
-        height: 380PX;
-    }
-
-    .service-man .man-reverce2 {
-        height: 380PX;
-    }
+  
 
     .service-man .devlopment-text {
-        width: 360PX;
+        width: 450PX;
     }
 
 
@@ -92,12 +102,13 @@
         font-size: 30px;
     }
     .service-man .Typo-gray-start {
-        font-size: 16px;
+        font-size: 18px;
         padding: 0.5rem 0px;
     }
     .service-man .background-service {
-        width: 450px;
-        height: 360PX;
+        
+        width: 510px;
+        height: 400PX;
 
     }
     .service-man .background-service img {
@@ -116,12 +127,56 @@
 }
 
 
+@media (max-width:1450px) {
+  
+
+    .service-man .devlopment-text {
+        width: 360PX;
+    }
+
+
+   
+    /* .service-man .typo-fray-hrading {
+        font-size: 30px;
+    } */
+    /* .service-man .Typo-gray-start {
+        font-size: 16px;
+        padding: 0.5rem 0px;
+    } */
+    .service-man .background-service {
+        width: 510px;
+        height: 400PX;
+
+    }
+    .service-man .background-service img {
+        height:300px ;
+    }
+   
+    
+.service-man .apply-now {
+   
+    font-size: 16px !important;
+    width: 120px;
+    height: 40px;
+    color: white !important;
+    margin-top: 5px;
+}
+}
 
 @media (max-width:1310px) {
- 
-    .service-new .service-man{
-        width: 70%;
+    .service-man .man-reverce1   {
+        width: 75%;
     }
+
+    .service-man .man-reverce2 {
+        /* height: 380PX; */
+        width: 75%;
+    }
+    
+    .service-man .devlopment-text {
+        width: 360PX;
+    }
+ 
    
     .service-man .typo-fray-hrading {
         font-size: 28px;
@@ -131,8 +186,8 @@
         font-size:14px;
     }
     .service-man .background-service {
-        width: 400px;
-        height: 320PX;
+        width: 480px;
+        height: 380PX;
     }
 
     .service-man .background-service img {
@@ -143,11 +198,13 @@
  }
 
  @media (max-width:1186px) {
- 
-    .service-new .service-man{
-        width: 84%;
+    .service-man .man-reverce1   {
+        width: 85%;
     }
-   
+
+    .service-man .man-reverce2 {
+        width: 85%;
+    }
     .service-man .typo-fray-hrading {
         font-size: 28px;
 
@@ -170,8 +227,8 @@
 
 
 
-
-@media (max-width:920px) {
+ 
+@media (max-width:900px) {
     .service-man .man-reverce1{
         height: 100%;
         display: flex;
@@ -220,12 +277,10 @@
     .service-man .background-service img {
         height: 90% ;
     }
-}
+} 
 
  @media (max-width:576px) {
-    .service-new .service-man{
-        width: 90%;
-    }
+   
     .service-man .background-service {
         width:380px;
         height: 300PX;
@@ -239,10 +294,12 @@
     }
     .service-man .man-reverce1  {
         margin: 3rem 0rem;
+        width: 90%;
  }
  
  .service-man .man-reverce2 {
      margin: 2rem 0rem;
+     width: 90%;
  }
     
 

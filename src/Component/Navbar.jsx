@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { AppBar, Toolbar } from '@mui/material';
 import CompanyMenu from '../CompanyMenu';
 import ServicesMenu from '../ServicesMenu';
+import { Margin } from '@mui/icons-material';
 
 const Navbar = () => {
   return (
@@ -28,9 +29,9 @@ const Navbar = () => {
               <Typography className='fontSize16'><CompanyMenu /></Typography>
               <img className='down-arrow' src={Down} alt="" />
             </Box>
-            <Box className="ul-box">
+            <Box className="ul-box" >
+              <Link  className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/services/`}  >Services</Link>
               <Typography className='fontSize16'><ServicesMenu /></Typography>
-              <img className='down-arrow' src={Down} alt="" />
             </Box>
             {/* 
             <Box className="ul-box" >

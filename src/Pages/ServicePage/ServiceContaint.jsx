@@ -20,42 +20,44 @@ const ServiceContaint = () => {
                 <Box className="service-man" display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} >
 
                     {/* 1 */}
-                    <Box className="man-reverce1 flex-between-wrap" width={"100%"}  >
-                        <Box className="devlopment-text" >
-                            <Box className="service-icon">
-                                <FaPhp c6 />
-                            </Box>
-                            <Typography variant='h4' className="typo-fray-hrading">
-                                PHP Development
-                            </Typography>
+                        <Box className="man-reverce1 flex-between-wrap" width={"100%"}  >
+                            <Box className="devlopment-text" >
+                                <Box className="service-icon">
+                                    <FaPhp c6 />
+                                </Box>
+                                <Typography variant='h4' className="typo-fray-hrading">
+                                    PHP Development
+                                </Typography>
 
-                            <Typography className="Typo-gray-start" >
-                                <strong >
-                                    Creating Dynamic Web Solutions from Ideas
-                                </strong  >
-                                <br></br>
-                                Creating Dynamic Web Solutions from IdeasCreating Dynamic Web Solutions from Ideas  Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled
-                            </Typography>
-                            <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none" }} >
-                                <Button className='apply-now' >
-                                    Read More
-                                </Button>
-                            </Link>
-
-                        </Box>
-                        <Box className="img-container"   >
-                            <Box className="background-service flex-center"  >
-                                <img src={Php} alt="" />
-                                {/* <img src={MAN} alt="" /> */}
+                                <Typography className="Typo-gray-start" >
+                                    <strong >
+                                        Creating Dynamic Web Solutions from Ideas
+                                    </strong  >
+                                    <br></br>
+                                    Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled
+                                </Typography>
+                                <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none" }} >
+                                    <Button className='apply-now' >
+                                        Read More
+                                    </Button>
+                                </Link>
 
                             </Box>
+                            <Box className="img-container"   >
+                                <Box className="background-service flex-center"  >
+                                    <img src={Php} alt="" />
+                                    {/* <img src={MAN} alt="" /> */}
+
+                                </Box>
+                            </Box>
                         </Box>
-                    </Box>
+                  
 
 
                     {/* 2 */}
-                
-                 <Box className="man-reverce2 flex-between-wrap" width={"100%"}   >
+                    <Box className="man_s_bg">
+
+                    <Box className="man-reverce2 flex-between-wrap" width={"100%"}   >
                         <Box className="img-container"   >
                             <Box className="background-service flex-center"  >
                                 <img src={Wordpress} alt="" />
@@ -81,11 +83,12 @@ const ServiceContaint = () => {
                                 </Button>
                             </Link>
                         </Box>
-
+</Box>
                     </Box>
-                 
+
 
                     {/* 3 */}
+                  
                     <Box className="man-reverce1 flex-between-wrap" width={"100%"} >
                         <Box className="devlopment-text" >
                             <Box className="service-icon">
@@ -116,6 +119,7 @@ const ServiceContaint = () => {
 
 
                     {/* 4 */}
+                    <Box className="man_s_bg">
                     <Box className="man-reverce2 flex-between-wrap" width={"100%"}  >
 
                         <Box className="img-container"   >
@@ -140,6 +144,7 @@ const ServiceContaint = () => {
                                 </Button>
                             </Link>
                         </Box>
+                    </Box>
                     </Box>
 
                     {/* 5 */}
@@ -168,30 +173,32 @@ const ServiceContaint = () => {
 
 
                     {/* 6 */}
-                    <Box className="man-reverce2 flex-between-wrap" width={"100%"}  >
-                        <Box className="img-container"    >
-                            <Box className="background-service flex-center"  >
-                                <img src={Ecommerce} alt="" />
+                    <Box className="man_s_bg">
+                        <Box className="man-reverce2 flex-between-wrap" width={"100%"}  >
+                            <Box className="img-container"    >
+                                <Box className="background-service flex-center"  >
+                                    <img src={Ecommerce} alt="" />
+                                </Box>
                             </Box>
-                        </Box>
-                        <Box className="devlopment-text">
-                            <Box className="service-icon">
-                                <FaPhp c6 />
-                            </Box>
-                            <Typography variant='h4' className="typo-fray-hrading">
-                                Ecommerce Development
-                            </Typography>
-                            <Typography className="Typo-gray-start">
-                                Transform Your Online Business with Cutting-Edge E-Commerce Solutions
-                                <br></br>
-                                At Soham Web, we specialize in creating dynamic, user-friendly e-commerce platforms that drive sales and enhance customer engagement. Our comprehensive e-commerce development services are designed to meet the unique needs of your business, whether you’re a startup, small business, or established enterprise. We leverage the latest technologies and industry best practices to build scalable, secure, and high-performance online stores.
-                            </Typography>
+                            <Box className="devlopment-text">
+                                <Box className="service-icon">
+                                    <FaPhp c6 />
+                                </Box>
+                                <Typography variant='h4' className="typo-fray-hrading">
+                                    Ecommerce Development
+                                </Typography>
+                                <Typography className="Typo-gray-start">
+                                    Transform Your Online Business with Cutting-Edge E-Commerce Solutions
+                                    <br></br>
+                                    At Soham Web, we specialize in creating dynamic, user-friendly e-commerce platforms that drive sales and enhance customer engagement. Our comprehensive e-commerce development services are designed to meet the unique needs of your business, whether you’re a startup, small business, or established enterprise. We leverage the latest technologies and industry best practices to build scalable, secure, and high-performance online stores.
+                                </Typography>
 
-                            <Link to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{ textDecoration: "none" }} >
-                                <Button sx={{ marginTop: "10px" }} type="submit" className='apply-now' >
-                                    Read More
-                                </Button>
-                            </Link>
+                                <Link to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{ textDecoration: "none" }} >
+                                    <Button sx={{ marginTop: "10px" }} type="submit" className='apply-now' >
+                                        Read More
+                                    </Button>
+                                </Link>
+                            </Box>
                         </Box>
                     </Box>
                 </Box>
