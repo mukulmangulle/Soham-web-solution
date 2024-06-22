@@ -27,17 +27,17 @@ const ContactUsSohamweb = () => {
     );
   }
   return (
-    <Box >
+    <Box className="contact" >
       <Box  className="bg-img padding-top-bottom" >
         <Typography  id='Heading-h2' variant='h1'  >Contact Us</Typography>
       </Box>
 
       <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>
-        {/* <Typography id="about-soham" variant='h3' fontSize={40} fontWeight={'600'} color={"#053480"} textAlign={'center'} paddingTop={5} paddingX={3} > Contact Us Soham Web</Typography> */}
-        <Typography id="Typography-black" paddingY={2} width={"71%"} paddingBottom={7}>
-          In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
-          demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used
-          as a placeholder before the final copy is available.
+        <Typography  className="about-soham"  variant='h3'   > LET'S BUILD SOMETHING AMAZING TOGETHER!
+</Typography>
+
+        <Typography id="Typography-black"   width={"75%"} >
+        We're excited to help you bring your vision to life! Whether you have a question about our services, need assistance with an ongoing project, or want to explore how we can collaborate, our team is here for you.
         </Typography>
 
       </Box>

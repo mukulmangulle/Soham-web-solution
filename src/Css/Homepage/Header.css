@@ -14,3 +14,8 @@
 .css-hip9hq-MuiPaper-root-MuiAppBar-root{
 background: linear-gradient(to right, #0160E7, #053480);
 }
+
+.icon-border{
+    border: 1px solid white;
+    padding: 1px;
+}

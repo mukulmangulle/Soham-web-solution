@@ -22,7 +22,7 @@ const contentSlice = createSlice({
         heading: "Our Utility",
         contant: "At Soham Web Solution, we harness cutting-edge technology and innovative strategies to create custom web and mobile applications. Our solutions are designed to enhance your business efficiency, streamline operations, and drive growth, providing real value and utility for your enterprise.",
         order: {
-          text1: "web Designing & Development",
+          text1: "Web Designing & Development",
           text2: "Graphic Design",
           text3: "Digital Marketing",
           text4: "Mobile App Development",
@@ -30,7 +30,7 @@ const contentSlice = createSlice({
         }
       },
       SomeourWorks: {
-        heading: "SAME OUR WORK -> Our Work",
+        heading: " Our Work",
         contant: "We take pleasure in providing premium mobile and online applications that are customized to meet the specific requirements of our customers. Innovative solutions that propel success and demonstrate our dedication to quality and client satisfaction are on display in our portfolio.",
         card: {
           title1: " Allan Flowers Market  ",
@@ -75,34 +75,34 @@ const contentSlice = createSlice({
         contant: "Lemosys Infotech strives to cater the needs of clients in the best possible manner. What we practically do is pretty simple as an experienced website development and web designing company in India. But in the same time incredibly complex and professional. Hire Lemosys to create your company website in minutes",
       },
       ourPartner: {
-        heading: "Our Partners ",
+        heading: "Our Partners",
         childBox: {
-          content: "Want to know more about SohamWeb's Life?",
+          content: "We collaborate with industry leaders and technology innovators to enhance our service offerings and deliver cutting-edge solutions to our clients. Our strategic partnerships enable us to stay ahead in a rapidly evolving digital landscape, ensuring we meet diverse business needs with innovation and expertise.",
         }
       },
       footerData: {
-        aboutText: "At Soham Web Solution we endeavour t provide innovative, cost effective and optimum solutions that drive the growth of  your businesses across the world.",
+        aboutText: "At Soham Web Solution, our mission is to provide creative, economical, and customized solutions that advance your company's operations internationally. By meeting and beyond your expectations, we will fulfill our commitment to excellence, which will ensure your business's success and growth into the future.",
         quickLinks: {
-          heading: "Quick Links",
+          heading: "Our Company",
           text1: "About",
-          text2: "Services",
+          // text2: "Services",
           text3: "Career",
           text4: "Contact Us",
           text5: "Blog",
         },
         policyLinks: {
-          heading: "Our Policy",
-          text1: "Privacy Policy",
-          text2: "Terms & Conditions",
-          text3: "Support and Maintenance Packages",
-          text4: "Shipping & Diliveary Policy",
-          text5: "Cancellation & Refund Policy",
+          heading: "Services",
+          text1: "Website Development",
+          text2: "Ecommerce Development",
+          text3: "Website Designing",
+          text4: "Mobile App Development",
+          
         },
         contactDetails: {
-          heading: "Contact Info",
+          heading: " Contact Details",
           text1: "+91 78792-31700",
           text2: "+91 70003-35673",
-          text3: "+91 77480-18188",
+          text3: "+91 79847-40805 ",
           text4: "contact@sohamsolution.com",
           text5: "12 Civil Lines, Chamunda Complex, Dewas",
         },

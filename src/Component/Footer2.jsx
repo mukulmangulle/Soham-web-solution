@@ -33,13 +33,13 @@ const Footer2 = () => {
 
     return (
         <>
-          
-            <Box  width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
-                <Box className="padding-top-bottom" width={'88%'}  display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
+
+            <Box width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
+                <Box className="padding-top-bottom" width={'88%'} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
-                    <Link to="/" >
-            <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
-          </Link>
+                        <Link to="/" >
+                            <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
+                        </Link>
                         <Typography color={'#FFFFFF'} marginTop={2.5} fontSize={16}>
                             {contents.footerData.aboutText}
                         </Typography>
@@ -61,7 +61,7 @@ const Footer2 = () => {
                         <Typography id="footer-h3" variant="h3"  > {contents.footerData.quickLinks.heading}</Typography>
                         <Box className="footer2-box" marginTop={2} display={'flex'} alignItems={"start"} flexDirection={"column"}>
                             <Link to={`/${process.env.SLUG_URL}/about/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text1}</Link>
-                            <Link to={`/${process.env.SLUG_URL}/services/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text2}</Link>
+                            {/* <Link to={`/${process.env.SLUG_URL}/services/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text2}</Link> */}
                             <Link to={`/${process.env.SLUG_URL}/career/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text3}</Link>
                             <Link to={`/${process.env.SLUG_URL}/contact-us/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text4}</Link>
                             <Link to={`/${process.env.SLUG_URL}/blogs`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text5}</Link>
@@ -75,7 +75,6 @@ const Footer2 = () => {
                             <Typography>{contents.footerData.policyLinks.text2}</Typography>
                             <Typography >{contents.footerData.policyLinks.text3}</Typography>
                             <Typography >{contents.footerData.policyLinks.text4}</Typography>
-                            <Typography >{contents.footerData.policyLinks.text5}</Typography>
                         </Box>
 
                     </Box>
@@ -116,9 +115,22 @@ const Footer2 = () => {
                 </Box>
 
                 <Box className="copyright"   >
-                    <Typography >
-                        {contents.footerData.copyrightText}
-                    </Typography>
+                    <Box className="copyright-child">
+                    <Box>
+                        <Typography >
+                            {contents.footerData.copyrightText}
+                        </Typography>
+                    </Box>
+
+                    <Box className="copyright-privacy">
+                        <Typography className="copy-border">Privacy  </Typography>
+                        <Typography> |  </Typography>
+                        <Typography className="copy-border">Terms  </Typography>
+                        <Typography> |  </Typography>
+                        <Typography className="copy-border">Support </Typography>
+
+                    </Box>
+                    </Box>
                 </Box>
             </Box>
         </>

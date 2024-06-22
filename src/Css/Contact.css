@@ -5,147 +5,146 @@
     width: 100%;
 
 }
+.contact_form{
+       display: flex;
+       align-items: center;
+       justify-content: center !important;
+       width:75% !important;
+}
 .css-pnoqa4-MuiTypography-root{
     font-size: 45px !important;
 }
+.css-9kz9b5 {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.contact_form .GETINTOUCH {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
 
 
-.GETINTOUCH2 {
+.contact_form .GETINTOUCH1{
+       padding: 3rem 7rem;
+       width: 60%;
+}
+.contact_form .GETINTOUCH2 {
     background: linear-gradient(to bottom, #0160E7, #053480);
     border-radius: 0 18px 18px 0px;
+  padding: 4rem; 
+  width: 40% ;
+ 
 }
 .get_in_touch P{
     text-align: start;
     font-size: 18px;
     align-items: center;
+}
+
+.contact .about-soham {
+    font-size: 40px;
+    font-weight: 600;
+    color: #053480;
+    text-align: center;
+     margin: 2rem 0rem;
 } 
+.contact_form .shadow-section{
+   border-radius: 20px;
+     margin: 50px 0px;
+    box-shadow: 0px 0px 20px 1px gray;
+}
 
 @media (max-width:1600px) {
     .css-191zsrp-MuiTypography-root{
         font-size: 38px !important;
     }
+    
+.contact .about-soham {
+    font-size: 25px;
+        margin: 1.5rem 0rem;
+} 
+
 }
 
 
 @media (max-width:1350px) {
-    .GETINTOUCH {
-        width: 100%;
+   
+
+    .contact_form .GETINTOUCH1 {
+        padding: 0rem 2rem ;
 
     }
 
-    .GETINTOUCH1 {
-        width: 100%;
-    }
-
-    .GETINTOUCH2 {
+    .contact_form .GETINTOUCH2 {
         border-radius: 17px;
     }
     .css-pnoqa4-MuiTypography-root{
         font-size: 35px !important;
     }
+    .contact .about-soham {
+        font-size: 22px;
+            margin: 1.5rem 0rem;
+    } 
+    
    
 
 }
 
 
-@media (max-width:610px) {
-    #boxShadow {
-        box-shadow: none !important;
-        width: 100%;
-    }
-}
-
-@media (max-width:576px) {
-    .GETINTOUCH {
-        width: 80% !important;
-        margin: auto;
-    }
-
-    .css-1cu5i81 {
-        padding: 0% !important;
-    }
-
-    .GETINTOUCH2 {
-        margin-top: 20px;
-
-    }
-    .css-pnoqa4-MuiTypography-root{
-        font-size: 30px !important;
-        margin: 0% !important;
-        padding: 0% !important;
-    }
-   
-}
-
-@media (max-width:480px) {
-    .GETINTOUCH {
-        width: 100%;
-    }
-
-    .GETINTOUCH2 {
-        width: 480px !important;
-    }
-
-    .css-hzj0qs {
-        padding: 10% !important;
-    }
-
-    .css-1evx3p9 {
-        width: 480px !important;
-    }
-
-    #categories {
-
+@media (max-width:1080px) {
+    
+    .contact_form{
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-    .css-pnoqa4-MuiTypography-root{
-        font-size: 25px !important;
-    }
-   
+        justify-content: center !important;
+        width:92% !important;
+ }
+.contact_form .GETINTOUCH1{
+    padding: 3rem 2rem;
+    width: 100%;
+}
+.contact_form .GETINTOUCH2 {
+ background: linear-gradient(to bottom, #0160E7, #053480);
+ border-radius: 0px  0px 18px 18px;
+padding: 4rem; 
+width: 100% ;
+
+}
+}
+@media (max-width:768px) {
+    .contact_form{
+        
+        width:100% !important;
+ }
+ .contact_form .GETINTOUCH1{
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.contact_form .shadow-section{
+    border-radius: 0px;
+      margin: 0px 0px;
+     box-shadow: none;
+ }
+ .contact_form .GETINTOUCH2{
+    border-radius: 0%;
+ }
 }
 
-@media (max-width:420px) {
-    .GETINTOUCH {
-        width: 100%;
-    }
-
-    .GETINTOUCH1 {
-        width: 100%;
-    }
-
-
-
-    .css-1evx3p9 {
-        width: 100% !important;
-    }
-  
-}
 
 @media (max-width:375px) {
-    .GETINTOUCH {
-        width: 100%;
-    }
+    .contact_form{
+        
+        width:100% !important;
+ }
+ .contact_form .GETINTOUCH2 {
+    border-radius: 0px;
+   width: 100% ;
+   padding: 1rem; 
 
-    .GETINTOUCH1 {
-        width: 100%;
-
-    }
-
-}
-
-@media (max-width:320px) {
-
-    .css-jlj68f {
-        width: 100% !important;
-    }
-
-    .GETINTOUCH {
-        width: 100%;
-    }
-
-
-
-
+   }
 }

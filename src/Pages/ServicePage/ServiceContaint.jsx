@@ -11,6 +11,12 @@ import ProjectRequirement from './ProjectRequirement'
 import { Link } from 'react-router-dom'
 import MAN from "../../assets/service.png"
 import { FaPhp } from "react-icons/fa";
+import Php_logo from "../../assets/Service/logo/php.svg"
+import wordpress_logo from "../../assets/Service/logo/wordpress.svg"
+import Shopify_logo from "../../assets/Service/logo/shopify.svg"
+import graphic_logo from "../../assets/Service/logo/graphic.svg"
+import Webdesigner_logo from "../../assets/Service/logo/web designing.svg"
+import Ecommerce_logo from "../../assets/Service/logo/ecommerce.svg"
 
 
 const ServiceContaint = () => {
@@ -22,9 +28,8 @@ const ServiceContaint = () => {
                     {/* 1 */}
                         <Box className="man-reverce1 flex-between-wrap" width={"100%"}  >
                             <Box className="devlopment-text" >
-                                <Box className="service-icon">
-                                    <FaPhp c6 />
-                                </Box>
+                                <img className='service-logo' src={Php_logo} alt=""  />
+                               
                                 <Typography variant='h4' className="typo-fray-hrading">
                                     PHP Development
                                 </Typography>
@@ -64,9 +69,8 @@ const ServiceContaint = () => {
                             </Box>
                         </Box>
                         <Box className="devlopment-text">
-                            <Box className="service-icon">
-                                <FaPhp c6 />
-                            </Box>
+                       
+                                <img className='service-logo' src={wordpress_logo} alt=""  />
                             <Typography variant='h4' className="typo-fray-hrading">
                                 WordPress Development
                             </Typography>
@@ -90,10 +94,8 @@ const ServiceContaint = () => {
                     {/* 3 */}
                   
                     <Box className="man-reverce1 flex-between-wrap" width={"100%"} >
-                        <Box className="devlopment-text" >
-                            <Box className="service-icon">
-                                <FaPhp c6 />
-                            </Box>
+                    <Box className="devlopment-text" >
+                                <img className='service-logo' src={Shopify_logo} alt=""  />
                             <Typography variant='h4' className="typo-fray-hrading">
                                 Shopify Development
                             </Typography>
@@ -129,9 +131,7 @@ const ServiceContaint = () => {
                         </Box>
 
                         <Box className="devlopment-text" >
-                            <Box className="service-icon">
-                                <FaPhp c6 />
-                            </Box>
+                                <img className='service-logo' src={Webdesigner_logo} alt=""  />
                             <Typography variant='h4' className="typo-fray-hrading">
                                 Web Designing
                             </Typography>
@@ -149,10 +149,8 @@ const ServiceContaint = () => {
 
                     {/* 5 */}
                     <Box className="man-reverce1 flex-between-wrap" width={"100%"} >
-                        <Box className="devlopment-text">
-                            <Box className="service-icon">
-                                <FaPhp c6 />
-                            </Box>
+                    <Box className="devlopment-text" >
+                                <img className='service-logo' src={graphic_logo} alt=""  />
                             <Typography variant='h4' className="typo-fray-hrading">
                                 Graphic Designing
                             </Typography>
@@ -180,10 +178,8 @@ const ServiceContaint = () => {
                                     <img src={Ecommerce} alt="" />
                                 </Box>
                             </Box>
-                            <Box className="devlopment-text">
-                                <Box className="service-icon">
-                                    <FaPhp c6 />
-                                </Box>
+                            <Box className="devlopment-text" >
+                                <img className='service-logo' src={Ecommerce_logo} alt=""  />
                                 <Typography variant='h4' className="typo-fray-hrading">
                                     Ecommerce Development
                                 </Typography>

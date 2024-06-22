@@ -14,7 +14,9 @@
     color: white;
     background-color: #ffffff00;
 }
-
+.partner .partner-content{
+    width: 60%;
+}
 
 
 .man-want .want {
@@ -32,7 +34,7 @@
 }
 
 .partner {
-    height: 450px;
+    height: 580px;
 }
 
 .want p {
@@ -56,6 +58,20 @@
     margin: 20px;
 }
 
+@media (max-width:1740px) {
+    .man-want .want {
+       
+        width: 85%;
+        height: 280px;
+        border-radius: 20px;
+        position: relative;
+        top: 0px;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
 @media (max-width:1600px) {
     .man-want .want {
         background: linear-gradient(to bottom, #053480, #0160E7);
@@ -63,7 +79,7 @@
         box-shadow: 0px 0px 10px 0px #ffffff;
         padding: 0rem 5rem;
         width: 85%;
-        height: 280px;
+        height: 250px;
         border-radius: 20px;
         position: relative;
         top: 30px;
@@ -72,7 +88,7 @@
     }
 
     .partner {
-        height: 400px;
+        height: 500px;
     }
 }
 
@@ -99,13 +115,13 @@
         height: 220px;
 
         position: relative;
-        top: 30px;
+        top: 0px;
         flex-wrap: wrap;
 
     }
 
     .partner {
-        height: 350px;
+        height: 420px;
     }
 
 
@@ -122,6 +138,10 @@
         font-size: 20px;
         background-color: white;
     }
+    .partner .partner-content{
+        width: 70%;
+    }
+    
 
 
 
@@ -140,15 +160,13 @@
         padding: 0rem 2rem;
         width: 85%;
         height: 220px;
-
-        position: relative;
-        top: 30px;
+ top: 20px;
         flex-wrap: wrap;
 
     }
 
     .partner {
-        height: 290px;
+        height: 400px;
     }
 
     .partner .partner-centert img {
@@ -194,13 +212,13 @@
         height: 180px;
 
         position: relative;
-        top: 0px;
+        top: 20px;
         flex-wrap: wrap;
 
     }
 
     .partner {
-        height: 250px;
+        height: 400px;
     }
 
     .want p {
@@ -234,19 +252,14 @@
     }
 
     .partner {
-        height: 320px;
+        height: 510px;
     }
 }
 
 
-/* 
+
 @media (max-width:520px) {
-    .partner .partner-centert div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+   
     .man-want .want {
         padding: 0rem 2rem;
         width: 85%;
@@ -257,33 +270,34 @@
       
     }
 
-    .partner .partner-centert img {
-        width: 400px !important;
-        height: 60px;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        margin: 10px;
-
-    }
-  .want p{
-    font-size: 16px !important;
-  }
-  .man-want .want {
-    padding: 0rem 1rem;
-    width: 85%;
-    height: 200px ;
-    position: relative;
-    top: 0px;
-    flex-wrap: wrap;
-    text-align: center;
-
-}
+   
 
 .partner {
-    height: 680px ;
+    height: 550px ;
 }
 
-} */
+} 
+
+@media (max-width:480px) {
+   
+    .man-want .want {
+        padding: 0rem 2rem;
+        width: 85%;
+        height: 180px;
+        position: relative;
+        top: 0px;
+    
+      
+    }
+
+   
+
+.partner {
+    height:380px ;
+}
+
+} 
+
 
 @media (max-width:700px) {
     #life-soham {
@@ -294,7 +308,7 @@
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:380px) {
     .man-want .want {
         padding: 0rem 1rem;
         width: 85%;
@@ -307,7 +321,35 @@
     }
 
     .partner {
-        height: 360px ;
+        height: 380px ;
+    }
+    .want button {
+
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: 700;
+     
+    }
+
+
+}
+
+
+@media (max-width:325px) {
+    .man-want .want {
+        padding: 0rem 1rem;
+        width: 85%;
+        height: 140px ;
+        position: relative;
+        top: 0px;
+        flex-wrap: wrap;
+        text-align: center;
+  
+    }
+
+    .partner {
+        height: 470px ;
     }
     .want button {
 

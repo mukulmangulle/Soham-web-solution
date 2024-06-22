@@ -26,6 +26,8 @@ function Partner() {
                     <Typography id='Heading-h2' variant='h2' >
                         {contents.ourPartner.heading}
                     </Typography>
+                    <Typography className='partner-content' id="Typography-black" padding={1}> {contents.ourPartner.childBox.content}</Typography>
+
                 </Box>
                 <Box className="flex-center partner-centert "   >
                     <Box >
@@ -47,7 +49,9 @@ function Partner() {
                     <Box className='want flex-center' >
 
                         <Box flex={1}>
-                            <Typography > {contents.ourPartner.childBox.content}</Typography>
+                            <Typography >Want to know more about SohamWeb's Life?
+
+</Typography>
                         </Box>
                         <Box >
                            <Link className='text-decortion' to={`/${process.env.SLUG_URL}/ourjourney/`}  ><Button>Life@Soham</Button></Link>

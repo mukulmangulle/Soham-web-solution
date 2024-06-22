@@ -24,7 +24,7 @@ const SameOurWork = () => {
                 <Typography variant='h2' id="Heading-h2"   >
                     {contents.SomeourWorks.heading}
                 </Typography>
-                <Typography className='content' id="Typography-black" >
+                <Typography padding={3}  width={"70%"} id="Typography-black" >
                     {contents.SomeourWorks.contant}
                 </Typography>
             </Box>

@@ -54,11 +54,12 @@ const Contact = () => {
 
     return (
         <>
-            <Box width={"100%"} display={"flex"} alignItems={"center"} justifyContent={"center"} marginBottom={5} >
-                <Box id="boxShadow" borderRadius={4} margin={5} sx={{ boxShadow: "0px 0px 20px 1px gray" }}>
-                    <Box className="GETINTOUCH" display={'flex'} justifyContent={"space-between"} width={'100%'} flexWrap={'wrap'} >
-                        <Box className="GETINTOUCH1" padding={7} width={{ xl: "900px", xs: "100%", sm: "100%", md: "60%" }}  >
-                            <Typography className="send-us-message" textAlign={"center"} fontWeight={600} color={"#053480"} margin={2} >Send Us a Message</Typography>
+           <Box width={"100%"} className="flex-center">
+           <Box class="contact_form">
+                <Box className="shadow-section"  >
+                    <Box className="GETINTOUCH" display={'flex'} justifyContent={"space-between"} flexWrap={'wrap'} >
+                        <Box className="GETINTOUCH1"      >
+                            <Typography className="about-soham">Send Us a Message</Typography>
                             <form onSubmit={handleSubmit}>
                                 <FormControl>
                                     <Grid container spacing={2} justifyContent="center">
@@ -84,18 +85,18 @@ const Contact = () => {
                                 </FormControl>
                             </form>
                         </Box>
-                        <Box width={{ xl: "550px", xs: "100%", sm: "100%", md: "40%" }} className="GETINTOUCH2" paddingY={10} paddingX={10} >
-                            <Typography  variant='h4' id="h4" color={"white"} >Get in Touch</Typography>
+                        <Box width={{ xl: "550px", xs: "100%", sm: "100%", md: "40%" }} className="GETINTOUCH2" >
+                            <Typography variant='h4' id="h4" color={"white"} >Get in Touch</Typography>
                             <Box>
                                 <Box paddingY={0.5}>
                                     <Typography id="h4" color={"white"} >Phone</Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
-                                    <Typography  color={"white"} >+91 78792-31700
+                                    <Typography color={"white"} >+91 78792-31700
                                     </Typography>
                                     <Typography color={"white"} >+91 70003-35673
                                     </Typography>
-                                    <Typography      color={"white"} >+91 7984740805
+                                    <Typography color={"white"} >+91 7984740805
                                     </Typography>
                                 </Box>
                             </Box>
@@ -104,10 +105,10 @@ const Contact = () => {
                                     <Typography color={"white"} id="h4" >Email</Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
-                                    <Typography  color={"white"} > contact@sohamsolution.com</Typography>
-                                    <Typography  color={"white"} >hr@sohamsolution.com
+                                    <Typography color={"white"} > contact@sohamsolution.com</Typography>
+                                    <Typography color={"white"} >hr@sohamsolution.com
                                     </Typography>
-                                    <Typography  color={"white"} >soham.solution@yahoo.com</Typography>
+                                    <Typography color={"white"} >soham.solution@yahoo.com</Typography>
                                 </Box>
                             </Box>
                             <Box paddingY={0.5}>
@@ -115,7 +116,7 @@ const Contact = () => {
                                     <Typography color={"white"} id="h4">Address</Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
-                                    <Typography  color={"white"} >
+                                    <Typography color={"white"} >
                                         12 Civil Lines, Chamunda Complex, Dewas
                                     </Typography>
                                 </Box>
@@ -127,10 +128,10 @@ const Contact = () => {
                                     </Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
-                                    <Typography  color={"white"} >
+                                    <Typography color={"white"} >
                                         Monday - Saturday: 10:00 AM - 10:00 PM
                                     </Typography>
-                                    <Typography  color={"white"} >
+                                    <Typography color={"white"} >
                                         Sunday: Closed
                                     </Typography>
                                 </Box>
@@ -143,16 +144,16 @@ const Contact = () => {
                                     </Typography>
                                 </Box>
                                 <Box >
-                                <Box className="flex-between footer-sec-icon" width={150} >
-                            <a href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
-                            <a href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
-                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
-                            
-                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
+                                    <Box className="flex-between footer-sec-icon" width={150} >
+                                        <a href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
+                                        <a href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
+                                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
+
+                                        <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
 
 
 
-                        </Box>
+                                    </Box>
                                 </Box>
                             </Box>
 
@@ -161,7 +162,9 @@ const Contact = () => {
                     </Box>
                 </Box>
             </Box>
-            <Box maxWidth={"1920px"} margin={"auto"}>
+            
+           </Box>
+           <Box maxWidth={"1920px"} margin={"auto"}>
                 <img className='map-img' src={Map} alt="" />
             </Box>
             <Footer2 />

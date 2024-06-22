@@ -68,25 +68,10 @@ display: flex;
 align-items: center;
 justify-content:space-between;
 }
-
-.service-icon{
-    background: linear-gradient(to right, #0160E7, #053480 , #053480,#0160E7);
-    width: 61px;
-    height: 61px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
+.devlopment-text .service-logo{
+    height: 70px !important;
     margin-bottom: 1rem;
-
 }
-.service-icon svg{
-      font-size: 120px;
-      color: white;
-      padding: 10px;
-
-}
-
 
 
 @media (max-width:1600px) {

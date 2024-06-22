@@ -2,8 +2,8 @@
   "contents": {
     "homeData": {
       "id": 1,
-      "heading": " Hire Certified Magento 2 Developers from India",
-      "subheading": "Hire Our Developers to Get Highly Appreciating  Developments",
+      "heading": "We Trust In Creativity Enthusiasm Commitment",
+      "subheading": "Our company offers exceptional web development services with a focus on promptly addressing our clients' issues.",
       "contactInfo": {
         "number": "+91 78792-31700",
         "email": "contact@sohamsolution.com",
@@ -12,10 +12,10 @@
     },
     "ourutility": {
       "id": 2,
-      "heading": " OUR UTILITY",
-      "contant": "Lemosys Infotech is a distinguished website development and web designing company serving to global clients  We provide highly professional services of the latest technology for web services to make your business more efficient and unique. We believe client service is not just a department but it’s a responsible job hence we maintain all possible high quality standard.",
+      "heading": "Our Utility",
+      "contant": "At Soham Web Solution, we harness cutting-edge technology and innovative strategies to create custom web and mobile applications. Our solutions are designed to enhance your business efficiency, streamline operations, and drive growth, providing real value and utility for your enterprise.",
       "order": {
-        "text1": "web Designing & Development",
+        "text1": "Web Designing & Development",
         "text2": "Graphic Design",
         "text3": "Digital Marketing",
         "text4": "Mobile App Development",
@@ -24,8 +24,8 @@
     },
     "SomeourWorks": {
       "id": 3,
-      "heading": "SOME OUR WORK",
-      "contant": "Our some of these projects may seem interesting to you",
+      "heading": "Our Work",
+      "contant": "We take pleasure in providing premium mobile and online applications that are customized to meet the specific requirements of our customers. Innovative solutions that propel success and demonstrate our dedication to quality and client satisfaction are on display in our portfolio.",
       "card": {
         "title1": " Allan Flowers Market  ",
         "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit  Curabitur elit risus, mattis a tincidunt quis, aliquet sit amet mauris. Cras nec massa enim. Aliquam congue imperdiet vestibulum.Quisque varius lectus eget est aliquet blandit. Sed et ante non neque volutpat gravida. Nulla dictum eros ac est consectetur sit amet tristique lectus ultrices.",
@@ -69,15 +69,15 @@
       "contant": "Lemosys Infotech strives to cater the needs of clients in the best possible manner. What we practically do is pretty simple as an experienced website development and web designing company in India. But in the same time incredibly complex and professional. Hire Lemosys to create your company website in minutes"
     },
     "ourPartner": {
-      "heading": "Our Partners ",
+      "heading": "Our Partners",
       "childBox": {
-        "content": "Want to know more about SohamWeb's Life?"
+        "content": "We collaborate with industry leaders and technology innovators to enhance our service offerings and deliver cutting-edge solutions to our clients. Our strategic partnerships enable us to stay ahead in a rapidly evolving digital landscape, ensuring we meet diverse business needs with innovation and expertise."
       }
     },
     "footerData": {
-      "aboutText": "  Soham Web Solution we endeavour t provide innovative, cost effective and optimum solutions that drive the growth of  your businesses across the world.",
+      "aboutText": "  At Soham Web Solution, our mission is to provide creative, economical, and customized solutions that advance your company's operations internationally. By meeting and beyond your expectations, we will fulfill our commitment to excellence, which will ensure your business's success and growth into the future..",
       "quickLinks": {
-        "heading": "Quick Links",
+        "heading": " Our Company",
         "text1": "About",
         "text2": "Services",
         "text3": "Career",
@@ -85,18 +85,17 @@
         "text5": "Blog"
       },
       "policyLinks": {
-        "heading": "Our Policy",
-        "text1": "Privacy Policy",
-        "text2": "Terms & Conditions",
-        "text3": "Support and Maintenance Packages",
-        "text4": "Shipping & Diliveary Policy",
-        "text5": "Cancellation & Refund Policy"
+        "heading": " Services",
+        "text1": "Website Development",
+        "text2": "Ecommerce Development",
+        "text3": "Website Designing",
+        "text4": "Mobile App Development"
       },
       "contactDetails": {
-        "heading": "Contact Info",
+        "heading": " Contact Details",
         "text1": "+91 78792-31700",
         "text2": "+91 70003-35673",
-        "text3": "+91 77480-18188",
+        "text3": "+91 79847-40805",
         "text4": "contact@sohamsolution.com",
         "text5": "12 Civil Lines, Chamunda Complex, Dewas"
       },

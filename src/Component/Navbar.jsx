@@ -25,12 +25,19 @@ const Navbar = () => {
           <Box flexGrow={1 / 10} className="flex-between ul-list"
             sx={{ display: { xs: 'none', md: 'flex' } }}>
 
-            <Box className="ul-box">
+            {/* <Box className="ul-box">
               <Typography className='fontSize16'><CompanyMenu /></Typography>
               <img className='down-arrow' src={Down} alt="" />
-            </Box>
+            </Box> */}
+
             <Box className="ul-box" >
-              <Link  className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/services/`}  >Services</Link>
+              <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/about/`}  >Company</Link>
+              <Typography className='fontSize16'><CompanyMenu /></Typography>
+            </Box>
+
+
+            <Box className="ul-box" >
+              <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/services/`}  >Services</Link>
               <Typography className='fontSize16'><ServicesMenu /></Typography>
             </Box>
             {/* 
@@ -50,7 +57,7 @@ const Navbar = () => {
             </Box> */}
 
 
-            <Link  className="text-decortion flex-center hire-button"  to={`/${process.env.SLUG_URL}/contact-us/`}>Contact us</Link>
+            <Link className="text-decortion flex-center hire-button" to={`/${process.env.SLUG_URL}/contact-us/`}>Contact us</Link>
 
           </Box>
         </Box>

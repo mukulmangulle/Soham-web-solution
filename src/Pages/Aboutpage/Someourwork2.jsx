@@ -106,8 +106,8 @@
 
 import { Box, Card, CardContent, Typography } from '@mui/material'
 import React from 'react'
-import Red from "../../assets/AboutSection1/red11.svg"
-import Blue from "../../assets/AboutSection1/blue11.svg"
+import Vssion from "../../assets/AboutSection1/vission.svg"
+import Mission from "../../assets/AboutSection1/mission.svg"
 
 const Someourwork2 = () => {
     return (
@@ -119,8 +119,8 @@ const Someourwork2 = () => {
                         <CardContent >
                             <Box >
                                 <Box display={"flex"} alignItems={"center"}>
-                                    <img src={Blue} alt="" />
-                                    <Typography margin={2} gutterBottom variant="h5" component="div">
+                                    <img src={Vssion} alt="" />
+                                    <Typography className='vision-heading'  gutterBottom variant="h5" component="div">
                                         Vision
                                     </Typography>
 
@@ -143,9 +143,9 @@ const Someourwork2 = () => {
                         <CardContent >
                             <Box >
                                 <Box display={"flex"} alignItems={"center"}>
-                                    <img src={Red} alt="" />
+                                    <img src={Mission} alt="" />
 
-                                    <Typography margin={2} gutterBottom variant="h5" component="div">
+                                    <Typography className='vision-heading' gutterBottom variant="h5" component="div">
                                         Mission
                                     </Typography>
 

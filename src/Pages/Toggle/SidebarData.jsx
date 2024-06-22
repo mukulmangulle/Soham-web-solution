@@ -10,46 +10,45 @@ import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
   {
-     id:"ram",
+    id: "ram",
     title: 'Company',
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
-   
-     
-   
+
+
+
     subNav: [
-      { 
-        
-        className:"flex",
+      {
+
+        className: "flex",
         title: 'About us',
-        path: '/about',
-        
+        path: `/${process.env.SLUG_URL}/about/`,
         icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Career',
-        path: '/careermain',
+        path: `/${process.env.SLUG_URL}/career/`,
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Blog',
-        path: '/blog',
+        title: 'Blogs',
+        path: `/${process.env.SLUG_URL}/bloges`,
         icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Contact us',
-        path: '/contact',
+        path: `/${process.env.SLUG_URL}/career/`,
         icon: <IoIcons.IoIosPaper />
       }
     ]
-    
+
 
 
   },
   {
     title: 'Services',
-    path:"/Service",
+    path: `/${process.env.SLUG_URL}/services/`,
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -57,45 +56,55 @@ export const SidebarData = [
     subNav: [
       {
         title: 'PHP development',
-                icon: <IoIcons.IoIosPaper />,
-                ClassName: 'sub-nav',
-                path:"/PhpDevelopment",
+        icon: <IoIcons.IoIosPaper />,
+        ClassName: 'sub-nav',
+        path: `/${process.env.SLUG_URL}/services/php-development/`,
       },
 
       {
         title: 'WordPress Develoment',
-                icon: <IoIcons.IoIosPaper />,
-                ClassName: 'sub-nav'
+        icon: <IoIcons.IoIosPaper />,
+        ClassName: 'sub-nav',
+        path: `/${process.env.SLUG_URL}/services/wordpress-development/`,
+
       },
       {
         title: 'Shopify Development',
-               icon: <IoIcons.IoIosPaper />
+        icon: <IoIcons.IoIosPaper />,
+        path: `/${process.env.SLUG_URL}/services/shopify-development/`,
+
       },
       {
         title: 'Web Designing',
-               icon: <IoIcons.IoIosPaper />
-      }, 
-       {
+        icon: <IoIcons.IoIosPaper />,
+        path: `/${process.env.SLUG_URL}/services/web-designing/`,
+
+      },
+      {
         title: 'Graphic Designing',
-               icon: <IoIcons.IoIosPaper />
+        icon: <IoIcons.IoIosPaper />,
+        path: `/${process.env.SLUG_URL}/services/graphic-designing/`,
+
       },
       {
         title: 'Ecommerce Development',
-              icon: <IoIcons.IoIosPaper />
+        icon: <IoIcons.IoIosPaper />,
+        path: `/${process.env.SLUG_URL}/services/ecommerce-development/`,
+
       }
     ]
   },
   {
     title: 'Solution',
-       icon: <FaIcons.FaCartPlus />
+    icon: <FaIcons.FaCartPlus />
   },
   {
     title: 'HireDevelopment',
-       icon: <IoIcons.IoMdPeople />
+    icon: <IoIcons.IoMdPeople />
   },
- 
+
   {
     title: 'Work',
-        icon: <IoIcons.IoMdHelpCircle />
+    icon: <IoIcons.IoMdHelpCircle />
   }
 ];

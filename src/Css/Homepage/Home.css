@@ -1,5 +1,5 @@
 .home {
-    background: linear-gradient(to bottom, #0160E7, #053480);
+    /* background: linear-gradient(to bottom, #0160E7, #053480); */
     max-width: 1920px;
     margin: auto;
 }
@@ -16,17 +16,20 @@
     font-size: 70px;
     font-weight: 600;
     color: white;
+    color: #053480;
    
 }
 .home-content .home-p1 {
     font-size: 23px;
         color: white;
         padding-top: 2rem;
+        color: #053480;
 }
 .schadule-meeting .home-p2 {
     font-size: 16px;
     font-weight: 600;
     color: white;
+    color: #053480;
 }
 .home-content .schadule-meeting{
     display: flex;
@@ -50,7 +53,7 @@
     .schadule-meeting .home-p2 {
         font-size: 16px;
     }
-    .home-img{
+    .home .home-img{
         height: 370px;
     }
     .home-content .schadule-meeting{
@@ -77,7 +80,7 @@
     .schadule-meeting .home-p2 {
         font-size: 14px;
     }
-    .home-img{
+    .home .home-img{
         height: 300px;
     }
   
@@ -103,7 +106,7 @@
     .schadule-meeting .home-p2 {
         font-size: 14px;
     }
-    .home-img{
+    .home .home-img{
         height: 250px;
     }
     .home-lastSection {
@@ -138,7 +141,7 @@
         .schadule-meeting .home-p2{
         font-size: 12px;
          }
-    .home-img{
+   .home .home-img{
         height: 300px;
     }
     .home-content .schadule-meeting{
@@ -241,7 +244,7 @@
         width:100%;
                  }
 
-          .home-img{
+                 .home .home-img{
             height: 200px;
         }
 
