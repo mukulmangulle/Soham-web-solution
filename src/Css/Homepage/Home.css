@@ -2,13 +2,14 @@
     /* background: linear-gradient(to bottom, #0160E7, #053480); */
     max-width: 1920px;
     margin: auto;
+    background-color: #E6f0fd;
 }
 .home .home-continer{
     padding-top: 5rem;
     width: 85.5%;  
 }
 .home-continer .home-content{
-    width: 590px;
+    width: 850px;
  
 }
 
@@ -35,6 +36,9 @@
     display: flex;
   padding:2rem 0rem 4rem 0rem;
  
+}
+ .home-img{
+    height: 550px !important;
 }
 
 @media (max-width:1600px) {
