@@ -14,27 +14,23 @@
     color: white;
     background-color: #ffffff00;
 }
-.partner .partner-content{
-    width: 60%;
-}
 
 
 .man-want .want {
     background: linear-gradient(to bottom, #053480, #0160E7);
-
     box-shadow: 0px 0px 10px 0px #ffffff;
     padding: 0rem 5rem;
     width: 85%;
-    height: 280px;
+    height: 200px;
     border-radius: 20px;
     position: relative;
-    top: 30px;
+    top: 50px;
     flex-wrap: wrap;
 
 }
 
 .partner {
-    height: 580px;
+    height: 500px;
 }
 
 .want p {
@@ -44,7 +40,7 @@
 
 .partner .partner-centert div {
     width: 90%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,124 +54,84 @@
     margin: 20px;
 }
 
-@media (max-width:1740px) {
-    .man-want .want {
-       
-        width: 85%;
-        height: 280px;
-        border-radius: 20px;
-        position: relative;
-        top: 0px;
-        flex-wrap: wrap;
 
-    }
-    
-}
 
-@media (max-width:1600px) {
+@media (max-width:1440px) {
     .man-want .want {
         background: linear-gradient(to bottom, #053480, #0160E7);
 
         box-shadow: 0px 0px 10px 0px #ffffff;
         padding: 0rem 5rem;
         width: 85%;
-        height: 250px;
+        height: 180px;
         border-radius: 20px;
         position: relative;
-        top: 30px;
+        top: 50px;
         flex-wrap: wrap;
 
     }
 
     .partner {
-        height: 500px;
+        height: 450px;
     }
 }
 
-@media (max-width:1365px) {
-
-    .partner .partner-centert div {
-        width: 90%;
-        margin-top: 1rem;
-
-
-    }
+@media (max-width:1024px) {
 
     .partner .partner-centert img {
-        width: 11% !important;
-        height: 70px;
-        margin: 20px;
+        width: 100px !important;
+        height: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin: 5px;
 
     }
+
+    .partner-centert {
+        width: 100%;
+        display: "flex";
+        align-items: center;
+        justify-content: "center";
+        margin: auto;
+        padding-top: 10px;
+        background-color: 'red';
+
+    }
+
+
 
     .man-want .want {
 
         padding: 0rem 2rem;
         width: 85%;
-        height: 220px;
+        height: 140px;
 
         position: relative;
-        top: 0px;
+        top: 50px;
         flex-wrap: wrap;
 
     }
 
     .partner {
-        height: 420px;
+        height: 380px;
     }
-
 
     .want p {
-        font-size: 25px;
+        font-size: 20px !important;
+        color: white;
 
     }
-
 
     .want button {
-        padding: 10px;
-        width: 180px;
-        height: 50px;
-        font-size: 20px;
-        background-color: white;
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
+        font-weight: 700;
     }
-    .partner .partner-content{
-        width: 70%;
-    }
-    
-
-
 
 }
 
-@media (max-width:1080px) {
-    .partner .partner-centert div {
-        width: 100%;
-        margin-top: 1rem;
 
-
-    }
-
-    .man-want .want {
-
-        padding: 0rem 2rem;
-        width: 85%;
-        height: 220px;
- top: 20px;
-        flex-wrap: wrap;
-
-    }
-
-    .partner {
-        height: 400px;
-    }
-
-    .partner .partner-centert img {
-        width: 10%;
-        height: 50px;
-        margin: 8px;
-
-    }
-}
 
 @media (max-width:768px) {
 
@@ -203,31 +159,24 @@
 
     }
 
-
-
     .man-want .want {
 
         padding: 0rem 2rem;
         width: 85%;
-        height: 180px;
-
-        position: relative;
-        top: 20px;
+        height: 140px;
+        top: 50px;
         flex-wrap: wrap;
-
     }
 
     .partner {
-        height: 400px;
+        height:360px;
     }
 
     .want p {
         font-size: 20px !important;
-        color: white; 
+        color: white;
 
     }
-
-
 
     .want button {
 
@@ -237,128 +186,38 @@
         font-size: 18px;
         font-weight: 700;
     }
-
 }
 
-@media (max-width:600px) {
+
+
+@media (max-width:576px) {
+
     .man-want .want {
         padding: 0rem 2rem;
-        width: 85%;
-        height: 180px;
+        width: 95%;
+        height: 120px;
         position: relative;
-        top: 0px;
-        flex-wrap: wrap;
+        top: 50px;
 
     }
+    
 
     .partner {
-        height: 510px;
+        height:440px;
     }
+
+  
+
 }
 
+@media (max-width:375px) {
 
-
-@media (max-width:520px) {
-   
     .man-want .want {
         padding: 0rem 2rem;
-        width: 85%;
-        height: 180px;
-        position: relative;
-        top: 0px;
-    
-      
-    }
-
-   
-
-.partner {
-    height: 550px ;
-}
-
-} 
-
-@media (max-width:480px) {
-   
-    .man-want .want {
-        padding: 0rem 2rem;
-        width: 85%;
-        height: 180px;
-        position: relative;
-        top: 0px;
-    
-      
-    }
-
-   
-
-.partner {
-    height:380px ;
-}
-
-} 
-
-
-@media (max-width:700px) {
-    #life-soham {
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media (max-width:380px) {
-    .man-want .want {
-        padding: 0rem 1rem;
-        width: 85%;
-        height: 140px ;
-        position: relative;
-        top: 0px;
-        flex-wrap: wrap;
-        text-align: center;
-  
+        height: 120px;
+        top: 20px;
     }
 
-    .partner {
-        height: 380px ;
-    }
-    .want button {
-
-        width: 150px;
-        height: 30px;
-        font-size: 14px;
-        font-weight: 700;
-     
-    }
-
-
-}
-
-
-@media (max-width:325px) {
-    .man-want .want {
-        padding: 0rem 1rem;
-        width: 85%;
-        height: 140px ;
-        position: relative;
-        top: 0px;
-        flex-wrap: wrap;
-        text-align: center;
-  
-    }
-
-    .partner {
-        height: 470px ;
-    }
-    .want button {
-
-        width: 150px;
-        height: 30px;
-        font-size: 14px;
-        font-weight: 700;
-     
-    }
-
-
+   
 }

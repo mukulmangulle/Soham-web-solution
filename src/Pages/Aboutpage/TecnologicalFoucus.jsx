@@ -99,17 +99,17 @@ export default function CustomizedTabs() {
     <Box className="" >
 
 
-      <Box bgcolor={'#e6f0fd'} padding={5} width={"100%"} className="flex-center-coulmn techno">
+      <Box bgcolor={'#e6f0fd'} paddingBottom={3} width={"100%"} className="flex-center-coulmn techno">
         <Box textAlign={'center'}>
 
           <Box className="flex-center-coulmn" width={"100%"} sx={{flexWrap:"wrap"}} >
-            <Typography id='Heading-h2' variant='h2' paddingY={1} >
+            <Typography className='secondary_heading' variant='h2'  >
               {contents.Technologyfocus.heading}
             </Typography>
-            <Typography id="Typography-black" fontWeight={700} marginY={1}>
+            <Typography className='primary_subheading' fontWeight={700}>
               {contents.Technologyfocus.content}
             </Typography>
-            <Box width={750} className="flex-between" >
+            <Box width={750} className="flex-between " margin={3} >
               <AntTabs  value={value} onChange={handleChange} aria-label="ant example" >
                 <AntTab  sx={{fontSize:"22px"}}     label="Freamworkes" />
                 <AntTab  sx={{fontSize:"22px"}}  label="Database" />

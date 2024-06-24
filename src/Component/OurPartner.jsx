@@ -21,12 +21,12 @@ function Partner() {
 
     return (
         <>
-            <Box  className=" padding-top-bottom partner"   >
-                <Box className="flex-center" flexDirection={'column'} flexWrap={'nowrap'}>
-                    <Typography id='Heading-h2' variant='h2' >
+            <Box className="  partner"   >
+                <Box className="flex-center-coulmn"  >
+                    <Typography className='secondary_heading' variant='h2' >
                         {contents.ourPartner.heading}
                     </Typography>
-                    <Typography className='partner-content' id="Typography-black" padding={1}> {contents.ourPartner.childBox.content}</Typography>
+                    <Typography textAlign={"center"} className='primary_subheading partner-content our-utality-p'> {contents.ourPartner.childBox.content}</Typography>
 
                 </Box>
                 <Box className="flex-center partner-centert "   >
@@ -51,17 +51,17 @@ function Partner() {
                         <Box flex={1}>
                             <Typography >Want to know more about SohamWeb's Life?
 
-</Typography>
+                            </Typography>
                         </Box>
                         <Box >
-                           <Link className='text-decortion' to={`/${process.env.SLUG_URL}/ourjourney/`}  ><Button>Life@Soham</Button></Link>
+                            <Link className='text-decortion' to={`/${process.env.SLUG_URL}/ourjourney/`}  ><Button>Life@Soham</Button></Link>
                         </Box>
                     </Box>
                 </Box>
             </Box>
-            
+
         </>
-    );F
+    ); F
 }
 
 export default Partner;

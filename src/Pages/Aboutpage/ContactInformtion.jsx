@@ -21,14 +21,14 @@ const ContactInformtion = () => {
   };
   return (
     <>
-      <Box className="padding-top-bottom">
-        <Typography id='Heading-h2' variant='h2'>CONTACT INFOMATION</Typography>
-        <Typography margin={2} fontSize={21} textAlign={'center'}>Our some of these projects may seem interesting to you</Typography>
+      <Box  paddingBottom={4}>
+        <Typography className='secondary_heading' variant='h2'>CONTACT INFOMATION</Typography>
+        <Typography textAlign={"center"} className="primary_subheading">Our some of these projects may seem interesting to you</Typography>
 
 
         <Box width={"100"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
 
-          <Box id="form-control" style={boxShadowStyle} paddingTop={5} paddingBottom={1} paddingX={7} width={"80%"} borderRadius={3} marginTop={3} >
+          <Box id="form-control" style={boxShadowStyle} padding={5}  width={"80%"} borderRadius={3} marginTop={3} >
             <Box width={"100%"}  >
               <Typography id="Ready" variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Ready To work with us ? Tell us More about your Project Requirement</Typography>
               <Typography variant="h3" fontSize={"30px"} fontWeight={600} color={"#053480"} gutterBottom>

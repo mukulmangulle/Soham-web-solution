@@ -20,13 +20,13 @@ const LeaderShipTeam = () => {
 
     return (
         <>
-            <Box className=" leadership"  padding={3}>
+            <Box className=" leadership"  >
                 <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'}>
-                    <Typography padding={2} id='Heading-h2' variant='h2' >
+                    <Typography className='secondary_heading' variant='h2' >
                         {contents.Leadership.heading}
                     </Typography>
 
-                    <Typography id="Typography-black" width={"70%"} fontWeight={700}   >
+                    <Typography className='primary_subheading' width={"70%"} fontWeight={700}   >
                         {contents.Leadership.content}
                     </Typography>
                 </Box>

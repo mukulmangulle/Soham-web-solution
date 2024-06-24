@@ -1,3 +1,13 @@
+.aboutsectiocolor {
+    background: linear-gradient(to bottom, rgba(1, 95, 229, 1), rgba(5, 52, 130, 1));
+}
+
+.aboutsectiocolor div {
+
+    width: 85.5%;
+}
+
+
 #submit {
     width: "150px";
     height: "50px";
@@ -10,12 +20,27 @@
     width: 55%;
 
 }
-.tecno-content{
-     width: 100%;
-     
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
+
+.about-welcome .about-heading {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: start;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.aboutsectiocolor .innovation {
+    width: 100%;
+    font-size: 22px;
+
+}
+
+.tecno-content {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .techno .Technology-focus-grid {
@@ -48,13 +73,6 @@
 }
 
 
-.aboutsectiocolor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
 
 .leadership {
     width: 100%;
@@ -95,7 +113,7 @@
 .vision-man .card_1 {
     background-color: #053480;
     border-radius: 10px;
-    margin:40px 20px;
+    margin: 40px 20px;
     padding-top: 10px;
     /* box-shadow:0.5PX 0.5PX 10PX 5PX #767677; */
     /* border: 2PX solid #053480; */
@@ -109,39 +127,25 @@
 
 .vision-man .lizards {
     font-size: 22px;
-    padding-top: 1rem ;
+    padding-top: 1rem;
 }
 
-.V-CARD .vision-heading{
+.V-CARD .vision-heading {
     font-size: 28px;
     font-weight: 600;
     color: #053480;
     margin: 1rem;
 }
-@media (max-width:1625px) {
-    .aboutsectiocolor img {
-        height: 300px;
+
+@media (max-width:1440px) {
+    .aboutsectiocolor .about_img {
+        height: 350px;
     }
 
-    .sir {
-        width: 280px;
+    .about-welcome .about-heading {
+        font-size: 35px;
+
     }
-
-    .contact-1 {
-        width: 280px;
-    }
-
-    .contact-2 {
-        width: 280px;
-    }
-
-    .contact-3 {
-        width: 180px;
-    }
-
-}
-
-@media (max-width:1500px) {
 
     .techno .Technology-focus-grid {
         background: white !important;
@@ -160,13 +164,19 @@
         padding: 1px;
     }
 
-    
-    .tecno-content button{
+
+    .tecno-content button {
         margin: 0% !important;
         padding: 0% !important;
     }
+
+    .aboutsectiocolor .innovation {
+        font-size: 20px;
+
+    }
 }
 
+/* 
 @media (max-width:1320px) {
     #aboutsectiocolor {
         height: 290px;
@@ -210,26 +220,54 @@
     }
    
     
-}
+} */
 
-@media (max-width:1020px) {
+@media (max-width:1024px) {
+
+    .aboutsectiocolor .flex-center {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .aboutsectiocolor div {
+        padding: 0%;
+        width: 85%;
+    }
+
+    .aboutsectiocolor .innovation {
+        width: 118% !important;
+        font-size: 18px;
+
+    }
+
+
+
     .vision-man .vision-child {
         flex-wrap: wrap;
         width: 88%;
 
     }
+
     .vision-man .lizards {
         font-size: 18px;
     }
-    .V-CARD .vision-heading{
+
+    .V-CARD .vision-heading {
         font-size: 25px;
         font-weight: 600;
         color: #053480;
     }
+    .about-welcome .about-heading {
+        font-size: 30px;
+
+    }
 }
 
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
+
+
+    
     .sir {
         height: 180px;
     }
@@ -241,9 +279,6 @@
     .team .leadership-p {
         font-size: 14px;
     }
-}
-
-@media (max-width:992px) {
     #typography {
         font-size: 16px;
         text-align: center;
@@ -262,16 +297,17 @@
     }
 
     .css-heg063-MuiTabs-flexContainer {
-        gap: 5px
+        gap: 5px;
     }
 
-    ;
+    
 
     .techno .Technology-focus-grid img {
         width: 60%;
         padding: 1px;
     }
-}
+} */
+
 
 /* form contorl */
 @media (max-width:768px) {
@@ -286,17 +322,23 @@
     }
 
     .aboutsectiocolor div {
-        width: 75% !important;
+        width: 85% !important;
         padding: 0%;
         margin: 0%;
 
     }
+    .about-welcome .about-heading {
+        font-size: 25px;
 
-    #aboutsectiocolor img {
-        height: 420px;
-        margin-bottom: 10px;
     }
 
+    .aboutsectiocolor img {
+        margin-bottom: 30px;
+    }
+    .aboutsectiocolor .innovation {
+        font-size: 16px;
+
+    }
     .contact-1 {
         width: 270px;
     }
@@ -316,15 +358,16 @@
     #select {
         font-size: 18px;
     }
-.techno .tecno-content{
-    width: 100%;
-    
-    display: flex;
-    align-items: center !important;
-    justify-content: center !important;
-}
 
-   
+    .techno .tecno-content {
+        width: 100%;
+
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
 }
 
 
@@ -333,15 +376,26 @@
 
 @media (max-width:576px) {
     .aboutsectiocolor img {
-        width: 450px;
-        margin-top: 0px;
+        width:375px;
+        margin-top: 0%;
         padding-top: 0%;
+        margin-bottom: 0px;
+
     }
 
     .aboutsectiocolor div {
         width: 90% !important;
         padding: 0%;
         margin: 0%;
+
+    }
+    .aboutsectiocolor .innovation {
+        width: 100% !important;
+        font-size: 14px;
+
+    }
+    .about-welcome .about-heading {
+        font-size: 20px;
 
     }
 
@@ -368,6 +422,7 @@
     .css-1coc09t {
         padding: 45px !important;
     }
+
     .vision-man .vision-child {
         width: 95%;
     }
@@ -375,6 +430,7 @@
     .vision-man .card_1 {
         margin: 10px;
     }
+
     .vision-man .lizards {
         font-size: 16px;
     }
@@ -382,7 +438,7 @@
 
 
 /* form section */
-@media (max-width:480px) {
+/* @media (max-width:480px) {
     #form-control {
         width: 350px;
         padding: 10px;
@@ -402,11 +458,11 @@
         font-size: 18px;
     }
 }
-
+ */
 
 
 /* someour work2 */
-@media (max-width:420px) {
+/* @media (max-width:420px) {
     #heading {
         text-align: center;
     }
@@ -435,38 +491,25 @@
         padding-top: 0%;
     }
 
-}
+} */
 
 
 @media (max-width:375px) {
+  
     .aboutsectiocolor img {
-        height: 230px;
-        margin-top: -50px;
-        margin-bottom: 10px;
+        height: 200px !important;
+        margin-left: -40px;
+        margin-bottom: 20px;
+       
+    }
+    .aboutsectiocolor .innovation{
+        font-size: 12px;
     }
 
-    
+
 
     .sir {
         width: 200px;
-    }
-
-    #heading2 {
-        font-size: 15px;
-        padding: 15px 30px;
-    }
-
-    #cardnew {
-        width: 260px;
-        margin: 20px;
-        height: 420px;
-    }
-}
-
-@media (max-width:320px) {
-    #form-control {
-        width: 300px !important;
-        padding: 10px;
     }
 
     #heading2 {

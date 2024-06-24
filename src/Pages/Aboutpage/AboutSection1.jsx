@@ -26,13 +26,13 @@ const AboutSection1 = () => {
     <>
       <Box >
 
-        <Box className="flex-center-coulmn" textAlign={'center'}>
-          <Typography marginTop={3}    id='Heading-h2' variant='h2' >
+        <Box className="flex-center-coulmn about_journey" textAlign={'center'}>
+          <Typography  className='secondary_heading' variant='h2' >
             {contents.aboutData.subheading}
           </Typography>
           
           
-          <Typography sx={textStyle} id="Typography-black" width={"71%"} >
+          <Typography sx={textStyle} className='primary_subheading' width={"71%"} >
             {contents.aboutData.text}
           </Typography>
 

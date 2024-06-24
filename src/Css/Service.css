@@ -1,47 +1,56 @@
-.background-service {
-    width:580px;
-    height: 460px;
-    background-image: url("../assets/Service/background-service.svg");
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-  
-}
-.service-new .service-man{
-    width: 100%;
-}
-.man_s_bg{
-    background: #e6f0fd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.service_primary_section .service-man {
     width: 100%;
 }
 
+.service-man .service_container_one {
+    margin: 3rem 0rem;
+    max-width: 1200px;
 
-.service-man .man-reverce1 img{
-     height:420px;
-    
 }
-.service-man .man-reverce2 img{
-    height:420px;
+
+.service-man .service_container_tow_man {
+    width: 100%;
+    background-color: #E6F0Fd;
 }
-.service-man .Typo-gray-start {
+
+.service-man .service_container_two {
+    margin: 3rem 0rem;
+    max-width: 1200px;
+}
+
+.service-man .devlopment-text {
+    width: 42%;
+}
+
+.devlopment-text .service-logo {
+    height: 70px !important;
+    margin-bottom: 1rem;
+}
+
+.service-man .service_container_one img {
+    height: 400px;
+
+}
+
+.service-man .service_container_two img {
+    height: 400px;
+}
+
+.service-man .service_secondary-heading {
+    font-size: 42px;
+    color: #053480;
+    font-weight: 600;
+    background-color: turquoise;
+}
+
+.service-man .service_text {
     font-size: 20px;
     color: gray;
     padding: 1rem 0px;
+    background-color: rgb(253, 107, 253);
 }
 
-.service-man .typo-fray-hrading {
-    color: #053480;
-    font-size: 42px;
-    font-weight: 600;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.service-man .apply-now {
+.service-man .btn_apply_now {
     background: linear-gradient(to bottom, #0160E7, #053480);
     font-size: 18px !important;
     width: 150px;
@@ -49,267 +58,193 @@
     color: white !important;
     margin-top: 10px;
 }
+
+.background-service {
+    width: 580px;
+    height: 460px;
+    background-image: url("../assets/Service/background-service.svg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
 .service-man .devlopment-text {
     width: 42%;
 }
-.service-man .man-reverce1  {
-       margin: 2rem 0rem;
-       width: 70%;
-       display: flex;
-       align-items: center;
-       justify-content:space-between;
 
-}
+@media (max-width:1440px) {
 
-.service-man .man-reverce2 {
-    margin: 3rem 0rem;
-width: 70%;
-display: flex;
-align-items: center;
-justify-content:space-between;
-}
-.devlopment-text .service-logo{
-    height: 70px !important;
-    margin-bottom: 1rem;
-}
+    .service-man .service_container_one {
+        max-width: 860px;
+    }
 
-
-@media (max-width:1600px) {
-  
+    .service-man .service_container_two {
+        max-width: 860px;
+        
+    }
 
     .service-man .devlopment-text {
-        width: 450PX;
+        width: 42%;
     }
 
-
-   
-    .service-man .typo-fray-hrading {
-        font-size: 30px;
+    .service-man .service_container_one img {
+        height: 320px;
     }
-    .service-man .Typo-gray-start {
+
+    .service-man .service_container_two img {
+        height: 320px;
+    }
+
+    .service-man .service_secondary-heading {
+        font-size: 36px;
+    }
+
+    .service-man .service_text {
         font-size: 18px;
         padding: 0.5rem 0px;
     }
-    .service-man .background-service {
-        
-        width: 510px;
-        height: 400PX;
 
+    .service-man .btn_apply_now {
+        background: linear-gradient(to bottom, #0160E7, #053480);
+        font-size: 16px !important;
+        width: 130px;
+        height: 40px;
     }
-    .service-man .background-service img {
-        height:300px ;
+
+    .background-service {
+        width: 415px;
+        height: 330px;
     }
-   
-    
-.service-man .apply-now {
-   
-    font-size: 16px !important;
-    width: 120px;
-    height: 40px;
-    color: white !important;
-    margin-top: 5px;
-}
-}
-
-
-@media (max-width:1450px) {
-  
 
     .service-man .devlopment-text {
-        width: 360PX;
+        width: 50%;
     }
-
-
-   
-    /* .service-man .typo-fray-hrading {
-        font-size: 30px;
-    } */
-    /* .service-man .Typo-gray-start {
-        font-size: 16px;
-        padding: 0.5rem 0px;
-    } */
-    .service-man .background-service {
-        width: 510px;
-        height: 400PX;
-
-    }
-    .service-man .background-service img {
-        height:300px ;
-    }
-   
-    
-.service-man .apply-now {
-   
-    font-size: 16px !important;
-    width: 120px;
-    height: 40px;
-    color: white !important;
-    margin-top: 5px;
-}
 }
 
-@media (max-width:1310px) {
-    .service-man .man-reverce1   {
-        width: 75%;
-    }
+@media (max-width:1024px) {
 
-    .service-man .man-reverce2 {
-        /* height: 380PX; */
-        width: 75%;
-    }
-    
-    .service-man .devlopment-text {
-        width: 360PX;
-    }
- 
-   
-    .service-man .typo-fray-hrading {
-        font-size: 28px;
-
-    } 
-    .service-man .Typo-gray-start{
-        font-size:14px;
-    }
-    .service-man .background-service {
-        width: 480px;
-        height: 380PX;
-    }
-
-    .service-man .background-service img {
-        height: 220px ;
-    }
-
-
- }
-
- @media (max-width:1186px) {
-    .service-man .man-reverce1   {
-        width: 85%;
-    }
-
-    .service-man .man-reverce2 {
-        width: 85%;
-    }
-    .service-man .typo-fray-hrading {
-        font-size: 28px;
-
-    } 
-    .service-man .Typo-gray-start{
-        font-size:14px;
-    }
-    .service-man .background-service {
-        width: 400px;
-        height: 320PX;
-    }
-
-    .service-man .background-service img {
-        height: 270px ;
-    }
-
-
- }
-
-
-
-
- 
-@media (max-width:900px) {
-    .service-man .man-reverce1{
-        height: 100%;
+    .service-man .service_container_one {
+        max-width: 85%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .service-man .man-reverce2 {
-        height: 100%;
+    .service-man .service_container_two {
+        max-width: 85%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
     }
 
-    .service-man .devlopment-text{
-        width: 350PX;
-    }
-
-    .service-man .man-reverce1  {
-        margin: 2rem 0rem;
- }
- 
- .service-man .man-reverce2 {
-     margin: 2rem 0rem;
- }
-
-    .service-man .typo-fray-hrading {
-        font-size: 22px;
-
-    }
-
-
-    .service-man .Typo-gray-start {
-        font-size: 18px;
-        padding: 8px 0px;
-    }
     .service-man .devlopment-text {
-        width: 100%;
-    }
-    .service-man .background-service {
-        width: 500px;
-        height: 400PX;
+        width: 100% !important;
     }
 
-    .service-man .background-service img {
-        height: 90% ;
+    .service-man .service_container_one img {
+        height: 320px;
     }
-} 
 
- @media (max-width:576px) {
-   
-    .service-man .background-service {
-        width:380px;
-        height: 300PX;
+    .service-man .service_container_two img {
+        height: 320px;
     }
-    .service-man .background-service img {
-        height:80% ;
+
+    .service-man .service_secondary-heading {
+        font-size: 32px;
     }
-    .service-man .Typo-gray-start {
+
+    .service-man .service_text {
         font-size: 16px;
-       
+        padding: 0.5rem 0px;
     }
-    .service-man .man-reverce1  {
-        margin: 3rem 0rem;
-        width: 90%;
- }
- 
- .service-man .man-reverce2 {
-     margin: 2rem 0rem;
-     width: 90%;
- }
-    
 
- }
+    .background-service {
+        width: 500px;
+        height: 400px;
+    }
+}
 
- @media (max-width:400px) {
-  
-    .service-man .background-service {
-        width:290px;
-        height: 230PX;
+@media (max-width:768px) {
+    .service-man .devlopment-text {
+        width: 100% !important;
     }
-    .service-man .background-service img {
-        height:80% ;
-        
+
+    .service-man .service_container_one img {
+        height: 300px;
     }
-    .service-man .Typo-gray-start {
-        font-size: 14px ;
-       
+
+    .service-man .service_container_two img {
+        height: 300px;
     }
-    .service-man .man-reverce1  {
+
+    .service-man .service_secondary-heading {
+        font-size: 28px;
+    }
+
+    .service-man .service_text {
+        font-size: 14px;
+    }
+
+    .background-service {
+        width: 450px;
+        height: 360px;
+    }
+}
+
+@media (max-width:576px) {
+    .service-man .service_container_one{
         margin: 2rem 0rem;
+
+    }
+    .service-man .service_container_two{
+        margin: 2rem 0rem;
+
+    }
+       .service-man .service_container_one img {
+        height: 200px;
+    }
+
+    .service-man .service_container_two img {
+        height: 200px;
+    }
+
+    .service-man .service_secondary-heading {
+        font-size: 28px;
+    }
+
+    .service-man .service_text {
+        font-size: 14px;
+    }
+
+    .background-service {
+        width: 320px;
+        height: 250px;
+    }
+}
+
+
+
+@media (max-width:375px) {
+    .service-man .service_container_one img {
+     height: 180px;
  }
- 
- .service-man .man-reverce2 {
-     margin: 2rem 0rem;
+
+ .service-man .service_container_two img {
+     height: 180px;
  }
-   
+
+ .service-man .service_secondary-heading {
+     font-size: 24px;
  }
+
+ .service-man .service_text {
+     font-size: 12px;
+ }
+
+ .background-service {
+     width: 280px;
+     height: 220px;
+ }
+}

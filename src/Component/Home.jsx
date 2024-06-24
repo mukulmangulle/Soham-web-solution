@@ -162,19 +162,19 @@ const Home = () => {
             <Box className="home-continer flex-between"
             >
                 <Box className="home-content"  >
-                    <Typography className="home-h1" variant='h1'>
+                    <Typography className="home-h1 text_color_blue" variant='h1'>
                         {contents.homeData.heading}
                     </Typography>
 
-                    <Typography className='home-p1' variant='h6' >
+                    <Typography className='home-p1 text_color_blue' variant='h6' >
                         {contents.homeData.subheading}
                     </Typography>
 
                     <Box className="schadule-meeting" >
                         <Link className='text-decortion flex-center' to="https://calendly.com/sws-contact" >
-                            <Typography className='home-p2 ' marginRight={2} color="#FFFFFF" variant='h6' fontWeight={500}>Schadule Meeting </Typography>
+                            <Typography className='home-p2 text_color_blue '   variant='h6' >Schadule Meeting </Typography>
                             {/* <img src={Arrow} width={25} alt="" /> */}
-                            <FaLongArrowAltRight color='#053480' fontSize={30} />
+                            <FaLongArrowAltRight className='text_color_blue Aroow_right'  />
 
                         </Link>
                     </Box>
@@ -188,25 +188,25 @@ const Home = () => {
             </Box>
 
 
-            <Box className="home-lastSection flex-between" width={'85.5%'} paddingY={3} flexWrap={"wrap"}  >
+            <Box className="home-lastSection flex-between"   flexWrap={"wrap"}  >
                 <Box display={'flex'} alignItems={"center"} >
-                    <a className='text-decortion flex-center' href="tel:%20+91%207879231700" margin={0.5}  >
-                        <IoCall fontSize={20} color='#053480' />
+                    <a className='text-decortion flex-center text_color_blue' href="tel:%20+91%207879231700" margin={0.5}  >
+                        <IoCall fontSize={20} className='text_color_blue' />
 
-                        <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
+                        <Typography  paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                     </a>
                 </Box>
 
-                <a href="mailto:contact@sohamsolution.com" className='text-decortion flex-center'  >
+                <a href="mailto:contact@sohamsolution.com" className='text-decortion flex-center text_color_blue'  >
 
-                    < MdEmail fontSize={20} color='#053480' />
-                    <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
+                    < MdEmail fontSize={20}  />
+                    <Typography paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
                 </a>
 
-                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0' className='text-decortion flex-center'   >
+                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0' className='text-decortion flex-center text_color_blue'   >
 
                     <img src={Whatsapp} alt="" />
-                    <Typography id="typography" paddingLeft={1}>
+                    <Typography paddingLeft={1}>
                         {contents.homeData.contactInfo.link}
                     </Typography>
                 </a>
@@ -216,18 +216,18 @@ const Home = () => {
 
                 <Box width={140} className="flex-between"  >
                     <a href="https://www.facebook.com/sohamsolution/">
-                        <FaFacebookF color='#053480' fontSize={16} />
+                        <FaFacebookF className='text_color_blue' fontSize={16} />
                     </a>
 
                     <a href='https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web'>
-                        <BsTwitterX color='#053480' fontSize={16} />
+                        <BsTwitterX className='text_color_blue' fontSize={16} />
                     </a>
 
                     <a href='https://in.linkedin.com/company/soham-web-solution'>
-                        <FaLinkedinIn color='#053480' fontSize={16} />                    </a>
+                        <FaLinkedinIn className='text_color_blue' fontSize={16} />                    </a>
 
                     <a href="https://www.instagram.com/sohamwebsolution/">
-                        <AiFillInstagram color='#053480' fontSize={16} />
+                        <AiFillInstagram className='text_color_blue' fontSize={16} />
                     </a>
 
 

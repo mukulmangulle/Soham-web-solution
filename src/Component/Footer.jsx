@@ -60,11 +60,11 @@ const Footer = () => {
                     <Box className="footer-sec2" >
                         <Typography id="footer-h3" variant="h3"  > {contents.footerData.quickLinks.heading}</Typography>
                         <Box className="footer2-box" marginTop={2} display={'flex'} alignItems={"start"} flexDirection={"column"}>
-                            <Link to={`/${process.env.SLUG_URL}/about/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text1}</Link>
-                            {/* <Link to={`/${process.env.SLUG_URL}/services/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text2}</Link> */}
-                            <Link to={`/${process.env.SLUG_URL}/career/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text3}</Link>
-                            <Link to={`/${process.env.SLUG_URL}/contact-us/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text4}</Link>
-                            <Link to={`/${process.env.SLUG_URL}/blogs`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text5}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/about/`} className="text-decortion" >{contents.footerData.quickLinks.text1}</Link>
+                            {/* <Link to={`/${process.env.SLUG_URL}/services/`} className="text-decortion">{contents.footerData.quickLinks.text2}</Link> */}
+                            <Link to={`/${process.env.SLUG_URL}/career/`} className="text-decortion">{contents.footerData.quickLinks.text3}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/contact-us/`} className="text-decortion" >{contents.footerData.quickLinks.text4}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/blogs`} className="text-decortion" >{contents.footerData.quickLinks.text5}</Link>
                         </Box>
                     </Box>
 
@@ -86,29 +86,29 @@ const Footer = () => {
                             <a className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:%20+91%207879231700" margin={0.5}  >
                                 <IoCall color="white" fontSize={16} />
 
-                                <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                             </a>
 
                             <a className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2070003-35673%20" margin={0.5}   >
                                 <IoCall color="white" fontSize={16} />
-                                <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text2}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text2}</Typography>
                             </a>
 
                             <a className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2077480-18188" margin={0.5} >
                                 <IoCall color="white" fontSize={16} />
-                                <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text3}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text3}</Typography>
                             </a>
 
                             <a href="mailto:contact@sohamsolution.com" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  >
                                 <MdEmail id="maill" color="white" fontSize={16} />
-                                <Typography id="typography" paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
+                                <Typography className="text-decortion"  paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
                             </a>
 
                             <a href="https://www.google.com/maps/place/Soham+Web+Solution+-+Web+Development+Company/@22.9648902,76.0458359,17z/data=!4m14!1m7!3m6!1s0x3963177600d4efb5:0x33c81c908e54629c!2sSoham+Web+Solution+-+Web+Development+Company!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9!3m5!1s0x3963177600d4efb5:0x33c81c908e54629c!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9"
                                 className="text-decortion" style={{ display: "flex", alignItems: "start" }} margin={0.5} >
                                 <FaLocationDot fontSize={16} color="white" />
 
-                                <Typography color={"white"} paddingLeft={1}>{contents.footerData.contactDetails.text5}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text5}</Typography>
                             </a>
                         </Box>
                     </Box>

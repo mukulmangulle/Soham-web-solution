@@ -13,25 +13,53 @@
 
 .text-decortion {
     text-decoration: none;
+    /* color: white !important; */
 }
 
 
 
 .padding-top-bottom {
     padding: 4rem 0rem !important;
+} 
 
-}
-
-/* Heading */
-#Heading-h2 {
-    font-size: 60px;
-    font-weight: 600;
+.primary-heading {
+    font-size: 70px !important;
+    font-weight: 600 !important;
     text-align: center;
     background: linear-gradient(90deg, #0160E7 10.17%, #053480 70%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 4rem 0rem;
 }
-.flex-coulmn{
+
+
+.secondary_heading {
+    font-size: 56px !important;
+    font-weight: 600 !important;
+    text-align: center;
+    background: linear-gradient(90deg, #0160E7 10.17%, #053480 70%);
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2.5rem 1rem  2rem 1rem;
+    /* background-color: yellow !important; */
+
+}
+
+.primary_subheading {
+    font-size: 22px !important;
+}
+.text_color_blue{
+    color: #053480 !important;
+}
+
+
+
+
+.flex_wrap{
+    flex-wrap: wrap;
+}
+
+.flex-coulmn {
     flex-direction: column;
 }
 
@@ -91,7 +119,6 @@
 #typography {
     margin: 0.5px;
     font-size: 16px;
-    color: white;
     color: #053480;
 }
 
@@ -99,24 +126,22 @@
     font-size: 22px;
     color: gray;
     text-align: center;
+    background-color: violet;
 }
 
 .Typography-gray-career {
     font-size: 22px;
     color: gray;
     text-align: start;
-  
+
 
 }
-.display-flex{
+
+.display-flex {
     display: flex;
 }
 
-#Typography-black {
-    font-size: 22px;
-    color: black;
-    text-align: center;
-}
+
 
 #display-align-justi-Wrap {
     display: "flex";
@@ -132,76 +157,83 @@
     flex-wrap: wrap;
 }
 
+@media (max-width:1440px) {
+    .primary-heading {
+        font-size: 50px !important;
+        padding: 3rem 0rem;
 
-
-@media (max-width:1600px) {
-    #Heading-h2 {
-        font-size: 35px ;
     }
 
-    #h4 {
-        font-size: 20px ;
+    .secondary_heading {
+        font-size: 48px !important;
+        padding: 2rem 1rem  1.5rem 1rem;
+
     }
 
-    #Typography-gray {
-        font-size: 55px !important;
+    .primary_subheading {
+        font-size: 18px !important;
     }
-
-    #Typography-black {
-        font-size: 16px;
-    }
-
-    #typography {
-        font-size: 13px !important;
-    }
-
-    .header {
-        height: 45px;
-    }
-
-    .header .fontSize14 {
-        font-size: 12px;
-    }
-    .padding-top-bottom {
-        padding: 3.2rem 0rem !important;
-    
-    }
-    
- 
-  
 
 }
 
 
-@media (max-width:1080px) {
-    #Heading-h2 {
-        font-size: 37px;
+
+
+
+@media (max-width:1024px) {
+    .primary-heading {
+        font-size: 45px !important;
+        padding: 2rem 0rem;
+
     }
+
+    .secondary_heading {
+        font-size: 42px !important;
+        padding: 2rem 0.5rem  1.5rem 0.5rem;
+
+    }
+
+    .primary_subheading {
+        font-size: 16px !important;
+    }
+
+
+
+
+
     .padding-top-bottom {
         padding: 2rem 0rem !important;
-    
+
     }
-   
+
     .Typography-gray-career {
-        font-size: 17px ;
+        font-size: 17px;
         width: 100%;
-    
+
     }
 
 }
 
 @media (max-width:768px) {
-    #Heading-h2 {
-        font-size: 30px;
+    .primary-heading {
+        font-size: 45px !important;
+        padding: 1rem 0rem;
+
     }
 
-    #Typography-gray {
-        font-size: 18px;
+    .secondary_heading {
+        font-size: 38px !important;
+        padding: 1.5rem 0.5rem  1rem 0.5rem;
+
     }
 
-    #Typography-black {
-        font-size: 18px;
+    .primary_subheading {
+        font-size: 16px !important;
     }
+
+
+
+
 
     #typography {
         font-size: 18px;
@@ -211,55 +243,65 @@
         font-size: 28px;
 
     }
+
     .Typography-gray-career {
-        font-size: 14px ;
-    
+        font-size: 14px;
+
     }
 }
 
-.css-iqley6-MuiTypography-root{
+.css-iqley6-MuiTypography-root {
     padding: 0% !important;
 }
 
 
 @media (max-width:576px) {
-    #Heading-h2 {
-        font-size: 30px;
+    .primary-heading {
+        font-size: 38px !important;
     }
+
+    .secondary_heading {
+        font-size: 34px !important;
+    }
+
+    .primary_subheading {
+        font-size: 14px !important;
+    }
+
+
 
     #h4 {
         font-size: 25px;
     }
+
     .Typography-gray-career {
-        font-size: 12px ;
-        
-    
-    }
-}
-
-@media (max-width:480px) {
-
-
-    #Typography-gray {
-        font-size: 16px;
-    }
-
-    #Typography-black {
         font-size: 12px;
-        width: 90%;
-        padding: 0% !important;
-    }
-
-    #typography {
-        font-size: 16px;
     }
 }
 
 @media (max-width:375px) {
-    #Heading-h2 {
-        font-size: 25px;
+
+    .primary-heading {
+        font-size: 35px !important;
+    }
+
+    .secondary_heading {
+        font-size: 30px;
+        padding: 0.8rem 0.5rem  0.5rem 0.5rem;
+
+    }
+
+    .primary_subheading {
+        font-size: 12px !important;
         
     }
+
+
+
+
+
+
+
 
     #h4 {
         font-size: 20px;
@@ -272,23 +314,23 @@
 }
 
 
-.bg-img{
-    background-image: url("../assets/AboutSection1/about-background.svg") ;
+.bg-img {
+    background-image: url("../assets/AboutSection1/about-background.svg");
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-     background-color:#E6edf3; 
-     object-fit: cover;
-     
-  }
-   
+    background-color: #E6edf3;
+    object-fit: cover;
 
-  .css-1d9rq06-MuiTypography-root {
+}
+
+
+.css-1d9rq06-MuiTypography-root {
     margin-top: 0% !important;
-  }
-  
-  .journey{
-       width: 100%;
-       padding-bottom: rem;
-  }
+}
+
+.journey {
+    width: 100%;
+    padding-bottom: rem;
+}

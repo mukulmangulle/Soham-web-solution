@@ -14,12 +14,12 @@ const CareerOpeningTeam = () => {
         <>
 
             <Box  className="padding-top-bottom" margin={"auto"} bgcolor={"#E6EBF3"} width={"100%"} display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
-                <Typography id='Heading-h2' variant='h2'  marginBottom={"0.5rem"}  >
+                <Typography className='secondary_heading' variant='h2'    >
                     Current opnings in Team
                 </Typography>
 
 
-                <Box marginTop={5} width={"85%"} >
+                <Box width={"85%"} >
 
                     <Careertoggle1 />
                     <Careertoggle2 />

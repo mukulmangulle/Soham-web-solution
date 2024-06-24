@@ -48,7 +48,7 @@ background-color: #053480;
 }
 .footer2-box a{
   margin: 7px 0px !important;
-  
+  color: white;
 
 }
 .footer3-box p{
@@ -56,6 +56,8 @@ background-color: #053480;
 
  
  }
+
+
  .footer .copyright{
         background-color:#297df2;
         width: 100%;

@@ -19,33 +19,33 @@ const SameOurWork = () => {
     }, [dispatch]);
 
     return (
-        <Box className="work flex-center-coulmn padding-top-bottom " >
+        <Box className="work flex-center-coulmn " >
             <Box className="flex-center-coulmn"  >
-                <Typography variant='h2' id="Heading-h2"   >
+                <Typography variant='h2' className='secondary_heading'   >
                     {contents.SomeourWorks.heading}
                 </Typography>
-                <Typography padding={3}  width={"70%"} id="Typography-black" >
+                <Typography  textAlign={"center"}  className='primary_subheading our-utality-p' >
                     {contents.SomeourWorks.contant}
                 </Typography>
+
             </Box>
 
             <Box  className="flex-center card-section"  >
 
             
-                    <Box  className="flex-center card "  >
+            <Box className="flex-center card" >
                         <Box  >
-                            <Box className="work-background flex-center" width={100} height={100} >
-                                <img src={Work2} alt="" />
+                            <Box className="work-background flex-center" >
+                                <img src={Work3} alt="" />
                             </Box>
                         </Box>
 
                         <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
-                            <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
-                                {contents.SomeourWorks.card.title2}
+                            <Typography className='card-heading text_color_blue'>
+                                {contents.SomeourWorks.card.title1}
                             </Typography>
-                            <Typography className='card-pregraph ludo-earn-p' >
-                                {contents.SomeourWorks.card.description2}
-
+                            <Typography className='ludo-earn-p ' >
+                                {contents.SomeourWorks.card.description1}
                             </Typography>
                         </Box>
                         <CardActions>
@@ -55,38 +55,37 @@ const SameOurWork = () => {
               
 
                     
-                        <Box  className="flex-center card" >
-                            <Box >
-                                <Box className="work-background flex-center" width={100} height={100} >
-                                    <img src={Work2} alt="" />
-                                </Box>
-                            </Box>
-
-                            <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
-                                <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
-                                    {contents.SomeourWorks.card.title2}
-                                </Typography>
-                                <Typography className='card-pregraph ludo-earn-p' >
-                                    {contents.SomeourWorks.card.description2}
-
-                                </Typography>
-                            </Box>
-                            <CardActions>
-                                <Button className='view-work' >View Work</Button>
-                            </CardActions>
-                        </Box>
-                   
-
-            
                     <Box className="flex-center card" >
                         <Box  >
-                            <Box className="work-background flex-center" width={100} height={100} >
+                            <Box className="work-background flex-center"  >
                                 <img src={Work3} alt="" />
                             </Box>
                         </Box>
 
                         <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
-                            <Typography className='card-heading' color="#053480" fontSize={24} fontWeight={800}>
+                            <Typography className='card-heading text_color_blue' >
+                                {contents.SomeourWorks.card.title1}
+                            </Typography>
+                            <Typography className='ludo-earn-p ' >
+                                {contents.SomeourWorks.card.description1}
+                            </Typography>
+                        </Box>
+                        <CardActions>
+                            <Button className='view-work' >View Work</Button>
+                        </CardActions>
+                    </Box>
+                   
+
+            
+                    <Box className="flex-center card" >
+                        <Box  >
+                            <Box className="work-background flex-center"  >
+                                <img src={Work3} alt="" />
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} variant="h6" className="flex-center" flexDirection={'column'} paddingTop={1}>
+                            <Typography className='card-heading text_color_blue'>
                                 {contents.SomeourWorks.card.title3}
                             </Typography>
                             <Typography className='ludo-earn-p ' >

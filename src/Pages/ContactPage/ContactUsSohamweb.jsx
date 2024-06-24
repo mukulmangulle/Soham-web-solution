@@ -29,14 +29,14 @@ const ContactUsSohamweb = () => {
   return (
     <Box className="contact" >
       <Box  className="bg-img padding-top-bottom" >
-        <Typography  id='Heading-h2' variant='h1'  >Contact Us</Typography>
+        <Typography  className='primary-heading' variant='h1'  >Contact Us</Typography>
       </Box>
 
       <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>
-        <Typography  className="about-soham"  variant='h3'   > LET'S BUILD SOMETHING AMAZING TOGETHER!
+        <Typography  className="secondary_heading"  variant='h3'   > LET'S BUILD SOMETHING AMAZING TOGETHER!
 </Typography>
 
-        <Typography id="Typography-black"   width={"75%"} >
+        <Typography className='primary_subheading'   width={"75%"} >
         We're excited to help you bring your vision to life! Whether you have a question about our services, need assistance with an ongoing project, or want to explore how we can collaborate, our team is here for you.
         </Typography>
 

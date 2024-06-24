@@ -17,13 +17,13 @@ const Aboutmain = () => {
   }, []);
 
   const fetchDataFromAPI = () => {
-   
+
     setTimeout(() => {
       setLoading(false);
-    }, 2000); 
+    }, 2000);
   };
 
-  
+
   if (loading) {
     return (
       <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
@@ -33,16 +33,15 @@ const Aboutmain = () => {
   }
   return (
     <>
-       
+
 
       <AboutSection2 />
       <AboutSection1 />
-    
       <TecnologicalFoucus />
       <LeaderShipTeam />
       <Someourwork2 />
       <ContactInformtion />
-      <Footer2/>
+      <Footer2 />
     </>
   )
 }

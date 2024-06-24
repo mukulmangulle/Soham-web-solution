@@ -21,12 +21,12 @@ function OurCustomer() {
 
     return (
 
-        <Box className="padding-top-bottom"  >
+        < >
             <Box className=" flex-center" flexDirection={'column'} textAlign={"center"} >
-                <Typography id='Heading-h2' variant='h2'  >
+                <Typography className='secondary_heading' variant='h2'  >
                     {contents.aboutus.heading}
                 </Typography>
-                <Typography className='about-pre' >
+                <Typography width={"80%"} className='primary_subheading our-utality-p' >
                     {contents.aboutus.contant}
                 </Typography>
             </Box>
@@ -112,7 +112,7 @@ function OurCustomer() {
 
             </Box>
 
-        </Box>
+        </>
 
     );
 }

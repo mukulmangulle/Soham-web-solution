@@ -15,19 +15,21 @@ const AboutSection2 = () => {
   }, [dispatch]);
 return (
     <>
-<Box  className="bg-img " >
-        <Typography id='Heading-h2' className='padding-top-bottom'  variant='h1'  >
+<Box  className="bg-img about_first" >
+        <Typography className='primary-heading'  variant='h1'  >
           {contents.aboutData.heading} </Typography>
       </Box>
-      <Box className='aboutsectiocolor padding-top-bottom width1920 ' >
+      <Box className='aboutsectiocolor padding-top-bottom width1920 flex-center ' >
+  <Box className="flex-center">
+  <img className='about_img'  src={AboutSectionimg} alt="" />
 
-        <img   src={AboutSectionimg} alt="" />
+<Box  className="about-welcome" >
+  <Typography className='about-heading'  variant='h3'>{contents.aboutSectionData.heading}</Typography>
+  <Typography color={"white"} className='innovation'>  {contents.aboutSectionData.text}</Typography>
 
-        <Box  className="about-welcome" >
-          <Typography id='about-heading'  variant='h3' fontSize={40}  fontWeight={'600'} textAlign={'center'} paddingBottom={3} color={'white'}>{contents.aboutSectionData.heading}</Typography>
-          <Typography id="typography">  {contents.aboutSectionData.text}</Typography>
-
-        </Box>
+</Box>
+  </Box>
+       
       </Box>
     </>
   )

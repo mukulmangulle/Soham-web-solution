@@ -1,273 +1,260 @@
 .home {
-    /* background: linear-gradient(to bottom, #0160E7, #053480); */
     max-width: 1920px;
     margin: auto;
     background-color: #E6f0fd;
 }
-.home .home-continer{
+
+.home .home-continer {
     padding-top: 5rem;
-    width: 85.5%;  
+    width: 85.5%;
 }
-.home-continer .home-content{
-    width: 850px;
- 
+
+.home-continer .home-content {
+    max-width: 850px;
 }
 
 .home-content .home-h1 {
     font-size: 70px;
-    font-weight: 600;
-    color: white;
-    color: #053480;
-   
-}
-.home-content .home-p1 {
-    font-size: 23px;
-        color: white;
-        padding-top: 2rem;
-        color: #053480;
-}
-.schadule-meeting .home-p2 {
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    color: #053480;
-}
-.home-content .schadule-meeting{
-    display: flex;
-  padding:2rem 0rem 4rem 0rem;
- 
-}
- .home .home-img{
-    height: 560px ;
+    font-weight: 600 ;
 }
 
-@media (max-width:1600px) {
-    .home-continer{
+.home-content .home-p1 {
+    font-size: 25px;
+    padding-top: 2rem;
+    max-width: 700px;
+
+}
+
+.schadule-meeting .home-p2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.home-content .schadule-meeting {
+    display: flex;
+    margin-top: 2.5rem;
+
+}
+.home .home-img {
+    height: 540px;
+}
+.home-lastSection{
+    width: 85.5%;
+    padding: 1.5rem 0px;
+}
+.home-lastSection p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.schadule-meeting .Aroow_right{
+    font-size: 40px;
+}
+
+
+@media (max-width:1440px) {
+    .home-continer {
         padding-top: 3.3rem;
         width: 85%;
     }
+
     .home-content .home-h1 {
         font-size: 50px;
         width: 90%;
     }
+
     .home-content .home-p1 {
-        font-size: 18px;
+        font-size: 22px;
         width: 90%;
+        padding-top: 1.5rem;
+
     }
+
     .schadule-meeting .home-p2 {
-        font-size: 16px;
+        font-size: 20px;
     }
-    .home .home-img{
-        height: 500px;
+
+    .home .home-img {
+        max-height: 420px;
     }
-    .home-content .schadule-meeting{
-        display: flex;
-      padding:0.5rem 0rem 2rem 0rem;
+
+    .home-content .schadule-meeting {
+        margin-top: 1.5rem;
     }
-    .home .home-continer{
+
+    .home .home-continer {
         padding-top: 3rem;
     }
-  
+
 }
 
-@media (max-width:1080px) {
+/* @media (max-width:1024px) {
     .home-content .home-h1 {
-        font-size: 38px;
-        width: 350px;
+        font-size: 35px;
+        max-width: 450px;
     }
 
     .home-content .home-p1 {
-        font-size: 16px;
-        width: 350px;
+        font-size: 18px;
+        max-width: 450px;
+        padding-top: 0.5rem;
+
     }
 
     .schadule-meeting .home-p2 {
-        font-size: 14px;
+        font-size: 16px;
     }
-    .home .home-img{
+
+    .home .home-img {
         height: 300px;
     }
-  
-    .home .home-continer{
+
+    .home .home-continer {
         padding-top: 2rem;
     }
-}
-
-
-
-@media (max-width:768px) {
-   
-    .home-content .home-h1 {
-        font-size: 30px;
-        width: 300px;
+    .home-lastSection p{
+                font-size: 12px;
     }
-
-    .home-content .home-p1 {
-        font-size: 16px;
-        width: 300px;
+    .home-content .schadule-meeting {
+        margin-top: 0.2rem;
     }
-
-    .schadule-meeting .home-p2 {
-        font-size: 14px;
-    }
-    .home .home-img{
-        height: 250px;
-    }
-    .home-lastSection {
-        display: none;
-    }
-}
+} */
 
 
-@media (max-width:680px) {
+@media (max-width:1024px) {
     .home-continer {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-      
+        flex-direction: column-reverse;
+       
     }
- 
-    .home-content .home-h1{
-        font-size:40px;
-        width: 80%;
-        margin: auto;
+    .home-continer .home-content{
+          width: 100%;
+          padding-top: 2rem;
+    }
+    .home-content .home-h1 {
+        font-size: 35px;
+        max-width:100%;
     }
 
     .home-content .home-p1 {
         font-size: 18px;
-        width: 80%;
-        margin: auto;
-        padding-top: 2%;
-        
-        }
-
-        .schadule-meeting .home-p2{
-        font-size: 12px;
-         }
-   .home .home-img{
-        height: 300px;
-    }
-    .home-content .schadule-meeting{
-        width: 80%;
-        margin: auto;
-   
-    }
-}
-
-@media (max-width:576px) {
- 
-    .home {
-        width:100%;
-    }
-    .home-continer {
-        width: 90% !important;
+        width:80% ;
+        padding-top: 1.5rem;
 
     }
-    .css-125ns5y{
-        width: 100% !important;
-    }
 
-    .home-continer {
-        width: 60%;
-    }
-
-    .home-content .home-h1{
-        font-size: 45px;
-        width: 70%;
-       
-    }
-    .home-continer .home-content{
-        width: 100%;
-     
-    }
-
-    .home-content .home-p1{
-        font-size: 20px;
-        width: 70%;
-     margin: auto!important;
-    } 
     .schadule-meeting .home-p2 {
-        font-size: 20px;
-        width: 100%;
-     margin: auto!important;
-    } 
-  
+        font-size: 16px;
+    }
 
+    .home .home-img {
+        height: 450px !important;
+        
+    }
+
+    .home .home-continer {
+        padding-top: 2rem;
+    }
+    .home-lastSection p{
+                font-size: 12px;    
+    }
     .home-content .schadule-meeting {
-        width: 70%;
-        margin: auto;
+        margin-top: 1rem;
     }
-    .css-j1pozl-MuiTypography-root{
-        font-size: 14px!important;
+   .home .home-lastSection{
+         margin-top: 2rem;
     }
-    .home .home-continer{
-        padding-top: 1rem;
-    }
-}
-
-
-
-@media (max-width:480px) {
-      .home-continer {
-        width: 100%;
-
-    }
-    .home-continer .home-content{
-        width: 100%;
-     
-    }
-    .home-content .home-h1{
-        font-size: 35px;
-        width: 80%;
-        margin: auto;
-    }
-
-    .home-content .home-p1{
-        font-size: 20px;
-       width: 80%;
-        margin: auto;
-    }
-   
-
-    .home-content .schadule-meeting{
-        width: 80%;
-        margin: auto;
-        font-size: 10px;
-    }
-}
-
-
-
-@media (max-width:375px) {
-    
-    /* .css-125ns5y{
-        width: 10% !important;
-    } */
-        .home-continer {
-        width:100%;
-                 }
-
-                 .home .home-img{
-            height: 200px;
-        }
-
-        .home-content .home-h1 {
+    .schadule-meeting .Aroow_right{
         font-size: 30px;
-        width: 80%;
-        margin: auto;
+    }
+}
+
+
+
+ 
+@media (max-width:768px) {
+    .home .home-continer {
+        padding-bottom: 2rem;
+    }
+    .home-content .home-h1 {
+        font-size: 30px;
     }
 
     .home-content .home-p1 {
-        font-size: 15px !important;
-        width: 80%;
-        margin: auto;
-    
+        font-size: 18px;
+        width: 100%;
     }
 
-    .home-content .schadule-meeting{
-        width: 80%;
-        margin: auto;
-        font-size: 10px;
+    .schadule-meeting .home-p2 {
+        font-size: 16px;
+    }
+
+    .home .home-img {
+        height: 250px;
+    }
+
+    .home-lastSection {
+        display: none;
+    }
+    .home .home-img {
+        height: 350px !important;
+        
     }
 } 
+
+
+
+@media (max-width:576px) {
+    .home .home-continer {
+        padding-bottom: 2rem;
+    }
+    .home-content .home-h1 {
+        font-size: 25px;
+    }
+
+    .home-content .home-p1 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .schadule-meeting .home-p2 {
+        font-size: 14px;
+    }    
+    .home .home-img {
+        height: 280px !important;
+        
+    }
+    .schadule-meeting .Aroow_right{
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width:375px) {
+    .home .home-continer {
+        padding-bottom: 2rem;
+    }
+    .home-content .home-h1 {
+        font-size: 24px;
+    }
+
+    .home-content .home-p1 {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .schadule-meeting .home-p2 {
+        font-size: 13px;
+    }    
+    .home .home-img {
+        height: 240px !important;
+        
+    }
+    .schadule-meeting .Aroow_right{
+        font-size: 22px;
+    }
+}

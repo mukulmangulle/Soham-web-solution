@@ -6,12 +6,10 @@
     background: url(../../assets/work/bg.svg);
     object-fit: cover;
     background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
 }
 
-.work .content{
-    width: 100%;
-    padding: 1rem 0rem 2rem 0rem;
-}
 
 .work .view-work {
     width: 230px;
@@ -20,8 +18,7 @@
     display: flex;
     border: 1px solid #053480;
     color: #053480;
-    margin: 5px;
-    padding: 5px 0px;
+
 }
 
 .work .view-work:hover {
@@ -30,10 +27,15 @@
     border: none;
 }
 
+.card-heading {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
 .ludo-earn-p {
     align-items: center;
     font-size: 14px !important;
-    padding: 1.2rem;
+    padding: 1rem;
     color: #053480;
     text-align: center;
 }
@@ -41,9 +43,14 @@
 #heading {
     padding: 1px;
 }
-.work .card-section{
-       width: 80%;
-       flex-wrap: wrap;
+
+.work .card-section {
+    max-width: 1200PX;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
 }
 
 .work .card {
@@ -53,10 +60,10 @@
     z-index: 0;
     text-align: center;
     margin: 15px;
-    width: 420px;
-    height: 500px;
+    width: 350px;
+    height: 480px;
     padding: 1rem;
-       display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -94,135 +101,131 @@
     }
 }
 
-@media (max-width:1780px) {
-    .work .card {
-        width: 370px ;
-        height: 450px ;
-        padding: 0%;
-        padding-bottom: 10px;
-        
-    }
+
+
+@media (max-width:1440px) {
+
 
     .work .view-work {
-        margin: 0px;
-        width:190px;
-        height: 50px;
-        font-size: 15px;
+        width: 180px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .card-heading {
+        font-size: 20px !important;
     }
 
     .ludo-earn-p {
+        font-size: 14px !important;
+        padding: 0.3rem;
+    }
+
+    #heading {
+        padding: 1px;
+    }
+
+    .work .card-section {
+        max-width: 1000PX;
+        margin: 1rem 0rem;
+    }
+
+    .work .card {
+
+        margin: 10px;
+        width: 310px;
+        height: 440px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width:1024px) {
+    .work .card-section {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .work .card {
+        position: relative;
+        border: 1px solid #053480;
+        background-color: white;
+        z-index: 0;
+        text-align: center;
+        margin: 15px;
+        width: 350px;
+        height: 480px;
         padding: 1rem;
     }
-}
 
-
-
-@media (max-width:1500px) {
-    .work .card {
-        width: 320px;
-        height: 360px !important ;
-        padding: 5px;
-        padding-bottom: 10px;
-        margin: 15px;
-        
-    }
-
-    .work .view-work {
-        margin: 0px;
-        width: 170px;
-        height: 40px;
-        font-size: 12px;
-    }
 
     .card-heading {
-        font-size: 22px !important;
+        font-size: 24px !important;
+        font-weight: 600 !important;
     }
 
     .ludo-earn-p {
-        padding: 10px;
-        font-size: 10px !important;
+        align-items: center;
+        font-size: 14px !important;
+        padding: 1rem;
+        color: #053480;
+        text-align: center;
     }
+
 }
 
 
 
-@media (max-width:1320px) {
-
-    .work .card{
-        width: 280px ;
-        height: 350px !important;
-        padding: 5px;
-        padding-bottom: 10px;
-        margin: 10px;
+@media (max-width:576px) {
+    .work .card-section {
+        width: 89%;
+      
     }
-    .work .card-section{
-        width: 85%;
-        flex-wrap: wrap;
- }
- .work .view-work {
-    margin: 0px;
-    width: 150px;
-    height: 35px;
-    font-size: 12px;
-}
-}
 
-@media (max-width:1060px) {
-     .work .card-section{
-        width: 90%;
-    
-   
-     }
 
     .work .card {
-        width: 210px;
-        height: 320px !important;
-       padding: 10PX 3PX;
-        margin: 10px 7px;
-
+        position: relative;
+        border: 1px solid #053480;
+        background-color: white;
+        z-index: 0;
+        text-align: center;
+        margin: 10px 0px;
+        width: 300px;
+        height: 400px;
+        padding: 1rem;
     }
 
-    .work .view-work {
-        margin: 0px;
-        width: 120px;
-        height: 30px;
-        font-size: 12px;
-    }
 
     .card-heading {
-        font-size: 15px !important;
+        font-size: 20px !important;
+        font-weight: 600 !important;
     }
 
     .ludo-earn-p {
-        padding: 2px;
-        font-size: 9px !important;
+        align-items: center;
+        font-size: 12px !important;
+        padding: 0.2rem;
+        color: #053480;
+        text-align: center;
     }
     
-}
-
-@media (max-width:480px) {
-    .work .card{
-        width: 380px !important;
-        height: 100% !important;
-        padding: 5px;
-        padding-bottom: 10px;
-        margin: 15px;
-    }
-
-    .work .view-work{
-        margin: 0px;
-        width: 160px;
-        height: 40px;
-        font-size: 12px;
-    }
-
-    .card-heading {
-        font-size: 18px !important;
-    }
-
-    .ludo-earn-p {
-        padding: 5px;
-        font-size: 10px !important;
-    }
+    .work .view-work {
+        width: 140px;
+        height: 35px;
+        font-size: 16px;
+       }
 
 }

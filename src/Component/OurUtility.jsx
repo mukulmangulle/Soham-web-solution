@@ -22,18 +22,18 @@ const OurUtility = () => {
 
 
     return (
-        <Box className="flex-center padding-top-bottom  " flexDirection={'column'}  >
+        <Box className="flex-center-coulmn"  >
             <Box className="flex-center-coulmn">
-                <Typography variant='h2' id='Heading-h2'>
+                <Typography variant='h2' className='secondary_heading'>
                     {contents.ourutility.heading}
                 </Typography>
-                <Typography id="Typography-gray " className='our-utality-p '>
+                <Typography className='primary_subheading our-utality-p '>
                     {contents.ourutility.contant}
                 </Typography>
             </Box>
 
-            <Box className="web-devlopment flex-between " >
-                <Box className=' flex-center margin2'  >
+            <Box className="web-devlopment flex-between padding-top-bottom " >
+                <Box className=' flex-center ' >
                     <img src={Our1} alt="" />
                     <Typography >
                         {contents.ourutility.order.text1}

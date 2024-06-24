@@ -28,3 +28,41 @@
     background-color: white;
     margin: 40px;
 }
+.box{
+    padding: 0px 5px;
+    background-color: white !important;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 13px;
+        
+}
+
+.customer_img{
+    width: 160px;
+    height: 90px;
+   align-items: center;
+}
+
+
+@media (max-width:576px) {
+    .box{
+        padding: 0px 5px;
+        background-color: white !important;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 5px;
+            
+    }
+    .customer_img{
+        width: 120px;
+        height: 80px;
+       align-items: center;
+    }
+    
+    .box-white{
+        background-color: white;
+        margin: 10px;
+    }
+}

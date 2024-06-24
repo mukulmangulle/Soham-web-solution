@@ -41,65 +41,50 @@ function OurCustomer() {
         centerMode: true,
         centerPadding: '0',
     };
-
-    const boxStyle = {
-        padding: '0 5px',
-        background: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        gap: "13px",
-
-    };
-
-    const imageStyle = {
-        width: '160px',
-        height: '90px',
-        alignItems: "center"
-
-    };
+   
+       
 
     return (
 
-        <Box className="padding-top-bottom custom-man"  >
+        <Box className=" custom-man" paddingBottom={3}  >
             <Box className="customer-child">
-                <Typography id='Heading-h2' variant='h2' >
+                <Typography className='secondary_heading' variant='h2' >
                     {contents.ourCustomers.heading}
                 </Typography>
-                <Typography width={'75%'} id="Typography-black" paddingTop={2}>
+                <Typography width={'75%'} className='primary_subheading our-utality-p'>
                 {contents.ourCustomers.contant}
                 </Typography>
 
             </Box>
             <Slider {...settings}>
                 <Box  className="box-white">
-                    <Box className="box" style={boxStyle}>
-                        <img src={Our1} alt="Our 1" style={imageStyle} />
+                    <Box className="box">
+                        <img src={Our1} alt="Our 1" className='customer_img' />
                     </Box>
                 </Box>
                 <Box className="box-white">
-                    <Box className="box" style={boxStyle}>
-                        <img src={Our2} alt="Our 2" style={imageStyle} />
+                    <Box className="box" >
+                        <img src={Our2} alt="Our 2"className='customer_img'  />
                     </Box>
                 </Box>
                 <Box  className="box-white">
-                    <Box className="box" style={boxStyle}>
-                        <img src={Our3} alt="Our 3" style={imageStyle} />
+                    <Box className="box">
+                        <img src={Our3} alt="Our 3" className='customer_img' />
                     </Box>
                 </Box>
                 <Box  className="box-white">
-                    <Box className="box" style={boxStyle}>
-                        <img src={Our4} alt="Our 4" style={imageStyle} />
+                    <Box className="box" >
+                        <img src={Our4} alt="Our 4"className='customer_img' />
                     </Box>
                 </Box>
                 <Box  className="box-white">
-                    <Box className="box" style={boxStyle}>
-                        <img src={Our5} alt="Our 5" style={imageStyle} />
+                    <Box className="box" >
+                        <img src={Our5} alt="Our 5" className='customer_img'  />
                     </Box>
                 </Box>
                 <Box className="box-white"  >
-                    <Box className="box" style={boxStyle}>
-                        <img src={Our6} alt="Our 6" style={imageStyle} />
+                    <Box className="box">
+                        <img src={Our6} alt="Our 6" className='customer_img'  />
                     </Box>
                 </Box>
             </Slider>
