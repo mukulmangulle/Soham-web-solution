@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Carditem = ({ blogcontent }) => {
   return (
     <>
-      <Card id='blog-card' >
+      <Card className='blog-card' >
         <img className='blogsimg' src={blogcontent?.jetpack_featured_media_url} alt="" />
         <CardContent>
           <Link
@@ -18,7 +18,7 @@ const Carditem = ({ blogcontent }) => {
             </Typography>
           </Link>
           <Typography
-            id='card-typography'
+           className='card_text'
             dangerouslySetInnerHTML={{ __html: blogcontent?.excerpt.rendered }}
           />
         </CardContent>

@@ -17,59 +17,60 @@ function Careertoggle7() {
     };
 
     return (
-        <Box margin={2.5} id="box-shadow"   >
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} > 
+        <Box id="box-shadow" className="current_opning"   >
+            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
                 <AccordionSummary   >
                     <Box className="flex-between careertoggle"  >
                         <Typography variant='h5' className="Hr-excutive"   >
-                        HR Executive (Any Graduate can apply)                        </Typography>
+                            HR Executive
+                        </Typography>
                         <AddIcon className='add-icon' />
                     </Box>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Box className="content-toggle" >
                         <Box className="D-CENTER"  >
-                            <Typography className='toggle-typo' >Experience :</Typography>
-                            <Typography  color={"gray"}  >0-1 year</Typography>
+                            <Typography className='career_toggle_subheading' >Experience :</Typography>
+                            <Typography className='Typography-gray-career'  >0-1 year</Typography>
                         </Box>
 
                         <Box className="D-CENTER" marginY={1}>
-                            <Typography className='toggle-typo'>NO of  Openings:</Typography>
-                            <Typography  color={"gray"}  >1</Typography>
+                            <Typography className='career_toggle_subheading'>NO of  Openings:</Typography>
+                            <Typography className='Typography-gray-career'  >1</Typography>
                         </Box>
 
-                        <Box className="D-CENTER" flexWrap={"wrap"}  marginBottom={3}>
-                            <Typography className='toggle-typo'>Location :</Typography>
-                            <Typography  color={"gray"} > 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
+                        <Box className="D-CENTER" flexWrap={"wrap"} marginBottom={3}>
+                            <Typography className='career_toggle_subheading'>Location :</Typography>
+                            <Typography className='Typography-gray-career' > 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
                         </Box>
 
                         <Box className="career-pregraph ">
-                            <Typography className='toggle-typo' marginY={2} >Roles & Responsibilities</Typography>
+                            <Typography className='toggle_heading_career'>Roles & Responsibilities</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >
+                                <Typography className="Typography-gray-career margin-left-1" >
 
-                                Lead the recruitment process to attract top-tier talent.</Typography>
+                                    Lead the recruitment process to attract top-tier talent.</Typography>
                             </Box>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Develop and implement HR strategies that support business objectives.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Develop and implement HR strategies that support business objectives.</Typography>
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Oversee employee relations, including conflict resolution and performance evaluations</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Oversee employee relations, including conflict resolution and performance evaluations</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Manage HR records, such as contracts, leave applications, and attendance data</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Manage HR records, such as contracts, leave applications, and attendance data</Typography>
 
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >  Organize training & development initiatives to enhance employee skills.
+                                <Typography className="Typography-gray-career margin-left-1" >  Organize training & development initiatives to enhance employee skills.
                                 </Typography>
 
                             </Box>
@@ -77,21 +78,21 @@ function Careertoggle7() {
                         </Box>
 
                         <Box className="careertoggle">
-                            <Typography className='toggle-typo' marginY={2} >Qualifications:</Typography>
+                            <Typography className='toggle_heading_career' >Qualifications:</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" > Proven experience as an HR executive or similar role.</Typography>
-
-                            </Box>
-                            <Box className="D-CENTER" >
-                                <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Familiarity with labor laws and HR best practices.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" > Proven experience as an HR executive or similar role.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Strong interpersonal and negotiation skills.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Familiarity with labor laws and HR best practices.</Typography>
+
+                            </Box>
+                            <Box className="D-CENTER" >
+                                <Typography className='dot'>•</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Strong interpersonal and negotiation skills.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
@@ -101,18 +102,18 @@ function Careertoggle7() {
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" > A degree in Human Resources or related field.
+                                <Typography className="Typography-gray-career margin-left-1" > A degree in Human Resources or related field.
                                 </Typography>
                             </Box>
 
                         </Box>
 
                         <Box className="careertoggle">
-                            <Typography  className='toggle-typo' marginY={2} >Why Soham Web Solutions:</Typography>
+                            <Typography className='toggle_heading_career'>Why Soham Web Solutions:</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Be part of a company that values its human capital as its greatest asset.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Be part of a company that values its human capital as its greatest asset.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
@@ -122,18 +123,18 @@ function Careertoggle7() {
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" > Influence the company culture and play a key role in employee satisfaction.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" > Influence the company culture and play a key role in employee satisfaction.</Typography>
 
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Enjoy opportunities for professional development and career advancement.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Enjoy opportunities for professional development and career advancement.</Typography>
 
                             </Box>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >At Soham Web Solutions, we believe that the right HR Executive can be the catalyst for a thriving workplace. If you're ready to take on this challenge and make a significant impact, we'd love to meet you.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >At Soham Web Solutions, we believe that the right HR Executive can be the catalyst for a thriving workplace. If you're ready to take on this challenge and make a significant impact, we'd love to meet you.</Typography>
 
                             </Box>
                         </Box>

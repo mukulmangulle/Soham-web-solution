@@ -3,7 +3,6 @@
 }
 
 .aboutsectiocolor div {
-
     width: 85.5%;
 }
 
@@ -32,12 +31,20 @@
 .aboutsectiocolor .innovation {
     width: 100%;
     font-size: 22px;
+}
 
+.about_our-journey {
+    width: 87.5%;
+    margin: auto;
+    padding-bottom: 2.5rem;
+}
+
+.img_ceo {
+    height: 380px;
 }
 
 .tecno-content {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,8 +79,6 @@
     margin: 0px 1.5px;
 }
 
-
-
 .leadership {
     width: 100%;
     display: flex;
@@ -84,7 +89,15 @@
 
 }
 
-.team .name {
+.leadership_box {
+    margin: 20px;
+}
+
+.team {
+    margin: 3rem;
+}
+
+.team .ceo_name {
     font-weight: 700;
     margin: 5px;
     font-size: 22px;
@@ -137,6 +150,26 @@
     margin: 1rem;
 }
 
+.form_about {
+    padding-bottom: 2.5rem
+}
+
+.form_about .form-control {
+    width: 80%;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.form-control .requirement-label {
+    font-size: 22px !important;
+}
+
+.form-control .border_bottom_form {
+    border-bottom: 1px solid #053480;
+    width: 70%;
+}
+
 @media (max-width:1440px) {
     .aboutsectiocolor .about_img {
         height: 350px;
@@ -144,7 +177,6 @@
 
     .about-welcome .about-heading {
         font-size: 35px;
-
     }
 
     .techno .Technology-focus-grid {
@@ -154,10 +186,8 @@
     }
 
     .css-heg063-MuiTabs-flexContainer {
-        gap: 15px
+        gap: 15px;
     }
-
-    ;
 
     .techno .Technology-focus-grid img {
         width: 60%;
@@ -174,53 +204,52 @@
         font-size: 20px;
 
     }
-}
 
-/* 
-@media (max-width:1320px) {
-    #aboutsectiocolor {
-        height: 290px;
+    .team {
+        margin: 2rem;
+
     }
 
-    #typography {
-        font-size: 16px;
+    .img_ceo {
+        height: 280px;
     }
 
-    #about-heading {
-        font-size: 30px;
+    .leadership_box {
+        margin: 20px;
     }
 
-    #Ready {
-        font-size: 25px;
-    }
-
-    #select {
+    .team .ceo_name {
+        margin: 5px;
         font-size: 20px;
     }
 
-    .sir {
-        height: 240px;
-        width: 100%;
-    }
-    .techno .Technology-focus-grid {
-        background: white !important;
-        max-width:200px;
-        height: 200px;
+    .team .leadership-p {
+        font-size: 18px;
     }
 
-    .techno .css-heg063-MuiTabs-flexContainer {
-        gap: 12px
+    .form_about {
+        padding-bottom: 2rem
     }
 
-    ;
-
-    .techno .Technology-focus-grid img {
-        width: 60%;
-        padding: 1px;
+    .form-control .requirement-label {
+        font-size: 20px;
     }
-   
+    .vision-man .V-CARD {
+        padding: 16px;
+    }
     
-} */
+.vision-man .lizards {
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.V-CARD .vision-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #053480;
+    margin: 1rem;
+}
+}
 
 @media (max-width:1024px) {
 
@@ -240,8 +269,38 @@
 
     }
 
+    .team {
+        margin: 1rem;
+    }
 
+    .img_ceo {
+        height: 220px;
+    }
 
+    .leadership_box {
+        margin: 10px;
+    }
+
+    .team .ceo_name {
+        margin: 3px;
+        font-size: 18px;
+    }
+
+    .team .leadership-p {
+        font-size: 16px;
+    }
+
+    .form_about .form-control {
+        width: 86%;
+        border-radius: 10px;
+        padding: 25px;
+        margin-top: 20px;
+    }
+   
+
+    .vision-man .V-CARD {
+        padding: 12px;
+    }
     .vision-man .vision-child {
         flex-wrap: wrap;
         width: 88%;
@@ -253,72 +312,29 @@
     }
 
     .V-CARD .vision-heading {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 600;
         color: #053480;
     }
+
     .about-welcome .about-heading {
         font-size: 30px;
 
     }
+
+    .form-control .requirement-label {
+        font-size: 18px;
+    }
 }
 
-
-/* @media (max-width: 992px) {
-
-
-    
-    .sir {
-        height: 180px;
-    }
-
-    .team .name {
-        font-size: 15px;
-    }
-
-    .team .leadership-p {
-        font-size: 14px;
-    }
-    #typography {
-        font-size: 16px;
-        text-align: center;
-
-    }
-
-    .about-welcome {
-        width: 90%;
-    }
-    
-    .techno .Technology-focus-grid {
-        background: white !important;
-        max-width:180px;
-        height: 160px;
-        text-align: center;
-    }
-
-    .css-heg063-MuiTabs-flexContainer {
-        gap: 5px;
-    }
-
-    
-
-    .techno .Technology-focus-grid img {
-        width: 60%;
-        padding: 1px;
-    }
-} */
-
-
-/* form contorl */
 @media (max-width:768px) {
-    #form-control {
-        box-shadow: none !important;
-        width: 100%;
+    .form_about .form-control {
+        /* box-shadow: none !important; */
+        width: 88%;
     }
 
     .about-typography {
         width: 80%;
-
     }
 
     .aboutsectiocolor div {
@@ -327,6 +343,7 @@
         margin: 0%;
 
     }
+
     .about-welcome .about-heading {
         font-size: 25px;
 
@@ -335,10 +352,33 @@
     .aboutsectiocolor img {
         margin-bottom: 30px;
     }
+
     .aboutsectiocolor .innovation {
         font-size: 16px;
 
     }
+
+    .team {
+        flex-wrap: wrap;
+    }
+
+    .img_ceo {
+        height: 220px;
+    }
+
+    .leadership_box {
+        margin: 20px;
+    }
+
+    .team .ceo_name {
+        margin: 3px;
+        font-size: 16px;
+    }
+
+    .team .leadership-p {
+        font-size: 14px;
+    }
+
     .contact-1 {
         width: 270px;
     }
@@ -351,36 +391,33 @@
         width: 270px;
     }
 
-    #Ready {
-        font-size: 20px;
-    }
-
-    #select {
-        font-size: 18px;
-    }
-
     .techno .tecno-content {
         width: 100%;
-
         display: flex;
         align-items: center !important;
         justify-content: center !important;
     }
 
+    .form-control .requirement-label {
+        font-size: 16px;
+    }
 
+    .form-control .border_bottom_form {
+        width: 90%;
+    }
 }
 
-
-
-
-
 @media (max-width:576px) {
+    .form_about .form-control {
+        box-shadow: none !important;
+        width: 95%;
+    }
+
     .aboutsectiocolor img {
-        width:375px;
+        width: 375px;
         margin-top: 0%;
         padding-top: 0%;
         margin-bottom: 0px;
-
     }
 
     .aboutsectiocolor div {
@@ -389,22 +426,29 @@
         margin: 0%;
 
     }
+
     .aboutsectiocolor .innovation {
         width: 100% !important;
         font-size: 14px;
 
     }
+
     .about-welcome .about-heading {
         font-size: 20px;
 
     }
 
-    .leadership .team {
-        text-align: center;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .team .ceo_name {
+        margin: 2px;
+        font-size: 14px;
+    }
+
+    .team .leadership-p {
+        font-size: 12px;
+    }
+
+    .leadership_box {
+        margin: 10PX;
     }
 
     .contact-1 {
@@ -422,94 +466,57 @@
     .css-1coc09t {
         padding: 45px !important;
     }
-
-    .vision-man .vision-child {
-        width: 95%;
+    .vision-man .V-CARD {
+        padding: 8px;
     }
-
+    .vision-man .vision-child {
+        width: 91%;
+    }
+    .V-CARD .vision-heading {
+        font-size: 22px;
+    }
     .vision-man .card_1 {
         margin: 10px;
     }
 
     .vision-man .lizards {
         font-size: 16px;
+        padding-top: 0.5rem;
+
+    }
+
+    .form-control .requirement-label {
+        font-size: 14px;
+    }
+
+    .form-control .border_bottom_form {
+        width: 75%;
     }
 }
-
-
-/* form section */
-/* @media (max-width:480px) {
-    #form-control {
-        width: 350px;
-        padding: 10px;
-    }
-
-    .aboutsectiocolor img {
-        width: 350px;
-        margin-top: 0px;
-        padding-top: 0%;
-    }
-
-    #Ready {
-        font-size: 20px;
-    }
-
-    #select {
-        font-size: 18px;
-    }
-}
- */
-
-
-/* someour work2 */
-/* @media (max-width:420px) {
-    #heading {
-        text-align: center;
-    }
-
-    #heading2 {
-        font-size: 15px;
-        padding: 15px 30px;
-        margin: 10px;
-
-    }
-
-    #card {
-        width: 320px;
-        margin: 20px;
-
-    }
-
-    #form-control {
-        width: 350px;
-        padding: 10px;
-    }
-
-    .aboutsectiocolor img {
-        width: 350px;
-        margin-top: 0px;
-        padding-top: 0%;
-    }
-
-} */
-
 
 @media (max-width:375px) {
-  
+
     .aboutsectiocolor img {
         height: 200px !important;
         margin-left: -40px;
         margin-bottom: 20px;
-       
     }
-    .aboutsectiocolor .innovation{
+
+    .aboutsectiocolor .innovation {
         font-size: 12px;
     }
 
+    .leadership_box {
+        margin: 12PX;
+    }
 
+    .team .ceo_name {
+        margin: 0px;
+        font-size: 14px;
+    }
 
-    .sir {
-        width: 200px;
+    .img_ceo {
+        height: 190px;
     }
 
     #heading2 {
@@ -522,4 +529,18 @@
         margin: 20px;
         height: 420px;
     }
+
+    .form-control .border_bottom_form {
+        width: 100%;
+    }
+    .V-CARD .vision-heading {
+        font-size: 18px;
+    }
+    .vision-man .V-CARD {
+        padding: 4px;
+    }
+    .vision-man .lizards {
+        font-size: 14px;
+    }
+
 }

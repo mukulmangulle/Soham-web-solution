@@ -17,12 +17,12 @@ function Careertoggle1() {
     };
 
     return (
-        <Box margin={2.5} id="box-shadow"   >
+        <Box className="current_opning" id="box-shadow"    >
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} > 
                 <AccordionSummary   >
                     <Box className="flex-between careertoggle"  >
                         <Typography variant='h5' className="Hr-excutive"   >
-                            Frontend Developer (Any Graduate can apply)
+                            Frontend Developer
                         </Typography>
                         <AddIcon className='add-icon' />
                     </Box>
@@ -30,22 +30,22 @@ function Careertoggle1() {
                 <AccordionDetails>
                     <Box className="content-toggle" >
                         <Box className="D-CENTER"  >
-                            <Typography className='toggle-typo' >Experience :</Typography>
-                            <Typography  color={"gray"}  >0-1 year</Typography>
+                            <Typography className='career_toggle_subheading' >Experience :</Typography>
+                            <Typography className='Typography-gray-career'   >0-1 year</Typography>
                         </Box>
 
                         <Box className="D-CENTER" marginY={1}>
-                            <Typography className='toggle-typo'>NO of  Openings:</Typography>
-                            <Typography  color={"gray"}  >1</Typography>
+                            <Typography className='career_toggle_subheading'>NO of  Openings:</Typography>
+                            <Typography className='Typography-gray-career'   >1</Typography>
                         </Box>
 
                         <Box className="D-CENTER" flexWrap={"wrap"}  marginBottom={3}>
-                            <Typography className='toggle-typo'>Location :</Typography>
-                            <Typography  color={"gray"} > 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
+                            <Typography className='career_toggle_subheading'>Location :</Typography>
+                            <Typography className='Typography-gray-career'  > 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
                         </Box>
 
                         <Box className="career-pregraph ">
-                            <Typography className='toggle-typo' marginY={2} >Roles & Responsibilities</Typography>
+                            <Typography className='toggle_heading_career'  >Roles & Responsibilities</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
@@ -70,7 +70,7 @@ function Careertoggle1() {
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Stay up-to-date with emerging trends and technologies in frontend development.
+                                <Typography  className=" Typography-gray-career    margin-left-1" >Stay up-to-date with emerging trends and technologies in frontend development.
                                 </Typography>
 
                             </Box>
@@ -78,7 +78,7 @@ function Careertoggle1() {
                         </Box>
 
                         <Box className="careertoggle">
-                            <Typography className='toggle-typo' marginY={2} >Qualifications:</Typography>
+                            <Typography className='toggle_heading_career'  >Qualifications:</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
@@ -108,7 +108,7 @@ function Careertoggle1() {
                         </Box>
 
                         <Box className="careertoggle">
-                            <Typography  className='toggle-typo' marginY={2} >Why Soham Web Solutions:</Typography>
+                            <Typography  className='toggle_heading_career'  >Why Soham Web Solutions:</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>

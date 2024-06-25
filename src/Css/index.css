@@ -159,13 +159,13 @@
 
 @media (max-width:1440px) {
     .primary-heading {
-        font-size: 50px !important;
+        font-size: 60px !important;
         padding: 3rem 0rem;
 
     }
 
     .secondary_heading {
-        font-size: 48px !important;
+        font-size: 50px !important;
         padding: 2rem 1rem  1.5rem 1rem;
 
     }
@@ -182,13 +182,13 @@
 
 @media (max-width:1024px) {
     .primary-heading {
-        font-size: 45px !important;
+        font-size: 50px !important;
         padding: 2rem 0rem;
 
     }
 
     .secondary_heading {
-        font-size: 42px !important;
+        font-size: 45px !important;
         padding: 2rem 0.5rem  1.5rem 0.5rem;
 
     }
@@ -206,11 +206,6 @@
 
     }
 
-    .Typography-gray-career {
-        font-size: 17px;
-        width: 100%;
-
-    }
 
 }
 
@@ -222,7 +217,7 @@
     }
 
     .secondary_heading {
-        font-size: 38px !important;
+        font-size: 40px !important;
         padding: 1.5rem 0.5rem  1rem 0.5rem;
 
     }
@@ -244,10 +239,7 @@
 
     }
 
-    .Typography-gray-career {
-        font-size: 14px;
 
-    }
 }
 
 .css-iqley6-MuiTypography-root {
@@ -257,11 +249,11 @@
 
 @media (max-width:576px) {
     .primary-heading {
-        font-size: 38px !important;
+        font-size: 40px !important;
     }
 
     .secondary_heading {
-        font-size: 34px !important;
+        font-size: 35px !important;
     }
 
     .primary_subheading {
@@ -274,19 +266,17 @@
         font-size: 25px;
     }
 
-    .Typography-gray-career {
-        font-size: 12px;
-    }
+   
 }
 
 @media (max-width:375px) {
 
     .primary-heading {
-        font-size: 35px !important;
+        font-size: 30px !important;
     }
 
-    .secondary_heading {
-        font-size: 30px;
+    .secondary_heading{
+        font-size: 25px !important;
         padding: 0.8rem 0.5rem  0.5rem 0.5rem;
 
     }

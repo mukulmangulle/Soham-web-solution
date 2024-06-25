@@ -51,19 +51,19 @@ const Singlecontent = ({ Api_url }) => {
   }
   return (
     <>
-      <Box className="bg-img " margin={"auto"} width={"65%"} objex>
-          <Typography className="primary-heading" variant='h1' >
-            {blog?.title?.rendered}
-          </Typography>
-          </Box>   
-      <Box className="flex-center padding-top--bottom" flexDirection={"column"}>
       
-       
+      <Box className="flex-center padding-top--bottom" flexDirection={"column"}>
+
         <Box className="singleblogpage-man">
           <Box className="all-pg420">
+          <Box className="bg-img single_blog_heading" >
+        <Typography className="primary-heading" variant='h1' >
+          {blog?.title?.rendered}
+        </Typography>
+      </Box>
             <img className='singleblogpage-img' src={blog?.jetpack_featured_media_url} alt="" />
             <Box className="singlepage-section2">
-              <Typography flexWrap={'wrap'} id='pregraph' marginY={3} dangerouslySetInnerHTML={{ __html: blog?.content?.rendered }} />
+              <Typography flexWrap={'wrap'} className='singleblog_text' marginY={3} dangerouslySetInnerHTML={{ __html: blog?.content?.rendered }} />
 
 
               <NextPrevious currentId={id} Api_url={Api_url} />

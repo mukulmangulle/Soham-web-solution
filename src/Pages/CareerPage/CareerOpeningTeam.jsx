@@ -19,7 +19,7 @@ const CareerOpeningTeam = () => {
                 </Typography>
 
 
-                <Box width={"85%"} >
+                <Box className="carrer_toogle_section" >
 
                     <Careertoggle1 />
                     <Careertoggle2 />

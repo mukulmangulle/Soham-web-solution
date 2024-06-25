@@ -21,31 +21,31 @@ const LeaderShipTeam = () => {
     return (
         <>
             <Box className=" leadership"  >
-                <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'}>
+                <Box className="flex-center-coulmn">
                     <Typography className='secondary_heading' variant='h2' >
                         {contents.Leadership.heading}
                     </Typography>
 
-                    <Typography className='primary_subheading' width={"70%"} fontWeight={700}   >
+                    <Typography className='primary_subheading our-utality-p'   >
                         {contents.Leadership.content}
                     </Typography>
                 </Box>
 
 
-                <Box className="team" padding={3} width={'90%'} display={'flex'} alignItems={'center'} justifyContent={"space-evenly"} flexWrap={'wrap'}>
-                    <Box className="flex-center-column" margin={2}>
-                        <img className='sir' src={co1} alt="" />
-                        <Typography className="name" >Neeraj Malakar</Typography>
+                <Box className="team flex-center" >
+                    <Box className="flex-center-column leadership_box">
+                        <img className='img_ceo' src={co1} alt="" />
+                        <Typography className="ceo_name" >Neeraj Malakar</Typography>
                         <Typography className='leadership-p' >Founder & CEO</Typography>
                     </Box>
-                    <Box className="flex-center-column" margin={2}>
-                        <img className='sir' src={co2} alt=""  />
-                        <Typography className="name">Anil Meena</Typography>
+                    <Box className="flex-center-column leadership_box">
+                        <img className='img_ceo' src={co2} alt=""  />
+                        <Typography className="ceo_name">Anil Meena</Typography>
                         <Typography className='leadership-p'>CTO & COO</Typography>
                     </Box>
-                    <Box className="flex-center-column" margin={2}>
-                        <img className='sir' src={co3} alt=""  />
-                        <Typography className="name">Ravi Yadav</Typography>
+                    <Box className="flex-center-column leadership_box">
+                        <img className='img_ceo' src={co3} alt=""  />
+                        <Typography className="ceo_name">Ravi Yadav</Typography>
                         <Typography className='leadership-p'>Founder & CEO</Typography>
                     </Box>
                 </Box>

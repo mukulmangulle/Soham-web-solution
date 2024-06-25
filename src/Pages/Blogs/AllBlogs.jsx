@@ -31,8 +31,8 @@ const AllBlogs = ({ Api_url }) => {
                 All Blogs
             </Typography>
            </Box>
-            <Box  display={"flex"} alignItems={"center"} justifyContent={"center"}>
-                <Box id="blog480-center" width={"87%"} display={'flex'} alignItems={"center"} justifyContent={"space-between"} flexWrap={"wrap"}>
+            <Box className="flex-center">
+                <Box  className="flex-between-wrap blog_section padding-top-bottom"  >
                     {blogcontents.map((blogcontent) => (
                         <Carditem key={blogcontent?.id} blogcontent={blogcontent} />
                     ))}

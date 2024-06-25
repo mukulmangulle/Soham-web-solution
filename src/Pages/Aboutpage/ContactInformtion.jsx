@@ -5,7 +5,7 @@ import Input1 from '../../Child-Component/Input';
 
 
 const ContactInformtion = () => {
-  
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -21,23 +21,23 @@ const ContactInformtion = () => {
   };
   return (
     <>
-      <Box  paddingBottom={4}>
+      <Box className="form_about" >
         <Typography className='secondary_heading' variant='h2'>CONTACT INFOMATION</Typography>
         <Typography textAlign={"center"} className="primary_subheading">Our some of these projects may seem interesting to you</Typography>
 
 
         <Box width={"100"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
 
-          <Box id="form-control" style={boxShadowStyle} padding={5}  width={"80%"} borderRadius={3} marginTop={3} >
+          <Box className="form-control" style={boxShadowStyle} >
             <Box width={"100%"}  >
-              <Typography id="Ready" variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Ready To work with us ? Tell us More about your Project Requirement</Typography>
+              <Typography className="Ready" variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Ready To work with us ? Tell us More about your Project Requirement</Typography>
               <Typography variant="h3" fontSize={"30px"} fontWeight={600} color={"#053480"} gutterBottom>
-             
+
               </Typography>
             </Box>
             <Box display={'flex'} justifyContent={"space-between"} width={'100%'} flexWrap={'wrap'} >
-              <Box className="contact-1" padding={0}  paddingTop={1.5}>
-                <Typography id='select' variant='h4' fontSize={22} component="legend">Select Your Requirement</Typography>
+              <Box className="contact-1" padding={0} paddingTop={1.5}>
+                <Typography className="requirement-label" variant='h4'  component="legend">Select Your Requirement</Typography>
                 {/* <TextField
                   fullWidth
                   id="name"
@@ -56,7 +56,7 @@ const ContactInformtion = () => {
                 <Input1 name="number" label="Number" />
 
                 <FormControl fullWidth margin="normal" required  >
-                  <InputLabel fontSize={22} id="requirement-label">Select Your Requirement</InputLabel>
+                  <Typography className="requirement-label">Select Your Requirement</Typography>
                   <Select
                     labelId="requirement-label"
                     id="requirement"
@@ -91,12 +91,12 @@ const ContactInformtion = () => {
                 <Input1 label="Message" />
 
               </Box>
-              <Box className="contact-2"  padding={0}   >
+              <Box className="contact-2"   >
 
                 <FormControl component="fieldset" fullWidth margin="normal" >
-                  <Box  color={"#053480"} padding={1} >
-                    <Typography id='select' color={'gray'} variant='h3' fontSize={30} component="legend">Select Your Requirement</Typography>
-                    <hr  color={"#053480"} />
+                  <Box  paddingY={1} >
+                    <Typography className="requirement-label border_bottom_form" color={'gray'} variant='h3'  >Select Your Requirement</Typography>
+                    {/* <hr className='border_bottom_form' /> */}
                   </Box>
                   <RadioGroup row aria-label="project-budget" name="project-budget">
                     <Box display={'flex'} alignItems={"start"} justifyContent={"center"} flexDirection={'column'} >

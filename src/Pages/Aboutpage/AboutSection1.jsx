@@ -13,18 +13,10 @@ const AboutSection1 = () => {
     dispatch(fetchcontents())
   }, [dispatch]);
 
-  const textStyle = {
 
-    padding: 2,
-    width: "71%",
-    paddingBottom: 7,
-    '@media (max-width: 768px)': {
-      width: '90%',
-    },
-  };
   return (
     <>
-      <Box >
+      <Box className="about_our-journey flex-center" >
 
         <Box className="flex-center-coulmn about_journey" textAlign={'center'}>
           <Typography  className='secondary_heading' variant='h2' >
@@ -32,7 +24,7 @@ const AboutSection1 = () => {
           </Typography>
           
           
-          <Typography sx={textStyle} className='primary_subheading' width={"71%"} >
+          <Typography className='primary_subheading' >
             {contents.aboutData.text}
           </Typography>
 
