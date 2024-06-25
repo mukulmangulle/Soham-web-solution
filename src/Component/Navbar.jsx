@@ -32,13 +32,13 @@ const Navbar = () => {
 
             <Box className="ul-box" >
               <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/about/`}  >Company</Link>
-              <Typography className='fontSize16'><CompanyMenu /></Typography>
+              <Typography className='fontSize16'  marginTop={"2px"}><CompanyMenu /></Typography>
             </Box>
 
 
-            <Box className="ul-box" >
-              <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/services/`}  >Services</Link>
-              <Typography className='fontSize16'><ServicesMenu /></Typography>
+            <Box className="ul-box " >
+              <Link className='color-white text text-decortion ' to={`/${process.env.SLUG_URL}/services/`}  >Services</Link>
+              <Typography className='fontSize16' marginTop={"2px"}><ServicesMenu /></Typography>
             </Box>
             {/* 
             <Box className="ul-box" >

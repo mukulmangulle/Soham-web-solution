@@ -5,45 +5,51 @@
     width: 100%;
 
 }
-.contact_form{
-       display: flex;
-       align-items: center;
-       justify-content: center !important;
-       width:75% !important;
-}
-.css-pnoqa4-MuiTypography-root{
-    font-size: 45px !important;
-}
-.css-9kz9b5 {
+
+.contact_form {
     display: flex;
-    align-items: baseline;
-    justify-content: center;
+    align-items: center;
+    justify-content: center !important;
+    width: 75% !important;
 }
+
+
+
 .contact_form .GETINTOUCH {
     width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
 
-.contact_form .GETINTOUCH1{
-       padding: 3rem 7rem;
-       width: 60%;
+.contact_form .GETINTOUCH1 {
+    padding: 3rem 3rem;
+    width: 60%;
 }
+
 .contact_form .GETINTOUCH2 {
     background: linear-gradient(to bottom, #0160E7, #053480);
     border-radius: 0 18px 18px 0px;
-  padding: 4rem; 
-  width: 40% ;
- 
+    padding: 4rem;
+    width: 40%;
+
 }
-.get_in_touch P{
+
+.get_in_touch P {
     text-align: start;
     font-size: 18px;
     align-items: center;
+}
+
+
+
+.contact_form .shadow-section {
+    border-radius: 20px;
+    margin: 50px 0px;
+    box-shadow: 0px 0px 20px 1px gray;
 }
 
 .contact .about-soham {
@@ -51,100 +57,202 @@
     font-weight: 600;
     color: #053480;
     text-align: center;
-     margin: 2rem 0rem;
-} 
-.contact_form .shadow-section{
-   border-radius: 20px;
-     margin: 50px 0px;
-    box-shadow: 0px 0px 20px 1px gray;
+    margin: 2rem 0rem;
 }
 
-@media (max-width:1600px) {
-    .css-191zsrp-MuiTypography-root{
-        font-size: 38px !important;
+.get_in_touch_heading {
+    font-size: 32px !important;
+    color: white;
+    font-weight: 600 !important;
+
+}
+
+.email_phone_heading {
+    font-size: 25px !important;
+    margin: 10px 0px 3px 0px !important;
+    color: white !important;
+}
+
+@media (max-width:1440px) {
+
+    .contact_form {
+        width: 80% !important;
     }
-    
-.contact .about-soham {
-    font-size: 25px;
-        margin: 1.5rem 0rem;
-} 
-
-}
-
-
-@media (max-width:1350px) {
-   
 
     .contact_form .GETINTOUCH1 {
-        padding: 0rem 2rem ;
-
+        padding: 3rem 2rem;
+        width: 55%;
     }
 
     .contact_form .GETINTOUCH2 {
-        border-radius: 17px;
+        background: linear-gradient(to bottom, #0160E7, #053480);
+        border-radius: 0 18px 18px 0px;
+        padding: 2rem;
+        width: 45%;
+
     }
-    .css-pnoqa4-MuiTypography-root{
-        font-size: 35px !important;
-    }
+
+
     .contact .about-soham {
-        font-size: 22px;
-            margin: 1.5rem 0rem;
-    } 
-    
-   
+        font-size: 35px;
+        margin: 2rem 0rem;
+    }
+
+    .get_in_touch_heading {
+        font-size: 24px !important;
+
+    }
+
+    .email_phone_heading {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .get_in_touch P {
+        text-align: start;
+        font-size: 17px;
+        align-items: center;
+    }
 
 }
 
 
-@media (max-width:1080px) {
-    
-    .contact_form{
+
+
+@media (max-width:1024px) {
+
+    .contact_form {
         display: flex;
         align-items: center;
         justify-content: center !important;
-        width:92% !important;
- }
-.contact_form .GETINTOUCH1{
-    padding: 3rem 2rem;
-    width: 100%;
-}
-.contact_form .GETINTOUCH2 {
- background: linear-gradient(to bottom, #0160E7, #053480);
- border-radius: 0px  0px 18px 18px;
-padding: 4rem; 
-width: 100% ;
+        width: 92% !important;
+    }
 
+    .contact_form .GETINTOUCH1 {
+        padding: 3rem 2rem;
+        width: 100%;
+    }
+
+    .contact_form .GETINTOUCH2 {
+        background: linear-gradient(to bottom, #0160E7, #053480);
+        border-radius: 0px 0px 18px 18px;
+        padding: 4rem;
+        width: 100%;
+
+    }
+    .contact .about-soham {
+        font-size: 30px;
+        margin: 1rem 0rem;
+    }
+
+    .get_in_touch_heading {
+        font-size: 25px !important;
+    }
+
+    .email_phone_heading {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .get_in_touch P {
+        text-align: start;
+        font-size: 14px;
+        align-items: center;
+    }
 }
-}
+
 @media (max-width:768px) {
-    .contact_form{
-        
-        width:100% !important;
- }
- .contact_form .GETINTOUCH1{
-    padding: 0.5rem 1rem;
-    width: 100%;
+    .contact_form {
+
+        width: 100% !important;
+    }
+
+    .contact_form .GETINTOUCH1 {
+        padding: 0.5rem 1rem;
+        width: 100%;
+    }
+
+    .contact_form .shadow-section {
+        border-radius: 0px;
+        margin: 0px 0px;
+        box-shadow: none;
+    }
+
+    .contact_form .GETINTOUCH2 {
+        border-radius: 0%;
+    }
+
+    .get_in_touch_heading {
+        font-size: 20px !important;
+    }
+
+    .email_phone_heading {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .get_in_touch P {
+        font-size: 12px;
+    }
+    .contact .about-soham {
+        font-size: 25px;
+        margin: 1rem 0rem;
+    }
 }
-.contact_form .shadow-section{
-    border-radius: 0px;
-      margin: 0px 0px;
-     box-shadow: none;
- }
- .contact_form .GETINTOUCH2{
-    border-radius: 0%;
- }
+
+@media (max-width:576px) {
+    .get_in_touch_heading {
+        font-size: 18px !important;
+    }
+
+    .email_phone_heading {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .get_in_touch P {
+        font-size: 11px;
+    }
+    .contact .about-soham {
+        font-size: 20px;
+        margin: 0.5rem 0rem;
+    }
 }
 
 
 @media (max-width:375px) {
-    .contact_form{
-        
-        width:100% !important;
- }
- .contact_form .GETINTOUCH2 {
-    border-radius: 0px;
-   width: 100% ;
-   padding: 1rem; 
+    .contact_form {
 
-   }
+        width: 100% !important;
+    }
+
+    .contact_form .GETINTOUCH2 {
+        border-radius: 0px;
+        width: 100%;
+        padding: 2rem;
+
+    }
+    .contact .about-soham {
+        font-size: 18px;
+        margin: 0rem 0rem;
+    }
+    .get_in_touch_heading {
+        font-size: 18px !important;
+    }
+
+    .email_phone_heading {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .get_in_touch P {
+        text-align: start;
+        font-size: 12px;
+        align-items: center;
+    }
 }

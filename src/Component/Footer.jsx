@@ -44,17 +44,7 @@ const Footer = () => {
                             {contents.footerData.aboutText}
                         </Typography>
 
-                        <Box className="flex-between footer-sec-icon"  >
-                            <a href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
-                            <a href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
-                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
-                            <a href="https://www.youtube.com/@SohamWebSolutionDewas"><img src={Youtube} alt="" /></a>
-                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Wordpress} alt="" /></a>
-                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
-
-
-
-                        </Box>
+                       
                     </Box>
 
                     <Box className="footer-sec2" >
@@ -110,6 +100,14 @@ const Footer = () => {
 
                                 <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text5}</Typography>
                             </a>
+                        </Box>
+                        <Box className="flex-between footer-sec-icon"  >
+                            <a href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
+                            <a href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
+                            <a href="https://www.youtube.com/@SohamWebSolutionDewas"><img src={Youtube} alt="" /></a>
+                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Wordpress} alt="" /></a>
+                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
                         </Box>
                     </Box>
                 </Box>

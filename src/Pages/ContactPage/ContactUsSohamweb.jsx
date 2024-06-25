@@ -28,7 +28,7 @@ const ContactUsSohamweb = () => {
   }
   return (
     <Box className="contact" >
-      <Box  className="bg-img padding-top-bottom" >
+      <Box  className="bg-img " >
         <Typography  className='primary-heading' variant='h1'  >Contact Us</Typography>
       </Box>
 

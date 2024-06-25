@@ -86,10 +86,10 @@ const Contact = () => {
                             </form>
                         </Box>
                         <Box width={{ xl: "550px", xs: "100%", sm: "100%", md: "40%" }} className="GETINTOUCH2" >
-                            <Typography variant='h4' id="h4" color={"white"} >Get in Touch</Typography>
+                            <Typography variant='h4' className='get_in_touch_heading'  >Get in Touch</Typography>
                             <Box>
                                 <Box paddingY={0.5}>
-                                    <Typography id="h4" color={"white"} >Phone</Typography>
+                                    <Typography id="h4" className='email_phone_heading' >Phone</Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
                                     <Typography color={"white"} >+91 78792-31700
@@ -102,7 +102,7 @@ const Contact = () => {
                             </Box>
                             <Box>
                                 <Box paddingY={0.5}>
-                                    <Typography color={"white"} id="h4" >Email</Typography>
+                                    <Typography className='email_phone_heading' >Email</Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
                                     <Typography color={"white"} > contact@sohamsolution.com</Typography>
@@ -113,7 +113,7 @@ const Contact = () => {
                             </Box>
                             <Box paddingY={0.5}>
                                 <Box>
-                                    <Typography color={"white"} id="h4">Address</Typography>
+                                    <Typography className='email_phone_heading'>Address</Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
                                     <Typography color={"white"} >
@@ -124,7 +124,7 @@ const Contact = () => {
 
                             <Box paddingY={0.5}>
                                 <Box>
-                                    <Typography color={"white"} id="h4">Business Hours
+                                    <Typography className='email_phone_heading'>Business Hours
                                     </Typography>
                                 </Box>
                                 <Box className='get_in_touch'>
@@ -139,7 +139,7 @@ const Contact = () => {
 
                             <Box paddingY={0.5}>
                                 <Box>
-                                    <Typography color={"white"} id="h4">
+                                    <Typography className='email_phone_heading'>
                                         Follow Us on Social Media
                                     </Typography>
                                 </Box>

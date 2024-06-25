@@ -6,17 +6,10 @@
   padding-bottom: 2rem;
 
 }
-.about-welcome{
-  width: 55%;
-  display: flex;
-  align-items:start;
-  justify-content:center;
-  flex-direction: column;
-  padding: 1.5rem;
- }
+
 
 .blank{
-  width:190px;
+  width:150px;
   height: 350px;
   text-align: center;
   color: white;
@@ -27,7 +20,7 @@
 }
 
 .blank1{
-  width:190px;
+  width:150px;
   height: 350px;
   text-align: center;
   color: white;
@@ -86,7 +79,7 @@
 }
 
 
-
+/*  
 :root {
   --reviews-width: -1000px;
   }
@@ -97,7 +90,7 @@
   to {
   transform: translate3d(var(--reviews-width),0,0);
   }
-  }
+  } */
 
 .MuiBox-root.css-1bntj9o {
 animation: ticker 60s linear infinite; 
@@ -110,4 +103,34 @@ animation-play-state: paused;
 
 .css-k2vjlc-MuiTypography-root {
   width: 95% !important;
-}
+} 
+
+
+/* lamp */ 
+.inner {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: none;
+			height: 150px;
+        } 
+	   
+	   .light_holder {
+			position: absolute;
+			top: 0;
+			height: 160px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+       }
+	   
+       .light {
+			position: absolute;
+			width: 400px;
+			height: 200px;
+			clip-path: polygon(50% 0%, 25% 100%, 75% 100%);	
+       }  
+       .inner:hover .light{   
+	       background: linear-gradient(109.6deg, rgba(61, 120, 176, 0.547) 11.3%, rgba(35, 65, 164, 0.723) 91.1%);
+       }

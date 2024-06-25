@@ -2,12 +2,12 @@
 import Home from './Home'
 import OurUtility from "./OurUtility";
 import SameOurWork from "./SameOurWork";
-import About from "./About";
 import OurCustomer from "./OurCustomer";
 import OurPartner from "./OurPartner";
 import { useEffect, useState } from 'react';
 import { Box, CircularProgress } from '@mui/material';
 import Footer from './Footer';
+import About_us from './About_us';
 
 const HomeSection = () => {
     const [loading, setLoading] = useState(true);
@@ -38,7 +38,7 @@ const HomeSection = () => {
           <Home />
             <OurUtility />
             <SameOurWork />
-            <About />
+            <About_us/>
             <OurCustomer />
             <OurPartner />
          <Footer/>

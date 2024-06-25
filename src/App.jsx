@@ -24,7 +24,7 @@ import Ecommerce from "./Pages/DevelopmentPage/Ecommerce";
 import { Height } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import OurJourney from "./OurJourney";
-
+import Service_form_section from "./Pages/ServicePage/Service_form_section";
 
 
 
@@ -60,6 +60,9 @@ function App() {
         <Route path={`/${process.env.SLUG_URL}/services/web-designing/`} element={<WebDesigning />} />
         <Route path={`/${process.env.SLUG_URL}/services/graphic-designing/`} element={<Graphic />} />
         <Route path={`/${process.env.SLUG_URL}/services/ecommerce-development/`} element={<Ecommerce />} />
+
+        <Route path={`/${process.env.SLUG_URL}/requirement/`} element={<Service_form_section/>} />
+
 
         <Route path={`/${process.env.SLUG_URL}/ourjourney/`} element={<OurJourney/>} />
 

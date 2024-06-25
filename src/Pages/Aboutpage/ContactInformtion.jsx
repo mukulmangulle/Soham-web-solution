@@ -56,13 +56,13 @@ const ContactInformtion = () => {
                 <Input1 name="number" label="Number" />
 
                 <FormControl fullWidth margin="normal" required  >
-                  <Typography className="requirement-label">Select Your Requirement</Typography>
                   <Select
                     labelId="requirement-label"
                     id="requirement"
                     name="requirement"
-                    label="Select Your Requirement"
+                    label="Select Project Buduget"
                     variant="filled"
+                    
                   >
 
                     <MenuItem value="Enterprise Web Solution">Enterprise Web Solution</MenuItem>
@@ -88,7 +88,7 @@ const ContactInformtion = () => {
           variant="filled"
           margin="normal"
         /> */}
-                <Input1 label="Message" />
+                <Input1 label="Brief Project information" />
 
               </Box>
               <Box className="contact-2"   >

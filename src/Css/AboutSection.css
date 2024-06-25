@@ -15,10 +15,14 @@
     color: white;
 }
 
-.about-welcome {
+.about-welcome{
     width: 55%;
-
-}
+    display: flex;
+    align-items:start;
+    justify-content:center;
+    flex-direction: column;
+    padding: 1.5rem;
+   }
 
 .about-welcome .about-heading {
     font-size: 40px;
