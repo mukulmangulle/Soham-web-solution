@@ -13,7 +13,7 @@ const contentSlice = createSlice({
         subheading: "Our company offers exceptional web development services with a focus on promptly addressing our clients' issues.",
         contactInfo:
         {
-          number: "+91 78792-31700",
+          number: "+91 7000335673",
           email: "contact@sohamsolution.com",
           link: "WhatsApp",
         },
@@ -24,9 +24,8 @@ const contentSlice = createSlice({
         order: {
           text1: "Web Designing & Development",
           text2: "Graphic Design",
-          text3: "Digital Marketing",
+          text3: "E-commerce Development",
           text4: "Mobile App Development",
-          text5: "Software Testing"
         }
       },
       SomeourWorks: {

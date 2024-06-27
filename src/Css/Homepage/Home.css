@@ -38,6 +38,7 @@
 }
 .home .home-img {
     height: 540px;
+    box-shadow: 0px 0px 20px 0px #395889;
 }
 .home-lastSection{
     width: 85.5%;

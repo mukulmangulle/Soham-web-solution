@@ -33,40 +33,35 @@ const OurUtility = () => {
             </Box>
 
             <Box className="web-devlopment flex-between padding-top-bottom " >
-                <Box className=' flex-center ' >
-                    <img src={Our1} alt="" />
+                <Box className=' flex-center  box_utility flex-center-coulmn' >
+                    <img src={Our1} alt="" className="zoom-img"/>
                     <Typography >
                         {contents.ourutility.order.text1}
                     </Typography>
                 </Box>
 
-                <Box className=' flex-center margin2'  >
-                    <img src={Our2} alt="" />
+                <Box className=' flex-center  box_utility flex-center-coulmn'   >
+                    <img src={Our2} alt=""className="zoom-img" />
                     <Typography  >
                         {contents.ourutility.order.text2}
                     </Typography>
                 </Box>
 
-                <Box className=' flex-center margin2'  >
-                    <img src={Our3} alt="" />
+                <Box className=' flex-center  box_utility flex-center-coulmn'  >
+                    <img src={Our3} alt=""className="zoom-img" />
                     <Typography  >
                         {contents.ourutility.order.text3}
                     </Typography>
                 </Box>
 
-                <Box className=' flex-center margin2'  >
-                    <img src={Our4} alt="" />
+                <Box className=' flex-center  box_utility flex-center-coulmn'  >
+                    <img src={Our5} alt=""className="zoom-img" />
                     <Typography >
                         {contents.ourutility.order.text4}
                     </Typography>
                 </Box>
 
-                <Box className=' flex-center margin2'  >
-                    <img src={Our5} alt="" />
-                    <Typography   >
-                        {contents.ourutility.order.text5}
-                    </Typography>
-                </Box>
+              
             </Box>
         </Box>
     )

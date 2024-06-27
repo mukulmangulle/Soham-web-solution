@@ -190,20 +190,20 @@ const Home = () => {
 
             <Box className="home-lastSection flex-between"   flexWrap={"wrap"}  >
                 <Box display={'flex'} alignItems={"center"} >
-                    <a className='text-decortion flex-center text_color_blue' href="tel:%20+91%207879231700" margin={0.5}  >
+                    <a className='text-decortion flex-center text_color_blue'  target="_blank" href="tel:%20+91%207879231700" margin={0.5}  >
                         <IoCall fontSize={20} className='text_color_blue' />
 
-                        <Typography  paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
+                        <Typography  paddingLeft={1}>{contents.homeData.contactInfo.number}</Typography>
                     </a>
                 </Box>
 
-                <a href="mailto:contact@sohamsolution.com" className='text-decortion flex-center text_color_blue'  >
+                <a href="mailto:contact@sohamsolution.com"  target="_blank" className='text-decortion flex-center text_color_blue'  >
 
                     < MdEmail fontSize={20}  />
-                    <Typography paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
+                    <Typography paddingLeft={1}>{contents.homeData.contactInfo.email}</Typography>
                 </a>
 
-                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0' className='text-decortion flex-center text_color_blue'   >
+                <a href='https://api.whatsapp.com/send/?phone=917000335673&text&type=phone_number&app_absent=0'  target="_blank" className='text-decortion flex-center text_color_blue'   >
 
                     <img src={Whatsapp} alt="" />
                     <Typography paddingLeft={1}>
@@ -215,18 +215,18 @@ const Home = () => {
 
 
                 <Box width={140} className="flex-between"  >
-                    <a href="https://www.facebook.com/sohamsolution/">
+                    <a  target="_blank" href="https://www.facebook.com/sohamsolution/">
                         <FaFacebookF className='text_color_blue' fontSize={16} />
                     </a>
 
-                    <a href='https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web'>
+                    {/* <a  target="_blank" href='https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web'>
                         <BsTwitterX className='text_color_blue' fontSize={16} />
-                    </a>
+                    </a> */}
 
-                    <a href='https://in.linkedin.com/company/soham-web-solution'>
+                    <a  target="_blank" href='https://in.linkedin.com/company/soham-web-solution'>
                         <FaLinkedinIn className='text_color_blue' fontSize={16} />                    </a>
 
-                    <a href="https://www.instagram.com/sohamwebsolution/">
+                    <a  target="_blank" href="https://www.instagram.com/sohamwebsolution/">
                         <AiFillInstagram className='text_color_blue' fontSize={16} />
                     </a>
 
