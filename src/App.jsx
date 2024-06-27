@@ -25,6 +25,9 @@ import { Height } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import OurJourney from "./OurJourney";
 import Service_form_section from "./Pages/ServicePage/Service_form_section";
+import Laraval from "./Pages/DevelopmentPage/Laraval";
+import Codeigniter from "./Pages/DevelopmentPage/Codeigniter";
+import React_Native from "./Pages/DevelopmentPage/React_Native";
 
 
 
@@ -60,11 +63,17 @@ function App() {
         <Route path={`/${process.env.SLUG_URL}/services/web-designing/`} element={<WebDesigning />} />
         <Route path={`/${process.env.SLUG_URL}/services/graphic-designing/`} element={<Graphic />} />
         <Route path={`/${process.env.SLUG_URL}/services/ecommerce-development/`} element={<Ecommerce />} />
+        <Route path={`/${process.env.SLUG_URL}/services/laraval-development/`} element={<Laraval />} />
+        <Route path={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} element={<Codeigniter />} />
+        <Route path={`/${process.env.SLUG_URL}/services/react-native-development/`} element={<React_Native />} />
+
+
+        
 
         <Route path={`/${process.env.SLUG_URL}/requirement/`} element={<Service_form_section/>} />
 
 
-        <Route path={`/${process.env.SLUG_URL}/ourjourney/`} element={<OurJourney/>} />
+        <Route path={`/${process.env.SLUG_URL}/life-at-soham/`} element={<OurJourney/>} />
 
 
       </Routes>

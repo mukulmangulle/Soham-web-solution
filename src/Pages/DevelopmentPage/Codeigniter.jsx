@@ -1,18 +1,17 @@
 import React from 'react'
-import { Box, Typography, Button } from '@mui/material'
-import Php from "../../assets/Service/php.svg"
-import BlogButton from '../../Child-Component/ServiceButton'
+import wordpress_logo from "../../assets/Service/logo/wordpress.svg"
+import { Box, Typography } from '@mui/material'
 import Service from './Service'
 import Form from "./Form"
-import wordpress_logo from "../../assets/Service/logo/wordpress.svg"
 
-const WordPress = () => {
+const Codeigniter = () => {
     return (
         <>
-
             <Box>
                 <Box className="bg-img  " >
-                    <Typography className='primary-heading' variant='h1' >Wordpress Development</Typography>
+                    <Typography className='primary-heading' variant='h1' >
+                        Codeigniter Development
+                    </Typography>
                 </Box>
             </Box>
 
@@ -24,12 +23,13 @@ const WordPress = () => {
                             <img className='service-logo' src={wordpress_logo} alt="" />
 
                             <Typography variant='h2' className="service_secondary-heading">
-                                Customized Services for WordPress Development
+                                Codeigniter Development Services for Web Applications
+
+
                             </Typography>
 
                             <Typography className="service_text" >
-                                All websites are powered by WordPress, the industry-leading content management system. Web developers and designers may construct or update websites with minimal work thanks to this CMS's well-known ease of modification. With its many built-in capabilities, WordPress is perfect for building up both a simple content management system and a powerful blogging platform, which improves search engine exposure. Additionally, because of its adaptability, it may be easily integrated into a variety of platforms, such as e-commerce and content resource management systems.
-
+                                CodeIgniter is an open-source PHP framework designed for developing high-end dynamic websites and applications. For developing custom CodeIgniter, it provides a comprehensive range of tools and libraries. CodeIgniter makes the development process more efficient with less configuration requirements. Programmers and developers can finish projects more quickly and effectively because to its special capabilities, which drastically decrease the need for substantial code.
                             </Typography>
                             {/* <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >
                                 <Button className='btn_apply_now' >
@@ -39,7 +39,7 @@ const WordPress = () => {
 
                         </Box>
                         <Box className="background-service flex-center"  >
-                            <img src={Php} alt="" />
+                            {/* <img src={} alt="" /> */}
                         </Box>
                     </Box>
 
@@ -50,8 +50,9 @@ const WordPress = () => {
             <Service />
             <Form />
 
+
         </>
     )
 }
 
-export default WordPress
+export default Codeigniter

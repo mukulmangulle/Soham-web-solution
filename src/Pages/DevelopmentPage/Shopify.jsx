@@ -27,11 +27,10 @@ const Shopify = () => {
                             <img className='service-logo' src={Shopify_logo} alt="" />
 
                             <Typography variant='h2' className="service_secondary-heading">
-                            Customized Services for WordPress Development                   
-                                     </Typography>
+                            Shopify E-Commerce Development Services                                     </Typography>
 
                             <Typography className="service_text" >
-                            All websites are powered by WordPress, the industry-leading content management system. Web developers and designers may construct or update websites with minimal work thanks to this CMS's well-known ease of modification. With its many built-in capabilities, WordPress is perfect for building up both a simple content management system and a powerful blogging platform, which improves search engine exposure. Additionally, because of its adaptability, it may be easily integrated into a variety of platforms, such as e-commerce and content resource management systems.
+                            Shopify is a leading ecommerce platform designed to help businesses of all sizes build and customize their online stores with ease. Its user-friendly interface, combined with a vast array of themes and plugins, allows for quick and efficient store setup. Shopify development offers robust features, including secure payment gateways, SEO tools, and mobile responsiveness, ensuring a seamless shopping experience for customers.
 
                             </Typography>
                             {/* <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >

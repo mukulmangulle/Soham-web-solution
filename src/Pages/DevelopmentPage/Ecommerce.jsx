@@ -5,30 +5,43 @@ import Php from "../../assets/Service/php.svg"
 import BlogButton from '../../Child-Component/ServiceButton'
 import Service from './Service'
 import Form  from "./Form"
+import Ecommerce_logo from "../../assets/Service/logo/ecommerce.svg"
+
 
 const Ecommerce = () => {
     return (
         <> <Box>
-        <Box className="bg-img  padding-top-bottom" >
-            <Typography id='Heading-h2' variant='h1' >Ecommerce Development</Typography>
+        <Box className="bg-img  " >
+            <Typography className='primary-heading' variant='h1' >Ecommerce Development</Typography>
         </Box>
     </Box>
-            <Box className="padding-top-bottom" maxWidth={"1920px"} margin={'auto'} display={"flex"} alignItems={"center"} justifyContent={"center"}>
-                <Box width={"84%"} display={"flex"} alignItems={"center"} justifyContent={"center"}>
-                    <Box id="man-reverce1" width={"100%"} className="flex-between-wrap"  >
-                        <Box width={617} id="devlopment-text">
-                            <Typography variant='h4' id="typo-fray-hrading" >Ecommerce Development</Typography>
-                            <Typography id="Typo-gray-start">PHP development services focus on implementing secure
-                                and powerful server-sides web applications. Our company
-                                deliver robust CMSs, and web-based solutions, we manage
-                                complex databases</Typography>
+          
+    <Box className="service_primary_section flex-center" >
+                <Box className="service-man flex-center-coulmn "  >
+
+                <Box className="service_container_one flex-between-wrap" width={"100%"}  >
+                        <Box className="devlopment-text" >
+                            <img className='service-logo' src={Ecommerce_logo} alt="" />
+
+                            <Typography variant='h2' className="service_secondary-heading">
+                            OpenCart E-Commerce Development Services                                   </Typography>
+
+                            <Typography className="service_text" >
+                            OpenCart Development involves creating and customizing ecommerce stores using the OpenCart platform, a robust and open-source solution known for its flexibility and ease of use. OpenCart provides a comprehensive set of features that enable businesses to build and manage online stores efficiently.
+
+                            </Typography>
+                            {/* <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >
+                                <Button className='btn_apply_now' >
+                                    Read more
+                                </Button>
+                            </Link> */}
+
                         </Box>
-                        <Box className="img-container" display={'flex'} alignItems={'center'} justifyContent={"center"}   >
-                            <Box className="background-service" display={'flex'} alignItems={'center'} justifyContent={"center"} >
-                                <img src={Php} alt="" />
-                            </Box>
+                        <Box className="background-service flex-center"  >
+                            <img src={Php} alt="" />
                         </Box>
                     </Box>
+
                 </Box>
             </Box>
 

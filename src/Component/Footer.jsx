@@ -42,7 +42,7 @@ const Footer = () => {
                             </Typography>
                         </Box>
                         <Box >
-                            <Link className='text-decortion' to={`/${process.env.SLUG_URL}/ourjourney/`}  ><Button>Life@Soham</Button></Link>
+                            <Link className='text-decortion' to={`/${process.env.SLUG_URL}/life-at-soham/`}  ><Button>Life@Soham</Button></Link>
                         </Box>
                     </Box>
                 </Box>

@@ -76,7 +76,7 @@ const ServiceContaint = () => {
                     </Box>
 
 
-                    {/* 3 */}F
+                    {/* 3 */}
                     <Box className="service_container_one flex-between-wrap" width={"100%"} >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={Shopify_logo} alt="" />
@@ -171,6 +171,88 @@ const ServiceContaint = () => {
                                     </Button>
                                 </Link>
                             </Box>
+                        </Box>
+                    </Box>
+
+                    {/* 7 */}
+                    <Box className="service_container_one flex-between-wrap" width={"100%"}  >
+                        <Box className="devlopment-text" >
+                            <img className='service-logo' src={Php_logo} alt="" />
+
+                            <Typography variant='h2' className="service_secondary-heading">
+                                laraval Development
+                            </Typography>
+
+                            <Typography className="service_text" >
+                                <strong >
+                                    Creating Dynamic Web Solutions from Ideas
+                                </strong  >
+                                <br></br>
+                                Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled programmers use PHP's capabilities to build creative and affordable solutions that are both innovative and cost-effective, ensuring your digital presence is impactful and future-proof.
+                            </Typography>
+                            <Link to={`/${process.env.SLUG_URL}/laraval-development/`} style={{ textDecoration: "none", }} >
+                                <Button className='btn_apply_now' >
+                                    Read more
+                                </Button>
+                            </Link>
+
+                        </Box>
+                        <Box className="background-service flex-center"  >
+                            <img src={Php} alt="" />
+                        </Box>
+                    </Box>
+                    {/* 8 */}
+                    <Box className="service_container_tow_man flex-center">
+                        <Box className="service_container_two flex-between-wrap" width={"100%"}  >
+
+                            <Box className="background-service flex-center"  >
+                                <img src={Webdesigner} alt="" />
+                            </Box>
+                            <Box className="devlopment-text" >
+                                <img className='service-logo' src={Ecommerce_logo} alt="" />
+                                <Typography variant='h2' className="service_secondary-heading">
+                                Codeigniter Development
+                                </Typography>
+                                <Typography className="service_text">
+                                    Transform Your Online Business with Cutting-Edge E-Commerce Solutions
+                                    <br></br>
+                                    At Soham Web, we specialize in creating dynamic, user-friendly e-commerce platforms that drive sales and enhance customer engagement. Our comprehensive e-commerce development services are designed to meet the unique needs of your business, whether you’re a startup, small business, or established enterprise. We leverage the latest technologies and industry best practices to build scalable, secure, and high-performance online stores.
+                                </Typography>
+
+                                <Link to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} style={{ textDecoration: "none" }} >
+                                    <Button sx={{ marginTop: "10px" }} type="submit" className='btn_apply_now' >
+                                        Read More
+                                    </Button>
+                                </Link>
+                            </Box>
+                        </Box>
+                    </Box>
+
+                    {/* 9 */}
+                    <Box className="service_container_one flex-between-wrap" width={"100%"}  >
+                        <Box className="devlopment-text" >
+                            <img className='service-logo' src={Php_logo} alt="" />
+
+                            <Typography variant='h2' className="service_secondary-heading">
+                                React Native Development
+                            </Typography>
+
+                            <Typography className="service_text" >
+                                <strong >
+                                    Creating Dynamic Web Solutions from Ideas
+                                </strong  >
+                                <br></br>
+                                Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled programmers use PHP's capabilities to build creative and affordable solutions that are both innovative and cost-effective, ensuring your digital presence is impactful and future-proof.
+                            </Typography>
+                            <Link to={`/${process.env.SLUG_URL}/services/react-native-development/`} style={{ textDecoration: "none", }} >
+                                <Button className='btn_apply_now' >
+                                    Read more
+                                </Button>
+                            </Link>
+
+                        </Box>
+                        <Box className="background-service flex-center"  >
+                            <img src={Php} alt="" />
                         </Box>
                     </Box>
                 </Box>

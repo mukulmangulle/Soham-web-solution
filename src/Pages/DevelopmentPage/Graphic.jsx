@@ -10,26 +10,37 @@ const Graphic = () => {
     return (
         <>
     <Box>
-                <Box className="bg-img  padding-top-bottom" >
+                <Box className="bg-img  " >
                     <Typography className='primary-heading' variant='h1' >Graphic Designing</Typography>
                 </Box>
             </Box>
-            <Box className="padding-top-bottom" maxWidth={"1920px"} margin={'auto'} display={"flex"} alignItems={"center"} justifyContent={"center"}>
-                <Box width={"84%"} display={"flex"} alignItems={"center"} justifyContent={"center"}>
-                    <Box id="man-reverce1" width={"100%"} className="flex-between-wrap"  >
-                        <Box width={617} id="devlopment-text">
-                            <Typography variant='h4' id="typo-fray-hrading" > Graphic Designing</Typography>
-                            <Typography id="Typo-gray-start">PHP development services focus on implementing secure
-                                and powerful server-sides web applications. Our company
-                                deliver robust CMSs, and web-based solutions, we manage
-                                complex databases</Typography>
+            <Box className="service_primary_section flex-center" >
+                <Box className="service-man flex-center-coulmn "  >
+
+                <Box className="service_container_one flex-between-wrap" width={"100%"}  >
+                        <Box className="devlopment-text" >
+                            <img className='service-logo' src={Php} alt="" />
+
+                            <Typography variant='h2' className="service_secondary-heading">
+                            Graphic Designing                  
+                                          </Typography>
+
+                            <Typography className="service_text" >
+                            Graphic designing is at the heart of visual communication, transforming ideas into compelling visuals that captivate and engage audiences. Our graphic design services encompass a wide range of solutions, from logo and brand identity creation to marketing materials and digital graphics. We blend creativity with strategic thinking to produce designs that not only look stunning but also effectively convey your brand message. Our team of talented designers is dedicated to crafting high-quality visuals that elevate your brand and leave a lasting impression. Whether you need a complete brand overhaul or specific design elements, we are here to bring your vision to life.
+
+                            </Typography>
+                            {/* <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >
+                                <Button className='btn_apply_now' >
+                                    Read more
+                                </Button>
+                            </Link> */}
+
                         </Box>
-                        <Box className="img-container" display={'flex'} alignItems={'center'} justifyContent={"center"}   >
-                            <Box className="background-service" display={'flex'} alignItems={'center'} justifyContent={"center"} >
-                                <img src={Php} alt="" />
-                            </Box>
+                        <Box className="background-service flex-center"  >
+                            <img src={Php} alt="" />
                         </Box>
                     </Box>
+
                 </Box>
             </Box>
 
