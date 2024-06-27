@@ -24,6 +24,8 @@
     padding: 1.5rem;
    }
 
+
+
 .about-welcome .about-heading {
     font-size: 40px;
     font-weight: 600;
@@ -31,6 +33,10 @@
     padding-bottom: 8px;
     color: white;
 }
+.convert_subheading{
+margin:0px 20px !important;
+}
+
 
 .aboutsectiocolor .innovation {
     width: 100%;
@@ -38,7 +44,7 @@
 }
 
 .about_our-journey {
-    width: 87.5%;
+    width: 86.5%;
     margin: auto;
     padding-bottom: 2.5rem;
 }
@@ -265,6 +271,13 @@
     .aboutsectiocolor div {
         padding: 0%;
         width: 85%;
+    }
+    .convert_subheading_man{
+          flex-direction: column;
+                   
+    }
+    .convert_subheading{
+         margin-top: 10px !important;
     }
 
     .aboutsectiocolor .innovation {

@@ -45,19 +45,7 @@ function Partner() {
                     </Box>
                 </Box>
 
-                <Box className="flex-center man-want width1920"  >
-                    <Box className='want flex-center' >
-
-                        <Box flex={1}>
-                            <Typography >Want to know more about SohamWeb's Life?
-
-                            </Typography>
-                        </Box>
-                        <Box >
-                            <Link className='text-decortion' to={`/${process.env.SLUG_URL}/ourjourney/`}  ><Button>Life@Soham</Button></Link>
-                        </Box>
-                    </Box>
-                </Box>
+            
             </Box>
 
         </>

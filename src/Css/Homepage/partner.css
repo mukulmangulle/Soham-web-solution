@@ -1,10 +1,10 @@
 .want button {
     padding: 10px;
-    width: 220px;
-    height: 57px;
+    width:170px;
+    height: 50px;
     border: 1px solid white;
     color: #0160E7;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     background-color: white;
 }
@@ -19,31 +19,31 @@
 .man-want .want {
     background: linear-gradient(to bottom, #053480, #0160E7);
     box-shadow: 0px 0px 10px 0px #ffffff;
-    padding: 0rem 5rem;
-    width: 85%;
-    height: 200px;
-    border-radius: 20px;
-    position: relative;
-    top: 50px;
+    padding: 0rem 2rem;
+    width: 78%;
+    height: 130px;
+    border-radius: 10px;
+    position: absolute;
     flex-wrap: wrap;
 
 }
 
 .partner {
-    height: 500px;
+height: 100%;
+margin-bottom:80PX;
 }
 
 .want p {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
 .partner .partner-centert div {
-    width: 90%;
+    width: 80%;
     margin-top: 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -57,22 +57,24 @@
 
 
 @media (max-width:1440px) {
-    .man-want .want {
-        background: linear-gradient(to bottom, #053480, #0160E7);
+     .man-want .want {
+        height: 110px;
 
-        box-shadow: 0px 0px 10px 0px #ffffff;
-        padding: 0rem 5rem;
-        width: 85%;
-        height: 180px;
-        border-radius: 20px;
-        position: relative;
-        top: 50px;
-        flex-wrap: wrap;
+    } 
+    .partner{
+                margin-bottom:60PX;
 
     }
 
-    .partner {
-        height: 450px;
+   
+    .want p {
+        font-size: 20px;
+        color: white;
+    }
+    .want button {
+        width:150px;
+        height: 42px;
+        font-size: 18px;
     }
 }
 
@@ -102,30 +104,25 @@
 
     .man-want .want {
 
-        padding: 0rem 2rem;
+        padding: 0rem 1rem;
         width: 85%;
-        height: 140px;
-
-        position: relative;
-        top: 50px;
-        flex-wrap: wrap;
-
-    }
+        height: 95px;
+        }
 
     .partner {
-        height: 380px;
+        /* margin-bottom:80PX; */
     }
 
     .want p {
-        font-size: 20px !important;
+        font-size: 18px !important;
         color: white;
 
     }
 
     .want button {
-        width: 150px;
-        height: 45px;
-        font-size: 18px;
+        width: 140px;
+        height: 38px;
+        font-size: 16px;
         font-weight: 700;
     }
 
@@ -134,7 +131,7 @@
 
 
 @media (max-width:768px) {
-
+   
 
     .partner .partner-centert img {
         width: 80px !important;
@@ -147,6 +144,7 @@
 
     .partner .partner-centert div {
         margin: 0px 30px;
+        width: 95%;
     }
 
     #partner-centert {
@@ -160,31 +158,21 @@
     }
 
     .man-want .want {
-
-        padding: 0rem 2rem;
-        width: 85%;
-        height: 140px;
-        top: 50px;
+        width: 92%;
+        height: 82px;
         flex-wrap: wrap;
     }
 
-    .partner {
-        height:360px;
-    }
+   
 
     .want p {
-        font-size: 20px !important;
-        color: white;
-
+        font-size: 16px !important;
     }
 
     .want button {
-
-        width: 150px;
-        height: 45px;
-
-        font-size: 18px;
-        font-weight: 700;
+        width: 130px;
+        height: 30px;
+        font-size: 14px;
     }
 }
 
@@ -193,30 +181,38 @@
 @media (max-width:576px) {
 
     .man-want .want {
-        padding: 0rem 2rem;
         width: 95%;
-        height: 120px;
-        position: relative;
-        top: 50px;
+        height: 75px;
 
     }
-    
-
-    .partner {
-        height:440px;
-    }
-
   
-
-}
+    .want p {
+        font-size: 14px !important;
+        width: 80%;
+    }
+    .want button {
+        width: 110px;
+        height: 28px;
+        font-size: 12px;
+    }
+  }
 
 @media (max-width:375px) {
 
     .man-want .want {
-        padding: 0rem 2rem;
-        width: 100%;
-        height: 120px;
-        top: 20px;
+        width: 90%;
+        height: 70px;
+    
+    }
+    .want p {
+        font-size: 12px !important;
+
+    }
+  
+    .want button {
+        width: 90px;
+        height: 30px;
+        font-size: 11px;
     }
 
    

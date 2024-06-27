@@ -17,9 +17,9 @@ const AntTabs = styled(Tabs)({
 
 
   //  UPPER  BALA BORDER 
-  borderBottom: '5px solid #e8e8e8',
+  // borderBottom: '5px solid #e8e8e8',
   '& .MuiTabs-indicator': {
-    backgroundColor: '#1890ff',
+    // backgroundColor: 'red',
   },
 });
 
@@ -63,7 +63,7 @@ const StyledTabs = styled((props) => (
   '& .MuiTabs-indicatorSpan': {
     maxWidth: 40,
     width: '100%',
-    backgroundColor: '#635ee7',
+    // backgroundColor: '#635ee7',
   },
 });
 
@@ -106,20 +106,21 @@ export default function CustomizedTabs() {
             <Typography className='secondary_heading' variant='h2'  >
               {contents.Technologyfocus.heading}
             </Typography>
-            <Typography className='primary_subheading' fontWeight={700}>
+            <Typography className='primary_subheading our-utality-p' >
               {contents.Technologyfocus.content}
             </Typography>
             <Box width={750} className="flex-between " margin={3} >
               <AntTabs  value={value} onChange={handleChange} aria-label="ant example" >
-                <AntTab  sx={{fontSize:"22px"}}     label="Freamworkes" />
-                <AntTab  sx={{fontSize:"22px"}}  label="Database" />
-                <AntTab sx={{fontSize:"22px"}}  label="Languages" />
-                <AntTab sx={{fontSize:"22px"}} label="CMS" />
-                <AntTab sx={{fontSize:"22px"}} label="Others" />
+                <AntTab  sx={{fontSize:"22px"}}     label="Languages" />
+                <AntTab  sx={{fontSize:"22px"}}  label="Frameworks" />
+                <AntTab sx={{fontSize:"22px"}}  label="CMS" />
+                <AntTab sx={{fontSize:"22px"}} label="Database" />
+                <AntTab sx={{fontSize:"22px"}} label="Other" />
               </AntTabs>
             </Box>
 
-            <Box paddingTop={2} width={'100%'} marginY={1} >
+           <Box className="flex-center">
+             <Box paddingTop={2} width={'100%'} marginY={1}   >
               <StyledTabs
                 value={value}
                 onChange={handleChange}
@@ -163,6 +164,7 @@ export default function CustomizedTabs() {
                   } />
               </StyledTabs>
 
+            </Box>
             </Box>
 
           </Box>

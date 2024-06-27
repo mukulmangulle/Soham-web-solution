@@ -18,7 +18,7 @@ const WeHiring = () => {
                     </Typography>
                     <Typography className='primary_subheading' >
                         At Soham Web Solution, we're not just building websites; we're crafting digital experiences that resonate with users worldwide. We're on the hunt for creative minds, strategic thinkers, and technology enthusiasts to join our vibrant team.                    </Typography>
-                    <Link  className='grow-email' href="mailto:career@sohamwebsolution.com">
+                    <Link  className='grow-email' target="_blank" href="mailto:career@sohamwebsolution.com">
                         Career@sohamwebsolution.com
                     </Link>
                 </Box>

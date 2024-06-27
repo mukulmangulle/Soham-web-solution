@@ -20,7 +20,7 @@ const ServiceContaint = () => {
             <Box className="service_primary_section flex-center" >
                 <Box className="service-man flex-center-coulmn "  >
 
-                 {/* 1 */}
+                    {/* 1 */}
                     <Box className="service_container_one flex-between-wrap" width={"100%"}  >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={Php_logo} alt="" />
@@ -48,7 +48,7 @@ const ServiceContaint = () => {
                         </Box>
                     </Box>
 
-                 {/* 2 */}
+                    {/* 2 */}
                     <Box className="service_container_tow_man flex-center ">
                         <Box className="service_container_two flex-between-wrap" width={"100%"}   >
                             <Box className="background-service flex-center"  >
@@ -146,13 +146,13 @@ const ServiceContaint = () => {
                         </Box>
                     </Box>
 
-                 {/* 6 */}
+                    {/* 6 */}
                     <Box className="service_container_tow_man flex-center">
                         <Box className="service_container_two flex-between-wrap" width={"100%"}  >
-                           
+
                             <Box className="background-service flex-center"  >
-                            <img src={Webdesigner} alt="" />
-                        </Box>  
+                                <img src={Webdesigner} alt="" />
+                            </Box>
                             <Box className="devlopment-text" >
                                 <img className='service-logo' src={Ecommerce_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">

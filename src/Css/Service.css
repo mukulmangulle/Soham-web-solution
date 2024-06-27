@@ -97,6 +97,10 @@
         max-width: 860px;
 
     }
+    .devlopment-text .service-logo {
+        height: 60px !important;
+    }
+    
 
     .service-man .devlopment-text {
         width: 42%;

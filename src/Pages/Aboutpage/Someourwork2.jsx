@@ -120,8 +120,8 @@ const Someourwork2 = () => {
                             <Box >
                                 <Box display={"flex"} alignItems={"center"}>
                                     <img src={Vssion} alt="" />
-                                    <Typography className='vision-heading'  gutterBottom variant="h5" component="div">
-                                        Vision
+                                    <Typography className='vision-heading' gutterBottom variant="h5" component="div">
+                                        Our Vision
                                     </Typography>
 
                                 </Box>

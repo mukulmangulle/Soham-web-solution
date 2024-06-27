@@ -23,10 +23,15 @@ const AboutSection1 = () => {
             {contents.aboutData.subheading}
           </Typography>
           
-          
-          <Typography className='primary_subheading' >
-            {contents.aboutData.text}
+        <Box className="flex-center convert_subheading_man">
+            
+        <Typography className='primary_subheading convert_subheading' textAlign={"start"} >
+            {contents.aboutData.text1}
           </Typography>
+          <Typography className='primary_subheading convert_subheading ' textAlign={"start"} >
+            {contents.aboutData.text2}
+          </Typography>
+        </Box>
 
         </Box>
       </Box>

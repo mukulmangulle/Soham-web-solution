@@ -33,9 +33,21 @@ const Footer = () => {
 
     return (
         <>
-          
+              <Box className="flex-center man-want width1920"  >
+                    <Box className='want flex-center' >
+
+                        <Box flex={1}>
+                            <Typography >Want to know more about SohamWeb's Life?
+
+                            </Typography>
+                        </Box>
+                        <Box >
+                            <Link className='text-decortion' to={`/${process.env.SLUG_URL}/ourjourney/`}  ><Button>Life@Soham</Button></Link>
+                        </Box>
+                    </Box>
+                </Box>
             <Box width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
-                <Box width={'88%'} paddingTop={20} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
+                <Box className="footer_padding_section" width={'88%'} paddingTop={12} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
                     <Link to="/" >
             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
@@ -102,12 +114,12 @@ const Footer = () => {
                             </a>
                         </Box>
                         <Box className="flex-between footer-sec-icon"  >
-                            <a href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
-                            <a href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
-                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
-                            <a href="https://www.youtube.com/@SohamWebSolutionDewas"><img src={Youtube} alt="" /></a>
-                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Wordpress} alt="" /></a>
-                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
+                            <a target="_blank" href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
+                            <a target="_blank" href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
+                            {/* <a target="_blank" href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a> */}
+                            <a target="_blank" href="https://www.youtube.com/@SohamWebSolutionDewas"><img src={Youtube} alt="" /></a>
+                            <a target="_blank" href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Wordpress} alt="" /></a>
+                            <a  target="_blank" href="https://in.linkedin.com/company/soham-web-solution"><img src={Linkdin} alt="" /></a>
                         </Box>
                     </Box>
                 </Box>
@@ -121,11 +133,18 @@ const Footer = () => {
                     </Box>
 
                     <Box className="copyright-privacy">
-                        <Typography className="copy-border">Privacy  </Typography>
-                        <Typography> |  </Typography>
-                        <Typography className="copy-border">Terms  </Typography>
-                        <Typography> |  </Typography>
-                        <Typography className="copy-border">Support </Typography>
+                    <a target="_blank" className="color-white " href="https://sohamsolution.com/privacy-policy/" margin={0.5}  >
+                                Privacy
+                            </a>
+
+                            <Typography> |  </Typography>
+                            <a target="_blank" className="color-white " href="https://sohamsolution.com/terms-conditions/" margin={0.5}  >
+                                Terms
+                            </a>
+                            <Typography> |  </Typography>
+                            <a target="_blank" className="color-white " href="https://sohamsolution.com/support-and-maintenance-packages/" margin={0.5}  >
+                                Support
+                            </a>
 
                     </Box>
                     </Box>
