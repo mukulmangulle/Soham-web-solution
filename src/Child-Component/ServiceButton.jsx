@@ -9,7 +9,7 @@ const ServiceButton = (props) => {
     <Link  to={`/${process.env.SLUG_URL}/Php_department`}  style={{ textDecoration: "none" }}>
      <Box  display={"flex"} alignItems={'center'} justifyContent={"start"} marginTop={3}>
       <Button type="submit" className='apply-now' onClick={onClick} props={props}>
-      Read More 
+      Read More
       </Button>
     </Box>
     </Link>

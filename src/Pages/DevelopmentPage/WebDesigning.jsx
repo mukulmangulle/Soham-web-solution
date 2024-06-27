@@ -11,7 +11,7 @@ const WebDesigning = () => {
         <>
             <Box>
                 <Box className="bg-img  padding-top-bottom" >
-                    <Typography id='Heading-h2' variant='h1' >Web Designing</Typography>
+                    <Typography className='primary-heading' variant='h1' >Web Designing</Typography>
                 </Box>
             </Box>
 

@@ -21,23 +21,23 @@ const Form = () => {
   };
   return (
     <>
-      <Box className="padding-top-bottom" sx={{ maxWidth: 1920, margin: 'auto' }}>
-        <Typography id='Heading-h2' variant='h2'>CONTACT INFORMATIION</Typography>
-        <Typography margin={2} fontSize={21} textAlign={'center'}>Our some of these projects may seem interesting to you</Typography>
+       <Box className="form_about" >
+        <Typography className='secondary_heading' variant='h2'>Contact Information </Typography>
+        <Typography textAlign={"center"} className="primary_subheading">Our some of these projects may seem interesting to you</Typography>
 
 
         <Box width={"100"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
 
-          <Box id="form-control" style={boxShadowStyle} paddingTop={5} paddingBottom={1} paddingX={7} width={"80%"} borderRadius={3} marginTop={3} >
+          <Box className="form-control" style={boxShadowStyle} >
             <Box width={"100%"}  >
-              <Typography variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Readay To work with us ? Tell us More about your Project Requirement </Typography>
+              <Typography className="Ready" variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Ready To work with us ? Tell us More about your Project Requirement</Typography>
               <Typography variant="h3" fontSize={"30px"} fontWeight={600} color={"#053480"} gutterBottom>
-             
+
               </Typography>
             </Box>
             <Box display={'flex'} justifyContent={"space-between"} width={'100%'} flexWrap={'wrap'} >
-              <Box className="contact-1" padding={0}  paddingTop={1.5}>
-                <Typography variant='h4' fontSize={22} component="legend">Select Your Requirement</Typography>
+              <Box className="contact-1" padding={0} paddingTop={1.5}>
+
                 {/* <TextField
                   fullWidth
                   id="name"
@@ -56,25 +56,28 @@ const Form = () => {
                 <Input1 name="number" label="Number" />
 
                 <FormControl fullWidth margin="normal" required  >
-                  <InputLabel fontSize={22} id="requirement-label">Select Your Requirement</InputLabel>
                   <Select
                     labelId="requirement-label"
                     id="requirement"
                     name="requirement"
-                    label="Select Your Requirement"
+                    label="Select Project Buduget"
                     variant="filled"
+
                   >
 
-                    <MenuItem value="Enterprise Web Solution">Enterprise Web Solution</MenuItem>
+                     <MenuItem value="Enterprise Web Solution">Web Development
+                    </MenuItem>
                     <MenuItem value="UI/UX Services">UI/UX Services</MenuItem>
-                    <MenuItem value="Mobile Apps Development">Mobile Apps Development</MenuItem>
-                    <MenuItem value="Application Services">Application Services</MenuItem>
-                    <MenuItem value="Hire Dedicated Resources">Hire Dedicated Resources</MenuItem>
+                    <MenuItem value="Mobile Apps Development">Web Designing</MenuItem>
+                    <MenuItem value="Application Services">Hire Dedicated Resoures</MenuItem>
+                    <MenuItem value="Hire Dedicated Resources">CMS Development</MenuItem> 
+
+
                     <MenuItem value="Framework Development">Framework Development</MenuItem>
                     <MenuItem value="Enterprise Solution">Enterprise Solution</MenuItem>
                     <MenuItem value="IT Consultancy">IT Consultancy</MenuItem>
                     <MenuItem value="CMS Development">CMS Development</MenuItem>
-                    <MenuItem value="Digital Marketing">Digital Marketing</MenuItem>
+                    <MenuItem value="Digital Marketing">Digital Marketing</MenuItem> 
                   </Select>
                 </FormControl>
                 {/* <TextField
@@ -88,24 +91,26 @@ const Form = () => {
           variant="filled"
           margin="normal"
         /> */}
-                <Input1 label="Meassge" />
+                <Input1 label="Brief Project information" />
 
               </Box>
-              <Box className="contact-2"  padding={0}   >
+              <Box className="contact-2"   >
 
                 <FormControl component="fieldset" fullWidth margin="normal" >
-                  <Box  color={"#053480"} padding={1} >
-                    <Typography color={'gray'} variant='h3' fontSize={30} component="legend">Select Your Requirement</Typography>
-                    <hr  color={"#053480"} />
+                  <Box paddingY={1} >
+                    <Typography className="requirement-label border_bottom_form" color={'gray'} variant='h3'  >Select Your Requirement</Typography>
+                    {/* <hr className='border_bottom_form' /> */}
                   </Box>
                   <RadioGroup row aria-label="project-budget" name="project-budget">
                     <Box display={'flex'} alignItems={"start"} justifyContent={"center"} flexDirection={'column'} >
-                      <FormControlLabel control={<Checkbox />} label="Enterprice Web Solution" />
-                      <FormControlLabel control={<Checkbox />} label="Mobile Apps Development" />
-                      <FormControlLabel control={<Checkbox />} label="Hire Dedicated Resoures" />
-                      <FormControlLabel control={<Checkbox />} label="Enterprice Solution" />
-                      <FormControlLabel control={<Checkbox />} label="CMS Development" />
-                      <FormControlLabel control={<Checkbox />} label="Other" />
+                      <FormControlLabel control={<Checkbox />} label="Web Development
+" />
+                      <FormControlLabel control={<Checkbox />} label="Web Designing" />
+                      <FormControlLabel control={<Checkbox />} label="Hire Dedicated Resoures " />
+                      {/* <FormControlLabel control={<Checkbox />} label="Enterprice Solution" /> */}
+                      <FormControlLabel control={<Checkbox />} label="CMS Development
+" />
+                      <FormControlLabel control={<Checkbox />} label="give a input" />
                     </Box>
                   </RadioGroup>
                 </FormControl>
@@ -120,9 +125,9 @@ const Form = () => {
                   <FormGroup>
                     <FormControlLabel control={<Checkbox />} label="UI/UX Services" />
                     <FormControlLabel control={<Checkbox />} label="Application Services" />
-                    <FormControlLabel control={<Checkbox />} label="Framework Development" />
+                    {/* <FormControlLabel control={<Checkbox />} label="Framework Development" /> */}
                     <FormControlLabel control={<Checkbox />} label="IT Consultancy" />
-                    <FormControlLabel control={<Checkbox />} label="Digital Maketing" />
+                    {/* <FormControlLabel control={<Checkbox />} label="Digital Maketing" /> */}
                   </FormGroup>
 
 

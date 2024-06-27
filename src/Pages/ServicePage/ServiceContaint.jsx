@@ -34,11 +34,11 @@ const ServiceContaint = () => {
                                     Creating Dynamic Web Solutions from Ideas
                                 </strong  >
                                 <br></br>
-                                Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled
+                                Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled programmers use PHP's capabilities to build creative and affordable solutions that are both innovative and cost-effective, ensuring your digital presence is impactful and future-proof.
                             </Typography>
-                            <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none" }} >
+                            <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >
                                 <Button className='btn_apply_now' >
-                                    Read More
+                                    Read more
                                 </Button>
                             </Link>
 
@@ -57,7 +57,8 @@ const ServiceContaint = () => {
                             <Box className="devlopment-text">
                                 <img className='service-logo' src={wordpress_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">
-                                    WordPress Development
+                                    WordPress Development Services
+
                                 </Typography>
                                 <Typography className="service_text" >
                                     Empowering Your Digital Presence with WordPress
@@ -75,12 +76,12 @@ const ServiceContaint = () => {
                     </Box>
 
 
-                    {/* 3 */}
+                    {/* 3 */}F
                     <Box className="service_container_one flex-between-wrap" width={"100%"} >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={Shopify_logo} alt="" />
                             <Typography variant='h2' className="service_secondary-heading">
-                                Shopify Development
+                                Shopify Development Services
                             </Typography>
                             <Typography className="service_text" >
                                 Shopify Can Help You Grow Your Online Business
@@ -112,7 +113,7 @@ const ServiceContaint = () => {
                             <Box className="devlopment-text" >
                                 <img className='service-logo' src={Webdesigner_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">
-                                    Web Designing
+                                    Web Designing Services
                                 </Typography>
                                 <Typography className="service_text" >
                                     Web, we believe that great design is the foundation of an effective online presence. Our expert team of designers creates visually stunning, responsive, and user-centric websites that not only look amazing but also deliver a seamless user experience. Whether you're a startup, a small business, or a large corporation, we tailor our web design services to meet your specific needs and goals.
@@ -131,7 +132,7 @@ const ServiceContaint = () => {
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={graphic_logo} alt="" />
                             <Typography variant='h2' className="service_secondary-heading">
-                                Graphic Designing
+                                Graphic Designing Services
                             </Typography>
                             <Typography className="service_text" >We understand the power of compelling visuals in capturing attention and communicating your brand's message. Our team of skilled graphic designers is dedicated to creating innovative and eye-catching designs that resonate with your audience and elevate your brand. Whether you need logos, brochures, banners, or any other graphic elements, we’ve got you covered.
                             </Typography>
@@ -156,7 +157,7 @@ const ServiceContaint = () => {
                             <Box className="devlopment-text" >
                                 <img className='service-logo' src={Ecommerce_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">
-                                    Ecommerce Development
+                                    E-Commerce Development Services
                                 </Typography>
                                 <Typography className="service_text">
                                     Transform Your Online Business with Cutting-Edge E-Commerce Solutions

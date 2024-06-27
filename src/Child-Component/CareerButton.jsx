@@ -6,7 +6,7 @@ const CareerButton = (props) => {
   return (
     <> <Box  display={"flex"} alignItems={'center'} justifyContent={"start"} marginLeft={"0.8rem"} >
       <Button type="submit" className='apply-now-Team' onClick={onClick} props={props}>
-     Apply Now 
+     Apply Now
       </Button>
     </Box>
     </>

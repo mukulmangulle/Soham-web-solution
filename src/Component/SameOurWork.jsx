@@ -49,7 +49,7 @@ const SameOurWork = () => {
                             </Typography>
                         </Box>
                         <CardActions>
-                            <Button className='view-work' >View Work</Button>
+                            <Button className='view-work' >Visit Website</Button>
                         </CardActions>
                     </Box>
               
@@ -71,7 +71,7 @@ const SameOurWork = () => {
                             </Typography>
                         </Box>
                         <CardActions>
-                            <Button className='view-work' >View Work</Button>
+                            <Button className='view-work' >Visit Website</Button>
                         </CardActions>
                     </Box>
                    
@@ -93,7 +93,7 @@ const SameOurWork = () => {
                             </Typography>
                         </Box>
                         <CardActions>
-                            <Button className='view-work' >View Work</Button>
+                            <Button className='view-work' >Visit Website</Button>
                         </CardActions>
                     </Box>
                

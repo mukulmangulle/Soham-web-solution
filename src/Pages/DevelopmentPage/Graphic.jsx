@@ -11,7 +11,7 @@ const Graphic = () => {
         <>
     <Box>
                 <Box className="bg-img  padding-top-bottom" >
-                    <Typography id='Heading-h2' variant='h1' >Graphic Designing</Typography>
+                    <Typography className='primary-heading' variant='h1' >Graphic Designing</Typography>
                 </Box>
             </Box>
             <Box className="padding-top-bottom" maxWidth={"1920px"} margin={'auto'} display={"flex"} alignItems={"center"} justifyContent={"center"}>
