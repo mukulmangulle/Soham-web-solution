@@ -82,8 +82,24 @@ background-color: #053480;
            align-items: center;
            justify-content: space-between;
  }
- 
-
+ .privacy_man{
+    width: 64%;
+}
+.privacy_man .terms_conditon_heading{
+   font-size: 18px;
+   font-weight: 700;
+   margin:  0 0 20px;
+   color:#606060;
+   
+}
+.privacy_man .terms_conditon_content{
+   font-size: 18px;
+   color:#606060;
+   margin:  0 0 20px ;
+}
+.privacy_man li{
+      margin: 11px 0px;
+}
 
 
 @media (max-width:1440px) {

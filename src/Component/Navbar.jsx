@@ -58,7 +58,7 @@ const Navbar = () => {
                     <img className='down-arrow' src={Down} alt="" />
                   </div>
 
-                  <div className='dropdown_menu' style={{ borderRadius: 5, position: 'absolute', top: '100%', left: '0', width: "180px", color: "#053480", background: "white", border: '1px solid #ccc' }}>
+                  <div className='dropdown_menu' style={{ borderRadius: 5, position: 'absolute', top: '100%', right:"-85px", width: "180px", color: "#053480", background: "white", border: '1px solid #ccc' }}>
                     <ul style={{ display: "flex", flexDirection: "column", listStyleType: 'none', margin: 0, padding: 0, marginTop: 15, marginBottom: 15, marginLeft: 10 }} >
                       <Link to={`/${process.env.SLUG_URL}/about/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>About us</Link>
 
@@ -78,14 +78,14 @@ const Navbar = () => {
               </Typography>
             </Box>
             <Box className="ul-box service_child_menu" >
-              <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/about/`}  >Services</Link>
+              <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/services/`}  >Services</Link>
               <Typography className='fontSize16' marginTop={"2px"}>
                 <div style={{ position: 'relative' }} ref={menuRef}>
                   <div style={{ cursor: 'pointer' }} className='navbar-ul'>
                     <img className='down-arrow' src={Down} alt="" />
                   </div>
 
-                  <div className='dropdown_menu' style={{ borderRadius: 5, position: 'absolute', top: '100%', left: '0', width: "250px", color: "#053480", background: "white", border: '1px solid #ccc' }}>
+                  <div className='dropdown_menu' style={{ borderRadius: 5, position: 'absolute', top: '100%', right: '-160px', width: "250px", color: "#053480", background: "white", border: '1px solid #ccc' }}>
                     <ul style={{ display: "flex", flexDirection: "column", listStyleType: 'none', margin: 0, padding: 0, marginTop: 15, marginBottom: 15, marginLeft: 10 }} >
 
                       <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>PHP Development</Link>

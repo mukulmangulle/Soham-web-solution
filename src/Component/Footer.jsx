@@ -33,30 +33,30 @@ const Footer = () => {
 
     return (
         <>
-              <Box className="flex-center man-want width1920"  >
-                    <Box className='want flex-center' >
+            <Box className="flex-center man-want width1920"  >
+                <Box className='want flex-center' >
 
-                        <Box flex={1}>
-                            <Typography >Want to know more about SohamWeb's Life?
+                    <Box flex={1}>
+                        <Typography >Want to know more about SohamWeb's Life?
 
-                            </Typography>
-                        </Box>
-                        <Box >
-                            <Link className='text-decortion' to={`/${process.env.SLUG_URL}/life-at-soham/`}  ><Button>Life@Soham</Button></Link>
-                        </Box>
+                        </Typography>
+                    </Box>
+                    <Box >
+                        <Link className='text-decortion' to={`/${process.env.SLUG_URL}/life-at-soham/`}  ><Button>Life@Soham</Button></Link>
                     </Box>
                 </Box>
+            </Box>
             <Box width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
                 <Box className="footer_padding_section" width={'88%'} paddingTop={12} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
-                    <Link to="/" >
-            <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
-          </Link>
+                        <Link to="/" >
+                            <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
+                        </Link>
                         <Typography color={'#FFFFFF'} marginTop={2.5} fontSize={16}>
                             {contents.footerData.aboutText}
                         </Typography>
 
-                       
+
                     </Box>
 
                     <Box className="footer-sec2" >
@@ -124,25 +124,25 @@ const Footer = () => {
                         <Typography id="footer-h3" variant="h3"    >
                             {contents.footerData.contactDetails.heading}</Typography>
                         <Box className="footer2-box" marginTop={2}>
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:%20+91%207879231700" margin={0.5}  >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  href="tel:+917879231700" margin={0.5}  >
                                 <IoCall color="white" fontSize={16} />
 
                                 <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                             </a>
 
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2070003-35673%20" margin={0.5}   >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+917000335673" margin={0.5}   >
                                 <IoCall color="white" fontSize={16} />
                                 <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text2}</Typography>
                             </a>
 
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2077480-18188" margin={0.5} >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  href="tel:+917984740805" margin={0.5} >
                                 <IoCall color="white" fontSize={16} />
                                 <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text3}</Typography>
                             </a>
 
                             <a target="_blank" href="mailto:contact@sohamsolution.com" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  >
                                 <MdEmail id="maill" color="white" fontSize={16} />
-                                <Typography className="text-decortion"  paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
                             </a>
 
                             <a target="_blank" href="https://www.google.com/maps/place/Soham+Web+Solution+-+Web+Development+Company/@22.9648902,76.0458359,17z/data=!4m14!1m7!3m6!1s0x3963177600d4efb5:0x33c81c908e54629c!2sSoham+Web+Solution+-+Web+Development+Company!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9!3m5!1s0x3963177600d4efb5:0x33c81c908e54629c!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9"
@@ -158,34 +158,40 @@ const Footer = () => {
                             {/* <a target="_blank" href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a> */}
                             <a target="_blank" href="https://www.youtube.com/@SohamWebSolutionDewas"><img src={Youtube} alt="" /></a>
                             <a target="_blank" href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Wordpress} alt="" /></a>
-                            <a  target="_blank" href="https://in.linkedin.com/company/soham-web-solution"><img src={Linkdin} alt="" /></a>
+                            <a target="_blank" href="https://in.linkedin.com/company/soham-web-solution"><img src={Linkdin} alt="" /></a>
                         </Box>
                     </Box>
                 </Box>
 
                 <Box className="copyright"   >
                     <Box className="copyright-child">
-                    <Box>
-                        <Typography >
-                            {contents.footerData.copyrightText}
-                        </Typography>
-                    </Box>
+                        <Box>
+                            <Typography >
+                                {contents.footerData.copyrightText}
+                            </Typography>
+                        </Box>
+                        < Link to={`/${process.env.SLUG_URL}/cancellation-refund-policy/`}  className="color-white " margin={0.5}  >
+                               Refund
+                            </Link>
+                        < Link to={`/${process.env.SLUG_URL}/shipping-delivery-policy/`}  className="color-white " margin={0.5}  >
+                               shipping
+                            </Link>
 
-                    <Box className="copyright-privacy">
-                    <a target="_blank" className="color-white " href="https://sohamsolution.com/privacy-policy/" margin={0.5}  >
+                        <Box className="copyright-privacy" padding={1}>
+                            < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white " margin={0.5}  >
                                 Privacy
-                            </a>
+                            </Link>
 
                             <Typography> |  </Typography>
-                            <a target="_blank" className="color-white " href="https://sohamsolution.com/terms-conditions/" margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/terms-conditions/`}  className="color-white "  margin={0.5}  >
                                 Terms
-                            </a>
+                            </Link>
                             <Typography> |  </Typography>
-                            <a target="_blank" className="color-white " href="https://sohamsolution.com/support-and-maintenance-packages/" margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`} className="color-white "  margin={0.5}  >
                                 Support
-                            </a>
+                            </Link>
 
-                    </Box>
+                        </Box>
                     </Box>
                 </Box>
             </Box>

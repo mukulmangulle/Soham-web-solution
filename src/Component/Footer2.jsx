@@ -38,9 +38,9 @@ const Footer2 = () => {
                 <Box className="padding-top-bottom" width={'88%'} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
                         <Link to="/" >
-                            <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
+                            <img className="color-white sws-logo" src={Swslogo} alt="" />
                         </Link>
-                        <Typography color={'#FFFFFF'} marginTop={2.5} fontSize={16}>
+                        <Typography className="color-white" marginTop={2.5} fontSize={16}>
                             {contents.footerData.aboutText}
                         </Typography>
 
@@ -50,53 +50,53 @@ const Footer2 = () => {
                     <Box className="footer-sec2" >
                         <Typography id="footer-h3" variant="h3"  > {contents.footerData.quickLinks.heading}</Typography>
                         <Box className="footer2-box" marginTop={2} display={'flex'} alignItems={"start"} flexDirection={"column"}>
-                            <Link to={`/${process.env.SLUG_URL}/about/`} className="text-decortion " >{contents.footerData.quickLinks.text1}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/about/`} className="text-decortion color-white" >{contents.footerData.quickLinks.text1}</Link>
                             {/* <Link to={`/${process.env.SLUG_URL}/services/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text2}</Link> */}
-                            <Link to={`/${process.env.SLUG_URL}/career/`} className="text-decortion" >{contents.footerData.quickLinks.text3}</Link>
-                            <Link to={`/${process.env.SLUG_URL}/contact-us/`} className="text-decortion">{contents.footerData.quickLinks.text4}</Link>
-                            <Link to={`/${process.env.SLUG_URL}/blogs`} className="text-decortion" >{contents.footerData.quickLinks.text5}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/career/`} className="text-decortion color-white" >{contents.footerData.quickLinks.text3}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/contact-us/`} className="text-decortion color-white">{contents.footerData.quickLinks.text4}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/blogs`} className="text-decortion color-white" >{contents.footerData.quickLinks.text5}</Link>
                         </Box>
                     </Box>
 
                     <Box className="footer-sec3 " >
                         <Typography id="footer-h3" variant="h3"  >{contents.footerData.policyLinks.heading}</Typography>
                         <Box className="footer3-box" marginTop={2}  >
-                            <Typography > <Link className="color-white" to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ padding: '10px', textDecoration: "none" }} >PHP Development</Link></Typography>
+                            <Typography > <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/php-development/`} >PHP Development</Link></Typography>
 
 
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/wordpress-development/`} style={{ padding: '10px', textDecoration: "none" }} >Wordpress Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/wordpress-development/`}  >Wordpress Development
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/shopify-development/`} style={{ padding: '10px', textDecoration: "none" }} >Shopify Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/shopify-development/`} >Shopify Development
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/web-designing/`} style={{ padding: '10px', textDecoration: "none" }} >Website Designing
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/web-designing/`}  >Website Designing
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/graphic-designing/`} style={{ padding: '10px', textDecoration: "none" }} >Graphic Designing
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/graphic-designing/`}>Graphic Designing
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{ padding: '10px', textDecoration: "none" }} >E-commerce Development
-                                </Link>
-                            </Typography>
-
-                            <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/laraval-development/`} style={{ padding: '10px', textDecoration: "none" }} >Laravel Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} >E-commerce Development
                                 </Link>
                             </Typography>
 
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} style={{ padding: '10px', textDecoration: "none" }} >CodeIgniter Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/laraval-development/`}  >Laravel Development
                                 </Link>
                             </Typography>
 
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/react-native-development/`} style={{ padding: '10px', textDecoration: "none" }} >React Native Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`}  >CodeIgniter Development
+                                </Link>
+                            </Typography>
+
+                            <Typography>
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/react-native-development/`} >React Native Development
                                 </Link>
                             </Typography>
 
@@ -111,18 +111,18 @@ const Footer2 = () => {
                         <Typography id="footer-h3" variant="h3"    >
                             {contents.footerData.contactDetails.heading}</Typography>
                         <Box className="footer2-box" marginTop={2}>
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:%20+91%207879231700" margin={0.5}  >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }}href="tel:+917879231700" margin={0.5}  >
                                 <IoCall color="white" fontSize={16} />
 
                                 <Typography paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                             </a>
 
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2070003-35673%20" margin={0.5}   >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+917000335673" margin={0.5}   >
                                 <IoCall color="white" fontSize={16} />
                                 <Typography color={"White"} paddingLeft={1}>{contents.footerData.contactDetails.text2}</Typography>
                             </a>
 
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2077480-18188" margin={0.5} >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+917984740805" margin={0.5} >
                                 <IoCall color="white" fontSize={16} />
                                 <Typography paddingLeft={1}>{contents.footerData.contactDetails.text3}</Typography>
                             </a>
@@ -150,6 +150,7 @@ const Footer2 = () => {
                     </Box>
                 </Box>
 
+                
                 <Box className="copyright"   >
                     <Box className="copyright-child">
                         <Box>
@@ -157,24 +158,31 @@ const Footer2 = () => {
                                 {contents.footerData.copyrightText}
                             </Typography>
                         </Box>
+                        {/* < Link to={`/${process.env.SLUG_URL}/cancellation-refund-policy/`}  className="color-white " margin={0.5}  >
+                               Refund
+                            </Link> */}
+                        {/* < Link to={`/${process.env.SLUG_URL}/shipping-delivery-policy/`}  className="color-white " margin={0.5}  >
+                               shipping
+                            </Link> */}
 
-                        <Box className="copyright-privacy">
-                            <a target="_blank" className="color-white " href="https://sohamsolution.com/privacy-policy/" margin={0.5}  >
+                        <Box className="copyright-privacy" padding={1}>
+                            < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white " margin={0.5}  >
                                 Privacy
-                            </a>
+                            </Link>
 
                             <Typography> |  </Typography>
-                            <a target="_blank" className="color-white " href="https://sohamsolution.com/terms-conditions/" margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/terms-conditions/`}  className="color-white "  margin={0.5}  >
                                 Terms
-                            </a>
+                            </Link>
                             <Typography> |  </Typography>
-                            <a target="_blank" className="color-white " href="https://sohamsolution.com/support-and-maintenance-packages/" margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`}  className="color-white "  margin={0.5}  >
                                 Support
-                            </a>
+                            </Link>
 
                         </Box>
                     </Box>
                 </Box>
+               
             </Box>
         </>
     )

@@ -74,6 +74,7 @@
 
 .color-white {
     color: white;
+    
 }
 
 
@@ -137,8 +138,11 @@
 
 }
 
-.display-flex {
+.display-flex-start {
     display: flex;
+    align-items: center;
+    flex-direction: start;
+    
 }
 
 

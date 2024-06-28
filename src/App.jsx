@@ -28,6 +28,11 @@ import Service_form_section from "./Pages/ServicePage/Service_form_section";
 import Laraval from "./Pages/DevelopmentPage/Laraval";
 import Codeigniter from "./Pages/DevelopmentPage/Codeigniter";
 import React_Native from "./Pages/DevelopmentPage/React_Native";
+import Privacy from "./Pages/FooterPage/Privacy";
+import Terms from "./Pages/FooterPage/Terms";
+import Support from "./Pages/FooterPage/Support";
+import Shipping from "./Pages/FooterPage/Shipping";
+import Refund_policy from "./Pages/FooterPage/Refund_policy";
 
 
 
@@ -66,15 +71,16 @@ function App() {
         <Route path={`/${process.env.SLUG_URL}/services/laraval-development/`} element={<Laraval />} />
         <Route path={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} element={<Codeigniter />} />
         <Route path={`/${process.env.SLUG_URL}/services/react-native-development/`} element={<React_Native />} />
-
-
-        
-
+       
         <Route path={`/${process.env.SLUG_URL}/requirement/`} element={<Service_form_section/>} />
-
-
         <Route path={`/${process.env.SLUG_URL}/life-at-soham/`} element={<OurJourney/>} />
 
+
+        <Route path={`/${process.env.SLUG_URL}/privacy-policy/`} element={<Privacy/>} />
+        <Route path={`/${process.env.SLUG_URL}/terms-conditions/`} element={<Terms/>} />
+        <Route path={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`} element={<Support/>} />
+        <Route path={`/${process.env.SLUG_URL}/shipping-delivery-policy/`} element={<Shipping/>} />
+        <Route path={`/${process.env.SLUG_URL}/cancellation-refund-policy/`} element={<Refund_policy/>} />
 
       </Routes>
 
