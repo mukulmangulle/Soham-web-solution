@@ -21,9 +21,3 @@ background: linear-gradient(to right, #0160E7, #053480);
 }
 
 
-.dropdown_menu {
-     display:none;
-     }
- .ul-box:hover .dropdown_menu { 
-    display: block;
- }

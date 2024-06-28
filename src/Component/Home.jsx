@@ -171,7 +171,7 @@ const Home = () => {
                     </Typography>
 
                     <Box className="schadule-meeting" >
-                        <Link className='text-decortion flex-center' to="https://calendly.com/sws-contact" >
+                        <Link target='_blank' className='text-decortion flex-center' to="https://calendly.com/sws-contact" >
                             <Typography className='home-p2 text_color_blue '   variant='h6' >Schadule Meeting </Typography>
                             {/* <img src={Arrow} width={25} alt="" /> */}
                             <FaLongArrowAltRight className='text_color_blue Aroow_right'  />
