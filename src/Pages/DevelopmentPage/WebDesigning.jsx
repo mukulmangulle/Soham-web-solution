@@ -6,6 +6,7 @@ import BlogButton from '../../Child-Component/ServiceButton'
 import Service from './Service'
 import Form from "./Form"
 import Webdesigner_logo from "../../assets/Service/logo/web designing.svg"
+import Footer2 from '../../Component/Footer2'
 
 
 const WebDesigning = () => {
@@ -13,41 +14,34 @@ const WebDesigning = () => {
         <>
             <Box>
                 <Box className="bg-img" >
-                    <Typography className='primary-heading' variant='h1' >Web Designing</Typography>
+                    <Typography className='primary-heading' variant='h1' >Website Designing</Typography>
                 </Box>
             </Box>
 
             <Box className="service_primary_section flex-center" >
-                <Box className="service-man flex-center-coulmn "  >
 
-                <Box className="service_container_one flex-between-wrap" width={"100%"}  >
-                        <Box className="devlopment-text" >
-                            <img className='service-logo' src={Webdesigner_logo} alt="" />
+                <Box className="flex-center-coulmn padding-top-bottom service_chid"  >
+                       
 
-                            <Typography variant='h2' className="service_secondary-heading">
-                            Shopify E-Commerce Development Services                                     </Typography>
+                            <Typography variant='h3' className='service_secondary-heading inner_heading' >
+                            Professional Web Design Services
+                            </Typography>
 
-                            <Typography className="service_text" >
-                            Shopify is a leading ecommerce platform designed to help businesses of all sizes build and customize their online stores with ease. Its user-friendly interface, combined with a vast array of themes and plugins, allows for quick and efficient store setup. Shopify development offers robust features, including secure payment gateways, SEO tools, and mobile responsiveness, ensuring a seamless shopping experience for customers.
+                            <Typography variant='h5' className='primary_subheading secvice_child_text' >
+                            Web designing is key to creating an attractive and effective online presence. Our web design services focus on making websites that are both beautiful and easy to use. We ensure that our designs work well on all devices, from computers to smartphones. By understanding your brand and goals, we create custom websites that engage visitors and drive results. Our skilled team is dedicated to delivering websites that look great and function perfectly, helping your business succeed online.
+
 
                             </Typography>
-                            {/* <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >
-                                <Button className='btn_apply_now' >
-                                    Read more
-                                </Button>
-                            </Link> */}
+                           
 
-                        </Box>
-                        <Box className="background-service flex-center"  >
-                            <img src={Php} alt="" />
-                        </Box>
+                       
                     </Box>
 
-                </Box>
             </Box>
 
             <Service />
             <Form />
+            <Footer2/>
 
         </>
     )

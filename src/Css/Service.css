@@ -80,25 +80,37 @@
     background-position: center;
     object-fit: cover;
 }
+
 .view-more {
     margin-top: 20px !important;
     height: 45px;
 }
-.get_the_best{
+
+.get_the_best {
     color: white;
-    font-size:42px !important;
+    font-size: 42px !important;
 
 }
-.service_chid{
-      display: flex;
-      align-items: center;
-      justify-content: center;
+
+.service_chid {
+    
+    width: 75%;
 }
 
-.inner_heading{
-  text-align: center ;
-  color: #053480;
-  font-weight: 600 !important;
+.service_chid .inner_heading {
+    text-align: center;
+    color: #053480;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.service_chid .secvice_child_text {
+    font-size: 25px !important;
+    text-align: center;
+    margin-top: 20px;
+}
+.devlopment-text .service-logo {
+    height: 55px !important;
 }
 
 @media (max-width:1440px) {
@@ -111,10 +123,11 @@
         max-width: 860px;
 
     }
+
     .devlopment-text .service-logo {
-        height: 60px !important;
+        height: 50px !important;
     }
-    
+
 
     .service-man .devlopment-text {
         width: 42%;
@@ -156,13 +169,23 @@
     .project-requirement {
         height: 320px;
     }
+
     .view-more {
         margin-top: 20px !important;
         height: 45px;
     }
-    .get_the_best{
+
+    .get_the_best {
         color: white;
-        font-size:38px !important;
+        font-size: 38px !important;
+    }
+
+    .service_chid .inner_heading {
+        font-size: 40px;
+    }
+
+    .service_chid .secvice_child_text {
+        font-size: 22px !important;
     }
 }
 
@@ -182,7 +205,7 @@
         justify-content: center;
         flex-direction: column-reverse;
     }
-   
+
     .service-man .devlopment-text {
         width: 100% !important;
     }
@@ -208,21 +231,39 @@
         width: 500px;
         height: 400px;
     }
+
     .project-requirement {
         height: 250px;
     }
+
     .view-more {
         margin-top: 10px !important;
         height: 45px;
     }
-    .get_the_best{
+
+    .get_the_best {
         color: white;
-        font-size:32px !important;
+        font-size: 32px !important;
     }
+
     .service-man .btn_apply_now {
         font-size: 16px !important;
-        
+
     }
+    .service_chid .inner_heading {
+        font-size: 35px;
+    }
+
+    .service_chid .secvice_child_text {
+        font-size: 20px !important;
+    }
+    
+.service_chid {
+        width: 85%;
+}
+.devlopment-text .service-logo {
+    height: 40px !important;
+}
 }
 
 @media (max-width:768px) {
@@ -241,10 +282,11 @@
     .service-man .service_secondary-heading {
         font-size: 28px;
     }
+
     .devlopment-text .service-logo {
         height: 50px !important;
     }
-    
+
     .service-man .service_text {
         font-size: 14px;
     }
@@ -253,24 +295,37 @@
         width: 450px;
         height: 360px;
     }
+
     .project-requirement {
         height: 200px;
     }
+
     .view-more {
         margin-top: 10px !important;
         height: 40px;
         width: 170px;
     }
-    .get_the_best{
+
+    .get_the_best {
         color: white;
-        font-size:25px !important;
+        font-size: 25px !important;
     }
+
     .service-man .btn_apply_now {
         font-size: 15px !important;
         width: 130px;
         height: 38px;
     }
+    .service_chid {
+        width: 85%;
+}
+    .service_chid .inner_heading {
+        font-size: 30px;
+    }
 
+    .service_chid .secvice_child_text {
+        font-size: 18px !important;
+    }
 }
 
 @media (max-width:576px) {
@@ -304,25 +359,36 @@
         width: 320px;
         height: 250px;
     }
+
     .project-requirement {
         height: 180px;
     }
+
     .view-more {
         margin-top: 10px !important;
         height: 40px;
         width: 170px;
     }
-    .get_the_best{
+
+    .get_the_best {
         color: white;
-        font-size:22px !important;
+        font-size: 22px !important;
         text-align: center;
     }
-    
-.service-man .btn_apply_now {
-    font-size: 14px !important;
-    width: 120px;
-    height: 35px;
-}
+
+    .service-man .btn_apply_now {
+        font-size: 14px !important;
+        width: 120px;
+        height: 35px;
+    }
+    .service_chid .inner_heading {
+        font-size: 25px;
+    }
+
+    .service_chid .secvice_child_text {
+        font-size: 14px !important;
+    }
+
 }
 
 
@@ -348,16 +414,26 @@
         width: 280px;
         height: 220px;
     }
+
     .project-requirement {
         height: 150px;
     }
+
     .view-more {
         margin-top: 10px !important;
         height: 35px;
         width: 150px;
     }
-    .get_the_best{
+
+    .get_the_best {
         color: white;
-        font-size:18px !important;
+        font-size: 18px !important;
+    }
+    .service_chid .inner_heading {
+        font-size: 22px;
+    }
+
+    .service_chid .secvice_child_text {
+        font-size: 12px !important;
     }
 }

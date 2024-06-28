@@ -61,10 +61,48 @@ const Footer2 = () => {
                     <Box className="footer-sec3 " >
                         <Typography id="footer-h3" variant="h3"  >{contents.footerData.policyLinks.heading}</Typography>
                         <Box className="footer3-box" marginTop={2}  >
-                            <Typography >{contents.footerData.policyLinks.text1}</Typography>
-                            <Typography>{contents.footerData.policyLinks.text2}</Typography>
-                            <Typography >{contents.footerData.policyLinks.text3}</Typography>
-                            <Typography >{contents.footerData.policyLinks.text4}</Typography>
+                            <Typography > <Link className="color-white" to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ padding: '10px', textDecoration: "none" }} >PHP Development</Link></Typography>
+
+
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/wordpress-development/`} style={{ padding: '10px', textDecoration: "none" }} >Wordpress Development
+                                </Link>
+                            </Typography>
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/shopify-development/`} style={{ padding: '10px', textDecoration: "none" }} >Shopify Development
+                                </Link>
+                            </Typography>
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/web-designing/`} style={{ padding: '10px', textDecoration: "none" }} >Website Designing
+                                </Link>
+                            </Typography>
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/graphic-designing/`} style={{ padding: '10px', textDecoration: "none" }} >Graphic Designing
+                                </Link>
+                            </Typography>
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{ padding: '10px', textDecoration: "none" }} >E-commerce Development
+                                </Link>
+                            </Typography>
+
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/laraval-development/`} style={{ padding: '10px', textDecoration: "none" }} >Laravel Development
+                                </Link>
+                            </Typography>
+
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} style={{ padding: '10px', textDecoration: "none" }} >CodeIgniter Development
+                                </Link>
+                            </Typography>
+
+                            <Typography>
+                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/react-native-development/`} style={{ padding: '10px', textDecoration: "none" }} >React Native Development
+                                </Link>
+                            </Typography>
+
+
+
+
                         </Box>
 
                     </Box>
@@ -73,28 +111,28 @@ const Footer2 = () => {
                         <Typography id="footer-h3" variant="h3"    >
                             {contents.footerData.contactDetails.heading}</Typography>
                         <Box className="footer2-box" marginTop={2}>
-                            <a className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:%20+91%207879231700" margin={0.5}  >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:%20+91%207879231700" margin={0.5}  >
                                 <IoCall color="white" fontSize={16} />
 
                                 <Typography paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                             </a>
 
-                            <a className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2070003-35673%20" margin={0.5}   >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2070003-35673%20" margin={0.5}   >
                                 <IoCall color="white" fontSize={16} />
                                 <Typography color={"White"} paddingLeft={1}>{contents.footerData.contactDetails.text2}</Typography>
                             </a>
 
-                            <a className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2077480-18188" margin={0.5} >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+91%2077480-18188" margin={0.5} >
                                 <IoCall color="white" fontSize={16} />
                                 <Typography paddingLeft={1}>{contents.footerData.contactDetails.text3}</Typography>
                             </a>
 
-                            <a href="mailto:contact@sohamsolution.com" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  >
+                            <a target="_blank" href="mailto:contact@sohamsolution.com" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  >
                                 <MdEmail id="maill" color="white" fontSize={16} />
                                 <Typography paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
                             </a>
 
-                            <a href="https://www.google.com/maps/place/Soham+Web+Solution+-+Web+Development+Company/@22.9648902,76.0458359,17z/data=!4m14!1m7!3m6!1s0x3963177600d4efb5:0x33c81c908e54629c!2sSoham+Web+Solution+-+Web+Development+Company!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9!3m5!1s0x3963177600d4efb5:0x33c81c908e54629c!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9"
+                            <a target="_blank" href="https://www.google.com/maps/place/Soham+Web+Solution+-+Web+Development+Company/@22.9648902,76.0458359,17z/data=!4m14!1m7!3m6!1s0x3963177600d4efb5:0x33c81c908e54629c!2sSoham+Web+Solution+-+Web+Development+Company!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9!3m5!1s0x3963177600d4efb5:0x33c81c908e54629c!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9"
                                 className="text-decortion" style={{ display: "flex", alignItems: "start" }} margin={0.5} >
                                 <FaLocationDot fontSize={16} color="white" />
 

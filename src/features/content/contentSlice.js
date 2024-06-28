@@ -91,10 +91,15 @@ const contentSlice = createSlice({
         },
         policyLinks: {
           heading: "Services",
-          text1: "Website Development",
-          text2: "Ecommerce Development",
-          text3: "Website Designing",
-          text4: "Mobile App Development",
+          text1: "PHP Development",
+          text2: "Wordpress Development",
+          text3: "Shopify Development",
+          text4: "Website Designing",
+          text5: "Graphic Designing",
+          text6: "E-commerce Development",
+          text7: "Laravel Development",
+          text8: "CodeIgniter Development",
+          text9: "React Native Development",
           
         },
         contactDetails: {

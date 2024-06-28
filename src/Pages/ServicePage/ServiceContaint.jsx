@@ -30,10 +30,7 @@ const ServiceContaint = () => {
                             </Typography>
 
                             <Typography className="service_text" >
-                                <strong >
-                                    Creating Dynamic Web Solutions from Ideas
-                                </strong  >
-                                <br></br>
+                               
                                 Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled programmers use PHP's capabilities to build creative and affordable solutions that are both innovative and cost-effective, ensuring your digital presence is impactful and future-proof.
                             </Typography>
                             <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >
@@ -61,8 +58,7 @@ const ServiceContaint = () => {
 
                                 </Typography>
                                 <Typography className="service_text" >
-                                    Empowering Your Digital Presence with WordPress
-                                    <br></br>
+                                  
                                     We harness the power of WordPress to create stunning, functional, and user-friendly websites that drive results. Whether you’re a startup, small business, or large enterprise, our WordPress development services are designed to meet your unique needs and help you achieve your online goals.
                                 </Typography>
 
@@ -84,8 +80,7 @@ const ServiceContaint = () => {
                                 Shopify Development Services
                             </Typography>
                             <Typography className="service_text" >
-                                Shopify Can Help You Grow Your Online Business
-                                <br></br>
+                                
                                 Powerful, personalized Shopify stores that offer a remarkable online shopping experience are our specialty at Soham Web. Our Shopify development services are catered to your specific business needs and may assist you in reaching your e-commerce objectives, regardless of your level of experience as an entrepreneur or brand.
                             </Typography>
 
@@ -134,7 +129,8 @@ const ServiceContaint = () => {
                             <Typography variant='h2' className="service_secondary-heading">
                                 Graphic Designing Services
                             </Typography>
-                            <Typography className="service_text" >We understand the power of compelling visuals in capturing attention and communicating your brand's message. Our team of skilled graphic designers is dedicated to creating innovative and eye-catching designs that resonate with your audience and elevate your brand. Whether you need logos, brochures, banners, or any other graphic elements, we’ve got you covered.
+                            <Typography className="service_text" >
+                                We understand the power of compelling visuals in capturing attention and communicating your brand's message. Our team of skilled graphic designers is dedicated to creating innovative and eye-catching designs that resonate with your audience and elevate your brand. Whether you need logos, brochures, banners, or any other graphic elements, we’ve got you covered.
                             </Typography>
                             <Link to={`/${process.env.SLUG_URL}/services/graphic-designing/`} style={{ textDecoration: "none" }} >
                                 <Button sx={{ marginTop: "10px" }} type="submit" className='btn_apply_now' >
@@ -160,8 +156,7 @@ const ServiceContaint = () => {
                                     E-Commerce Development Services
                                 </Typography>
                                 <Typography className="service_text">
-                                    Transform Your Online Business with Cutting-Edge E-Commerce Solutions
-                                    <br></br>
+                                  
                                     At Soham Web, we specialize in creating dynamic, user-friendly e-commerce platforms that drive sales and enhance customer engagement. Our comprehensive e-commerce development services are designed to meet the unique needs of your business, whether you’re a startup, small business, or established enterprise. We leverage the latest technologies and industry best practices to build scalable, secure, and high-performance online stores.
                                 </Typography>
 
@@ -180,15 +175,12 @@ const ServiceContaint = () => {
                             <img className='service-logo' src={Php_logo} alt="" />
 
                             <Typography variant='h2' className="service_secondary-heading">
-                                laraval Development
-                            </Typography>
+                            Laravel Development                            </Typography>
 
                             <Typography className="service_text" >
-                                <strong >
-                                    Creating Dynamic Web Solutions from Ideas
-                                </strong  >
-                                <br></br>
-                                Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled programmers use PHP's capabilities to build creative and affordable solutions that are both innovative and cost-effective, ensuring your digital presence is impactful and future-proof.
+                                
+                            Our Laravel development services are designed to deliver high-performance, scalable, and secure web applications tailored to your business needs. Leveraging the power of Laravel, a robust PHP framework, our skilled developers create custom solutions that streamline your operations and enhance user experience. We specialize in everything from building dynamic websites to developing complex web applications with advanced features.
+
                             </Typography>
                             <Link to={`/${process.env.SLUG_URL}/laraval-development/`} style={{ textDecoration: "none", }} >
                                 <Button className='btn_apply_now' >
@@ -211,12 +203,11 @@ const ServiceContaint = () => {
                             <Box className="devlopment-text" >
                                 <img className='service-logo' src={Ecommerce_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">
-                                Codeigniter Development
+                                CodeIgniter Development
                                 </Typography>
                                 <Typography className="service_text">
-                                    Transform Your Online Business with Cutting-Edge E-Commerce Solutions
-                                    <br></br>
-                                    At Soham Web, we specialize in creating dynamic, user-friendly e-commerce platforms that drive sales and enhance customer engagement. Our comprehensive e-commerce development services are designed to meet the unique needs of your business, whether you’re a startup, small business, or established enterprise. We leverage the latest technologies and industry best practices to build scalable, secure, and high-performance online stores.
+                                Our CodeIgniter development services offer robust, high-performance web applications customized to your specific business needs. Utilizing CodeIgniter, a powerful PHP framework, our experienced developers create scalable and secure solutions that enhance functionality and user experience. From custom web applications to complex portals, we ensure clean code and efficient performance. With a focus on rapid development and seamless integration, our CodeIgniter solutions help streamline your operations and achieve your business objectives. Trust us to deliver reliable and effective web applications with CodeIgniter.
+
                                 </Typography>
 
                                 <Link to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} style={{ textDecoration: "none" }} >
@@ -234,15 +225,12 @@ const ServiceContaint = () => {
                             <img className='service-logo' src={Php_logo} alt="" />
 
                             <Typography variant='h2' className="service_secondary-heading">
-                                React Native Development
+                            React Native Development
                             </Typography>
 
                             <Typography className="service_text" >
-                                <strong >
-                                    Creating Dynamic Web Solutions from Ideas
-                                </strong  >
-                                <br></br>
-                                Our specialization lies in developing dependable, expandable, and efficient PHP web applications that are customized to fulfill your unique business requirements. Our skilled programmers use PHP's capabilities to build creative and affordable solutions that are both innovative and cost-effective, ensuring your digital presence is impactful and future-proof.
+                            Our React Native development services specialize in creating high-quality, cross-platform mobile applications that deliver a native-like experience. Whether starting from scratch or integrating React Native into existing projects, our expert team ensures seamless performance and a consistent user interface across both iOS and Android devices. By leveraging React Native's robust capabilities, we provide cost-effective and efficient solutions tailored to your business needs. Our end-to-end services cover everything from design and development to testing and support, ensuring your app is always up-to-date and competitive. Partner with us to build dynamic and scalable mobile applications with React Native.
+
                             </Typography>
                             <Link to={`/${process.env.SLUG_URL}/services/react-native-development/`} style={{ textDecoration: "none", }} >
                                 <Button className='btn_apply_now' >

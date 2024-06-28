@@ -3,6 +3,7 @@ import wordpress_logo from "../../assets/Service/logo/wordpress.svg"
 import { Box, Typography } from '@mui/material'
 import Service from './Service'
 import Form from "./Form"
+import Footer2 from '../../Component/Footer2'
 
 const Codeigniter = () => {
     return (
@@ -16,39 +17,30 @@ const Codeigniter = () => {
             </Box>
 
             <Box className="service_primary_section flex-center" >
-                <Box className="service-man flex-center-coulmn "  >
 
-                    <Box className="service_container_one flex-between-wrap" width={"100%"}  >
-                        <Box className="devlopment-text" >
-                            <img className='service-logo' src={wordpress_logo} alt="" />
+                <Box className="flex-center-coulmn padding-top-bottom service_chid"  >
+                       
 
-                            <Typography variant='h2' className="service_secondary-heading">
-                                Codeigniter Development Services for Web Applications
+                            <Typography variant='h3' className='service_secondary-heading inner_heading' >
+                            Codeigniter Development Services for Web Applications
+                            </Typography>
+
+                            <Typography variant='h5' className='primary_subheading secvice_child_text' >
+                            CodeIgniter is an open-source PHP framework designed for developing high-end dynamic websites and applications. For developing custom CodeIgniter, it provides a comprehensive range of tools and libraries. CodeIgniter makes the development process more efficient with less configuration requirements. Programmers and developers can finish projects more quickly and effectively because to its special capabilities, which drastically decrease the need for substantial code.
 
 
                             </Typography>
+                           
 
-                            <Typography className="service_text" >
-                                CodeIgniter is an open-source PHP framework designed for developing high-end dynamic websites and applications. For developing custom CodeIgniter, it provides a comprehensive range of tools and libraries. CodeIgniter makes the development process more efficient with less configuration requirements. Programmers and developers can finish projects more quickly and effectively because to its special capabilities, which drastically decrease the need for substantial code.
-                            </Typography>
-                            {/* <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ textDecoration: "none", }} >
-                                <Button className='btn_apply_now' >
-                                    Read more
-                                </Button>
-                            </Link> */}
-
-                        </Box>
-                        <Box className="background-service flex-center"  >
-                            {/* <img src={} alt="" /> */}
-                        </Box>
+                       
                     </Box>
 
-                </Box>
             </Box>
 
 
             <Service />
             <Form />
+            <Footer2/>
 
 
         </>
