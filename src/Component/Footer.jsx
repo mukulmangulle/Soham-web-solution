@@ -59,56 +59,57 @@ const Footer = () => {
 
                     </Box>
 
+                
                     <Box className="footer-sec2" >
                         <Typography id="footer-h3" variant="h3"  > {contents.footerData.quickLinks.heading}</Typography>
                         <Box className="footer2-box" marginTop={2} display={'flex'} alignItems={"start"} flexDirection={"column"}>
-                            <Link to={`/${process.env.SLUG_URL}/about/`} className="text-decortion" >{contents.footerData.quickLinks.text1}</Link>
-                            {/* <Link to={`/${process.env.SLUG_URL}/services/`} className="text-decortion">{contents.footerData.quickLinks.text2}</Link> */}
-                            <Link to={`/${process.env.SLUG_URL}/career/`} className="text-decortion">{contents.footerData.quickLinks.text3}</Link>
-                            <Link to={`/${process.env.SLUG_URL}/contact-us/`} className="text-decortion" >{contents.footerData.quickLinks.text4}</Link>
-                            <Link to={`/${process.env.SLUG_URL}/blogs`} className="text-decortion" >{contents.footerData.quickLinks.text5}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/about/`} className="text-decortion color-white" >{contents.footerData.quickLinks.text1}</Link>
+                            {/* <Link to={`/${process.env.SLUG_URL}/services/`} className="text-decortion" id="typography">{contents.footerData.quickLinks.text2}</Link> */}
+                            <Link to={`/${process.env.SLUG_URL}/career/`} className="text-decortion color-white" >{contents.footerData.quickLinks.text3}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/contact-us/`} className="text-decortion color-white">{contents.footerData.quickLinks.text4}</Link>
+                            <Link to={`/${process.env.SLUG_URL}/blogs`} className="text-decortion color-white" >{contents.footerData.quickLinks.text5}</Link>
                         </Box>
                     </Box>
 
                     <Box className="footer-sec3 " >
                         <Typography id="footer-h3" variant="h3"  >{contents.footerData.policyLinks.heading}</Typography>
                         <Box className="footer3-box" marginTop={2}  >
-                            <Typography > <Link className="color-white" to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ padding: '10px', textDecoration: "none" }} >PHP Development</Link></Typography>
+                            <Typography > <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/php-development/`} >PHP Development</Link></Typography>
 
 
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/wordpress-development/`} style={{ padding: '10px', textDecoration: "none" }} >Wordpress Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/wordpress-development/`}  >Wordpress Development
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/shopify-development/`} style={{ padding: '10px', textDecoration: "none" }} >Shopify Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/shopify-development/`} >Shopify Development
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/web-designing/`} style={{ padding: '10px', textDecoration: "none" }} >Website Designing
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/web-designing/`}  >Website Designing
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/graphic-designing/`} style={{ padding: '10px', textDecoration: "none" }} >Graphic Designing
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/graphic-designing/`}>Graphic Designing
                                 </Link>
                             </Typography>
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{ padding: '10px', textDecoration: "none" }} >E-commerce Development
-                                </Link>
-                            </Typography>
-
-                            <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/laraval-development/`} style={{ padding: '10px', textDecoration: "none" }} >Laravel Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} >E-commerce Development
                                 </Link>
                             </Typography>
 
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} style={{ padding: '10px', textDecoration: "none" }} >CodeIgniter Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/laraval-development/`}  >Laravel Development
                                 </Link>
                             </Typography>
 
                             <Typography>
-                                <Link className="color-white" to={`/${process.env.SLUG_URL}/services/react-native-development/`} style={{ padding: '10px', textDecoration: "none" }} >React Native Development
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`}  >CodeIgniter Development
+                                </Link>
+                            </Typography>
+
+                            <Typography>
+                                <Link className="color-white text-decortion" to={`/${process.env.SLUG_URL}/services/react-native-development/`} >React Native Development
                                 </Link>
                             </Typography>
 
@@ -170,12 +171,12 @@ const Footer = () => {
                                 {contents.footerData.copyrightText}
                             </Typography>
                         </Box>
-                        < Link to={`/${process.env.SLUG_URL}/cancellation-refund-policy/`}  className="color-white " margin={0.5}  >
+                        {/* < Link to={`/${process.env.SLUG_URL}/cancellation-refund-policy/`}  className="color-white " margin={0.5}  >
                                Refund
                             </Link>
                         < Link to={`/${process.env.SLUG_URL}/shipping-delivery-policy/`}  className="color-white " margin={0.5}  >
                                shipping
-                            </Link>
+                            </Link> */}
 
                         <Box className="copyright-privacy" padding={1}>
                             < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white " margin={0.5}  >
