@@ -91,7 +91,7 @@ const ContactInformtion = () => {
           variant="filled"
           margin="normal"
         /> */}
-                <Input1 label="Brief Project information" />
+                <Input1 label="Text area" />
 
               </Box>
               <Box className="contact-2"   >

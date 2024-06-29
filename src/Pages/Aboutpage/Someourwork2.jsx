@@ -111,7 +111,10 @@ import Mission from "../../assets/AboutSection1/mission.svg"
 
 const Someourwork2 = () => {
     return (
-        <Box className="vision-man">
+        <Box className="vision-man flex-center-coulmn">
+            <Typography className='secondary_heading' variant='h2'  >
+            Our Vision & Mission 
+            </Typography>
             <Box className="vision-child flex-between ">
 
                 <Box className="card_1">
@@ -121,7 +124,7 @@ const Someourwork2 = () => {
                                 <Box display={"flex"} alignItems={"center"}>
                                     <img src={Vssion} alt="" />
                                     <Typography className='vision-heading' gutterBottom variant="h5" component="div">
-                                        Our Vision
+                                        Vision
                                     </Typography>
 
                                 </Box>

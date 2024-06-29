@@ -171,12 +171,7 @@ const Footer = () => {
                                 {contents.footerData.copyrightText}
                             </Typography>
                         </Box>
-                        {/* < Link to={`/${process.env.SLUG_URL}/cancellation-refund-policy/`}  className="color-white " margin={0.5}  >
-                               Refund
-                            </Link>
-                        < Link to={`/${process.env.SLUG_URL}/shipping-delivery-policy/`}  className="color-white " margin={0.5}  >
-                               shipping
-                            </Link> */}
+                       
 
                         <Box className="copyright-privacy" padding={1}>
                             < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white " margin={0.5}  >

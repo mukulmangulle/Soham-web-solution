@@ -123,15 +123,19 @@ const Contact = () => {
                                     </Box>
                                     <Box className='get_in_touch'>
                                     <a target="_blank" href="mailto:contact@sohamsolution.com" className="text-decortion color-white" style={{ display: "flex", alignItems: "center" }}  >
-                                <MdEmail id="maill" color="white" fontSize={16} />
+                                <MdEmail id="maill" color="white" fontSize={18} />
                                 <Typography  paddingLeft={1}>
                                 contact@sohamsolution.com
                                 </Typography>
                             </a>
-                                        <Box className="display-flex-start">
-                                            <MdEmail className='color-white ' fontSize={18} />
-                                            <Typography className='color-white' marginLeft={1} >hr@sohamsolution.com</Typography>
-                                        </Box>
+                                   
+
+                                        <a target="_blank" href="mailto:hr@sohamsolution.com" className="text-decortion color-white" style={{ display: "flex", alignItems: "center" }}  >
+                                <MdEmail id="maill" color="white" fontSize={16} />
+                                <Typography  paddingLeft={1}>
+                                hr@sohamsolution.com
+                                </Typography>
+                            </a>
                                      
 
 

@@ -1,136 +1,70 @@
 
-
-.about-pre{
-  width: 67%;
-  padding-top:1rem;
-  padding-bottom: 2rem;
-
-}
-
-
-.blank{
-  width:150px;
-  height: 350px;
+.blank_man {
+  width: 150px;
+  height:500px;
   text-align: center;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: wheat;
+}
+.child_blank{
+  background-color: tomato;
+  height: 800px;
 }
 
-.blank1{
-  width:150px;
-  height: 350px;
-  text-align: center;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-}
-#dev{
-   position: absolute;
-}
-.img-about{
-  width:'350px';
-  height: 400px;
-}
-
-
-@media (max-width:1500px) {
-    .blank1{
-      display: none;
-    }
-
-    .blank{
-        width:350px;
-    }
-}
-
-@media (max-width:920px) {
-  .blank1{
+@media (max-width:1440px) {
+  .blank_man {
     display: none;
   }
-  .about-welcome{
-  width: 100%;
- 
+
+
+}
+
+@media (max-width:1020px) {
+
+  .about-welcome {
+    width: 100%;
+
   }
-  #about-heading{
+
+  #about-heading {
     margin: auto;
   }
 }
 
 
 
-@media (max-width:350px) {
- #dev{
-    width:300px;
-    height: 300px;
-  
- }
- .blank1{
-  display: none;
- }
- .blank{
-  display: none;
- }
-}
 
-
-/*  
-:root {
-  --reviews-width: -1000px;
-  }
-  @keyframes ticker {
-  0% {
-  transform: translateZ(0);
-  }
-  to {
-  transform: translate3d(var(--reviews-width),0,0);
-  }
-  } */
-
-.MuiBox-root.css-1bntj9o {
-animation: ticker 60s linear infinite; 
-display: flex;
-}
-
-.animation:hover {
-animation-play-state: paused;
-}
-
-.css-k2vjlc-MuiTypography-root {
-  width: 95% !important;
-} 
-
-
-/* lamp */ 
+/* lamp */
 .inner {
-			position: relative;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			background: none;
-			height: 150px;
-        } 
-	   
-	   .light_holder {
-			position: absolute;
-			top: 0;
-			height: 160px;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-       }
-	   
-       .light {
-			position: absolute;
-			width: 400px;
-			height: 200px;
-			clip-path: polygon(50% 0%, 25% 100%, 75% 100%);	
-       }  
-       .inner:hover .light{   
-	       background: linear-gradient(109.6deg, rgba(61, 120, 176, 0.547) 11.3%, rgba(35, 65, 164, 0.723) 91.1%);
-       }
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  height: 150px;
+}
+
+.light_holder {
+  /* position: absolute; */
+  top: 0;
+ /* width: 100%; */
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light {
+  /* position: absolute; */
+  width: 400px;
+  /* height: 200px; */
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+}
+
+.inner:hover .light {
+  background: linear-gradient(109.6deg, rgba(61, 120, 176, 0.547) 11.3%, rgba(35, 65, 164, 0.723) 91.1%);
+}

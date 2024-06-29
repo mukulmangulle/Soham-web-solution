@@ -129,14 +129,14 @@ margin:0px 20px !important;
 
 .vision-man .vision-child {
     width: 85%;
-    padding: 30px 0px;
+    padding: 0px 0px 30px 0px;
 
 }
 
 .vision-man .card_1 {
     background-color: #053480;
     border-radius: 10px;
-    margin: 40px 20px;
+    margin: 0px 20px 30px 0px;
     padding-top: 10px;
     /* box-shadow:0.5PX 0.5PX 10PX 5PX #767677; */
     /* border: 2PX solid #053480; */

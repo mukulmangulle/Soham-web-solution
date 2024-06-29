@@ -128,7 +128,7 @@ const contentSlice = createSlice({
         content: "Our technological focus lies in leveraging the latest advancements to deliver cutting-edge solutions. We excel in using modern technologies like React Native for mobile app development, Laravel for backend systems, and Shopify for e-commerce platforms. By staying ahead of technological trends, we ensure our clients receive innovative, secure, and high-performance applications that drive business success.",
       },
       Leadership: {
-        "heading": "Leading with Vision, Serving with Purposee",
+        "heading": "Leading with Vision, Serving with Purpose",
         "content": " We're proud to introduce you to our leadership team – a group of visionary individuals who steer  us towards success with their expertise, experience, and passion for technology. "
       },
       SomeourWorksection2: {
