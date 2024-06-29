@@ -110,7 +110,7 @@ const Form = () => {
                       {/* <FormControlLabel control={<Checkbox />} label="Enterprice Solution" /> */}
                       <FormControlLabel control={<Checkbox />} label="CMS Development
 " />
-                      <FormControlLabel control={<Checkbox />} label="give a input" />
+                      <FormControlLabel control={<Checkbox />} label="Other" />
                     </Box>
                   </RadioGroup>
                 </FormControl>

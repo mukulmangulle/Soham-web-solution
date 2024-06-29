@@ -91,7 +91,7 @@ const ContactInformtion = () => {
           variant="filled"
           margin="normal"
         /> */}
-                <Input1 label="Text area" />
+                <Input1 label="Brief Project Information" />
 
               </Box>
               <Box className="contact-2"   >
@@ -110,7 +110,7 @@ const ContactInformtion = () => {
                       {/* <FormControlLabel control={<Checkbox />} label="Enterprice Solution" /> */}
                       <FormControlLabel control={<Checkbox />} label="CMS Development
 " />
-                      <FormControlLabel control={<Checkbox />} label="give a input" />
+                      <FormControlLabel control={<Checkbox />} label="Other" />
                     </Box>
                   </RadioGroup>
                 </FormControl>

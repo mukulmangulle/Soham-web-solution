@@ -22,8 +22,15 @@
 
 
 /* lamp */
+.light_icon{
+  width: 30px;
+  height: 50px;
+}
 .lamp{
-  /* background-color: turquoise; */
+   height: 80px;
+   width: 80px;
+   color: black;
+
 }
 .inner {
 /* position: relative; */
@@ -35,7 +42,10 @@ background: none;
 
 .light_holder {
 width:360px;
-
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 
 .light {

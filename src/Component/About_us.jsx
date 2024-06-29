@@ -6,6 +6,10 @@ import Ab3 from "../assets/About/ab3.svg"
 import { Box, Typography } from '@mui/material'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchcontents } from '../features/content/contentSlice'
+import { Height } from '@mui/icons-material';
+import { GiCeilingLight } from "react-icons/gi";
+import Pendant from "../assets/pendant_lamp.webp"
+
 
 const About_us = () => {
     const dispatch = useDispatch()
@@ -29,12 +33,16 @@ const About_us = () => {
 
                 <Box className="flex-center">
                     <Box className="flex-between padding-top-bottom client-section-child"  >
+                       
                         {/* 1 */}
                         <Box className=" inner">
                             <Box className=" light_holder">
-                                <Typography class="lamp" ></Typography>
+                                <img class="lamp " src={Pendant} alt="" />
+                                {/* <GiCeilingLight class="lamp " /> */}
+                                {/* <Typography  class="lamp " ></Typography> */}
                                 <Box class="light" >
-                                    <img  src={Ab1} alt=""  />
+
+                                    <img src={Ab1} alt="" />
                                     <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
                                     <Typography className='designtion' >
                                         {contents.aboutus.childContainer1.designation}</Typography>
@@ -50,8 +58,12 @@ const About_us = () => {
                         {/* 2 */}
                         <Box className=" inner">
                             <Box className=" light_holder">
-                                <Typography class="lamp" ></Typography>
+                            <img class="lamp " src={Pendant} alt="" />
+
+                                {/* <GiCeilingLight class="lamp " /> */}
+                                {/* <Typography  class="lamp " ></Typography> */}
                                 <Box class="light" >
+
                                     <img src={Ab1} alt="" />
                                     <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
                                     <Typography className='designtion' >
@@ -68,8 +80,12 @@ const About_us = () => {
                         {/* 3*/}
                         <Box className=" inner">
                             <Box className=" light_holder">
-                                <Typography class="lamp" ></Typography>
+                            <img class="lamp " src={Pendant} alt="" />
+
+                                {/* <GiCeilingLight class="lamp " /> */}
+                                {/* <Typography  class="lamp " ></Typography> */}
                                 <Box class="light" >
+
                                     <img src={Ab1} alt="" />
                                     <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
                                     <Typography className='designtion' >
@@ -86,8 +102,12 @@ const About_us = () => {
                         {/* 4 */}
                         <Box className=" inner">
                             <Box className=" light_holder">
-                                <Typography class="lamp" ></Typography>
+                            <img class="lamp " src={Pendant} alt="" />
+
+                                {/* <GiCeilingLight class="lamp " /> */}
+                                {/* <Typography  class="lamp " ></Typography> */}
                                 <Box class="light" >
+
                                     <img src={Ab1} alt="" />
                                     <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
                                     <Typography className='designtion' >
