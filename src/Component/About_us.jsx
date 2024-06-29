@@ -28,85 +28,84 @@ const About_us = () => {
                 </Box>
 
                 <Box className="flex-center">
-                    <Box className="flex-between padding-top-bottom" width={"90%"}>
+                    <Box className="flex-between padding-top-bottom"  width={"100%"} flexWrap={"wrap"}>
                         {/* 1 */}
-                        <Box className=" blank_man inner">
-                            <Box className="child_blank" class="light_holder">
-                              
-                                <img src={Ab1} alt="" class="lamp" />
+                        <Box className=" blank_man inner flex-center-column">
+                            <Box className="child_blank light_holder">
+                                <Typography class="lamp" ></Typography>
+
 
                                 <Box class="light" >
-                                <Box >
-                                    <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography color={'white'}>
+                                    <img src={Ab1} alt="" />
+                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography fontSize={13} color={'white'}>
                                         {contents.aboutus.childContainer1.designation}</Typography>
-                                </Box>
-                                <Box margin={1} fontSize={12} width={200} >
-                                    {contents.aboutus.childContainer1.testimonial}
-                                </Box>
+
+                                    <Typography fontSize={12} width={220}>
+                                        {contents.aboutus.childContainer1.testimonial}
+                                    </Typography>
                                 </Box>
                             </Box>
                         </Box>
 
                         {/* 2 */}
-                        <Box className="blank_man">
-                            <img src={Ab2} alt="" />
-                            <Box>
-                                <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer5.name}</Typography>
-                                <Typography color={'white'}>
-                                    {contents.aboutus.childContainer5.designation}
-                                </Typography>
-                            </Box>
-                            <Box fontSize={12} margin={1} width={200}>
-                                {contents.aboutus.childContainer5.testimonial}
-                            </Box>
+                        <Box className=" blank_man inner">
+                            <Box className="child_blank light_holder">
+                                <Typography class="lamp" ></Typography>
 
+
+                                <Box class="light" >
+                                    <img src={Ab1} alt="" />
+                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography fontSize={13} color={'white'}>
+                                        {contents.aboutus.childContainer1.designation}</Typography>
+
+                                    <Typography fontSize={12} width={220}>
+                                        {contents.aboutus.childContainer1.testimonial}
+                                    </Typography>
+                                </Box>
+                            </Box>
                         </Box>
 
-                        {/* 3*/}
-                        <Box className="blank_man">
-                            <img src={Ab2} alt="" />
-                            <Box>
-                                <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer5.name}</Typography>
-                                <Typography color={'white'}>
-                                    {contents.aboutus.childContainer5.designation}
-                                </Typography>
-                            </Box>
-                            <Box fontSize={12} margin={1} width={200}>
-                                {contents.aboutus.childContainer5.testimonial}
-                            </Box>
 
+                        {/* 3*/}
+                        <Box className=" blank_man inner">
+                            <Box className="child_blank light_holder">
+                                <Typography class="lamp" ></Typography>
+
+
+                                <Box class="light" >
+                                    <img src={Ab1} alt="" />
+                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography fontSize={13} color={'white'}>
+                                        {contents.aboutus.childContainer1.designation}</Typography>
+
+                                    <Typography fontSize={12} width={220}>
+                                        {contents.aboutus.childContainer1.testimonial}
+                                    </Typography>
+                                </Box>
+                            </Box>
                         </Box>
 
                         {/* 4 */}
-                        <Box className="blank_man">
-                            <img src={Ab2} alt="" />
-                            <Box>
-                                <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer5.name}</Typography>
-                                <Typography color={'white'}>
-                                    {contents.aboutus.childContainer5.designation}
-                                </Typography>
-                            </Box>
-                            <Box fontSize={12} margin={1} width={200}>
-                                {contents.aboutus.childContainer5.testimonial}
-                            </Box>
+                        <Box className=" blank_man inner">
+                            <Box className="child_blank light_holder">
+                                <Typography class="lamp" ></Typography>
 
+
+                                <Box class="light" >
+                                    <img src={Ab1} alt="" />
+                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography fontSize={13} color={'white'}>
+                                        {contents.aboutus.childContainer1.designation}</Typography>
+
+                                    <Typography fontSize={12} width={220}>
+                                        {contents.aboutus.childContainer1.testimonial}
+                                    </Typography>
+                                </Box>
+                            </Box>
                         </Box>
 
-                        {/* 5 */}
-                        <Box className="blank_man">
-                            <img src={Ab2} alt="" />
-                            <Box>
-                                <Typography fontSize={18} fontWeight={700} color={'white'}>{contents.aboutus.childContainer5.name}</Typography>
-                                <Typography color={'white'}>
-                                    {contents.aboutus.childContainer5.designation}
-                                </Typography>
-                            </Box>
-                            <Box fontSize={12} margin={1} width={200}>
-                                {contents.aboutus.childContainer5.testimonial}
-                            </Box>
-
-                        </Box>
                     </Box>
                 </Box>
             </Box>
