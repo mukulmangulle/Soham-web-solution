@@ -23,7 +23,7 @@
  } 
   */
  
-  * {
+  /* * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -32,6 +32,18 @@
  @font-face {
     font-family: allen-sans;
     src: url(allen-sans/AllenSans-Regular.otf);
+ } 
+  */
+
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gully-sans !important;
+}
+ @font-face {
+    font-family: gully-sans;
+    src: url(gully-sans/Gully-SCDRegular-BF663990cbba6f2.otf);
  } 
  
 
