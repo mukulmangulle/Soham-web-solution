@@ -34,7 +34,7 @@
     src: url(allen-sans/AllenSans-Regular.otf);
  } 
   */
-
+/* 
   * {
     margin: 0%;
     padding: 0%;
@@ -44,8 +44,20 @@
  @font-face {
     font-family: gully-sans;
     src: url(gully-sans/Gully-SCDRegular-BF663990cbba6f2.otf);
- } 
+ }  */
  
+
+ 
+ * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Albert_Sans !important;
+}
+ @font-face {
+    font-family:Albert_Sans;
+    src: url(Albert_Sans/AlbertSans-VariableFont_wght.ttf);
+ } 
 
 .width1920 {
     max-width: 1920px;
