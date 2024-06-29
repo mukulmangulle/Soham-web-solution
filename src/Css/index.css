@@ -1,19 +1,28 @@
-* {
+/* * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* font-family: Georgia, serif; */
-    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; */
     font-family: SNPro !important;
 }
-@font-face {
+ @font-face {
     font-family: SNPro;
     src: url(SNPro/SNPro-Medium.otf);
- }
+ } 
+  */
+
+
+ * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Serotiva !important;
+}
+ @font-face {
+    font-family: Serotiva;
+    src: url(Serotiva/Serotiva-Regular.otf);
+ } 
  
- /* * {
-    font-family: SNPro;
- } */
+ 
 
 .width1920 {
     max-width: 1920px;
