@@ -17,7 +17,7 @@ const About_us = () => {
     }, [dispatch]);
     return (
         < >
-            <Box bgcolor={"gray"} className="flex-center-column" width={"100%"}>
+            <Box className="flex-center-column" width={"100%"}>
                 <Box  >
                     <Typography className='secondary_heading' variant='h2'  >
                         {contents.aboutus.heading}

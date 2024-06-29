@@ -9,12 +9,10 @@
 .light h5{
   font-size: 18px;
   font-weight: 600;
-  color: white;
 
 }
 .light .designtion{
   font-size: 15px;
-  color: white;
   margin: 3px 0px;
 }
 .light .client_content{
@@ -53,7 +51,7 @@ flex-direction: column;
 }
 
 .inner:hover .light {
-background: linear-gradient(109.6deg, rgba(61, 120, 176, 0.547) 11.3%, rgba(35, 65, 164, 0.723) 91.1%);
+background: linear-gradient(to bottom,#053480, #053480ac , #1976d26c, #1976d200);
 }
 
 @media (max-width:1440px) {
