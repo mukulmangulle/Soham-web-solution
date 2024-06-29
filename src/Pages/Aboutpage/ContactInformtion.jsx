@@ -62,8 +62,10 @@ const ContactInformtion = () => {
                     name="requirement"
                     label="Select Project Buduget"
                     variant="filled"
+                    row="4"
 
                   >
+                    
 
                      <MenuItem value="Enterprise Web Solution">Web Development
                     </MenuItem>
@@ -80,18 +82,18 @@ const ContactInformtion = () => {
                     <MenuItem value="Digital Marketing">Digital Marketing</MenuItem> 
                   </Select>
                 </FormControl>
-                {/* <TextField
+                <TextField
           fullWidth
           id="message"
-          name="message"
-          label="Message"
+          name="textarea"
+          label="Brief Project Information"
           multiline
-          rows={3}
+          rows={4}
           // variant="outlined"
           variant="filled"
           margin="normal"
-        /> */}
-                <Input1 label="Brief Project Information" />
+        />
+                {/* <Input1 label="Brief Project Information" /> */}
 
               </Box>
               <Box className="contact-2"   >

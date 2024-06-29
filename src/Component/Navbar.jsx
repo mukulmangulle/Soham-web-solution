@@ -68,7 +68,7 @@ const Navbar = () => {
 
                       <Link to={`/${process.env.SLUG_URL}/blogs/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Blogs</Link>
 
-                      <Link to={`/${process.env.SLUG_URL}/contact-us/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Contact us</Link>
+                      <Link to={`/${process.env.SLUG_URL}/life-at-soham/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Life@Soham</Link>
                       {/* <Link to={`/${process.env.SLUG_URL}/bloges`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}> blog</Link> */}
                     </ul>
                   </div>

@@ -93,7 +93,7 @@ const Contact = () => {
                                 </form>
                             </Box>
                             <Box width={{ xl: "550px", xs: "100%", sm: "100%", md: "40%" }} className="GETINTOUCH2" >
-                                <Typography variant='h4' className='get_in_touch_heading'  >Get in Touch</Typography>
+                                <Typography variant='h4' className='get_in_touch_heading'  >To Know More </Typography>
                                 <Box>
                                     <Box paddingY={0.5}>
                                         <Typography id="h4" className='email_phone_heading' >Phone</Typography>
@@ -164,8 +164,7 @@ const Contact = () => {
                                         <Typography className='email_phone_heading'>Business Hours</Typography>
                                     </Box>
                                     <Box className='get_in_touch display-flex-start '>
-                                        <IoMdTime className='color-white ' fontSize={18} />
-                                        <IoTimeSharp />
+                                        <IoTimeSharp className='color-white ' fontSize={18} />
 
                                         <Typography className='color-white' marginLeft={1}>
                                             Monday - Saturday: 10:00 AM - 10:00 PM
@@ -190,11 +189,11 @@ const Contact = () => {
                                     </Box>
                                     <Box >
                                         <Box className="flex-between footer-sec-icon" width={150} >
-                                            <a href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
-                                            <a href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
-                                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
+                                            <a target='_blank'  href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
+                                            <a target='_blank' href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
+                                            <a target='_blank' href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
 
-                                            <a href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
+                                            <a target='_blank' href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
 
 
 

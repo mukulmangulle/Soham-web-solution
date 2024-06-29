@@ -22,7 +22,7 @@ const Codeigniter = () => {
                        
 
                             <Typography variant='h3' className='service_secondary-heading inner_heading' >
-                            Codeigniter Development Services for Web Applications
+                            CodeIgniter Development Services for Web Applications
                             </Typography>
 
                             <Typography variant='h5' className='primary_subheading secvice_child_text' >

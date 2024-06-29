@@ -10,8 +10,8 @@
  } 
   */
 
-/* 
- * {
+ /* * */
+ /* * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -20,8 +20,8 @@
  @font-face {
     font-family: Serotiva;
     src: url(Serotiva/Serotiva-Regular.otf);
- } 
-  */
+ }  */
+ 
  
   /* * {
     margin: 0%;
@@ -31,11 +31,12 @@
 }
  @font-face {
     font-family: allen-sans;
-    src: url(allen-sans/AllenSans-Regular.otf);
+    src: url(allen-sans/AllenSans-Regular.ttf);
  } 
   */
-/* 
-  * {
+
+
+  /* * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -48,7 +49,7 @@
  
 
  
- * {
+ /* * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -57,7 +58,32 @@
  @font-face {
     font-family:Albert_Sans;
     src: url(Albert_Sans/AlbertSans-VariableFont_wght.ttf);
+ }  */
+
+/* 2* */
+ * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Inter_Tight !important;
+}
+ @font-face {
+    font-family:Inter_Tight;
+    src: url(Inter_Tights/InterTight-VariableFont_wght.ttf);
  } 
+
+
+
+ /* * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Serotiva-Font-Fanily !important;
+}
+ @font-face {
+    font-family:Serotiva-Font-Fanily;
+    src: url(Serotiva-Font-Fanily/Serotiva-Regular-BF6639850925daa.otf);
+ }  */
 
 .width1920 {
     max-width: 1920px;

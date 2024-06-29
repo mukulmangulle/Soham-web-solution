@@ -80,18 +80,17 @@ const Form = () => {
                     <MenuItem value="Digital Marketing">Digital Marketing</MenuItem> 
                   </Select>
                 </FormControl>
-                {/* <TextField
+                <TextField
           fullWidth
           id="message"
           name="message"
-          label="Message"
+          label="Brief Project information"
           multiline
-          rows={3}
+          rows={4}
           // variant="outlined"
           variant="filled"
           margin="normal"
-        /> */}
-                <Input1 label="Brief Project information" />
+        />
 
               </Box>
               <Box className="contact-2"   >
@@ -110,7 +109,7 @@ const Form = () => {
                       {/* <FormControlLabel control={<Checkbox />} label="Enterprice Solution" /> */}
                       <FormControlLabel control={<Checkbox />} label="CMS Development
 " />
-                      <FormControlLabel control={<Checkbox />} label="Other" />
+                      <FormControlLabel control={<Checkbox />} label="Other " />
                     </Box>
                   </RadioGroup>
                 </FormControl>

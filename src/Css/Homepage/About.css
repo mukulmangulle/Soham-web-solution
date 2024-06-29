@@ -29,7 +29,8 @@
 .lamp{
    height: 80px;
    width: 80px;
-   color: black;
+   color:#053480 !important ;
+   /* filter: brightness(50) invert(9); */
 
 }
 .inner {

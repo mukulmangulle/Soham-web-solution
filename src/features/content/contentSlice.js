@@ -54,17 +54,17 @@ const contentSlice = createSlice({
           testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
         },
         childContainer3: {
-          name: "Devendra Singh Devda",
+          name: "Client Name",
           designation: "UI/UX & Geaphic Designer",
           testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
         },
         childContainer4: {
-          name: "Devendra Singh Devda",
+          name: "Client Name",
           designation: "UI/UX & Geaphic Designer",
           testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
         },
         childContainer5: {
-          name: "Devendra Singh Devda",
+          name: "Client Name",
           designation: "UI/UX & Geaphic Designer",
           testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
         },
@@ -104,9 +104,9 @@ const contentSlice = createSlice({
         },
         contactDetails: {
           heading: " Contact Details",
-          text1: "+91 78792-31700",
-          text2: "+91 70003-35673",
-          text3: "+91 79847-40805 ",
+          text1: "+91 7000335673",
+          text2: "+91 7984740805",
+          text3: "+91 7748018188",
           text4: "contact@sohamsolution.com",
           text5: "12 Civil Lines, Chamunda Complex, Dewas",
         },
