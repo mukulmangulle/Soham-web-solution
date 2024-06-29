@@ -30,37 +30,34 @@ const About_us = () => {
                 <Box className="flex-center">
                     <Box className="flex-between padding-top-bottom"  width={"100%"} flexWrap={"wrap"}>
                         {/* 1 */}
-                        <Box className=" blank_man inner flex-center-column">
-                            <Box className="child_blank light_holder">
+                        <Box className=" inner">
+                            <Box className=" light_holder">
                                 <Typography class="lamp" ></Typography>
-
-
                                 <Box class="light" >
-                                    <img src={Ab1} alt="" />
-                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography fontSize={13} color={'white'}>
+                                    <img  src={Ab1} alt=""  />
+                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography className='designtion' >
                                         {contents.aboutus.childContainer1.designation}</Typography>
 
-                                    <Typography fontSize={12} width={220}>
+                                    <Typography className='client_content'>
                                         {contents.aboutus.childContainer1.testimonial}
                                     </Typography>
                                 </Box>
                             </Box>
                         </Box>
 
+
                         {/* 2 */}
-                        <Box className=" blank_man inner">
-                            <Box className="child_blank light_holder">
+                        <Box className=" inner">
+                            <Box className=" light_holder">
                                 <Typography class="lamp" ></Typography>
-
-
                                 <Box class="light" >
                                     <img src={Ab1} alt="" />
-                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography fontSize={13} color={'white'}>
+                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography className='designtion' >
                                         {contents.aboutus.childContainer1.designation}</Typography>
 
-                                    <Typography fontSize={12} width={220}>
+                                    <Typography className='client_content'>
                                         {contents.aboutus.childContainer1.testimonial}
                                     </Typography>
                                 </Box>
@@ -69,42 +66,40 @@ const About_us = () => {
 
 
                         {/* 3*/}
-                        <Box className=" blank_man inner">
-                            <Box className="child_blank light_holder">
+                        <Box className=" inner">
+                            <Box className=" light_holder">
                                 <Typography class="lamp" ></Typography>
-
-
                                 <Box class="light" >
                                     <img src={Ab1} alt="" />
-                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography fontSize={13} color={'white'}>
+                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography className='designtion' >
                                         {contents.aboutus.childContainer1.designation}</Typography>
 
-                                    <Typography fontSize={12} width={220}>
+                                    <Typography className='client_content'>
                                         {contents.aboutus.childContainer1.testimonial}
                                     </Typography>
                                 </Box>
                             </Box>
                         </Box>
+
 
                         {/* 4 */}
-                        <Box className=" blank_man inner">
-                            <Box className="child_blank light_holder">
+                        <Box className=" inner">
+                            <Box className=" light_holder">
                                 <Typography class="lamp" ></Typography>
-
-
                                 <Box class="light" >
                                     <img src={Ab1} alt="" />
-                                    <Typography fontSize={14} fontWeight={700} color={'white'}>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography fontSize={13} color={'white'}>
+                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
+                                    <Typography className='designtion' >
                                         {contents.aboutus.childContainer1.designation}</Typography>
 
-                                    <Typography fontSize={12} width={220}>
+                                    <Typography className='client_content'>
                                         {contents.aboutus.childContainer1.testimonial}
                                     </Typography>
                                 </Box>
                             </Box>
                         </Box>
+
 
                     </Box>
                 </Box>

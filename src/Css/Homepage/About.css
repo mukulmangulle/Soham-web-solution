@@ -1,21 +1,110 @@
-
-/* .blank_man {
-  text-align: center;
+.light img{
+  padding-bottom: 20px !important;
+}
+.light h5{
+  font-size: 18px;
+  font-weight: 600;
   color: white;
+
+}
+.light .designtion{
+  font-size: 15px;
+  color: white;
+  margin: 3px 0px;
+}
+.light .client_content{
+  font-size: 13px ;
+  width: 290px ;
+}
+
+
+/* lamp */
+.lamp{
+  /* background-color: turquoise; */
+}
+.inner {
+/* position: relative; */
+display: flex;
+justify-content: center;
+align-items: center;
+background: none;
+}
+
+.light_holder {
+width: 400px;
+
+}
+
+.light {
+width:100%;
+height: 100%;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+text-align: center;
+padding-top: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.inner:hover .light {
+background: linear-gradient(109.6deg, rgba(61, 120, 176, 0.547) 11.3%, rgba(35, 65, 164, 0.723) 91.1%);
+}
+
+@media (max-width:1440px) {
+  .light img{
+    padding-bottom: 20px !important;
+  }
+  .light h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    width: 150px;
+  
+  }
+  .light .designtion{
+    font-size: 14px;
+    color: white;
+    margin: 3px 0px;
+  }
+  .light .client_content{
+    font-size: 13px ;
+    width: 210px;
+  }
+  
+  
+  /* lamp */
+ 
+  .inner {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+    }
+  
+  .light_holder {
+  width: 270px;
+  height: 100%;
+  /* background-color: red; */
+  }
+  
+  .light {
+  width:100%;
+  height: 100%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  text-align: center;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: wheat;
-} */
-/* .child_blank{
-  background-color: tomato;
-} */
-
-@media (max-width:1440px) {
-  .blank_man {
-    display: none;
   }
+  
+  .inner:hover .light {
+  background: linear-gradient(109.6deg, rgba(61, 120, 176, 0.547) 11.3%, rgba(35, 65, 164, 0.723) 91.1%);
+  }
+  
 
 
 }
@@ -34,39 +123,3 @@
 
 
 
-
-/* lamp */
-.lamp{
-    background-color: turquoise;
-}
-.inner {
-  /* position: relative; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: none;
-
-  padding-top: 0px;
-  height: 300px;
-}
-
-.light_holder {
-  width: 400px;
- 
-}
-
-.light {
-  width:100%;
-  height: 100%;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  text-align: center;
-  padding-top: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.inner:hover .light {
-  background: linear-gradient(109.6deg, rgba(61, 120, 176, 0.547) 11.3%, rgba(35, 65, 164, 0.723) 91.1%);
-}
