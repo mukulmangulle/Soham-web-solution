@@ -28,7 +28,7 @@ const About_us = () => {
                 </Box>
 
                 <Box className="flex-center">
-                    <Box className="flex-between padding-top-bottom"  width={"100%"} flexWrap={"wrap"}>
+                    <Box className="flex-between padding-top-bottom client-section-child"  >
                         {/* 1 */}
                         <Box className=" inner">
                             <Box className=" light_holder">
