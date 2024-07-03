@@ -37,7 +37,7 @@ const Footer = () => {
                 <Box className='want flex-center' >
 
                     <Box flex={1}>
-                        <Typography >Want to know more about SohamWeb's Life?
+                        <Typography >Want to know more about Soham Web's Life?
 
                         </Typography>
                     </Box>

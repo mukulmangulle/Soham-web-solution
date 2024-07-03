@@ -27,7 +27,7 @@ const WordPress = () => {
                             </Typography>
 
                             <Typography variant='h5' className='primary_subheading secvice_child_text' >
-                            All websites are powered by WordPress, the industry-leading content management system. Web developers and designers may construct or update websites with minimal work thanks to this CMS's well-known ease of modification. With its many built-in capabilities, WordPress is perfect for building up both a simple content management system and a powerful blogging platform, which improves search engine exposure. Additionally, because of its adaptability, it may be easily integrated into a variety of platforms, such as e-commerce and content resource management systems
+                            All websites are powered by WordPress, the industry-leading content management system. Web developers and designers may construct or update websites with minimal work thanks to this CMS's well-known ease of modification. With its many built-in capabilities, WordPress is perfect for building up both a simple content management system and a powerful blogging platform, which improves search engine exposure. Additionally, because of its adaptability, it may be easily integrated into a variety of platforms, such as e-commerce and content resource management systems .
 
                             </Typography>
                            

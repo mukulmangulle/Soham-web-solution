@@ -411,12 +411,12 @@ const Home = () => {
             <Box className="home-continer flex-between"
             >
                 <Box className="home-content "   >
-                    <Box className="home-h1 text_color_blue"  variant='h1'>
+                    <Box className="home-h1  text_color_blue"  variant='h1'>
                         We Trust In   
                         <Box className="text-box" marginLeft={1} >
-                            <Box className="home-h1 text_color_blue"> Creativity</Box>
-                            <Box className="home-h1 text_color_blue">Enthusiasm</Box>
-                            <Box className="home-h1 text_color_blue">Commitment</Box>
+                            <Box > Creativity</Box>
+                            <Box>Enthusiasm</Box>
+                            <Box >Commitment</Box>
                         </Box>
 
 

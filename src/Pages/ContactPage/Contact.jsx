@@ -184,7 +184,7 @@ const Contact = () => {
                                 <Box paddingY={0.5}>
                                     <Box>
                                         <Typography className='email_phone_heading'>
-                                            Follow Us on Social Media
+                                            Follow Us on 
                                         </Typography>
                                     </Box>
                                     <Box >
