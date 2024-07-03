@@ -1,7 +1,7 @@
 /* 
 #heading-1 {
     font-weight: 700;
-    color: #053480;
+    color:  var(--color-blue);
     text-align: center;
     font-size: 42px;
     padding: 4rem 0rem;
@@ -9,9 +9,8 @@
 } 
 
  #unlocking {
-    color: #053480;
-    font-weight: 600;
-    font-size: 35px;
+    color:  var(--color-blue);
+    font-weight: 600;    font-size: 35px;
 
     width: 400px;
 } 
@@ -46,7 +45,7 @@ h2 {
 
 .categoriess {
     margin: 1rem 0rem;
-    color: #053480;
+    color:  var(--color-blue);
     display: flex;
     height: 100%px;
     width: 500px;
@@ -59,15 +58,13 @@ h2 {
 }
 
 #blog-heading {
-    color: #053480;
+    color:  var(--color-blue);
     font-size: 22px;
-    font-weight: 600;
-    margin: 10px 0px;
+    font-weight: 600;    margin: 10px 0px;
 }
 
 #categorie-heading {
-    font-weight: 600;
-    color: #053480;
+    font-weight: 600;    color:  var(--color-blue);
     font-size: 25px;
 }
  */

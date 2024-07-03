@@ -7,17 +7,17 @@
   padding-bottom: 20px !important;
 }
 .light h5{
-  font-size: 18px;
+  font-size: var(--font-h6);
   font-weight: 600;
 
 }
 .light .designtion{
-  font-size: 15px;
+  font-size: var(--font-p1);
   margin: 3px 0px;
 }
 .light .client_content{
-  font-size: 13px ;
-  width: 290px ;
+  font-size: var(--font-p3);
+  width: 265px ;
 }
 
 
@@ -29,8 +29,8 @@
 .lamp{
    height: 80px;
    width: 80px;
-   color:#053480 !important ;
-   /* filter: brightness(50) invert(9); */
+   color: #0534807d; 
+     /* filter: brightness(50) invert(9); */
 
 }
 .inner {
@@ -62,7 +62,7 @@ flex-direction: column;
 }
 
 .inner:hover .light {
-background: linear-gradient(to bottom,#053480, #053480ac , #1976d26c, #1976d200);
+background: linear-gradient(to bottom, var(--color-blue),  var(--color-blue) , #1976d26c, #1976d200);
 }
 
 @media (max-width:1440px) {
@@ -70,16 +70,12 @@ background: linear-gradient(to bottom,#053480, #053480ac , #1976d26c, #1976d200)
     padding-bottom: 10px !important;
   }
   .light h5{
-    font-size: 16px;
     width: 150px;
   
   }
-  .light .designtion{
-    font-size: 14px;
-  }
+
   .light .client_content{
-    font-size: 13px ;
-    width: 210px;
+    width: 190px;
   }
   
   .light_holder {
@@ -116,15 +112,12 @@ background: linear-gradient(to bottom,#053480, #053480ac , #1976d26c, #1976d200)
     padding-bottom: 10px !important;
   }
   .light h5{
-    font-size: 16px;
+   
     width: 150px;
   
   }
-  .light .designtion{
-    font-size: 14px;
-  }
+  
   .light .client_content{
-    font-size: 13px ;
     width: 75%;
   }
   
@@ -142,20 +135,32 @@ background: linear-gradient(to bottom,#053480, #053480ac , #1976d26c, #1976d200)
   
 }
 
+@media (max-width:768px) {
+  .light h5{
+    font-size: var(--font-h6);
+  
+  }
+  .light .designtion{
+    font-size: var(--font-p1);
+  }
+  .light .client_content{
+    font-size: var(--font-p3) !important;
+  }
+  
+}
+
+
 @media (max-width:576px) {
   .light img{
     padding-bottom: 10px !important;
   }
   .light h5{
-    font-size: 15px;
+   
     width: 150px;
   
   }
-  .light .designtion{
-    font-size: 13px;
-  }
+  
   .light .client_content{
-    font-size: 12px ;
     width: 75%;
   }
   
@@ -179,15 +184,11 @@ background: linear-gradient(to bottom,#053480, #053480ac , #1976d26c, #1976d200)
     padding-bottom: 10px !important;
   }
   .light h5{
-    font-size: 15px;
     width: 150px;
   
   }
-  .light .designtion{
-    font-size: 13px;
-  }
+ 
   .light .client_content{
-    font-size: 12px ;
     width:65%;
   }
   

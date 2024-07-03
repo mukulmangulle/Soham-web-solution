@@ -69,7 +69,7 @@ function App() {
         <Route path={`/${process.env.SLUG_URL}/services/graphic-designing/`} element={<Graphic />} />
         <Route path={`/${process.env.SLUG_URL}/services/ecommerce-development/`} element={<Ecommerce />} />
         <Route path={`/${process.env.SLUG_URL}/services/laraval-development/`} element={<Laraval />} />
-        <Route path={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} element={<Codeigniter />} />
+        <Route path={`/${process.env.SLUG_URL}/services/codeigniter_development/`} element={<Codeigniter />} />
         <Route path={`/${process.env.SLUG_URL}/services/react-native-development/`} element={<React_Native />} />
        
         <Route path={`/${process.env.SLUG_URL}/requirement/`} element={<Service_form_section/>} />

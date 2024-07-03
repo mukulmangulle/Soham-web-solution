@@ -171,32 +171,25 @@ const Contact = () => {
                                         </Typography>
                                     </Box>
                                     <Box className='get_in_touch display-flex-start '>
-                                    <FaClosedCaptioning className='color-white' marginLeft={1} />
+                                        <FaClosedCaptioning className='color-white' marginLeft={1} />
                                         <Typography className='color-white' marginLeft={1}>
-                                        Sunday: Closed
+                                            Sunday: Closed
                                         </Typography>
                                     </Box>
-                                  
                                 </Box>
-
-
 
                                 <Box paddingY={0.5}>
                                     <Box>
                                         <Typography className='email_phone_heading'>
-                                            Follow Us on 
+                                            Follow Us on
                                         </Typography>
                                     </Box>
                                     <Box >
                                         <Box className="flex-between footer-sec-icon" width={150} >
-                                            <a target='_blank'  href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
+                                            <a target='_blank' href="https://www.facebook.com/sohamsolution/"><img src={Facebook} alt="" /></a>
                                             <a target='_blank' href="https://www.instagram.com/sohamwebsolution/"><img src={Insta} alt="" /></a>
                                             <a target='_blank' href="https://x.com/i/flow/login?redirect_after_login=%2Fsoham_web"><img src={Twitter} alt="" /></a>
-
                                             <a target='_blank' href="https://profiles.wordpress.org/sohamwebsolution/"><img src={Linkdin} alt="" /></a>
-
-
-
                                         </Box>
                                     </Box>
                                 </Box>

@@ -6,30 +6,34 @@ const Service = () => {
     return (
         <>
             <Box className="service padding-top-bottom flex-center"  >
-                <Box width={"95%"} marginY={4}  >
-                    <Typography textAlign={'center'} variant='h3' color={"white"} fontWeight={600} marginBottom={7} >Service</Typography>
-                 <Box className="flex-center">
-                 <Box width={"89%"} className="flex-between-wrap" >
+                <Box className="services_box_section " >
+                    <Typography className='service_box_section_heading padding-top-bottom'  variant='h3' >Service</Typography>
+                
+                 <Box className="flex-between-wrap box_size_parent" >
                         <Box  className="service-box">
                           <img src={Rightclick} alt="" />
-                          Website Development
+                          <Typography> Website Development</Typography>
+                         
                         </Box>
                         <Box className="service-box" >
                           <img src={Rightclick} alt="" />
-                          CMS Development
+                          <Typography> CMS Development</Typography>
+                          
                         </Box>
                         <Box  className="service-box" >
                           <img src={Rightclick} alt="" />
-                          Ecommerce Development                      
+                          <Typography> Ecommerce Development  </Typography>
+                                             
                         </Box>
                         <Box  className="service-box">
                           <img src={Rightclick} alt="" />
-                          Custom Framework Development
+                          <Typography>   Custom Framework Development</Typography>
+                       
                         </Box>
                     </Box>
                  </Box>
                 </Box>
-            </Box>
+            
         </>
     )
 }

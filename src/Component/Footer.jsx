@@ -52,7 +52,7 @@ const Footer = () => {
                         <Link to="/" >
                             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
                         </Link>
-                        <Typography color={'#FFFFFF'} marginTop={2.5} fontSize={16}>
+                        <Typography color={'#FFFFFF'} marginTop={2.5} >
                             {contents.footerData.aboutText}
                         </Typography>
 

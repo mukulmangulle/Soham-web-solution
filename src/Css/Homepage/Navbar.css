@@ -1,7 +1,7 @@
 .navbar {
     z-index: 2;
     max-width: 1920px;
-    background-color: #053480;
+    background-color:var(--color-blue);
     margin: auto;
 }
 
@@ -23,7 +23,7 @@
 .fontSize16 {
     color: white;
     text-decoration: "none";
-    font-size: 16px !important;
+    font-size: var(--font-p2) !important;
  
 }
 
@@ -36,7 +36,7 @@
     width: 170px;
     color: white;
     height: 50px;
-    font-size: 18px;
+    font-size: var(--font-p1);
     display: flex;
     border: 1px solid white;
     border-radius: 5px;
@@ -44,7 +44,7 @@
 
 .navbar .hire-button:hover {
     background-color: white;
-    color: #053480;
+    color:  var(--color-blue) ;
     font-weight: 700;
     box-shadow: 0px 0px 5px 2px rgb(147, 147, 147);
   
@@ -67,15 +67,12 @@
     .sws-logo {
         width: 140px;
             }
-    .fontSize16 {
-               font-size: 13px !important;
-         }
+   
 
     .navbar .hire-button {
         width: 140px;
         color: white;
         height: 40px;
-        font-size: 16px;
     }
     .down-arrow {
         width: 8px;

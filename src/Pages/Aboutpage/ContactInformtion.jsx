@@ -65,34 +65,34 @@ const ContactInformtion = () => {
                     row="4"
 
                   >
-                    
 
-                     <MenuItem value="Enterprise Web Solution">Web Development
+
+                    <MenuItem value="Enterprise Web Solution">Web Development
                     </MenuItem>
                     <MenuItem value="UI/UX Services">UI/UX Services</MenuItem>
                     <MenuItem value="Mobile Apps Development">Web Designing</MenuItem>
                     <MenuItem value="Application Services">Hire Dedicated Resoures</MenuItem>
-                    <MenuItem value="Hire Dedicated Resources">CMS Development</MenuItem> 
+                    <MenuItem value="Hire Dedicated Resources">CMS Development</MenuItem>
 
 
                     <MenuItem value="Framework Development">Framework Development</MenuItem>
                     <MenuItem value="Enterprise Solution">Enterprise Solution</MenuItem>
                     <MenuItem value="IT Consultancy">IT Consultancy</MenuItem>
                     <MenuItem value="CMS Development">CMS Development</MenuItem>
-                    <MenuItem value="Digital Marketing">Digital Marketing</MenuItem> 
+                    <MenuItem value="Digital Marketing">Digital Marketing</MenuItem>
                   </Select>
                 </FormControl>
                 <TextField
-          fullWidth
-          id="message"
-          name="textarea"
-          label="Brief Project Information"
-          multiline
-          rows={4}
-          // variant="outlined"
-          variant="filled"
-          margin="normal"
-        />
+                  fullWidth
+                  id="message"
+                  name="textarea"
+                  label="Brief Project Information"
+                  multiline
+                  rows={4}
+                  // variant="outlined"
+                  variant="filled"
+                  margin="normal"
+                />
                 {/* <Input1 label="Brief Project Information" /> */}
 
               </Box>
@@ -105,13 +105,11 @@ const ContactInformtion = () => {
                   </Box>
                   <RadioGroup row aria-label="project-budget" name="project-budget">
                     <Box display={'flex'} alignItems={"start"} justifyContent={"center"} flexDirection={'column'} >
-                      <FormControlLabel control={<Checkbox />} label="Web Development
-" />
+                      <FormControlLabel control={<Checkbox />} label="Web Development" />
                       <FormControlLabel control={<Checkbox />} label="Web Designing" />
                       <FormControlLabel control={<Checkbox />} label="Hire Dedicated Resoures " />
                       {/* <FormControlLabel control={<Checkbox />} label="Enterprice Solution" /> */}
-                      <FormControlLabel control={<Checkbox />} label="CMS Development
-" />
+                      <FormControlLabel control={<Checkbox />} label="CMS Development" />
                       <FormControlLabel control={<Checkbox />} label="Other" />
                     </Box>
                   </RadioGroup>
@@ -121,7 +119,7 @@ const ContactInformtion = () => {
 
 
               {/* section3 */}
-              <Box className="contact-3" width={'200px'} paddingTop={4.5}>
+              <Box className="contact-3" width={'200px'} >
                 <FormControl component="fieldset" fullWidth margin="normal">
 
                   <FormGroup>

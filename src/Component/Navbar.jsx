@@ -101,7 +101,7 @@ const Navbar = () => {
                       <Link to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>E-commerce Development</Link>
                       <Link to={`/${process.env.SLUG_URL}/services/laraval-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>
                         Laravel Development</Link>
-                      <Link to={`/${process.env.SLUG_URL}/services/Codeigniter_development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>CodeIgniter Development</Link>
+                      <Link to={`/${process.env.SLUG_URL}/services/codeigniter_development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>CodeIgniter Development</Link>
 
                       <Link to={`/${process.env.SLUG_URL}/services/react-native-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>React Native Development</Link>
 

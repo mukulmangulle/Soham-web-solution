@@ -37,20 +37,19 @@
 }
 
 .service-man .service_secondary-heading {
-    font-size: 42px;
-    color: #053480;
-    font-weight: 600;
-}
+    font-size: var(--font-h2);
+    color:  var(--color-blue);
+    font-weight: 600;}
 
 .service-man .service_text {
-    font-size: 20px;
+    font-size: var(--font-h6);
     color: gray;
     padding: 1rem 0px;
 }
 
 .service-man .btn_apply_now {
-    background: linear-gradient(to bottom, #0160E7, #053480);
-    font-size: 18px !important;
+    background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
+font-family:var(--font-p1) ;
     width: 150px;
     height: 50px;
     color: white !important;
@@ -88,7 +87,7 @@
 
 .get_the_best {
     color: white;
-    font-size: 42px !important;
+    font-size:var(--font-h2);
 
 }
 
@@ -96,17 +95,25 @@
     
     width: 75%;
 }
+.services_box_section{
+   width: 1200px;
+}
+.services_box_section .service_box_section_heading{
+    text-align: center;
+color: white;
+font-size: var(--font-h2);
+font-weight: 600;
+}
 
 .service_chid .inner_heading {
     text-align: center;
-    color: #053480;
-    font-weight: 600;
-    font-size: 45px;
-}
+    color:  var(--color-blue);
+    font-weight: 600;  
+      font-size:var(--font-h2);}
 
 .service_chid .secvice_child_text {
-    font-size: 25px !important;
-    text-align: center;
+    font-size:var(--font-h4); 
+       text-align: center;
     margin-top: 20px;
 }
 .devlopment-text .service-logo {
@@ -141,18 +148,14 @@
         height: 320px;
     }
 
-    .service-man .service_secondary-heading {
-        font-size: 36px;
-    }
+ 
 
     .service-man .service_text {
-        font-size: 18px;
         padding: 0.5rem 0px;
     }
 
     .service-man .btn_apply_now {
-        background: linear-gradient(to bottom, #0160E7, #053480);
-        font-size: 16px !important;
+        background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
         width: 130px;
         height: 40px;
     }
@@ -174,23 +177,16 @@
         margin-top: 20px !important;
         height: 45px;
     }
-
-    .get_the_best {
-        color: white;
-        font-size: 38px !important;
-    }
-
-    .service_chid .inner_heading {
-        font-size: 40px;
-    }
-
-    .service_chid .secvice_child_text {
-        font-size: 22px !important;
-    }
+    .services_box_section{
+        width: 1000px;
+     }
+   
 }
 
 @media (max-width:1024px) {
-
+    .services_box_section{
+        width: 768px;
+     }
     .service-man .service_container_one {
         max-width: 85%;
         display: flex;
@@ -218,12 +214,8 @@
         height: 320px;
     }
 
-    .service-man .service_secondary-heading {
-        font-size: 32px;
-    }
 
     .service-man .service_text {
-        font-size: 16px;
         padding: 0.5rem 0px;
     }
 
@@ -243,20 +235,9 @@
 
     .get_the_best {
         color: white;
-        font-size: 32px !important;
     }
 
-    .service-man .btn_apply_now {
-        font-size: 16px !important;
-
-    }
-    .service_chid .inner_heading {
-        font-size: 35px;
-    }
-
-    .service_chid .secvice_child_text {
-        font-size: 20px !important;
-    }
+   
     
 .service_chid {
         width: 85%;
@@ -280,15 +261,14 @@
     }
 
     .service-man .service_secondary-heading {
-        font-size: 28px;
-    }
+        font-size: var(--font-h2);    }
 
     .devlopment-text .service-logo {
         height: 50px !important;
     }
 
     .service-man .service_text {
-        font-size: 14px;
+        font-size: var(--font-h6);
     }
 
     .background-service {
@@ -308,11 +288,11 @@
 
     .get_the_best {
         color: white;
-        font-size: 25px !important;
+        font-size:var(--font-h2);
     }
 
     .service-man .btn_apply_now {
-        font-size: 15px !important;
+        font-size:var(--font-h6);
         width: 130px;
         height: 38px;
     }
@@ -324,7 +304,13 @@
     }
 
     .service_chid .secvice_child_text {
-        font-size: 18px !important;
+        font-size:var(--font-h4); 
+    }
+    .box_size_parent{
+           width: 100%;
+           display: flex;
+           align-items: center;
+           justify-content:space-evenly;
     }
 }
 
@@ -347,13 +333,7 @@
         height: 200px;
     }
 
-    .service-man .service_secondary-heading {
-        font-size: 28px;
-    }
-
-    .service-man .service_text {
-        font-size: 14px;
-    }
+    
 
     .background-service {
         width: 320px;
@@ -372,23 +352,14 @@
 
     .get_the_best {
         color: white;
-        font-size: 22px !important;
         text-align: center;
     }
 
     .service-man .btn_apply_now {
-        font-size: 14px !important;
         width: 120px;
         height: 35px;
     }
-    .service_chid .inner_heading {
-        font-size: 25px;
-    }
-
-    .service_chid .secvice_child_text {
-        font-size: 14px !important;
-    }
-
+   
 }
 
 
@@ -402,13 +373,7 @@
         height: 180px;
     }
 
-    .service-man .service_secondary-heading {
-        font-size: 24px;
-    }
-
-    .service-man .service_text {
-        font-size: 12px;
-    }
+   
 
     .background-service {
         width: 280px;
@@ -427,13 +392,6 @@
 
     .get_the_best {
         color: white;
-        font-size: 18px !important;
-    }
-    .service_chid .inner_heading {
-        font-size: 22px;
     }
 
-    .service_chid .secvice_child_text {
-        font-size: 12px !important;
-    }
 }

@@ -29,17 +29,16 @@ const CareerForm = ({ onClose, heading }) => {
     };
 
     return (
-        <Box sx={{
+        <Box className="pop-form" sx={{
             display: 'flex', alignItems: 'center',
             justifyContent: 'center', minHeight: '100vh',
-            background: 'rgba(255, 255, 255, 0.7)',
         }} >
 
-            <Box
+            <Box 
                 sx={{
-                    bgcolor: 'white', boxShadow: 24, p: 4, borderRadius: 2, height: "80vh", margin: "5px", overflowY: 'scroll',
+                  bgcolor:"white",  boxShadow: 24, p: 4, borderRadius: 2, height: "80vh", margin: "5px", overflowY: 'scroll',
                 }}>
-                <Box margin={"auto"} width={"100%"} onClick={onClose}>
+                <Box  margin={"auto"} width={"100%"} onClick={onClose}>
                     <FormControl onClick={(e) => e.stopPropagation()}>
 
 

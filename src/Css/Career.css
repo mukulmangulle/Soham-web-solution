@@ -1,6 +1,6 @@
 .apply-now-Team {
-     background: linear-gradient(to bottom, #0160E7, #053480);
-     font-size: 15px;
+     background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
+     font-size: var(--font-h5);
      width: 110px;
      margin-left: 20px !important;
      margin-bottom: 30px !important;
@@ -39,9 +39,8 @@
 width: 85%;
 }
 .growing .gorw-p1 {
-     font-size: 48px;
-     font-weight: 600;
-     color: #053480;
+     font-size:var(--font-h2);
+     font-weight: 600;     color:  var(--color-blue);
      text-align: start;
      margin-bottom: 2rem;
 }
@@ -49,24 +48,21 @@ width: 85%;
 
 .we-man .grow-email {
      text-decoration: none;
-     font-size: 20px;
+     font-size:var(--font-h6);
      display: block;
-     font-weight: 600;
-     margin-top: 2rem;
+     font-weight: 600;     margin-top: 2rem;
 }
 
 .content-toggle .toggle_heading_career{
-     font-size: 20px;
-     font-weight: 600;
-     margin: 10px 0px;
+     font-size:var(--font-h6);
+     font-weight: 600;     margin: 10px 0px;
 }
 .D-CENTER .career_toggle_subheading{
-      font-size: 18px;
-      font-weight: 600;
-}
+     font-size:var(--font-h6);
+      font-weight: 600;}
 .D-CENTER .Typography-gray-career {
-     font-size: 18px ;
-     color: gray;
+     font-size:var(--font-h6);    
+      color: gray;
      text-align: start;
 
  }
@@ -74,6 +70,9 @@ width: 85%;
      margin: 1.2rem;
  }
 
+ .pop-form{
+  background-color: rgb(225, 225, 218) !important;
+ }
 @media (max-width:1440px) {
 
 
@@ -87,7 +86,6 @@ width: 85%;
      }
 
      .growing .gorw-p1 {
-          font-size: 38px;
           margin-bottom: 1rem;
      }
 
@@ -100,15 +98,9 @@ width: 85%;
      }
      
 .content-toggle .toggle_heading_career{
-     font-size: 18px;
      margin: 8px 0px;
 }
-.D-CENTER .career_toggle_subheading{
-      font-size: 16px;
-}
-.D-CENTER .Typography-gray-career {
-     font-size: 16px ;
- }
+
 
 }
 
@@ -132,7 +124,6 @@ width: 85%;
      }
 
      .growing .gorw-p1 {
-          font-size: 30px;
           margin-bottom: 1rem;
      }
      .we-man .grow-email {
@@ -143,15 +134,9 @@ width: 85%;
           width: 90%;
           }
      .content-toggle .toggle_heading_career{
-          font-size: 16px;
           margin: 6px 0px;
      }
-     .D-CENTER .career_toggle_subheading{
-           font-size: 14px;
-     }
-     .D-CENTER .Typography-gray-career {
-          font-size: 14px ;
-      }
+    
      
 
 }
@@ -159,7 +144,7 @@ width: 85%;
 @media (max-width:768px) {
 
      .growing .gorw-p1 {
-          font-size: 28px;
+          font-size:var(--font-h2);
           margin-bottom: 1rem;
      }
      .we-man .we-img-section {
@@ -175,22 +160,20 @@ width: 85%;
      }
 
      .we-man .grow-email {
-          font-size: 15px;
+          font-size:var(--font-h6);
      }
 
      .carrer_toogle_section{
           width: 93%;
           }
      .content-toggle .toggle_heading_career{
-          font-size: 15px;
+          font-size:var(--font-h6);
           margin: 6px 0px;
      }
      .D-CENTER .career_toggle_subheading{
-           font-size: 13px;
-     }
+          font-size:var(--font-h6);     }
      .D-CENTER .Typography-gray-career {
-          font-size: 13px ;
-      }
+          font-size:var(--font-h6);      }
 }
 
 @media (max-width:576px) {
@@ -202,13 +185,10 @@ width: 85%;
           height: 300px;
      }
      .growing .gorw-p1 {
-          font-size: 25px;
           margin-bottom: 1rem;
      }
 
      .we-man .grow-email {
-
-          font-size: 13px;
           margin-top: 1rem;
 
      }
@@ -216,15 +196,9 @@ width: 85%;
           width: 100%;
           }
      .content-toggle .toggle_heading_career{
-          font-size: 14px;
           margin: 6px 0px;
      }
-     .D-CENTER .career_toggle_subheading{
-           font-size: 12px;
-     }
-     .D-CENTER .Typography-gray-career {
-          font-size: 12px ;
-      }
+   
       .current_opning{
           margin:0.8rem 1.2rem;
       }
@@ -241,26 +215,17 @@ width: 85%;
 
 
      .growing .gorw-p1 {
-          font-size: 20px;
           margin-bottom: 0.5rem;
      }
 
      .we-man .grow-email {
-
-          font-size: 11px;
           margin-top: 0.5rem;
      }
     
      .content-toggle .toggle_heading_career{
-          font-size: 13px;
           margin: 6px 0px;
      }
-     .D-CENTER .career_toggle_subheading{
-           font-size: 11px;
-     }
-     .D-CENTER .Typography-gray-career {
-          font-size: 11px ;
-      }
+    
 
 
 }

@@ -10,7 +10,7 @@
 #submit {
     width: "150px";
     height: "50px";
-    background: linear-gradient(to bottom, #0160E7, #053480);
+    background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
     margin-top: 50px;
     color: white;
 }
@@ -27,9 +27,9 @@
 
 
 .about-welcome .about-heading {
-    font-size: 40px;
-    font-weight: 600;
-    text-align: start;
+    font-size: var(--font-h3);
+    font-weight: 600;   
+     text-align: start;
     padding-bottom: 8px;
     color: white;
 }
@@ -40,7 +40,7 @@ margin:0px 20px !important;
 
 .aboutsectiocolor .innovation {
     width: 100%;
-    font-size: 22px;
+    font-size:var(--font-h6);
 }
 
 .about_our-journey {
@@ -87,6 +87,7 @@ margin:0px 20px !important;
 .contact-3 {
     width: 200px;
     margin: 0px 1.5px;
+    padding-top: 50px;
 }
 
 .leadership {
@@ -110,14 +111,14 @@ margin:0px 20px !important;
 .team .ceo_name {
     font-weight: 700;
     margin: 5px;
-    font-size: 22px;
-    color: #053480;
+    font-size:var(--font-h5);
+    color:  var(--color-blue);
 
 }
 
 .team .leadership-p {
-    font-size: 20px;
-    color: #053480;
+    font-size:var(--font-h6);  
+      color:  var(--color-blue);
 }
 
 .vision-man {
@@ -134,12 +135,12 @@ margin:0px 20px !important;
 }
 
 .vision-man .card_1 {
-    background-color: #053480;
+    background-color: var(--color-blue);
     border-radius: 10px;
     margin: 0px 20px 30px 0px;
     padding-top: 10px;
     /* box-shadow:0.5PX 0.5PX 10PX 5PX #767677; */
-    /* border: 2PX solid #053480; */
+    /* border: 2PX solid  var(--color-blue); */
 }
 
 .vision-man .V-CARD {
@@ -149,14 +150,14 @@ margin:0px 20px !important;
 }
 
 .vision-man .lizards {
-    font-size: 22px;
+    font-size:var(--font-h6);
     padding-top: 1rem;
 }
 
 .V-CARD .vision-heading {
-    font-size: 28px;
-    font-weight: 600;
-    color: #053480;
+    font-size: var(--font-h4);
+    font-weight: 600;   
+     color:  var(--color-blue);
     margin: 1rem;
 }
 
@@ -172,11 +173,11 @@ margin:0px 20px !important;
 }
 
 .form-control .requirement-label {
-    font-size: 22px !important;
+    font-size:var(--font-h5);
 }
 
 .form-control .border_bottom_form {
-    border-bottom: 1px solid #053480;
+    border-bottom: 1px solid  var(--color-blue);
     width: 70%;
 }
 
@@ -185,9 +186,7 @@ margin:0px 20px !important;
         height: 350px;
     }
 
-    .about-welcome .about-heading {
-        font-size: 35px;
-    }
+   
 
     .techno .Technology-focus-grid {
         background: white !important;
@@ -210,10 +209,6 @@ margin:0px 20px !important;
         padding: 0% !important;
     }
 
-    .aboutsectiocolor .innovation {
-        font-size: 20px;
-
-    }
 
     .team {
         margin: 2rem;
@@ -230,33 +225,26 @@ margin:0px 20px !important;
 
     .team .ceo_name {
         margin: 5px;
-        font-size: 20px;
     }
 
-    .team .leadership-p {
-        font-size: 18px;
-    }
+    
 
     .form_about {
         padding-bottom: 2rem
     }
 
-    .form-control .requirement-label {
-        font-size: 20px;
-    }
+    
     .vision-man .V-CARD {
         padding: 16px;
     }
     
 .vision-man .lizards {
-    font-size: 20px;
     padding-top: 1rem;
 }
 
 .V-CARD .vision-heading {
-    font-size: 24px;
-    font-weight: 600;
-    color: #053480;
+    font-weight: 600;   
+     color:  var(--color-blue);
     margin: 1rem;
 }
 }
@@ -282,7 +270,6 @@ margin:0px 20px !important;
 
     .aboutsectiocolor .innovation {
         width: 118% !important;
-        font-size: 18px;
 
     }
 
@@ -300,12 +287,9 @@ margin:0px 20px !important;
 
     .team .ceo_name {
         margin: 3px;
-        font-size: 18px;
     }
 
-    .team .leadership-p {
-        font-size: 16px;
-    }
+   
 
     .form_about .form-control {
         width: 86%;
@@ -324,24 +308,12 @@ margin:0px 20px !important;
 
     }
 
-    .vision-man .lizards {
-        font-size: 18px;
-    }
-
     .V-CARD .vision-heading {
-        font-size: 22px;
-        font-weight: 600;
-        color: #053480;
+        font-weight: 600;    
+            color: var(--color-blue);
     }
 
-    .about-welcome .about-heading {
-        font-size: 30px;
-
-    }
-
-    .form-control .requirement-label {
-        font-size: 18px;
-    }
+    
 }
 
 @media (max-width:768px) {
@@ -362,7 +334,7 @@ margin:0px 20px !important;
     }
 
     .about-welcome .about-heading {
-        font-size: 25px;
+        font-size: var(--font-h2);
 
     }
 
@@ -371,7 +343,7 @@ margin:0px 20px !important;
     }
 
     .aboutsectiocolor .innovation {
-        font-size: 16px;
+        font-size:var(--font-h6);
 
     }
 
@@ -389,11 +361,11 @@ margin:0px 20px !important;
 
     .team .ceo_name {
         margin: 3px;
-        font-size: 16px;
+        font-size:var(--font-h5);  
     }
 
     .team .leadership-p {
-        font-size: 14px;
+        font-size:var(--font-h6);  
     }
 
     .contact-1 {
@@ -416,8 +388,7 @@ margin:0px 20px !important;
     }
 
     .form-control .requirement-label {
-        font-size: 16px;
-    }
+        font-size:var(--font-h5);    }
 
     .form-control .border_bottom_form {
         width: 90%;
@@ -446,23 +417,13 @@ margin:0px 20px !important;
 
     .aboutsectiocolor .innovation {
         width: 100% !important;
-        font-size: 14px;
-
     }
 
-    .about-welcome .about-heading {
-        font-size: 20px;
-
-    }
 
     .team .ceo_name {
         margin: 2px;
-        font-size: 14px;
     }
 
-    .team .leadership-p {
-        font-size: 12px;
-    }
 
     .leadership_box {
         margin: 10PX;
@@ -489,25 +450,27 @@ margin:0px 20px !important;
     .vision-man .vision-child {
         width: 91%;
     }
-    .V-CARD .vision-heading {
-        font-size: 22px;
-    }
+    
     .vision-man .card_1 {
         margin: 10px;
     }
 
     .vision-man .lizards {
-        font-size: 16px;
         padding-top: 0.5rem;
 
     }
 
-    .form-control .requirement-label {
-        font-size: 14px;
-    }
 
     .form-control .border_bottom_form {
         width: 75%;
+    }
+    .V-CARD img{
+          height: 40px !important;
+    }
+
+    .contact-3 {
+         padding: 0px;
+        padding-top: 0px;
     }
 }
 
@@ -519,9 +482,6 @@ margin:0px 20px !important;
         margin-bottom: 20px;
     }
 
-    .aboutsectiocolor .innovation {
-        font-size: 12px;
-    }
 
     .leadership_box {
         margin: 12PX;
@@ -529,7 +489,6 @@ margin:0px 20px !important;
 
     .team .ceo_name {
         margin: 0px;
-        font-size: 14px;
     }
 
     .img_ceo {
@@ -537,7 +496,6 @@ margin:0px 20px !important;
     }
 
     #heading2 {
-        font-size: 15px;
         padding: 15px 30px;
     }
 
@@ -550,14 +508,9 @@ margin:0px 20px !important;
     .form-control .border_bottom_form {
         width: 100%;
     }
-    .V-CARD .vision-heading {
-        font-size: 18px;
-    }
+    
     .vision-man .V-CARD {
         padding: 4px;
     }
-    .vision-man .lizards {
-        font-size: 14px;
-    }
-
+    
 }

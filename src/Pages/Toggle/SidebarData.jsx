@@ -15,7 +15,7 @@ export const SidebarData = [
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
-
+    path: `/${process.env.SLUG_URL}/about/`,
 
 
     subNav: [
@@ -33,12 +33,12 @@ export const SidebarData = [
       },
       {
         title: 'Blogs',
-        path: `/${process.env.SLUG_URL}/bloges`,
+        path: `/${process.env.SLUG_URL}/blogs`,
         icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Contact us',
-        path: `/${process.env.SLUG_URL}/career/`,
+        path: `/${process.env.SLUG_URL}/contact-us/`,
         icon: <IoIcons.IoIosPaper />
       }
     ]
@@ -91,20 +91,39 @@ export const SidebarData = [
         icon: <IoIcons.IoIosPaper />,
         path: `/${process.env.SLUG_URL}/services/ecommerce-development/`,
 
+      },
+
+      {
+        title: 'Laravel Development',
+        icon: <IoIcons.IoIosPaper />,
+        path: `/${process.env.SLUG_URL}/services/laraval-development/`,
+
+      },
+      {
+        title: 'CodeIgniter Development',
+        icon: <IoIcons.IoIosPaper />,
+        path: `/${process.env.SLUG_URL}/services/codeigniter_development/`,
+
+      },
+      {
+        title: 'React Native Development',
+        icon: <IoIcons.IoIosPaper />,
+        path: `/${process.env.SLUG_URL}/services/react-native-development/`,
+
       }
     ]
   },
-  {
-    title: 'Solution',
-    icon: <FaIcons.FaCartPlus />
-  },
-  {
-    title: 'HireDevelopment',
-    icon: <IoIcons.IoMdPeople />
-  },
+  // {
+  //   title: 'Solution',
+  //   icon: <FaIcons.FaCartPlus />
+  // },
+  // {
+  //   title: 'HireDevelopment',
+  //   icon: <IoIcons.IoMdPeople />
+  // },
 
-  {
-    title: 'Work',
-    icon: <IoIcons.IoMdHelpCircle />
-  }
+  // {
+  //   title: 'Work',
+  //   icon: <IoIcons.IoMdHelpCircle />
+  // }
 ];

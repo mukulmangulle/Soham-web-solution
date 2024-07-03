@@ -1,6 +1,5 @@
 .footer{
-background-color: #053480;
-}
+   background-color:  var(--color-blue)}
 
 
 .footer-sec1 {
@@ -11,7 +10,7 @@ background-color: #053480;
 .footer-sec1 p {
     margin-top: 1rem;
     color: "red";
-    font-size: 16px;
+    font-size: var(--font-p2);
    
 }
 .footer-sec-icon{
@@ -29,8 +28,8 @@ background-color: #053480;
 }
 
 #footer-h3 {
- font-size: 30px;
- font-weight: 600;
+ font-size: var(--font-h4);
+ font-weight:600;
  margin-bottom: 1rem;
 }
 
@@ -61,7 +60,7 @@ background-color: #053480;
         background-color:#297df2;
         width: 100%;
         padding: 2px;
-        font-size: 16px;
+        font-size: var(--font-p2);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -86,14 +85,14 @@ background-color: #053480;
     width: 64%;
 }
 .privacy_man .terms_conditon_heading{
-   font-size: 18px;
+    font-size: var(--font-p2);
    font-weight: 700;
    margin:  0 0 20px;
    color:#606060;
    
 }
 .privacy_man .terms_conditon_content{
-   font-size: 18px;
+    font-size: var(--font-p2);
    color:#606060;
    margin:  0 0 20px ;
 }
@@ -108,34 +107,19 @@ background-color: #053480;
         margin: 1rem;
 
     }
-    .footer-sec1 p {
-      
-        font-size: 13px !important;
-       
-    }
-    .footer-sec3 p {
-      
-        font-size: 13px !important;
-       
-    }
-    .footer-sec4 p {
-      
-        font-size: 13px !important;
-       
-    }
+   
+   
     
     
     
     #footer-h3 {
-       font-size: 20px;
-       font-weight: 600;
-       margin-bottom: 1rem;
+       font-weight: 600;    
+          margin-bottom: 1rem;
      }
 
     .footer-sec1 p {
         margin-top: 1rem;
         color: "red";
-        font-size: 15px;
     }
 
     .footer-sec2 {
@@ -154,7 +138,6 @@ background-color: #053480;
 
     }
     .footer .copyright p{
-        font-size: 12px;
          padding: 1.5px;
          
          
@@ -169,9 +152,8 @@ background-color: #053480;
  
     }
     #footer-h3 {
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 1rem;
+        font-weight: 600;      
+          margin-bottom: 1rem;
       }
   
 }
@@ -189,7 +171,7 @@ background-color: #053480;
    .footer-sec1 p {
        margin-top: 1rem;
        color: "red";
-       font-size: 15px;
+       font-size:var(--font-h6);
    }
 
    .footer-sec2 {
@@ -208,7 +190,7 @@ background-color: #053480;
 
    }
    .footer .copyright p{
-    font-size: 12px;
+    font-size: var(--font-p1);
      padding: 1.5px;
      
      
@@ -226,9 +208,8 @@ background-color: #053480;
  
     }
     #footer-h3 {
-       font-size: 15px;
-       font-weight: 600;
-       margin-bottom: 1rem;
+       font-weight: 600;     
+         margin-bottom: 1rem;
      }
  
  
@@ -259,6 +240,13 @@ background-color: #053480;
         display: flex;
         align-items: center;
         justify-content: space-between;
+}
+.footer-sec-icon{
+    width: 150px;
+    
+ }
+.footer-sec-icon img{
+    height:25px;
 }
  }
 

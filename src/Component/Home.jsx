@@ -429,7 +429,7 @@ const Home = () => {
 
                     <Box className="schadule-meeting" >
                         <Link target='_blank' className='text-decortion flex-center' to="https://calendly.com/sws-contact" >
-                            <Typography className='home-p2 text_color_blue ' variant='h6' >Schadule Meeting </Typography>
+                            <Typography className='home-p2 text_color_blue ' variant='h6' >Schedule Meeting </Typography>
 
 
                             {/* <img src={Arrow} width={25} alt="" /> */}

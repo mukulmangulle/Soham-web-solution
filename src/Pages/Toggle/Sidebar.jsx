@@ -7,14 +7,15 @@ import * as AiIcons from 'react-icons/ai';
 import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
+import { BiFontSize } from 'react-icons/bi';
 
 const Nav = styled.div`
   height: 40px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  
-  
+
+ 
 `;
 
 const NavIcon = styled(Link)`
@@ -24,13 +25,12 @@ const NavIcon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
- 
-  
+
 `;
 
 const SidebarNav = styled.nav`
   background: #053480;
-  width: 50%;
+  width:300px;
   height: 100vh;
   display: flex;
   overflow: scroll;
@@ -40,6 +40,7 @@ const SidebarNav = styled.nav`
   right: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
   transition: 450ms;
   z-index: 10;
+  padding:15px
 
   // Conditionally hide the sidebar based on the sidebar prop
   ${props =>
@@ -71,7 +72,7 @@ const Sidebar = () => {
           <SidebarNav sidebar={sidebar.toString()}>
             <SidebarWrap>
               <NavIcon to='#'>
-                <AiIcons.AiOutlineClose onClick={showSidebar} />
+                <AiIcons.AiOutlineClose onClick={showSidebar} className='cross_icon' />
               </NavIcon>
               {SidebarData.map((item, index) => {
                 return <SubMenu item={item} key={index}  />;
