@@ -20,8 +20,8 @@ const LeaderShipTeam = () => {
 
     return (
         <>
-            <Box className=" leadership container_space"  >
-                <Box className="flex-center-coulmn">
+            <Box className=" leadership "  >
+                <Box className="flex-center-coulmn container_space">
                     <Typography className='secondary_heading' variant='h2' >
                         {contents.Leadership.heading}
                     </Typography>

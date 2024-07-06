@@ -19,7 +19,7 @@ const PHPDevelopment = () => {
 
             <Box className="service_primary_section flex-center container_space" >
 
-                <Box className="flex-center-coulmn service_chid"  >
+                <Box className="flex-center-coulmn service_chid padding-top-bottom"  >
                        
 
                             <Typography variant='h3' className='service_secondary-heading inner_heading' >
