@@ -32,7 +32,8 @@ const ContactUsSohamweb = () => {
         <Typography className='primary-heading' variant='h1'  >Contact Us</Typography>
       </Box>
 
-      <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>
+     <Box className="container_space"> 
+     <Box  display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>
         <Typography className="secondary_heading" variant='h3'   > LET'S BUILD SOMETHING AMAZING TOGETHER!
         </Typography>
 
@@ -41,7 +42,7 @@ const ContactUsSohamweb = () => {
         </Typography>
 
       </Box>
-      <Contact />
+      <Contact /></Box>
 
     </Box>
   )

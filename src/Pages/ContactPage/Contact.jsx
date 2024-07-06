@@ -62,7 +62,7 @@ const Contact = () => {
     return (
         <>
             <Box width={"100%"} className="flex-center">
-                <Box class="contact_form">
+                <Box class="contact_form ">
                     <Box className="shadow-section"  >
                         <Box className="GETINTOUCH" display={'flex'} justifyContent={"space-between"} flexWrap={'wrap'} >
                             <Box className="GETINTOUCH1"      >
