@@ -54,12 +54,13 @@ const Singlecontent = ({ Api_url }) => {
       
       <Box className="flex-center padding-top--bottom" flexDirection={"column"}>
 
-          <Box className="bg-img"> 
-          <Box className="bg-img single_blog_heading" > <Typography margin="auto" className="primary-heading " variant='h1' >
+         
+          <Box className="bg-img " > 
+          <Typography className='single_blog_heading primary-heading' margin="auto"  variant='h1' >
           {blog?.title?.rendered}
         </Typography>
         </Box>
-        </Box>
+     
 
         <Box className="singleblogpage-man">
           <Box className="all-pg420">

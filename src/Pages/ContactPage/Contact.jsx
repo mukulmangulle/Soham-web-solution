@@ -201,7 +201,7 @@ const Contact = () => {
                 </Box>
 
             </Box>
-            <Box maxWidth={"1920px"} margin={"auto"}>
+            <Box >
                 <img className='map-img' src={Map} alt="" />
             </Box>
             <Footer2 />

@@ -35,7 +35,7 @@ const ContactInformtion = () => {
 
               </Typography>
             </Box>
-            <Box display={'flex'} justifyContent={"space-between"} width={'100%'} flexWrap={'wrap'} >
+            <Box className="form_control_child" >
               <Box className="contact-1" padding={0} paddingTop={1.5}>
 
                 {/* <TextField
@@ -96,44 +96,51 @@ const ContactInformtion = () => {
                 {/* <Input1 label="Brief Project Information" /> */}
 
               </Box>
-              <Box className="contact-2"   >
 
-                <FormControl component="fieldset" fullWidth margin="normal" >
-                  <Box paddingY={1} >
-                    <Typography className="requirement-label border_bottom_form" color={'gray'} variant='h3'  >Select Your Requirement</Typography>
-                    {/* <hr className='border_bottom_form' /> */}
-                  </Box>
-                  <RadioGroup row aria-label="project-budget" name="project-budget">
-                    <Box display={'flex'} alignItems={"start"} justifyContent={"center"} flexDirection={'column'} >
-                      <FormControlLabel control={<Checkbox />} label="Web Development" />
-                      <FormControlLabel control={<Checkbox />} label="Web Designing" />
-                      <FormControlLabel control={<Checkbox />} label="Hire Dedicated Resoures " />
-                      {/* <FormControlLabel control={<Checkbox />} label="Enterprice Solution" /> */}
-                      <FormControlLabel control={<Checkbox />} label="CMS Development" />
-                      <FormControlLabel control={<Checkbox />} label="Other" />
+              <Box className="contact_section_second">
+                <Box className="contact-2"   >
+
+                  <FormControl component="fieldset" fullWidth margin="normal" >
+                    <Box paddingY={1} >
+                      <Typography className="requirement-label border_bottom_form" color={'gray'} variant='h3'  >Select Your Requirement</Typography>
+                      {/* <hr className='border_bottom_form' /> */}
                     </Box>
-                  </RadioGroup>
-                </FormControl>
+                    <RadioGroup row aria-label="project-budget" name="project-budget">
+                      <Box display={'flex'} alignItems={"start"} justifyContent={"center"} flexDirection={'column'} >
+                        <FormControlLabel control={<Checkbox />} label="Web Development" />
+                        <FormControlLabel control={<Checkbox />} label="Web Designing" />
+                        <FormControlLabel control={<Checkbox />} label="Hire Dedicated Resoures " />
+                        {/* <FormControlLabel control={<Checkbox />} label="Enterprice Solution" /> */}
+                        <FormControlLabel control={<Checkbox />} label="CMS Development" />
+                        <FormControlLabel control={<Checkbox />} label="Other" />
+                      </Box>
+                    </RadioGroup>
+                  </FormControl>
+
+                </Box>
+
+
+                {/* section3 */}
+                <Box className="contact-3" width={'200px'} >
+                  <FormControl component="fieldset" fullWidth margin="normal">
+
+                    <FormGroup>
+                      <FormControlLabel control={<Checkbox />} label="UI/UX Services" />
+                      <FormControlLabel control={<Checkbox />} label="Application Services" />
+                      {/* <FormControlLabel control={<Checkbox />} label="Framework Development" /> */}
+                      <FormControlLabel control={<Checkbox />} label="IT Consultancy" />
+                      {/* <FormControlLabel control={<Checkbox />} label="Digital Maketing" /> */}
+                    </FormGroup>
+
+
+                    <Button id='submit'> Submit</Button>
+                  </FormControl>
+                </Box>
+
+
 
               </Box>
 
-
-              {/* section3 */}
-              <Box className="contact-3" width={'200px'} >
-                <FormControl component="fieldset" fullWidth margin="normal">
-
-                  <FormGroup>
-                    <FormControlLabel control={<Checkbox />} label="UI/UX Services" />
-                    <FormControlLabel control={<Checkbox />} label="Application Services" />
-                    {/* <FormControlLabel control={<Checkbox />} label="Framework Development" /> */}
-                    <FormControlLabel control={<Checkbox />} label="IT Consultancy" />
-                    {/* <FormControlLabel control={<Checkbox />} label="Digital Maketing" /> */}
-                  </FormGroup>
-
-
-                  <Button id='submit'> Submit</Button>
-                </FormControl>
-              </Box>
 
             </Box>
           </Box>

@@ -411,7 +411,7 @@ const Home = () => {
             <Box className="home-continer flex-between"
             >
                 <Box className="home-content "   >
-                    <Box className="home-h1  text_color_blue"  variant='h1'>
+                    <Typography className="home-h1  text_color_blue" variant='h1'  >
                         We Trust In   
                         <Box className="text-box" marginLeft={1} >
                             <Box > Creativity</Box>
@@ -420,7 +420,7 @@ const Home = () => {
                         </Box>
 
 
-                    </Box>
+                    </Typography>
 
 
                     <Typography className='home-p1 text_color_blue' variant='h6' >
@@ -439,15 +439,14 @@ const Home = () => {
                     </Box>
                 </Box>
 
-                <Box className='flex-center' marginY={2} >
-                    {/* <img className='home-img' src={Homeimg} alt="" /> */}
+                <Box className='flex-center home_content_img_section'  >
                     <img className='home-img' src={Latest} alt="" />
 
                 </Box>
             </Box>
 
 
-            <Box className="home-lastSection flex-between" flexWrap={"wrap"}  >
+            <Box className="home-lastSection flex-between"   >
                 <Box display={'flex'} alignItems={"center"} >
                     <a className='text-decortion flex-center text_color_blue' target="_blank" href="tel:%20+91%207879231700" margin={0.5}  >
                         <IoCall fontSize={20} className='text_color_blue' />

@@ -21,7 +21,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 
 
-const Footer2 = () => {
+const Footer = () => {
     const dispatch = useDispatch()
     const { contents } = useSelector((state) => state.content);
 
@@ -33,20 +33,21 @@ const Footer2 = () => {
 
     return (
         <>
-
-            <Box width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
-                <Box className="padding-top-bottom" width={'88%'} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
+            
+            <Box  color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
+                <Box className="footer_padding_section"  paddingTop={5} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
                         <Link to="/" >
-                            <img className="color-white sws-logo" src={Swslogo} alt="" />
+                            <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
                         </Link>
-                        <Typography className="color-white" marginTop={2.5} fontSize={16}>
+                        <Typography color={'#FFFFFF'} marginTop={2.5} >
                             {contents.footerData.aboutText}
                         </Typography>
 
 
                     </Box>
 
+                
                     <Box className="footer-sec2" >
                         <Typography id="footer-h3" variant="h3"  > {contents.footerData.quickLinks.heading}</Typography>
                         <Box className="footer2-box" marginTop={2} display={'flex'} alignItems={"start"} flexDirection={"column"}>
@@ -107,36 +108,37 @@ const Footer2 = () => {
 
                     </Box>
 
+
                     <Box className="footer-sec4" >
                         <Typography id="footer-h3" variant="h3"    >
                             {contents.footerData.contactDetails.heading}</Typography>
                         <Box className="footer2-box" marginTop={2}>
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }}href="tel:+917879231700" margin={0.5}  >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  href="tel:+917879231700" margin={0.5}  >
                                 <IoCall color="white" fontSize={16} />
 
-                                <Typography paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text1}</Typography>
                             </a>
 
                             <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+917000335673" margin={0.5}   >
                                 <IoCall color="white" fontSize={16} />
-                                <Typography color={"White"} paddingLeft={1}>{contents.footerData.contactDetails.text2}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text2}</Typography>
                             </a>
 
-                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }} href="tel:+917984740805" margin={0.5} >
+                            <a target="_blank" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  href="tel:+917984740805" margin={0.5} >
                                 <IoCall color="white" fontSize={16} />
-                                <Typography paddingLeft={1}>{contents.footerData.contactDetails.text3}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text3}</Typography>
                             </a>
 
                             <a target="_blank" href="mailto:contact@sohamsolution.com" className="text-decortion" style={{ display: "flex", alignItems: "center" }}  >
                                 <MdEmail id="maill" color="white" fontSize={16} />
-                                <Typography paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text4}</Typography>
                             </a>
 
                             <a target="_blank" href="https://www.google.com/maps/place/Soham+Web+Solution+-+Web+Development+Company/@22.9648902,76.0458359,17z/data=!4m14!1m7!3m6!1s0x3963177600d4efb5:0x33c81c908e54629c!2sSoham+Web+Solution+-+Web+Development+Company!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9!3m5!1s0x3963177600d4efb5:0x33c81c908e54629c!8m2!3d22.9648902!4d76.0480299!16s%2Fg%2F11b66gp4d9"
                                 className="text-decortion" style={{ display: "flex", alignItems: "start" }} margin={0.5} >
                                 <FaLocationDot fontSize={16} color="white" />
 
-                                <Typography paddingLeft={1}>{contents.footerData.contactDetails.text5}</Typography>
+                                <Typography className="text-decortion" paddingLeft={1}>{contents.footerData.contactDetails.text5}</Typography>
                             </a>
                         </Box>
                         <Box className="flex-between footer-sec-icon"  >
@@ -150,7 +152,6 @@ const Footer2 = () => {
                     </Box>
                 </Box>
 
-                
                 <Box className="copyright"   >
                     <Box className="copyright-child">
                         <Box>
@@ -158,12 +159,7 @@ const Footer2 = () => {
                                 {contents.footerData.copyrightText}
                             </Typography>
                         </Box>
-                        {/* < Link to={`/${process.env.SLUG_URL}/cancellation-refund-policy/`}  className="color-white " margin={0.5}  >
-                               Refund
-                            </Link> */}
-                        {/* < Link to={`/${process.env.SLUG_URL}/shipping-delivery-policy/`}  className="color-white " margin={0.5}  >
-                               shipping
-                            </Link> */}
+                       
 
                         <Box className="copyright-privacy" padding={1}>
                             < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white " margin={0.5}  >
@@ -175,17 +171,16 @@ const Footer2 = () => {
                                 Terms
                             </Link>
                             <Typography> |  </Typography>
-                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`}  className="color-white "  margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`} className="color-white "  margin={0.5}  >
                                 Support
                             </Link>
 
                         </Box>
                     </Box>
                 </Box>
-               
             </Box>
         </>
     )
 }
-export default Footer2;
+export default Footer;
 

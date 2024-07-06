@@ -1,11 +1,21 @@
+
+.service_chid{
+    max-width: 1200px ;
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+
 .service_primary_section .service-man {
     width: 100%;
+  
 }
 
 .service-man .service_container_one {
     margin: 3rem 0rem;
     max-width: 1200px;
-
+    padding: 0px 20px;
 }
 
 .service-man .service_container_tow_man {
@@ -16,6 +26,7 @@
 .service-man .service_container_two {
     margin: 3rem 0rem;
     max-width: 1200px;
+    padding: 0px 20px;
 }
 
 .service-man .devlopment-text {
@@ -28,18 +39,19 @@
 }
 
 .service-man .service_container_one img {
-    height: 400px;
+    height: 350px;
 
 }
 
 .service-man .service_container_two img {
-    height: 400px;
+    height: 350px;
 }
 
 .service-man .service_secondary-heading {
     font-size: var(--font-h2);
-    color:  var(--color-blue);
-    font-weight: 600;}
+    color: var(--color-blue);
+    font-weight: 600;
+}
 
 .service-man .service_text {
     font-size: var(--font-h6);
@@ -48,19 +60,18 @@
 }
 
 .service-man .btn_apply_now {
-    background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
-font-family:var(--font-p1) ;
+    background: linear-gradient(to bottom, #0160E7, var(--color-blue));
+    font-family: var(--font-p1);
     width: 150px;
     height: 50px;
     color: white !important;
     margin-top: 10px;
     text-transform: capitalize;
-
 }
 
 .background-service {
-    width: 580px;
-    height: 460px;
+    width: 530px;
+    height: 420px;
     background-image: url("../assets/Service/background-service.svg");
     background-position: center;
     background-size: cover;
@@ -87,141 +98,81 @@ font-family:var(--font-p1) ;
 
 .get_the_best {
     color: white;
-    font-size:var(--font-h2);
+    font-size: var(--font-h2);
 
 }
 
-.service_chid {
-    
-    width: 75%;
+
+.services_box_section {
+    max-width: 1200px !important;
+    width: 100%;
+    padding: 0px 20px;
 }
-.services_box_section{
-   width: 1200px;
-}
-.services_box_section .service_box_section_heading{
+
+.services_box_section .service_box_section_heading {
     text-align: center;
-color: white;
-font-size: var(--font-h2);
-font-weight: 600;
+    color: white;
+    font-size: var(--font-h2);
+    font-weight: 600;
 }
 
 .service_chid .inner_heading {
     text-align: center;
-    color:  var(--color-blue);
-    font-weight: 600;  
-      font-size:var(--font-h2);}
+    color: var(--color-blue);
+    font-weight: 600;
+    font-size: var(--font-h2);
+}
 
 .service_chid .secvice_child_text {
-    font-size:var(--font-h4); 
-       text-align: center;
+    font-size: var(--font-h4);
+    text-align: center;
     margin-top: 20px;
 }
+
 .devlopment-text .service-logo {
     height: 55px !important;
 }
 
-@media (max-width:1440px) {
-
-    .service-man .service_container_one {
-        max-width: 860px;
-    }
-
-    .service-man .service_container_two {
-        max-width: 860px;
-
-    }
-
-    .devlopment-text .service-logo {
-        height: 50px !important;
-    }
-
-
-    .service-man .devlopment-text {
-        width: 42%;
-    }
-
-    .service-man .service_container_one img {
-        height: 320px;
-    }
-
-    .service-man .service_container_two img {
-        height: 320px;
-    }
-
- 
-
-    .service-man .service_text {
-        padding: 0.5rem 0px;
-    }
-
-    .service-man .btn_apply_now {
-        background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
-        width: 130px;
-        height: 40px;
-    }
-
-    .background-service {
-        width: 415px;
-        height: 330px;
-    }
-
-    .service-man .devlopment-text {
-        width: 50%;
-    }
-
-    .project-requirement {
-        height: 320px;
-    }
-
-    .view-more {
-        margin-top: 20px !important;
-        height: 45px;
-    }
-    .services_box_section{
-        width: 1000px;
-     }
-   
-}
-
 @media (max-width:1024px) {
-    .services_box_section{
-        width: 768px;
-     }
+    .service_chid{
+         width: 100% !important;
+         padding: 0px 20px;
+    }
+    .services_box_section {
+        width:100%;
+        padding: 0px 20px;
+    }
+
     .service-man .service_container_one {
-        max-width: 85%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        max-width: 100%;
+        padding: 0px 20px;
     }
 
     .service-man .service_container_two {
-        max-width: 85%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 0px 20px;
     }
 
     .service-man .devlopment-text {
-        width: 100% !important;
+        width: 50% !important;
+        padding: 10px;
     }
 
     .service-man .service_container_one img {
-        height: 320px;
+        height: 230px;
     }
 
     .service-man .service_container_two img {
-        height: 320px;
+        height: 230px;
     }
-
 
     .service-man .service_text {
         padding: 0.5rem 0px;
     }
 
     .background-service {
-        width: 500px;
-        height: 400px;
+        width: 350px;
+        height: 280px;
     }
 
     .project-requirement {
@@ -237,31 +188,21 @@ font-weight: 600;
         color: white;
     }
 
-   
-    
-.service_chid {
-        width: 85%;
-}
-.devlopment-text .service-logo {
-    height: 40px !important;
-}
+
+    .devlopment-text .service-logo {
+        height: 40px !important;
+    }
+    .service_chid .secvice_child_text{
+           width: 100% ;
+    }
 }
 
 @media (max-width:768px) {
-    .service-man .devlopment-text {
-        width: 100% !important;
-    }
-
-    .service-man .service_container_one img {
-        height: 300px;
-    }
-
-    .service-man .service_container_two img {
-        height: 300px;
-    }
+   
 
     .service-man .service_secondary-heading {
-        font-size: var(--font-h2);    }
+        font-size: var(--font-h2);
+    }
 
     .devlopment-text .service-logo {
         height: 50px !important;
@@ -269,11 +210,6 @@ font-weight: 600;
 
     .service-man .service_text {
         font-size: var(--font-h6);
-    }
-
-    .background-service {
-        width: 450px;
-        height: 360px;
     }
 
     .project-requirement {
@@ -288,31 +224,72 @@ font-weight: 600;
 
     .get_the_best {
         color: white;
-        font-size:var(--font-h2);
+        font-size: var(--font-h2);
     }
 
     .service-man .btn_apply_now {
-        font-size:var(--font-h6);
+        font-size: var(--font-h6);
         width: 130px;
         height: 38px;
     }
+
     .service_chid {
         width: 85%;
-}
+    }
+
     .service_chid .inner_heading {
         font-size: 30px;
     }
 
     .service_chid .secvice_child_text {
-        font-size:var(--font-h4); 
+        font-size: var(--font-h4);
     }
-    .box_size_parent{
-           width: 100%;
-           display: flex;
-           align-items: center;
-           justify-content:space-evenly;
+
+    .box_size_parent {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
 }
+
+@media (max-width:767px) {
+    .service-man .devlopment-text {
+        width: 100% !important;
+    }
+    .background-service {
+        width: 450px;
+        height: 360px;
+    }
+
+    .service-man .service_container_one img {
+        height: 300px;
+    }
+
+    .service-man .service_container_two img {
+        height: 300px;
+    }
+
+    .service-man .service_container_one {
+        max-width: 100%;
+        padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;       
+    }
+
+    .service-man .service_container_two {
+        max-width: 100%;
+        padding: 0px 20px;
+        display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  flex-direction: column-reverse;
+    }
+
+}
+
 
 @media (max-width:576px) {
     .service-man .service_container_one {
@@ -332,8 +309,6 @@ font-weight: 600;
     .service-man .service_container_two img {
         height: 200px;
     }
-
-    
 
     .background-service {
         width: 320px;
@@ -359,7 +334,7 @@ font-weight: 600;
         width: 120px;
         height: 35px;
     }
-   
+
 }
 
 
@@ -373,7 +348,7 @@ font-weight: 600;
         height: 180px;
     }
 
-   
+
 
     .background-service {
         width: 280px;

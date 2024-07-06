@@ -22,7 +22,7 @@ const OurUtility = () => {
 
 
     return (
-        <Box className="flex-center-coulmn"  >
+        <Box className="flex-center-column utility"  >
             <Box className="flex-center-coulmn">
                 <Typography variant='h2' className='secondary_heading'>
                     {contents.ourutility.heading}
@@ -32,7 +32,7 @@ const OurUtility = () => {
                 </Typography>
             </Box>
 
-            <Box className="web-devlopment flex-between padding-top-bottom " >
+            <Box className="web-devlopment flex-between " >
                 <Box className=' flex-center  box_utility flex-center-coulmn' >
                     <img src={Our1} alt="" className="zoom-img"/>
                     <Typography >

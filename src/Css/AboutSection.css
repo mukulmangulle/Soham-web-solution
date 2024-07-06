@@ -3,9 +3,13 @@
 }
 
 .aboutsectiocolor div {
-    width: 85.5%;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 20px;
 }
-
+.aboutsectiocolor .about_img {
+    width: 400px;
+}
 
 #submit {
     width: "150px";
@@ -44,20 +48,33 @@ margin:0px 20px !important;
 }
 
 .about_our-journey {
-    width: 86.5%;
+    width:100%;
+    max-width: 1200px;
+    padding: 0px 20px;
     margin: auto;
     padding-bottom: 2.5rem;
 }
 
 .img_ceo {
-    height: 380px;
+   width: 330px;
 }
 
 .tecno-content {
     width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.techno{
+    background:#e6f0fd;
+    padding-bottom: 3px;
+    width: 100%;
+    margin: 0px auto;
+}
+.technology_child_section{
+    max-width: 1200px;
+    padding: 0px 20px;
 }
 
 .techno .Technology-focus-grid {
@@ -73,14 +90,19 @@ margin:0px 20px !important;
     width: 70%;
     padding: 2px;
 }
+.form_about{
+    width: 100%;
+    max-width: 1200px;
+  margin: 0 auto;
+}
 
 .contact-1 {
-    width: 380px;
+    width: 50%;
     margin: 0px 1.5px;
 }
 
 .contact-2 {
-    width: 350px;
+    width: 300px;
     margin: 0px 1.5px;
 }
 
@@ -92,11 +114,15 @@ margin:0px 20px !important;
 
 .leadership {
     width: 100%;
+    max-width: 1200px ;
+    margin: 0px auto;
+    padding: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    
 
 }
 
@@ -129,8 +155,9 @@ margin:0px 20px !important;
 }
 
 .vision-man .vision-child {
-    width: 85%;
-    padding: 0px 0px 30px 0px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 20px 30px 20px;
 
 }
 
@@ -162,11 +189,18 @@ margin:0px 20px !important;
 }
 
 .form_about {
-    padding-bottom: 2.5rem
+    padding-bottom: 2.5rem;
 }
+.form-control .contact_section_second{
+width: 50%;
 
+display: flex;
+flex-wrap:wrap ;
+padding-left: 20px;
+}
 .form_about .form-control {
-    width: 80%;
+    width: 95%;
+   
     border-radius: 10px;
     padding: 40px;
     margin-top: 30px;
@@ -180,74 +214,21 @@ margin:0px 20px !important;
     border-bottom: 1px solid  var(--color-blue);
     width: 70%;
 }
-
-@media (max-width:1440px) {
-    .aboutsectiocolor .about_img {
-        height: 350px;
-    }
-
-   
-
-    .techno .Technology-focus-grid {
-        background: white !important;
-        max-width: 210px;
-        height: 200px;
-    }
-
-    .css-heg063-MuiTabs-flexContainer {
-        gap: 15px;
-    }
-
-    .techno .Technology-focus-grid img {
-        width: 60%;
-        padding: 1px;
-    }
-
-
-    .tecno-content button {
-        margin: 0% !important;
-        padding: 0% !important;
-    }
-
-
-    .team {
-        margin: 2rem;
-
-    }
-
-    .img_ceo {
-        height: 280px;
-    }
-
-    .leadership_box {
-        margin: 20px;
-    }
-
-    .team .ceo_name {
-        margin: 5px;
-    }
-
-    
-
-    .form_about {
-        padding-bottom: 2rem
-    }
-
-    
-    .vision-man .V-CARD {
-        padding: 16px;
-    }
-    
-.vision-man .lizards {
-    padding-top: 1rem;
+.form_control_child{
+   display: flex;
+   justify-content: space-between;
 }
 
-.V-CARD .vision-heading {
-    font-weight: 600;   
-     color:  var(--color-blue);
-    margin: 1rem;
+
+@media (max-width:1194px) {
+     .contact-3{
+        padding-top: 0px;
+    margin: 0px;
+     }
+  
+
 }
-}
+
 
 @media (max-width:1024px) {
 
@@ -257,8 +238,7 @@ margin:0px 20px !important;
     }
 
     .aboutsectiocolor div {
-        padding: 0%;
-        width: 85%;
+        width: 100%;
     }
     .convert_subheading_man{
           flex-direction: column;
@@ -269,7 +249,7 @@ margin:0px 20px !important;
     }
 
     .aboutsectiocolor .innovation {
-        width: 118% !important;
+        width: 100% ;
 
     }
 
@@ -312,8 +292,20 @@ margin:0px 20px !important;
         font-weight: 600;    
             color: var(--color-blue);
     }
-
-    
+    .contact-1{
+        width: 100%;
+    }
+    .contact-3 {
+        width: 200px;
+        margin: 0px 1.5px;
+        padding-top: 70px;
+    }
+    .form-control .contact_section_second{
+        width: 100%;
+    }
+    .form_control_child{
+           flex-wrap: wrap;
+    }
 }
 
 @media (max-width:768px) {
@@ -369,16 +361,9 @@ margin:0px 20px !important;
     }
 
     .contact-1 {
-        width: 270px;
+        width: 100%;
     }
 
-    .contact-2 {
-        width: 270px;
-    }
-
-    .contact-3 {
-        width: 270px;
-    }
 
     .techno .tecno-content {
         width: 100%;
@@ -392,6 +377,10 @@ margin:0px 20px !important;
 
     .form-control .border_bottom_form {
         width: 90%;
+    }
+    .contact-3 {
+        
+        padding-top: 50px;
     }
 }
 
@@ -439,6 +428,7 @@ margin:0px 20px !important;
 
     .contact-3 {
         width: 100%;
+        padding-left: 0px;
     }
 
     .css-1coc09t {

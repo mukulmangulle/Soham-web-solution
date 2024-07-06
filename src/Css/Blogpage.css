@@ -10,7 +10,9 @@ body {
 }
 
 .blog_section {
-  width: 87%;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px 20px;
 }
 
 .blogsimg {
@@ -51,17 +53,22 @@ body {
 }
 
 .box-card .blog480-center {
-  width: 85%;
+ width: 100%;
+ max-width: 1200px;
+ padding: 0px 20px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
   height: 100%;
+  
 }
 
 .box-section {
-  width: 85%;
+  width:100%;
+  max-width: 1200px;
   margin-bottom: 2rem;
+  padding: 0px 20px;
 }
 
 .box-section .box-all-categories {
@@ -84,58 +91,20 @@ body {
 
 }
 .singleblogpage-img {
-  width: 96.2%;
+  width:100%;
+  max-width: 1200px !important;
+  padding: 0px 20px;
 }
 .singlepage-section2{
-  width: 95%;
+  width:100%;
+  max-width: 1200px !important;
+  padding: 0px 20px;
 
 }
 .singleblog_text {
   /* color:  var(--color-blue); */
   font-size: var(--font-h5); 
   line-height: 2.5rem !important;
-}
-
-@media (max-width:1440px) {
-  .blog-card {
-    height: 440px;
-    padding-bottom: 20px !important;
-
-  }
-
-  #card-heading {
-    margin: 1px 0px;
-  }
-
-  .blog-card .card_text {
-    line-height: 180%;
-  }
-
-  .blogsimg {
-
-    height: 220px;
-    width: 100%;
-
-  }
-  .singleblogpage-man {
-   width: 70%;
-    
-  }
-  .single_blog_heading{
-    width:70%;
-  
-  }
-  .singleblogpage-img {
-    width: 100%;
-  }
-  .singlepage-section2{
-    width: 100%;
-  
-  }
-  .singleblog_text {
-    line-height: 2.2rem !important;
-  }
-
 }
 
 
@@ -166,12 +135,12 @@ body {
     line-height: 1.8rem !important;
   }
   .singleblogpage-man {
-    width: 85%;
+    width: 100%;
+   
      
    }
    .single_blog_heading{
-    width:85%;
-  
+    width: 100%;
   }
 }
 
@@ -180,10 +149,14 @@ body {
 @media (max-width:768px) {
   .blog-card {
     height: 380px;
-    width: 290px;
-    /* margin: auto; */
+    width:45%;
 
   }
+  
+.blog_section{
+  justify-content: space-evenly;
+}
+
 
   #card-heading {
     font-size: var(--font-h5);
@@ -222,8 +195,13 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .blog-card {
+    height: 380px;
+    width:100%;
+    margin: 20px;
+    
 
-
+  }
 
   .blogsimg {
     height: 190px;

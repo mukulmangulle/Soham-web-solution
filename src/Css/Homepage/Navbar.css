@@ -1,8 +1,6 @@
 .navbar {
     z-index: 2;
-    max-width: 1920px;
     background-color:var(--color-blue);
-    margin: auto;
 }
 
 .navbar .flex-center {
@@ -11,7 +9,9 @@
 
 .navbar .navbar-height {
     height: 90px;
-    width: 86%;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 20px;
 }
 
 .ul-box {
@@ -61,7 +61,6 @@
 @media (max-width:1500px) {
     .navbar .navbar-height {
         height: 70px;
-        width: 86%;
     }
 
     .sws-logo {

@@ -20,7 +20,7 @@ const SameOurWork = () => {
 
     return (
         <Box className="work flex-center-coulmn " >
-            <Box className="flex-center-coulmn"  >
+            <Box className="flex-center-coulmn we-take"  >
                 <Typography variant='h2' className='secondary_heading'   >
                     {contents.SomeourWorks.heading}
                 </Typography>

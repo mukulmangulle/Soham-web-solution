@@ -46,12 +46,12 @@ function OurCustomer() {
 
     return (
 
-        <Box className=" custom-man" paddingBottom={3}  >
+        <Box className=" custom-man"   >
             <Box className="customer-child">
                 <Typography className='secondary_heading' variant='h2' >
                     {contents.ourCustomers.heading}
                 </Typography>
-                <Typography width={'75%'} className='primary_subheading our-utality-p'>
+                <Typography className='primary_subheading our-utality-p'>
                 {contents.ourCustomers.contant}
                 </Typography>
 

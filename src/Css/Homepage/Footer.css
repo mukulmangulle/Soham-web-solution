@@ -1,6 +1,12 @@
 .footer{
    background-color:  var(--color-blue)}
 
+.footer_padding_section{
+       width: 100%;
+       max-width: 1200px;
+       padding: 0px 20px;
+}
+
 
 .footer-sec1 {
     width: 20%;
@@ -69,11 +75,12 @@
             
  }
  .copyright .copyright-child{
-
-    width: 88%;
+    width: 100%;
+    max-width: 1200px;
       display:  flex;
       align-items: center;
       justify-content: space-between;
+      padding: 0px 20px;
  }
  .copyright-privacy{
            width: 220px;

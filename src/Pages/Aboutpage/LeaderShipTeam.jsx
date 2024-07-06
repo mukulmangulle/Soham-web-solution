@@ -20,7 +20,7 @@ const LeaderShipTeam = () => {
 
     return (
         <>
-            <Box className=" leadership"  >
+            <Box className=" leadership "  >
                 <Box className="flex-center-coulmn">
                     <Typography className='secondary_heading' variant='h2' >
                         {contents.Leadership.heading}

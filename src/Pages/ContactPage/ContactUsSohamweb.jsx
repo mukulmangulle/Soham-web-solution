@@ -36,7 +36,7 @@ const ContactUsSohamweb = () => {
         <Typography className="secondary_heading" variant='h3'   > LET'S BUILD SOMETHING AMAZING TOGETHER!
         </Typography>
 
-        <Typography className='primary_subheading' width={"75%"} >
+        <Typography className='primary_subheading contant_pre'  >
           We're excited to help you bring your vision to life! Whether you have a question about our services, need assistance with an ongoing project, or want to explore how we can collaborate, our team is here for you.
         </Typography>
 

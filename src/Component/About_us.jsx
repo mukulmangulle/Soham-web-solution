@@ -99,27 +99,7 @@ const About_us = () => {
                         </Box>
 
 
-                        {/* 4 */}
-                        <Box className=" inner">
-                            <Box className=" light_holder">
-                            <img class="lamp " src={Pendant} alt="" />
-
-                                {/* <GiCeilingLight class="lamp " /> */}
-                                {/* <Typography  class="lamp " ></Typography> */}
-                                <Box class="light" >
-
-                                    <img src={Ab1} alt="" />
-                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography className='designtion' >
-                                        {contents.aboutus.childContainer1.designation}</Typography>
-
-                                    <Typography className='client_content'>
-                                        {contents.aboutus.childContainer1.testimonial}
-                                    </Typography>
-                                </Box>
-                            </Box>
-                        </Box>
-
+                        
 
                     </Box>
                 </Box>

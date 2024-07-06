@@ -1,19 +1,13 @@
-.home {
-    max-width: 1920px;
-    margin: auto;
-    background-color: #E6f0fd;
-}
-
 .home .home-continer {
     padding-top: 5rem;
-    width: 85.5%;
-    /* max-width: 1200px;
+    max-width: 1200px;
     padding: 50px 20px;
-    align-items: flex-start; */
+    width: 100%;
 }
 
-.home-continer .home-content {
-    max-width: 850px;
+.home-continer .home-content,
+.home-continer .home_content_img_section {
+    width: 50%;
 }
 
 .home-content .home-h1 {
@@ -26,43 +20,40 @@
     padding-top: 2rem;
     max-width: 700px;
     font-weight: 600;
-
 }
 
 .schadule-meeting .home-p2 {
     font-size: var(--font-h5);
-    font-weight: 600;  
-      margin-right: 15px;
+    font-weight: 600;
+    margin-right: 15px;
 }
 
 .home-content .schadule-meeting {
     display: flex;
-    margin-top: 2.5rem;
-
+    margin-top: 40px;
 }
 
 .home .home-img {
-    height: 540px;
+    width: 500px;
     box-shadow: 0px 0px 20px 0px #395889;
 }
 
 .home-lastSection {
-    width: 85.5%;
-    padding: 1.5rem 0px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 24px 20px;
 }
 
 .home-lastSection p {
-    font-weight: 600; 
-       font-size: var(--font-p1);
+    font-weight: 600;
+    font-size: var(--font-p1);
 }
 
 .schadule-meeting .Aroow_right {
     font-size: var(--font-h3);
 }
 
-
 /* heading */
-
 
 .slider {
     height: 600px;
@@ -93,7 +84,6 @@
     top: -200px;
     transform: rotateX(-90deg);
     opacity: 0;
-    /* text-shadow: 0px 5px 5px rgba(0,0,0,.25); */
     animation-timing-function: ease;
 }
 
@@ -111,6 +101,7 @@
     animation: rollDown3 10s forwards infinite;
     margin-top: 30px;
 }
+
 
 @keyframes rollDown {
     0% {
@@ -205,37 +196,6 @@
     }
 }
 
-@media (max-width:1440px) {
-    .home-continer {
-        padding-top: 3.3rem;
-        width: 85%;
-    }
-
-    .home-content .home-h1 {
-        width: 90%;
-    }
-
-    .home-content .home-p1 {
-        width: 90%;
-        padding-top: 1.5rem;
-
-    }
-
-
-
-    .home .home-img {
-        max-height: 420px;
-    }
-
-    .home-content .schadule-meeting {
-        margin-top: 1.5rem;
-    }
-
-    .home .home-continer {
-        padding-top: 3rem;
-    }
-
-}
 
 @media (max-width:1024px) {
     .home-continer {
@@ -244,14 +204,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        /* flex-direction: column-reverse; */
-
     }
 
     .home-continer .home-content {
         width: 100%;
         padding: 32px 0px 20px 0px;
-        
     }
 
     .home-content .home-h1 {
@@ -261,19 +218,15 @@
     .home-content .home-p1 {
         width: 80%;
         padding-top: 1.5rem;
-
     }
-
-
 
     .home .home-img {
         height: 450px !important;
-       
-
     }
 
     .home .home-continer {
         padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .home-content .schadule-meeting {
@@ -286,13 +239,7 @@
 
 }
 
-
-
-
 @media (max-width:768px) {
-    .home .home-continer {
-        padding-bottom: 2rem;
-    }
 
     .home-content .home-h1 {
         font-size: var(--font-h1);
@@ -308,66 +255,33 @@
         font-size: var(--font-h5);
     }
 
-    .home .home-img {
-        height: 250px;
-    }
+  
 
     .home-lastSection {
         display: none;
     }
 
     .home .home-img {
-        height: 350px !important;
+        height: auto !important;
 
     }
-    .text-box div:nth-child(1) {
-        margin-top: 40px;
-    }
-    
-    .text-box div:nth-child(2) {
-        margin-top: 40px;
-    }
-    
+
+    .text-box div:nth-child(1),
+    .text-box div:nth-child(2),
     .text-box div:nth-child(3) {
         margin-top: 40px;
     }
+
 }
-
-
 
 @media (max-width:576px) {
-    .home .home-continer {
-        padding-bottom: 2rem;
-    }
-
-
-    .home-content .home-p1 {
-        width: 100%;
-    }
-
     .home .home-img {
-        height: 280px !important;
-
+        width: 400px;
     }
-
-   
 }
 
-
 @media (max-width:375px) {
-
-  
-    .home .home-continer {
-        padding-bottom: 2rem;
-    }
-
-
-    .home-content .home-p1 {
-        width: 100%;
-    }
-
     .home .home-img {
-        height: 240px !important;
+        width:280px;
     }
-
 }

@@ -1,11 +1,17 @@
+
+.header-responsive{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 20px ;
+}
+
+
 @media (max-width:1020PX) {
     .header{
         display: none;
     }
 }
-.header-responsive{
-    width: 85%;
-}
+
 
 .header img{
        height: 12px;

@@ -46,8 +46,8 @@ const Footer = () => {
                     </Box>
                 </Box>
             </Box>
-            <Box width={'100%'} color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
-                <Box className="footer_padding_section" width={'88%'} paddingTop={12} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
+            <Box  color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
+                <Box className="footer_padding_section"  paddingTop={12} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
                         <Link to="/" >
                             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />

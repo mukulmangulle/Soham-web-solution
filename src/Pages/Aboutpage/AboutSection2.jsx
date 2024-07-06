@@ -19,7 +19,7 @@ return (
         <Typography className='primary-heading'  variant='h1'  >
           {contents.aboutData.heading} </Typography>
       </Box>
-      <Box className='aboutsectiocolor padding-top-bottom width1920 flex-center ' >
+      <Box className='aboutsectiocolor padding-top-bottom  flex-center ' >
   <Box className="flex-center">
   <img className='about_img'  src={AboutSectionimg} alt="" />
 

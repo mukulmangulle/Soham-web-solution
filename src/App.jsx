@@ -41,7 +41,7 @@ function App() {
   let Api_url = "https://sohamsolution.com/wp-json/wp/v2/"
 
   return (
-   <Box className="man-web width1920">
+   <Box >
      <Router>
       <ScrollToTop />
 

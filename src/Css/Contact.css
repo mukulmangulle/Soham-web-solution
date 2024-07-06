@@ -5,17 +5,22 @@
     width: 100%;
 
 }
+.contant_pre{
+   width: 100%;
+   max-width: 1200px;
+   padding: 0x 20px;
+}
 
 .contact_form {
     display: flex;
     align-items: center;
     justify-content: center !important;
-    width: 75% !important;
+    width: 100%;
+    max-width: 1150px ;
 }
 
 .contact_form .GETINTOUCH {
-    width: 100%;
-    display: flex;
+  display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -52,7 +57,7 @@
 }
 
 .get_in_touch_heading {
-    font-size: var(--font-h3);
+    font-size: var(--font-h3) !important;
     color: white;
     font-weight: 600 !important;
 }
@@ -63,9 +68,9 @@
     color: white !important;
 }
 
-@media (max-width:1440px) {
+ @media (max-width:1200px) {
     .contact_form {
-        width: 80% !important;
+        width: 95% !important;
     }
 
     .contact_form .GETINTOUCH1 {
@@ -93,7 +98,7 @@
         align-items: center;
     }
 
-}
+} 
 
 @media (max-width:1024px) {
     .contact_form {
@@ -102,7 +107,10 @@
         justify-content: center !important;
         width: 92% !important;
     }
-
+    .contant_pre{
+        max-width: 100%;
+        padding: 0x 20px;
+     }
     .contact_form .GETINTOUCH1 {
         padding: 3rem 2rem;
         width: 100%;
@@ -134,7 +142,11 @@
     .contact_form {
         width: 100% !important;
     }
-
+    .get_in_touch_heading {
+        font-size: var(--font-h3) !important;
+       
+    }
+    
     .contact_form .GETINTOUCH1 {
         padding: 0.5rem 1rem;
         width: 100%;

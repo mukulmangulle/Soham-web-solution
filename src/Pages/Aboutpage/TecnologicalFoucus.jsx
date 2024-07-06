@@ -96,11 +96,11 @@ export default function CustomizedTabs() {
 
 
   return (
-    <Box className="" >
+    <Box  >
 
 
-      <Box bgcolor={'#e6f0fd'} paddingBottom={3} width={"100%"} className="flex-center-coulmn techno">
-        <Box textAlign={'center'}>
+      <Box   className="flex-center-coulmn techno">
+        <Box className="technology_child_section" textAlign={'center'} >
 
           <Box className="flex-center-coulmn" width={"100%"} sx={{flexWrap:"wrap"}} >
             <Typography className='secondary_heading' variant='h2'  >

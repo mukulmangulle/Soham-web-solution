@@ -65,13 +65,14 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: Inter_Tight !important;
+    /* font-family: Inter_Tight !important; */
+    font-family: "Roboto",Sans-serif;
 }
 
-@font-face {
+/* @font-face {
     font-family: Inter_Tight;
     src: url(Inter_Tights/InterTight-VariableFont_wght.ttf);
-}
+} */
 
 
 
@@ -302,6 +303,7 @@
 
     .primary_subheading {
         font-size: var(--font-h6);
+        width: 100%;
     }
 
 
