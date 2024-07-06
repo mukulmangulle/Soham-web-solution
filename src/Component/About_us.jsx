@@ -21,8 +21,9 @@ const About_us = () => {
     }, [dispatch]);
     return (
         < >
-            <Box className="flex-center-column container_space" width={"100%"} >
-                <Box  >
+            <Box className="flex-center-column  about" >
+               <Box className="container_space">
+               <Box  >
                     <Typography className='secondary_heading' variant='h2'  >
                         {contents.aboutus.heading}
                     </Typography>
@@ -32,7 +33,7 @@ const About_us = () => {
                 </Box>
 
                 <Box className="flex-center">
-                    <Box className="flex-between padding-top-bottom client-section-child"  >
+                    <Box className="flex-between  client-section-child"  >
                        
                         {/* 1 */}
                         <Box className=" inner">
@@ -103,6 +104,7 @@ const About_us = () => {
 
                     </Box>
                 </Box>
+               </Box>
             </Box>
 
         </>

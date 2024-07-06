@@ -111,7 +111,7 @@ import Mission from "../../assets/AboutSection1/mission.svg"
 
 const Someourwork2 = () => {
     return (
-        <Box className="vision-man flex-center-coulmn">
+        <Box className="vision-man flex-center-coulmn container_space">
             <Typography className='secondary_heading' variant='h2'  >
             Our Vision & Mission 
             </Typography>

@@ -59,7 +59,7 @@
 .get_in_touch_heading {
     font-size: var(--font-h3) !important;
     color: white;
-    font-weight: 600 !important;
+    font-weight: var(--font-weight)!important;
 }
 
 .email_phone_heading {
@@ -89,7 +89,7 @@
     }
 
     .email_phone_heading {
-        font-weight: 600 !important;
+        font-weight: var(--font-weight)        !important;
         margin: 10px 0px 0px 0px !important;
     }
 
@@ -128,7 +128,7 @@
     }
 
     .email_phone_heading {
-        font-weight: 600 !important;
+        font-weight: var(--font-weight) !important;
         margin: 10px 0px 0px 0px !important;
     }
 
@@ -164,7 +164,7 @@
 
     .email_phone_heading {
         font-size: var(--font-h4);
-        font-weight: 600 !important;
+        font-weight: var(--font-weight)  !important;
         margin: 10px 0px 0px 0px !important;
     }
 
@@ -181,7 +181,8 @@
 
 @media (max-width:576px) {
     .email_phone_heading {
-        font-weight: 600 !important;
+        font-weight: var(--font-weight)  
+        !important;
         margin: 10px 0px 0px 0px !important;
     }
 
@@ -209,7 +210,7 @@
     }
 
     .email_phone_heading {
-        font-weight: 600 !important;
+        font-weight: var(--font-weight)  !important;
         margin: 10px 0px 0px 0px !important;
     }
 

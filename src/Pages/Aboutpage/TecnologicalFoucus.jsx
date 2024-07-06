@@ -99,7 +99,7 @@ export default function CustomizedTabs() {
     <Box  >
 
 
-      <Box   className="flex-center-coulmn techno">
+      <Box   className="flex-center-coulmn techno container_space">
         <Box className="technology_child_section" textAlign={'center'} >
 
           <Box className="flex-center-coulmn" width={"100%"} sx={{flexWrap:"wrap"}} >

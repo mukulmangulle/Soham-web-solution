@@ -15,9 +15,9 @@ const Graphic = () => {
                     <Typography className='primary-heading' variant='h1' >Graphic Designing</Typography>
                 </Box>
             </Box>
-            <Box className="service_primary_section flex-center" >
+            <Box className="service_primary_section container_space flex-center" >
 
-<Box className="flex-center-coulmn padding-top-bottom service_chid"  >
+<Box className="flex-center-coulmn  service_chid"  >
        
 
             <Typography variant='h3' className='service_secondary-heading inner_heading' >

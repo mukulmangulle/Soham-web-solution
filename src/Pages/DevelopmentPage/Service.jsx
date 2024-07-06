@@ -5,9 +5,9 @@ import Rightclick from "../../assets/php-department/rightclick.svg"
 const Service = () => {
     return (
         <>
-            <Box className="service padding-top-bottom flex-center"  >
-                <Box className="services_box_section " >
-                    <Typography className='service_box_section_heading padding-top-bottom'  variant='h3' >Service</Typography>
+            <Box className="service  flex-center padding-top-bottom "  >
+                <Box className="services_box_section container_space " >
+                    <Typography className='service_box_section_heading '  variant='h3' >Service</Typography>
                 
                  <Box className="flex-between-wrap box_size_parent" >
                         <Box  className="service-box">

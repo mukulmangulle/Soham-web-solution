@@ -13,7 +13,7 @@ const CareerOpeningTeam = () => {
     return (
         <>
 
-            <Box  className="padding-top-bottom" margin={"auto"} bgcolor={"#E6EBF3"} width={"100%"} display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
+            <Box  className="container_space" margin={"auto"} bgcolor={"#E6EBF3"} width={"100%"} display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
                 <Typography className='secondary_heading' variant='h2'    >
                     Current openings in Team
                 </Typography>

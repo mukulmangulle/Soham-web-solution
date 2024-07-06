@@ -16,19 +16,20 @@
 
 .home-content .home-h1 {
     font-size: var(--font-h1);
-    font-weight: 600;
+    font-weight: var(--font-weight);  
 }
 
 .home-content .home-p1 {
     font-size: var(--font-h5);
     padding-top: 2rem;
     max-width: 700px;
-    font-weight: 600;
+    font-weight: var(--font-weight);  
+
 }
 
 .schadule-meeting .home-p2 {
     font-size: var(--font-h5);
-    font-weight: 600;
+    font-weight: var(--font-weight);  
     margin-right: 15px;
 }
 
@@ -45,12 +46,12 @@
 .home-lastSection {
     max-width: 1200px;
     width: 100%;
-    padding: 24px 20px;
+    padding: 0px 20px;
 }
 
 .home-lastSection p {
-    font-weight: 600;
-    font-size: var(--font-p1);
+    font-weight: var(--font-weight);  
+      font-size: var(--font-p1);
 }
 
 .schadule-meeting .Aroow_right {
@@ -237,9 +238,7 @@
         margin-top: 1rem;
     }
 
-    .home .home-lastSection {
-        margin-top: 2rem;
-    }
+   
 
 }
 

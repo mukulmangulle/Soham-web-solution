@@ -7,7 +7,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 const WeHiring = () => {
     return (
 
-        <Box className=" flex-center we_man_first"  >
+        <Box className=" flex-center we_man_first container_space"  >
             <Box className="we-man"   >
                 <Box className="we-img-section">
                     <img className='we-img' src={Careerhome} alt="" />

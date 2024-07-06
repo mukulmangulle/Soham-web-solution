@@ -8,7 +8,7 @@ import Footer2 from '../../Component/Footer2'
 const Codeigniter = () => {
     return (
         <>
-            <Box>
+            <Box >
                 <Box className="bg-img  " >
                     <Typography className='primary-heading' variant='h1' >
                         Codeigniter Development
@@ -16,9 +16,9 @@ const Codeigniter = () => {
                 </Box>
             </Box>
 
-            <Box className="service_primary_section flex-center" >
+            <Box className="service_primary_section flex-center container_space" >
 
-                <Box className="flex-center-coulmn padding-top-bottom service_chid"  >
+                <Box className="flex-center-coulmn  service_chid"  >
                        
 
                             <Typography variant='h3' className='service_secondary-heading inner_heading' >

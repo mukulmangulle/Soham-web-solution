@@ -21,8 +21,9 @@ function Partner() {
 
     return (
         <>
-            <Box className="  partner  container_space"   >
-                <Box className="flex-center-coulmn"  >
+            <Box className="  partner  "   >
+               <Box className="container_space">
+               <Box className="flex-center-coulmn"  >
                     <Typography className='secondary_heading' variant='h2' >
                         {contents.ourPartner.heading}
                     </Typography>
@@ -45,6 +46,7 @@ function Partner() {
                     </Box>
                 </Box>
 
+               </Box>
             
             </Box>
 

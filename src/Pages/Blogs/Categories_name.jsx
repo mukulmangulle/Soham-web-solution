@@ -46,8 +46,7 @@ const Categories_name = () => {
 
     return (
         <>
-            <Box className="container" style={{ textAlign: 'center' }}>
-                <Box className='title-gallery'></Box>
+            <Box className="container " style={{ textAlign: 'center' }}>
                 <Box className="slider-wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <button id="prev-slide" className="slide-button material-symbols-rounded">
                     </button>

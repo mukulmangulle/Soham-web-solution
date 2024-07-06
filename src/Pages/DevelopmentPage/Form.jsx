@@ -21,7 +21,7 @@ const Form = () => {
   };
   return (
     <>
-       <Box className="form_about" >
+       <Box className="form_about container_space" >
         <Typography className='secondary_heading' variant='h2'>Contact Information </Typography>
         <Typography textAlign={"center"} className="primary_subheading">Our some of these projects may seem interesting to you</Typography>
 

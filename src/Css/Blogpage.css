@@ -24,7 +24,7 @@ body {
 #card-heading {
   font-size: var(--font-h5);
   margin: 18px 0px;
-  font-weight: 600;
+  font-weight: var(--font-weight);  
   color:  var(--color-blue);
 
 }
@@ -73,8 +73,7 @@ body {
 
 .box-section .box-all-categories {
   color:  var(--color-blue);
-  font-weight: 600;
-  margin: 3rem 0rem;
+  font-weight: var(--font-weight);  
 }
 
 .singleblogpage-man {

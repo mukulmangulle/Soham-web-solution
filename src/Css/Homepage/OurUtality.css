@@ -3,8 +3,8 @@
 }
 
 .utility {
-    padding: 20px;
-    max-width: 1200px;
+    padding: 0px 20px  ;
+    max-width: 1100px;
     width: 100%;
     margin:0 auto;
 }
@@ -13,9 +13,7 @@
 
 .web-devlopment {
     flex-wrap: wrap;
-  
-   
-    margin: 20px 0px;
+    margin: 30px 0px 0px 0px;
     
 }
 .web-devlopment P {
@@ -76,7 +74,7 @@
 
 .card-heading {
     font-size: var(--font-h5) !important;
-    font-weight: 600 !important;
+    font-weight: var(--font-weight)!important;
 }
 
 .ludo-earn-p {
@@ -97,7 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 18px 20px 25px;
+    margin: 18px 0px 0px;
 }
 
 .work .card {
@@ -149,12 +147,14 @@
     }
 }
 /* about */
-.client-section-child {
+.about{
     width: 100%;
     max-width: 1200px;
     flex-wrap: wrap;
-    padding: 0px 20px;
-  }
+    padding: 0px 20px !important;
+    margin: 0px auto;
+}
+
   
   .light img {
     padding-bottom: 20px !important;
@@ -162,7 +162,7 @@
   
   .light h5 {
     font-size: var(--font-h6);
-    font-weight: 600;
+    font-weight: var(--font-weight);  
   
   }
   
@@ -237,9 +237,9 @@
 
 .custom-man .slick-slider {
     background-color: none;
-    max-width: 1200px !important;
+    max-width: 1140px !important;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
 }
 
 .custom-man {
@@ -318,7 +318,7 @@
     width: 100%;
     max-width: 1200px;
     height: 100%;
-    margin-bottom: 80PX !important;
+    margin-bottom: 40PX !important;
     padding: 0px 20px;
     margin:0px   auto;
 }
@@ -452,9 +452,7 @@
         padding: 1rem;
     }
 
-    .card-heading {
-        font-weight: 600 !important;
-    }
+  
 
     .ludo-earn-p {
         align-items: center;
@@ -496,7 +494,6 @@
     .want button {
         width: 140px;
         height: 38px;
-        font-weight: 700;
     }
 }
 

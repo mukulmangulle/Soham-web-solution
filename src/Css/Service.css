@@ -1,21 +1,19 @@
-
-.service_chid{
-    max-width: 1200px ;
+.service_chid {
+    max-width: 1200px;
     width: 100%;
     margin: auto;
     padding: 0px 20px;
 }
 
-
 .service_primary_section .service-man {
     width: 100%;
-  
+
 }
 
 .service-man .service_container_one {
     margin: 3rem 0rem;
     max-width: 1200px;
-    padding: 0px 20px;
+    padding: 0px 20px !important;
 }
 
 .service-man .service_container_tow_man {
@@ -26,7 +24,7 @@
 .service-man .service_container_two {
     margin: 3rem 0rem;
     max-width: 1200px;
-    padding: 0px 20px;
+    padding: 0px 20px !important;
 }
 
 .service-man .devlopment-text {
@@ -50,7 +48,7 @@
 .service-man .service_secondary-heading {
     font-size: var(--font-h2);
     color: var(--color-blue);
-    font-weight: 600;
+    font-weight: var(--font-weight)  ;
 }
 
 .service-man .service_text {
@@ -102,7 +100,6 @@
 
 }
 
-
 .services_box_section {
     max-width: 1200px !important;
     width: 100%;
@@ -113,13 +110,14 @@
     text-align: center;
     color: white;
     font-size: var(--font-h2);
-    font-weight: 600;
+    font-weight: var(--font-weight)  ;
+    margin-bottom: 50px;
 }
 
 .service_chid .inner_heading {
     text-align: center;
     color: var(--color-blue);
-    font-weight: 600;
+    font-weight: var(--font-weight)  ;
     font-size: var(--font-h2);
 }
 
@@ -134,23 +132,22 @@
 }
 
 @media (max-width:1024px) {
-    .service_chid{
-         width: 100% !important;
-         padding: 0px 20px;
+    .service_chid {
+        width: 100% !important;
+        padding: 0px 20px;
     }
+
     .services_box_section {
-        width:100%;
+        width: 100%;
         padding: 0px 20px;
     }
 
     .service-man .service_container_one {
         max-width: 100%;
-        padding: 0px 20px;
     }
 
     .service-man .service_container_two {
         max-width: 100%;
-        padding: 0px 20px;
     }
 
     .service-man .devlopment-text {
@@ -192,13 +189,14 @@
     .devlopment-text .service-logo {
         height: 40px !important;
     }
-    .service_chid .secvice_child_text{
-           width: 100% ;
+
+    .service_chid .secvice_child_text {
+        width: 100%;
     }
 }
 
 @media (max-width:768px) {
-   
+
 
     .service-man .service_secondary-heading {
         font-size: var(--font-h2);
@@ -257,6 +255,7 @@
     .service-man .devlopment-text {
         width: 100% !important;
     }
+
     .background-service {
         width: 450px;
         height: 360px;
@@ -272,35 +271,22 @@
 
     .service-man .service_container_one {
         max-width: 100%;
-        padding: 0px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;       
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .service-man .service_container_two {
         max-width: 100%;
-        padding: 0px 20px;
         display: flex;
-  align-items: center;
-  justify-content: center; 
-  flex-direction: column;
-  flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
     }
-
 }
 
-
 @media (max-width:576px) {
-    .service-man .service_container_one {
-        margin: 2rem 0rem;
-
-    }
-
-    .service-man .service_container_two {
-        margin: 2rem 0rem;
-
-    }
 
     .service-man .service_container_one img {
         height: 200px;
@@ -337,8 +323,6 @@
 
 }
 
-
-
 @media (max-width:375px) {
     .service-man .service_container_one img {
         height: 180px;
@@ -347,8 +331,6 @@
     .service-man .service_container_two img {
         height: 180px;
     }
-
-
 
     .background-service {
         width: 280px;
@@ -368,5 +350,4 @@
     .get_the_best {
         color: white;
     }
-
 }

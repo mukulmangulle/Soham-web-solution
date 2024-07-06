@@ -22,8 +22,9 @@ const OurUtility = () => {
 
 
     return (
-        <Box className="flex-center-column utility  container_space"  >
-            <Box className="flex-center-coulmn">
+        <Box className="flex-center-column utility "  >
+           <Box className="container_space">
+           <Box className="flex-center-coulmn ">
                 <Typography variant='h2' className='secondary_heading'>
                     {contents.ourutility.heading}
                 </Typography>
@@ -63,6 +64,7 @@ const OurUtility = () => {
 
               
             </Box>
+           </Box>
         </Box>
     )
 }
