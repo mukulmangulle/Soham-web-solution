@@ -407,7 +407,7 @@ const Home = () => {
 
 
     return (
-        <Box className="home flex-center" flexDirection={'column'}>
+        <Box className="home flex-center  container_space" flexDirection={'column'}>
             <Box className="home-continer flex-between"
             >
                 <Box className="home-content "   >

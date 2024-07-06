@@ -21,7 +21,7 @@ function Partner() {
 
     return (
         <>
-            <Box className="  partner"   >
+            <Box className="  partner  container_space"   >
                 <Box className="flex-center-coulmn"  >
                     <Typography className='secondary_heading' variant='h2' >
                         {contents.ourPartner.heading}

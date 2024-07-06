@@ -44,30 +44,22 @@ const contentSlice = createSlice({
         heading: "What Client Say About Us",
         contant: "Client  stisfaction is our primary conceren and that why we are their first choice.  Here are some of them telling about the Cosmonaut and Team ",
         childContainer1: {
-          name: "Devendra Singh Devda",
-          designation: "UI/UX & Geaphic Designer",
+          name: "Client",
+          designation: " Geaphic Designer",
           testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
         },
         childContainer2: {
-          name: "Devendra Singh Devda",
-          designation: "UI/UX & Geaphic Designer",
+          name: "Client",
+          designation: " Geaphic Designer",
           testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
         },
         childContainer3: {
-          name: "Client Name",
-          designation: "UI/UX & Geaphic Designer",
+          name: "Client",
+          designation: " Geaphic Designer",
           testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
         },
-        childContainer4: {
-          name: "Client Name",
-          designation: "UI/UX & Geaphic Designer",
-          testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
-        },
-        childContainer5: {
-          name: "Client Name",
-          designation: "UI/UX & Geaphic Designer",
-          testimonial: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.Duis tempor,libero quis porta molestie,dui mauris pulvinar est,ac ullamcorper magna mauris id felis. Nulla facilisi. Cras sit amet turpis.Proin quis consectetur nisl."
-        },
+      
+      
       },
       ourCustomers: {
         heading: "Our Customer ",
@@ -124,7 +116,7 @@ const contentSlice = createSlice({
         text2:" From advanced web development to immersive user experiences, every addition has been a step towards betterment-a testament to our commitment to growth and innovation.Now,in our 10th year, we stand tall with a family of over 30 dedicated employees. we continue to nurture the next generation of talent,training more than 20 students, the majority of whom we proudly integrate into our workforce through our ‘training-plus-job program.Our journey has been nothing short of  remarkable-a beautiful tapestry women from hard work,perseverance, and a relentless pursuit of knowledge. As we celebrate a decade of shaping the web, we remain committed to development, innovation, and the empowerment of those who walk with us. And the Journey Continues...",
       },
       Technologyfocus: {
-        heading: "Tecnological Foucus",
+        heading: "Tecnological Focus",
         content: "Our technological focus lies in leveraging the latest advancements to deliver cutting-edge solutions. We excel in using modern technologies like React Native for mobile app development, Laravel for backend systems, and Shopify for e-commerce platforms. By staying ahead of technological trends, we ensure our clients receive innovative, secure, and high-performance applications that drive business success.",
       },
       Leadership: {

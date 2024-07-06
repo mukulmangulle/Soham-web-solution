@@ -19,7 +19,7 @@ const SameOurWork = () => {
     }, [dispatch]);
 
     return (
-        <Box className="work flex-center-coulmn " >
+        <Box className="work flex-center-coulmn  container_space" >
             <Box className="flex-center-coulmn we-take"  >
                 <Typography variant='h2' className='secondary_heading'   >
                     {contents.SomeourWorks.heading}

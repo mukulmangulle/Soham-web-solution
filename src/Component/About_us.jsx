@@ -21,7 +21,7 @@ const About_us = () => {
     }, [dispatch]);
     return (
         < >
-            <Box className="flex-center-column" width={"100%"}>
+            <Box className="flex-center-column container_space" width={"100%"} >
                 <Box  >
                     <Typography className='secondary_heading' variant='h2'  >
                         {contents.aboutus.heading}

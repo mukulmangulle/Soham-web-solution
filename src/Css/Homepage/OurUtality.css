@@ -97,7 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 16px 20px;
+    margin: 18px 20px 25px;
 }
 
 .work .card {
@@ -114,6 +114,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 
 
 
@@ -187,7 +188,9 @@
     width: 80px;
     color: #0534807d;
     /* filter: brightness(50) invert(9); */
-  
+  position: relative;
+  top: 60px;
+  z-index: 1;
   }
   
   .inner {
