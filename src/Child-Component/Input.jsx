@@ -10,7 +10,6 @@ const Input1 = (props) => {
                     id="name"
                 name={name}
                 label={label}
-                variant="filled"
                 margin="normal"
                 required
                 className='TextField'

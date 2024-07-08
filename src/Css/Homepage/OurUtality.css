@@ -3,10 +3,11 @@
 }
 
 .utility {
-    padding: 0px 20px  ;
     max-width: 1100px;
     width: 100%;
     margin:0 auto;
+    padding-left: 20PX;
+    padding-right: 20PX;
 }
 
 
@@ -34,6 +35,8 @@
     object-fit: cover;
     transition: transform 0.5s ease-in;
     margin-bottom: 20px;
+    width: 90px;
+    margin-bottom: 30px;
 }
 
 

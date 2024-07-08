@@ -23,15 +23,15 @@
     background-color: #ffffff;
     border: 1px solid #ccc;
     padding: 10px;
-    max-width: 300px; /* Adjust as per your design */
-    margin: 0 auto; /* Center the menu horizontally */
+    max-width: 300px; 
+    margin: 0 auto; 
   }
   
   .sub_menu {
-    padding-left: 15px; /* Adjust submenu indentation */
+    padding-left: 15px; 
   }
   
   .angleIcon {
-    transition: transform 0.3s ease; /* Example transition effect */
+    transition: transform 0.8s ease; 
   }
   

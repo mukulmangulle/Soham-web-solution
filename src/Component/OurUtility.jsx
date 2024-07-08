@@ -6,7 +6,6 @@ import Our1 from "../assets/our service/our1.svg"
 import Our2 from "../assets/our service/our2.svg"
 import Our3 from "../assets/our service/our3.svg"
 import Our4 from "../assets/our service/our4.svg"
-import Our5 from "../assets/our service/our5.svg"
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchcontents } from '../features/content/contentSlice'
 import React, { useEffect } from 'react'
@@ -22,8 +21,9 @@ const OurUtility = () => {
 
 
     return (
-        <Box className="flex-center-column utility "  >
-           <Box className="container_space">
+       <Box className="container_space">
+         <Box className="flex-center-column utility "  >
+          
            <Box className="flex-center-coulmn ">
                 <Typography variant='h2' className='secondary_heading'>
                     {contents.ourutility.heading}
@@ -56,7 +56,7 @@ const OurUtility = () => {
                 </Box>
 
                 <Box className=' flex-center  box_utility flex-center-coulmn'  >
-                    <img src={Our5} alt=""className="zoom-img" />
+                    <img src={Our4} alt=""className="zoom-img" />
                     <Typography >
                         {contents.ourutility.order.text4}
                     </Typography>
@@ -64,8 +64,9 @@ const OurUtility = () => {
 
               
             </Box>
-           </Box>
+          
         </Box>
+       </Box>
     )
 }
 

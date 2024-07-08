@@ -7,6 +7,7 @@
 
 .service_primary_section .service-man {
     width: 100%;
+    
 
 }
 
@@ -241,6 +242,7 @@
 
     .service_chid .secvice_child_text {
         font-size: var(--font-h4);
+        padding: 0px 20px;
     }
 
     .box_size_parent {
