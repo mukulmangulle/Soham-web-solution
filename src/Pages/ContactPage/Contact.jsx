@@ -265,6 +265,7 @@ const Contact = () => {
 
 
         if (Object.keys(validationErrors).length > 0) {
+            
             setErrors(validationErrors);
         } else {
 
@@ -321,7 +322,7 @@ const Contact = () => {
                                                     fullWidth
                                                     required
                                                 />
-                                                {errors.username && <  span>{errors.username}</span>}
+                                               
 
                                             </Grid>
                                             <Grid item xs={12} sm={6}>
@@ -335,7 +336,6 @@ const Contact = () => {
                                                     fullWidth
                                                     required
                                                 />
-                                                {errors.email && <  span>{errors.email}</span>}
 
                                             </Grid>
 
@@ -350,7 +350,6 @@ const Contact = () => {
                                                     fullWidth
                                                     required
                                                 />
-                                                {errors.number && <span>{errors.number}</span>}
 
                                             </Grid>
                                             <Grid item xs={12} sm={6}>
@@ -364,6 +363,7 @@ const Contact = () => {
                                                     fullWidth
                                                     required
                                                 />
+                                                
                                             </Grid>
                                             <Grid item xs={12}>
                                                 <TextField

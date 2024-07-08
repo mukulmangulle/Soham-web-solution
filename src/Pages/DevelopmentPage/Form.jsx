@@ -1,27 +1,80 @@
 import { Box, Container, Typography, TextField, FormControl, InputLabel, Select, MenuItem, Button, Checkbox, FormGroup, RadioGroup, Radio, FormLabel, FormControlLabel, Grid } from '@mui/material'
-import { yellow } from '@mui/material/colors';
-import React from 'react'
+import React, { useState } from 'react'
 import Input1 from '../../Child-Component/Input';
-import contentSlice from '../../features/content/contentSlice';
-import { useSelector } from 'react-redux';
+
+
 
 const Form = () => {
- 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
-    const data = Object.fromEntries(formData.entries());
-    console.log(data);
-  };
 
   const boxShadowStyle = {
 
     boxShadow: "0px 0px 15px 0px #cccccc",
 
   };
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    number: '',
+    textarea: "",
+  });
+  const [errors, setErrors] = useState({});
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const validationErrors = {};
+    if (!formData.username.trim()) {
+      validationErrors.username = 'Name is required';
+    } else if (formData.username.length < 2) {
+      validationErrors.username = ' at least 2 characters';
+    }
+
+    if (!formData.email.trim()) {
+      validationErrors.email = 'Email is required';
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      validationErrors.email = 'Invalid email format';
+    }
+    if (!formData.number.trim()) {
+      validationErrors.number = 'number is required';
+    } else if (formData.number.length < 10) {
+      validationErrors.number = 'Number must be at least 10 characters';
+    }
+
+
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+    } else {
+
+      console.log('Form submitted:', formData);
+
+      setFormData({
+        username: '',
+        email: '',
+        number: '',
+        subject: "",
+      });
+
+      setErrors({});
+    }
+  };
+
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+
+    setErrors({
+      ...errors,
+      [name]: ''
+    });
+  };
   return (
     <>
-       <Box className="form_about container_space" >
+      <Box className="form_about container_space" >
         <Typography className='secondary_heading' variant='h2'>Contact Information </Typography>
         <Typography textAlign={"center"} className="primary_subheading">Our some of these projects may seem interesting to you</Typography>
 
@@ -48,12 +101,45 @@ const Form = () => {
                   required
                   className='TextField'
                 /> */}
+ <Box marginTop={3}>
+                <TextField
+                  id="name"
+                  name="username"
+                  label="Name"
+                  value={formData.username}
+                  onChange={handleChange}
+                  error={!!errors.username}
+                  helperText={errors.username}
+                  fullWidth
+                  required
+                />
+                </Box>
+                <Box marginTop={3}>
+                <TextField
+                  name="email"
+                  label="Email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  error={!!errors.email}
+                  helperText={errors.email}
+                  fullWidth
+                  required
+                />
+</Box>
+                <Box marginTop={3}>
+                  <TextField
+                    name="number"
+                    label="Phone Number"
+                    value={formData.number}
+                    onChange={handleChange}
+                    error={!!errors.number}
+                    helperText={errors.number}
+                    fullWidth
+                    required
+                  />
 
-                <Input1 name="name" label="Name" />
+                </Box>
 
-                <Input1 name="email" label="Email" />
-
-                <Input1 name="number" label="Number" />
 
                 <FormControl fullWidth margin="normal" required  >
                   <Select
@@ -61,7 +147,6 @@ const Form = () => {
                     id="requirement"
                     name="requirement"
                     label="Select Project Buduget"
-                    variant="filled"
                     row="4"
 
                   >
@@ -90,7 +175,6 @@ const Form = () => {
                   multiline
                   rows={4}
                   // variant="outlined"
-                  variant="filled"
                   margin="normal"
                 />
                 {/* <Input1 label="Brief Project Information" /> */}
@@ -133,7 +217,7 @@ const Form = () => {
                     </FormGroup>
 
 
-                    <Button id='submit'> Submit</Button>
+                    <Button onClick={handleSubmit} id='submit'> Submit</Button>
                   </FormControl>
                 </Box>
 
@@ -150,4 +234,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default Form;

@@ -37,28 +37,28 @@ const OurUtility = () => {
                 <Box className=' flex-center  box_utility flex-center-coulmn' >
                     <img src={Our1} alt="" className="zoom-img"/>
                     <Typography >
-                        {contents.ourutility.order.text1}
+                    Web Designing  <br/>& Development
                     </Typography>
                 </Box>
 
                 <Box className=' flex-center  box_utility flex-center-coulmn'   >
                     <img src={Our2} alt=""className="zoom-img" />
                     <Typography  >
-                        {contents.ourutility.order.text2}
+                    Graphic <br/> Design
                     </Typography>
                 </Box>
 
                 <Box className=' flex-center  box_utility flex-center-coulmn'  >
                     <img src={Our3} alt=""className="zoom-img" />
                     <Typography  >
-                        {contents.ourutility.order.text3}
+                    E-commerce <br/> Development
                     </Typography>
                 </Box>
 
                 <Box className=' flex-center  box_utility flex-center-coulmn'  >
                     <img src={Our4} alt=""className="zoom-img" />
                     <Typography >
-                        {contents.ourutility.order.text4}
+                    Mobile App <br/> Development
                     </Typography>
                 </Box>
 

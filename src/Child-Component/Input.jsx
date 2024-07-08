@@ -7,7 +7,7 @@ const Input1 = (props) => {
         <>
             <TextField
                 fullWidth
-                    id="name"
+                id="name"
                 name={name}
                 label={label}
                 margin="normal"
@@ -15,8 +15,8 @@ const Input1 = (props) => {
                 className='TextField'
                 rows={rows}
                 onClick={onClick}
-             props={props} >
-              {children}
+                props={props} >
+                {children}
             </TextField>
 
         </>

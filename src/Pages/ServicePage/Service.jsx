@@ -15,11 +15,11 @@ const Service = () => {
       </Box>
 
       <ServiceContaint />
-   <Project_requirment/>
-  
+      <Project_requirment />
+
       <Footer2 />
 
-     
+
 
     </>
   )
