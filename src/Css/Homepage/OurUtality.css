@@ -10,7 +10,11 @@
     padding-right: 20PX;
 }
 
-
+.life-text{
+     width: 100%;
+     max-width: 1200px;
+     padding: 50px 20px;
+}
 
 .web-devlopment {
     flex-wrap: wrap;

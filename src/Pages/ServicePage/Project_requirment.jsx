@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import { Box, Button, Typography } from '@mui/material';
 import Serviceform from './Serviceform';
@@ -24,7 +22,7 @@ const Project_requirment = () => {
         <Button className='view-more' onClick={openPopup}>Get in Touch</Button>
       </Box>
 
-      {showPopup && < Serviceform onClose={closePopup} />}
+      {showPopup && <Serviceform onClose={closePopup} />}
     </>
   );
 };
