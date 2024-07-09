@@ -33,18 +33,14 @@
 }
 
 .devlopment-text .service-logo {
-    height: 65px !important;
+   width: 55px ;
     margin-bottom: 1rem;
 }
 
-.service-man .service_container_one img {
-    height: 350px;
-
+.service-man .service_img {
+    width: 530px;
 }
 
-.service-man .service_container_two img {
-    height: 350px;
-}
 
 .service-man .service_secondary-heading {
     font-size: var(--font-h2);
@@ -68,15 +64,6 @@
     text-transform: capitalize;
 }
 
-.background-service {
-    width: 530px;
-    height: 420px;
-    background-image: url("../assets/Service/background-service.svg");
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-}
 
 .service-man .devlopment-text {
     width: 42%;
@@ -97,7 +84,8 @@
 
 .get_the_best {
     color: white;
-    font-size: var(--font-h2);
+    text-align: center;
+    font-size: var(--font-h3) !important ;
 
 }
 
@@ -128,9 +116,7 @@
     margin-top: 20px;
 }
 
-.devlopment-text .service-logo {
-    height: 55px !important;
-}
+
 
 @media (max-width:1024px) {
     .service_chid {
@@ -156,22 +142,16 @@
         padding: 10px;
     }
 
-    .service-man .service_container_one img {
-        height: 230px;
+    .service-man .service_img {
+        width: 350px;
     }
 
-    .service-man .service_container_two img {
-        height: 230px;
-    }
-
+    
     .service-man .service_text {
         padding: 0.5rem 0px;
     }
 
-    .background-service {
-        width: 350px;
-        height: 280px;
-    }
+  
 
     .project-requirement {
         height: 250px;
@@ -182,13 +162,11 @@
         height: 45px;
     }
 
-    .get_the_best {
-        color: white;
-    }
+   
 
 
     .devlopment-text .service-logo {
-        height: 40px !important;
+        width: 45px ;
     }
 
     .service_chid .secvice_child_text {
@@ -196,79 +174,16 @@
     }
 }
 
-@media (max-width:768px) {
-
-
-    .service-man .service_secondary-heading {
-        font-size: var(--font-h2);
-    }
-
-    .devlopment-text .service-logo {
-        height: 50px !important;
-    }
-
-    .service-man .service_text {
-        font-size: var(--font-h6);
-    }
-
-    .project-requirement {
-        height: 200px;
-    }
-
-    .view-more {
-        margin-top: 10px !important;
-        height: 40px;
-        width: 170px;
-    }
-
-    .get_the_best {
-        color: white;
-        font-size: var(--font-h2);
-    }
-
-    .service-man .btn_apply_now {
-        font-size: var(--font-h6);
-        width: 130px;
-        height: 38px;
-    }
-
-    .service_chid {
-        width: 85%;
-    }
-
-    .service_chid .inner_heading {
-        font-size: 30px;
-    }
-
-    .service_chid .secvice_child_text {
-        font-size: var(--font-h4);
-        padding: 0px 20px;
-    }
-
-    .box_size_parent {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-}
 
 @media (max-width:767px) {
     .service-man .devlopment-text {
         width: 100% !important;
     }
 
-    .background-service {
+   
+
+    .service-man .service_img {
         width: 450px;
-        height: 360px;
-    }
-
-    .service-man .service_container_one img {
-        height: 300px;
-    }
-
-    .service-man .service_container_two img {
-        height: 300px;
     }
 
     .service-man .service_container_one {
@@ -286,22 +201,19 @@
         flex-direction: column;
         flex-direction: column-reverse;
     }
+    .get_the_best {
+        font-size: var(--font-h3) !important ;
+    
+    }
+    
 }
 
 @media (max-width:576px) {
 
-    .service-man .service_container_one img {
-        height: 200px;
-    }
-
-    .service-man .service_container_two img {
-        height: 200px;
-    }
-
-    .background-service {
+    .service-man .service_img {
         width: 320px;
-        height: 250px;
     }
+
 
     .project-requirement {
         height: 180px;
@@ -313,11 +225,7 @@
         width: 170px;
     }
 
-    .get_the_best {
-        color: white;
-        text-align: center;
-    }
-
+    
     .service-man .btn_apply_now {
         width: 120px;
         height: 35px;
@@ -326,17 +234,8 @@
 }
 
 @media (max-width:375px) {
-    .service-man .service_container_one img {
-        height: 180px;
-    }
-
-    .service-man .service_container_two img {
-        height: 180px;
-    }
-
-    .background-service {
+    .service-man .service_img {
         width: 280px;
-        height: 220px;
     }
 
     .project-requirement {
@@ -349,7 +248,4 @@
         width: 150px;
     }
 
-    .get_the_best {
-        color: white;
-    }
 }

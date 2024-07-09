@@ -316,7 +316,6 @@ import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot, FaClosedCaptioning } from "react-icons/fa6";
 import { IoTimeSharp } from "react-icons/io5";
-import Map from "../../assets/contactus soham web/map.svg";
 import Footer2 from '../../Component/Footer2';
 import Facebook from "../../assets/footer/facebook.svg";
 import Insta from "../../assets/footer/insta.svg";
@@ -573,10 +572,7 @@ const Contact = () => {
                     </Box>
                 </Box>
             </Box>
-            <Box>
-                <img className='map-img' src={Map} alt="" />
-            </Box>
-            <Footer2 />
+         
         </>
     );
 };

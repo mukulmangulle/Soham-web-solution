@@ -1,6 +1,8 @@
 import { Box, CircularProgress, Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import Contact from './Contact';
+import Footer from '../../Component/Footer2';
+import Map from "../../assets/contactus soham web/map.svg";
 
 
 
@@ -27,12 +29,14 @@ const ContactUsSohamweb = () => {
     );
   }
   return (
+    <>
     <Box className="contact" >
       <Box className="bg-img " >
         <Typography className='primary-heading' variant='h1'  >Contact Us</Typography>
       </Box>
-
-      <Box className="container_space" >
+      </Box>
+      
+      <Box className=" container_space" >
         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>
           <Typography className="secondary_heading" variant='h3'   >Let's Build Something Amazing Together!
           </Typography>  
@@ -44,8 +48,12 @@ const ContactUsSohamweb = () => {
         </Box>
         <Contact />
       </Box>
+      <Box>
+                <img className='map-img' src={Map} alt="" />
+            </Box>
+            <Footer />
+      </>
 
-    </Box>
   )
 }
 

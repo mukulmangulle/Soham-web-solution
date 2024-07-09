@@ -65,7 +65,7 @@
  .footer .copyright{
         background-color:#297df2;
         width: 100%;
-        padding: 2px;
+        padding: 5px;
         font-size: var(--font-p2);
         display: flex;
         align-items: center;
@@ -194,13 +194,15 @@
         margin: 1rem;
  
     }
+    .footer .copyright{
+        padding: 12px;
+    }
     .copyright .copyright-child{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
     .copyright-privacy{
-        width:30%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -212,26 +214,10 @@
 .footer-sec-icon img{
     height:25px;
 }
+.footer .copyright p{
+     padding:0px;
+}
  }
 
 
- @media (max-width:375px) {
-    .copyright-privacy{
-        width:40%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-}
- }
- 
- @media (max-width:375px) {
-    .copyright-privacy{
-        width:50%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-}
- }
- 
- 
  

@@ -173,17 +173,17 @@ const Footer = () => {
                         </Box>
                        
 
-                        <Box className="copyright-privacy" padding={1}>
-                            < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white " margin={0.5}  >
+                        <Box className="copyright-privacy" >
+                            < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white "   >
                                 Privacy
                             </Link>
 
                             <Typography> |  </Typography>
-                            < Link to={`/${process.env.SLUG_URL}/terms-conditions/`}  className="color-white "  margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/terms-conditions/`}  className="color-white "   >
                                 Terms
                             </Link>
                             <Typography> |  </Typography>
-                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`} className="color-white "  margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`} className="color-white "  >
                                 Support
                             </Link>
 

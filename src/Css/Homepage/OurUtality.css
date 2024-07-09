@@ -9,7 +9,9 @@
     padding-left: 20PX;
     padding-right: 20PX;
 }
-
+.box_utility p{
+    color: black;
+}
 .life-text{
      width: 100%;
      max-width: 1200px;

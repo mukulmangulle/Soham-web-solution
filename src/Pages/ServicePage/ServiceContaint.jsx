@@ -1,11 +1,6 @@
 import React from 'react'
 import { Box, Typography, Button } from '@mui/material'
-import Php from "../../assets/Service/php.svg"
-import Wordpress from "../../assets/Service/wordpress.svg"
-import Shopify from "../../assets/Service/shopify.svg"
-import Webdesigner from "../../assets/Service/webdesigner.svg"
-import Graphic from "../../assets/Service/graphic.svg"
-import Ecommerce from "../../assets/Service/ecoomerce.svg"
+
 import { Link } from 'react-router-dom'
 import Php_logo from "../../assets/Service/logo/php.svg"
 import wordpress_logo from "../../assets/Service/logo/wordpress.svg"
@@ -13,6 +8,19 @@ import Shopify_logo from "../../assets/Service/logo/shopify.svg"
 import graphic_logo from "../../assets/Service/logo/graphic.svg"
 import Webdesigner_logo from "../../assets/Service/logo/web designing.svg"
 import Ecommerce_logo from "../../assets/Service/logo/ecommerce.svg"
+import Larval_logo from "../../assets/Service/logo/larval.svg"
+import codeignitor_logo from "../../assets/Service/logo/codeignitor.svg"
+import ReactNativer_logo from "../../assets/Service/logo/reactNative.svg"
+
+import Php from "../../assets/Service/php.svg"
+import Wordpress from "../../assets/Service/wordpress.svg"
+import Shopify from "../../assets/Service/shopify.svg"
+import Webdesigner from "../../assets/Service/webdesigner.svg"
+import Graphic from "../../assets/Service/graphic.svg"
+import Laraval from "../../assets/Service/laraval.svg"
+import Codeigniter from "../../assets/Service/codeigniter.svg"
+import Native from "../../assets/Service/reactnative.svg"
+import Ecoomerce from "../../assets/Service/ecoomerce.svg"
 
 const ServiceContaint = () => {
     return (
@@ -40,17 +48,15 @@ const ServiceContaint = () => {
                             </Link>
 
                         </Box>
-                        <Box className="background-service flex-center"  >
-                            <img src={Php} alt="" />
-                        </Box>
+                        <img className='service_img' src={Php} alt="" />
+
                     </Box>
 
                     {/* 2 */}
                     <Box className="service_container_tow_man flex-center ">
                         <Box className="service_container_two container_space flex-between-wrap" width={"100%"}   >
-                            <Box className="background-service flex-center"  >
-                                <img src={Wordpress} alt="" />
-                            </Box>
+                        <img className='service_img' src={Wordpress} alt="" />
+
                             <Box className="devlopment-text">
                                 <img className='service-logo' src={wordpress_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">
@@ -90,20 +96,16 @@ const ServiceContaint = () => {
                                 </Button>
                             </Link>
                         </Box>
+                        <img className='service_img' src={Shopify} alt="" />
 
-                        <Box className="background-service flex-center"  >
-                            <img src={Shopify} alt="" />
-                        </Box>
                     </Box>
 
 
                     {/* 4 */}
                     <Box className="service_container_tow_man flex-center">
                         <Box className="service_container_two container_space flex-between-wrap" width={"100%"}  >
+                        <img className='service_img' src={Webdesigner} alt="" />
 
-                            <Box className="background-service flex-center"  >
-                                <img src={Webdesigner} alt="" />
-                            </Box>
 
                             <Box className="devlopment-text" >
                                 <img className='service-logo' src={Webdesigner_logo} alt="" />
@@ -138,18 +140,16 @@ const ServiceContaint = () => {
                                 </Button>
                             </Link>
                         </Box>
-                        <Box className="background-service flex-center"  >
-                            <img src={Graphic} alt="" />
-                        </Box>
+                        <img className='service_img' src={Graphic} alt="" />
+
                     </Box>
 
                     {/* 6 */}
                     <Box className="service_container_tow_man  flex-center">
                         <Box className="service_container_two container_space flex-between-wrap" width={"100%"}  >
 
-                            <Box className="background-service flex-center"  >
-                                <img src={Webdesigner} alt="" />
-                            </Box>
+                        <img className='service_img' src={Ecoomerce} alt="" />
+
                             <Box className="devlopment-text" >
                                 <img className='service-logo' src={Ecommerce_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">
@@ -172,7 +172,7 @@ const ServiceContaint = () => {
                     {/* 7 */}
                     <Box className="service_container_one container_space flex-between-wrap" width={"100%"}  >
                         <Box className="devlopment-text" >
-                            <img className='service-logo' src={Php_logo} alt="" />
+                            <img className='service-logo' src={Larval_logo} alt="" />
 
                             <Typography variant='h2' className="service_secondary-heading">
                             Laravel Development                            </Typography>
@@ -189,19 +189,16 @@ const ServiceContaint = () => {
                             </Link>
 
                         </Box>
-                        <Box className="background-service flex-center"  >
-                            <img src={Php} alt="" />
-                        </Box>
+                        <img className='service_img' src={Laraval} alt="" />
                     </Box>
                     {/* 8 */}
                     <Box className="service_container_tow_man flex-center">
                         <Box className="service_container_two container_space flex-between-wrap" width={"100%"}  >
 
-                            <Box className="background-service flex-center"  >
-                                <img src={Webdesigner} alt="" />
-                            </Box>
+                        <img className='service_img' src={Codeigniter} alt="" />
+
                             <Box className="devlopment-text" >
-                                <img className='service-logo' src={Ecommerce_logo} alt="" />
+                                <img className='service-logo' src={codeignitor_logo} alt="" />
                                 <Typography variant='h2' className="service_secondary-heading">
                                 CodeIgniter Development
                                 </Typography>
@@ -222,7 +219,7 @@ const ServiceContaint = () => {
                     {/* 9 */}
                     <Box className="service_container_one container_space flex-between-wrap" width={"100%"}  >
                         <Box className="devlopment-text" >
-                            <img className='service-logo' src={Php_logo} alt="" />
+                            <img className='service-logo' src={ReactNativer_logo} alt="" />
 
                             <Typography variant='h2' className="service_secondary-heading">
                             React Native Development
@@ -239,9 +236,7 @@ const ServiceContaint = () => {
                             </Link>
 
                         </Box>
-                        <Box className="background-service flex-center"  >
-                            <img src={Php} alt="" />
-                        </Box>
+                        <img className='service_img' src={Native} alt="" />
                     </Box>
                 </Box>
 

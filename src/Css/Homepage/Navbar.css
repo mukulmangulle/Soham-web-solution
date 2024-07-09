@@ -1,6 +1,28 @@
+header
+.header-responsive {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 20px;
+}
+
+.header img{
+    height: 12px;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+background: linear-gradient(to right, #0160E7, #053480);
+}
+
+.icon-border{
+ border: 1px solid white;
+ padding: 1px;
+}
+
+
+/* navbar */
 .navbar {
     z-index: 2;
-    background-color:var(--color-blue);
+    background-color: var(--color-blue);
 }
 
 .navbar .flex-center {
@@ -24,7 +46,7 @@
     color: white;
     text-decoration: "none";
     font-size: var(--font-p2) !important;
- 
+
 }
 
 .down-arrow {
@@ -44,38 +66,71 @@
 
 .navbar .hire-button:hover {
     background-color: white;
-    color:  var(--color-blue) ;
-    font-weight: var(--font-weight);  
+    color: var(--color-blue);
+    font-weight: var(--font-weight);
     box-shadow: 0px 0px 5px 2px rgb(147, 147, 147);
-  
+
 }
 
 .dropdown_menu {
-    display:none;
-    }
-.service_child_menu:hover .dropdown_menu { 
-   display: block;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    right:-160px;
+    width: 250px;
+    color: #053480;
+    border: 1px solid #ccc;
+    transition:0.8s ease-in-out;
+
+}
+.service_child_menu:hover .dropdown_menu {
+    display: block;
+    transition: transform 0.1s ease-in-out;
+    transform-origin: top; 
+    transform: scaleY(1); 
+}
+
+.dropdown_menu ul{
+   display: flex;
+   flex-direction: column;
+   list-style-type:none;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 10px;
+
 }
 
 
-@media (max-width:1500px) {
+
+@media (max-width:1024px) {
     .navbar .navbar-height {
         height: 70px;
     }
 
     .sws-logo {
-        width: 140px;
-            }
-   
+        width: 160px;
+    }
+
 
     .navbar .hire-button {
         width: 140px;
         color: white;
         height: 40px;
     }
+
     .down-arrow {
         width: 8px;
         margin: 6px;
     }
-   
+
 }
+
+/* header */
+@media (max-width:900PX) {
+    .header{
+        display: none;
+    }
+}
+

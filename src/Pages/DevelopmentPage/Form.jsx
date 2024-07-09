@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import { Box, Typography, TextField, FormControl, Select, MenuItem, Button, Checkbox, FormGroup, FormControlLabel, RadioGroup, Radio } from '@mui/material';
+import { Box, Typography, TextField, FormControl, Select, MenuItem, Button, Checkbox, FormGroup, FormControlLabel } from '@mui/material';
 
 const Form = ({ onClose }) => {
   const boxShadowStyle = {
@@ -13,53 +13,67 @@ const Form = ({ onClose }) => {
     email: '',
     number: '',
     textarea: '',
-    otherDescription: '', // New state for Other description
+    requirement: '',
+    selectedRequirements: [],
+    otherDescription: '',
   });
 
   const [errors, setErrors] = useState({});
-  const [showOtherInput, setShowOtherInput] = useState(false); // State to manage visibility of Other input
+  const [showOtherInput, setShowOtherInput] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
     const validationErrors = {};
-     // Username validation
-     if (!formData.username.trim()) {
+
+    if (!formData.username.trim()) {
       validationErrors.username = 'Username is required';
-  } else if (!/^[a-zA-Z]+$/.test(formData.username)) {
+    } else if (!/^[a-zA-Z]+$/.test(formData.username)) {
       validationErrors.username = 'Username must only contain letters';
-  } else if (formData.username.length < 2) {
+    } else if (formData.username.length < 2) {
       validationErrors.username = 'Username must be at least 2 characters';
-  }
+    }
 
-  // Email validation
-  if (!formData.email.trim()) {
+    if (!formData.email.trim()) {
       validationErrors.email = 'Email is required';
-  } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       validationErrors.email = 'Invalid email format';
-  }
+    }
 
-  // Number validation
-  if (!formData.number.trim()) {
+    if (!formData.number.trim()) {
       validationErrors.number = 'Phone number is required';
-  } else if (!/^\d{10}$/.test(formData.number)) {
+    } else if (!/^\d{10}$/.test(formData.number)) {
       validationErrors.number = 'Phone number must be exactly 10 digits';
-  }
+    }
 
+    if (!formData.requirement.trim()) {
+      validationErrors.requirement = 'Select at least one requirement';
+    }
+
+    if (formData.selectedRequirements.length === 0) {
+      validationErrors.requirements = 'Please select at least one requirement';
+    }
 
     if (showOtherInput && !formData.otherDescription.trim()) {
       validationErrors.otherDescription = 'Please provide a description';
+    }
+
+    if (!formData.textarea.trim()) {
+      validationErrors.textarea = 'Project information is required';
     }
 
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
     } else {
       console.log('Form submitted:', formData);
+      // Reset form fields and state
       setFormData({
         username: '',
         email: '',
         number: '',
         textarea: '',
+        requirement: '',
+        selectedRequirements: [], // Clear selected checkboxes
         otherDescription: '',
       });
       setErrors({});
@@ -82,14 +96,32 @@ const Form = ({ onClose }) => {
   };
 
   const handleCheckboxChange = (event) => {
-    setShowOtherInput(event.target.checked);
-    if (!event.target.checked) {
+    const { name, checked } = event.target;
+    let updatedRequirements = [...formData.selectedRequirements];
+
+    if (checked && !updatedRequirements.includes(name)) {
+      updatedRequirements.push(name);
+    } else if (!checked && updatedRequirements.includes(name)) {
+      updatedRequirements = updatedRequirements.filter(item => item !== name);
+    }
+
+    setFormData({
+      ...formData,
+      selectedRequirements: updatedRequirements,
+    });
+
+    if (!checked && name === 'Other') {
       setFormData({
         ...formData,
         otherDescription: '', // Clear description if unchecked
       });
+      setShowOtherInput(false);
+    } else if (checked && name === 'Other') {
+      setShowOtherInput(true);
     }
   };
+
+  
 
   return (
     <Box className="form_about container_space">
@@ -140,14 +172,18 @@ const Form = ({ onClose }) => {
                   required
                 />
               </Box>
-              <FormControl fullWidth margin="normal" required>
+              <FormControl fullWidth margin="normal" required error={!!errors.requirement}>
+                <Typography>Select Requirements</Typography>
                 <Select
                   labelId="requirement-label"
                   id="requirement"
                   name="requirement"
-                  label="Select Project Budget"
+                  value={formData.requirement}
+                  onChange={handleChange}
+                  error={!!errors.requirement}
+                  fullWidth
                 >
-                  <MenuItem value="Enterprise Web Solution">Web Development</MenuItem>
+                 <MenuItem value="Enterprise Web Solution">Web Development</MenuItem>
                   <MenuItem value="UI/UX Services">UI/UX Services</MenuItem>
                   <MenuItem value="Mobile Apps Development">Web Designing</MenuItem>
                   <MenuItem value="Application Services">Hire Dedicated Resources</MenuItem>
@@ -158,6 +194,7 @@ const Form = ({ onClose }) => {
                   <MenuItem value="CMS Development">CMS Development</MenuItem>
                   <MenuItem value="Digital Marketing">Digital Marketing</MenuItem>
                 </Select>
+                {errors.requirement && <Typography variant="caption" color="error">{errors.requirement}</Typography>}
               </FormControl>
               <TextField
                 fullWidth
@@ -166,7 +203,12 @@ const Form = ({ onClose }) => {
                 label="Brief Project Information"
                 multiline
                 rows={4}
+                value={formData.textarea}
+                onChange={handleChange}
+                error={!!errors.textarea}
+                helperText={errors.textarea}
                 margin="normal"
+                required
               />
             </Box>
 
@@ -177,43 +219,40 @@ const Form = ({ onClose }) => {
                     <Typography className="requirement-label border_bottom_form" color={'gray'} variant='h3'>Select Your Requirement</Typography>
                   </Box>
                   <FormGroup>
-                    <FormControlLabel control={<Checkbox />} label="Web Development" />
-                    <FormControlLabel control={<Checkbox />} label="Web Designing" />
-                    <FormControlLabel control={<Checkbox />} label="Hire Dedicated Resources " />
-                    <FormControlLabel control={<Checkbox />} label="CMS Development" />
+                    <FormControlLabel control={<Checkbox name="Web Development" onChange={handleCheckboxChange} />} label="Web Development" />
+                    <FormControlLabel control={<Checkbox name="Web Designing" onChange={handleCheckboxChange} />} label="Web Designing" />
+                    <FormControlLabel control={<Checkbox name="Hire Dedicated Resources" onChange={handleCheckboxChange} />} label="Hire Dedicated Resources " />
+                    <FormControlLabel control={<Checkbox name="CMS Development" onChange={handleCheckboxChange} />} label="CMS Development" />
                     <FormControlLabel
-                      control={<Checkbox checked={showOtherInput} onChange={handleCheckboxChange} />}
+                      control={<Checkbox name="Other" checked={showOtherInput} onChange={handleCheckboxChange} />}
                       label="Other"
                     />
-                       {showOtherInput && (
-                <Box  width={'200px'}>
-                  <FormControl component="fieldset" fullWidth >
-                    <TextField
-                      name="otherDescription"
-                      label="Please specify"
-                      value={formData.otherDescription}
-                      onChange={handleChange}
-                      error={!!errors.otherDescription}
-                      helperText={errors.otherDescription}
-                      fullWidth
-                      margin="normal"
-                      required={showOtherInput}
-                    />
-                  </FormControl>
-                </Box>
-              )}
+                    {showOtherInput && (
+                      <Box width={'200px'}>
+                        <FormControl component="fieldset" fullWidth >
+                          <TextField
+                            name="otherDescription"
+                            label="Please specify"
+                            value={formData.otherDescription}
+                            onChange={handleChange}
+                            error={!!errors.otherDescription}
+                            helperText={errors.otherDescription}
+                            fullWidth
+                            margin="normal"
+                            required={showOtherInput}
+                          />
+                        </FormControl>
+                      </Box>
+                    )}
                   </FormGroup>
                 </FormControl>
               </Box>
-
-           
-
               <Box className="contact-3" width={'200px'}>
                 <FormControl component="fieldset" fullWidth margin="normal">
                   <FormGroup>
-                    <FormControlLabel control={<Checkbox />} label="UI/UX Services" />
-                    <FormControlLabel control={<Checkbox />} label="Application Services" />
-                    <FormControlLabel control={<Checkbox />} label="IT Consultancy" />
+                    <FormControlLabel control={<Checkbox name="UI/UX Services" onChange={handleCheckboxChange} />} label="UI/UX Services" />
+                    <FormControlLabel control={<Checkbox name="Application Services" onChange={handleCheckboxChange} />} label="Application Services" />
+                    <FormControlLabel control={<Checkbox name="IT Consultancy" onChange={handleCheckboxChange} />} label="IT Consultancy" />
                   </FormGroup>
                   <Button onClick={handleSubmit} id='submit' variant="contained" color="primary">Submit</Button>
                 </FormControl>
@@ -227,4 +266,3 @@ const Form = ({ onClose }) => {
 };
 
 export default Form;
-
