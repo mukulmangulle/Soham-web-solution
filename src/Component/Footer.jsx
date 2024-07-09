@@ -36,14 +36,12 @@ const Footer = () => {
             <Box className="flex-center man-want width1920"  >
                 <Box className='want flex-center' >
 
-                    <Box flex={1}>
-                        <Typography >Want to know more about Soham Web's Life?
-
-                        </Typography>
-                    </Box>
-                    <Box >
+                   
+                        <Typography >Want to know more about Soham Web's Life? </Typography>
+                  
+                  
                         <Link className='text-decortion' to={`/${process.env.SLUG_URL}/life-at-soham/`}  ><Button>Life@Soham</Button></Link>
-                    </Box>
+                  
                 </Box>
             </Box>
             <Box  color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
