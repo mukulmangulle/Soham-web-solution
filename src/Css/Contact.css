@@ -45,12 +45,12 @@
 
 .contact_form .shadow-section {
     border-radius: 20px;
-    margin: 50px 0px;
+    margin: 40px 0px 0 0;
     box-shadow: 0px 0px 20px 1px gray;
 }
 
-.contact .about-soham {
-    font-size: var(--font-h2);
+.contact_form .about-soham {
+    font-size: var(--font-h2) !important;
     font-weight: 600;    color:  var(--color-blue);
     text-align: center;
     margin: 0rem 0rem 2rem 0rem;
@@ -84,7 +84,7 @@
         width: 45%;
     }
 
-    .contact .about-soham {
+    .contact_form .about-soham {
         margin: 2rem 0rem;
     }
 
@@ -123,7 +123,7 @@
         width: 100%;
     }
 
-    .contact .about-soham {
+    .contact_form .about-soham {
         margin: 1rem 0rem;
     }
 
@@ -173,7 +173,7 @@
         font-size: var(--font-p1);
     }
 
-    .contact .about-soham {
+    .contact_form .about-soham {
         font-size: var(--font-h2);
         margin: 1rem 0rem;
     }
@@ -186,7 +186,7 @@
         margin: 10px 0px 0px 0px !important;
     }
 
-    .contact .about-soham {
+    .contact_form .about-soham {
         margin: 0.5rem 0rem;
     }
 }
@@ -205,7 +205,7 @@
 
     }
 
-    .contact .about-soham {
+    .contact_form .about-soham {
         margin: 0rem 0rem;
     }
 
