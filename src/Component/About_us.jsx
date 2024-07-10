@@ -21,7 +21,7 @@ const About_us = () => {
     }, [dispatch]);
     return (
         < >
-            <Box className="flex-center container_space">
+            <Box className="flex-center ">
                 <Box className="  about container" >
 
                     <Box  >
