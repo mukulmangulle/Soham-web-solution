@@ -40,6 +40,11 @@ export const SidebarData = [
         title: 'Contact us',
         path: `/${process.env.SLUG_URL}/contact-us/`,
         icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Life@soham',
+        path: `/${process.env.SLUG_URL}/life-at-soham/`,
+        icon: <IoIcons.IoIosPaper />
       }
     ]
 
