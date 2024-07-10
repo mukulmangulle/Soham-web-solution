@@ -20,8 +20,8 @@ const Ecommerce = () => {
             <Box className="service_primary_section flex-center" >
                 <Box className="service-man flex-center-coulmn "  >
 
-                    <Box className="service_primary_section container_space flex-center" >
-
+                    <Box className="service_primary_section  flex-center" >
+                    <Box className="container">
                         <Box className="flex-center-coulmn padding-top-bottom service_chid"  >
 
 
@@ -37,7 +37,7 @@ const Ecommerce = () => {
 
 
                         </Box>
-
+</Box>
                     </Box>
 
                 </Box>

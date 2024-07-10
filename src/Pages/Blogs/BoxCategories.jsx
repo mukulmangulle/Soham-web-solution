@@ -53,7 +53,7 @@ const BoxCategories = ({ Api_url }) => {
   return (
     <>
       <Box className="flex-center flex-coulmn box-card " >
-        <Box className="blog480-center" >
+        <Box className="blog480-center container" >
           {Array.isArray(blogContentForPageTwo) ? (
             blogContentForPageTwo.map((blog) => (
               <Carditem key={blog.id} blogcontent={blog} />
@@ -63,7 +63,7 @@ const BoxCategories = ({ Api_url }) => {
           )}
         </Box>
 
-        <Box  className="box-section container_space" >
+        <Box  className="box-section container" >
           <Typography variant='h3' id='Heading-h2'  className='box-all-categories'>All Categories</Typography>
 
           <Box  className="flex-between-wrap box-center"  >

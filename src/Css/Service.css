@@ -1,9 +1,4 @@
-.service_chid {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    padding: 0px 20px;
-}
+
 
 .service_primary_section .service-man {
     width: 100%;
@@ -11,22 +6,13 @@
 
 }
 
-.service-man .service_container_one {
-    margin: 3rem 0rem;
-    max-width: 1200px;
-    padding: 0px 20px !important;
-}
+
 
 .service-man .service_container_tow_man {
     width: 100%;
     background-color: #E6F0Fd;
 }
 
-.service-man .service_container_two {
-    margin: 3rem 0rem;
-    max-width: 1200px;
-    padding: 0px 20px !important;
-}
 
 .service-man .devlopment-text {
     width: 42%;
@@ -89,11 +75,6 @@
 
 }
 
-.services_box_section {
-    max-width: 1200px !important;
-    width: 100%;
-    padding: 0px 20px;
-}
 
 .services_box_section .service_box_section_heading {
     text-align: center;
@@ -115,7 +96,59 @@
     text-align: center;
     margin-top: 20px;
 }
+.requirement{
+  text-align: center;
+}
 
+
+
+@media (max-width:1080px) {
+
+    .about-welcome {
+      width: 100%;
+  
+    }
+  
+    #about-heading {
+      margin: auto;
+    }
+  
+    .client-section-child {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .light img {
+      padding-bottom: 10px !important;
+    }
+  
+    .light h5 {
+  
+      width: 150px;
+  
+    }
+  
+    .light .client_content {
+      width: 75%;
+    }
+  
+    .light_holder {
+      width: 380px;
+      height: 100%;
+      margin: 10px 0px;
+    }
+  
+    .light {
+  
+      text-align: center;
+      padding-top: 100px;
+    }
+  
+  }
+  
 
 
 @media (max-width:1024px) {

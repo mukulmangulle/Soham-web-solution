@@ -26,19 +26,11 @@
 
 
 
-@media (max-width:1440px) {
-    .service-box {
-        width: 180px;
-        padding: 40px;
-        padding-left: 10PX;
-
-    }
-}
 
 @media (max-width:1024px) {
     .service-box {
-        width: 140px;
-        height: 60px;
+        width: 20%;
+        height: 80px;
         padding: 20px !important;
         padding-left: 10PX;
 
@@ -47,14 +39,22 @@
 
 @media (max-width:768px) {
     .service-box {
-        width: 200px;
+        width: 45%;
         font-size: var(--font-p1);
         padding: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 15px 10px;
 
     }
+}
+
+@media (max-width:576px) {
+    .service-box {
+        width: 100%;
+    }
+    
 }
 
 

@@ -1,8 +1,5 @@
-
-
-
 import React, { useState } from 'react';
-import { Box, Typography, TextField, FormControl, Select, MenuItem, Button, Checkbox, FormGroup, FormControlLabel } from '@mui/material';
+import { Box, Typography, TextField, FormControl, Select, MenuItem, Button, Checkbox, FormGroup, FormControlLabel, InputLabel, OutlinedInput } from '@mui/material';
 
 const Serviceform = ({ onClose }) => {
   const boxShadowStyle = {
@@ -125,18 +122,19 @@ const Serviceform = ({ onClose }) => {
   
 
   return (
-    <Box className="form_about container_space">
+   <Box className="flex-center">
+     <Box className="form_about container">
       <Typography className='secondary_heading' variant='h2'>Contact Information</Typography>
       <Typography textAlign={"center"} className="primary_subheading">Some of our projects may interest you</Typography>
 
       <Box className="form-control_man" width={"100%"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
         <Box className="form-control" style={boxShadowStyle}>
           <Box width={"100%"} >
-            <Typography className="Ready" variant='h3' fontSize={'30px'} fontWeight={600} color={"#053480"}>Ready To work with us? Tell us more about your Project Requirement</Typography>
+            <Typography className="Ready" variant='h3'  fontWeight={600} color={"#053480"}>Ready To work with us? Tell us more about your Project Requirement</Typography>
           </Box>
           <Box className="form_control_child">
-            <Box className="contact-1" padding={0} paddingTop={1.5}>
-              <Box marginTop={3}>
+            <Box className="contact-1"  >
+              <Box >
                 <TextField
                   id="name"
                   name="username"
@@ -147,9 +145,10 @@ const Serviceform = ({ onClose }) => {
                   helperText={errors.username}
                   fullWidth
                   required
+                  className='input'
                 />
               </Box>
-              <Box marginTop={3}>
+              <Box >
                 <TextField
                   name="email"
                   label="Email"
@@ -159,9 +158,10 @@ const Serviceform = ({ onClose }) => {
                   helperText={errors.email}
                   fullWidth
                   required
+                  className='input'
                 />
               </Box>
-              <Box marginTop={3}>
+              <Box >
                 <TextField
                   name="number"
                   label="Phone Number"
@@ -171,10 +171,11 @@ const Serviceform = ({ onClose }) => {
                   helperText={errors.number}
                   fullWidth
                   required
+                  className='input'
                 />
               </Box>
               <FormControl fullWidth margin="normal" required error={!!errors.requirement}>
-                <Typography>Select Requirements</Typography>
+              <InputLabel id="requirement-labell">Select Requirement</InputLabel>
                 <Select
                   labelId="requirement-label"
                   id="requirement"
@@ -183,7 +184,12 @@ const Serviceform = ({ onClose }) => {
                   onChange={handleChange}
                   error={!!errors.requirement}
                   fullWidth
+                  className='input'
+                  label="Select Requirement"
+
                 >
+
+
                    <MenuItem value="Enterprise Web Solution">Web Development</MenuItem>
                   <MenuItem value="UI/UX Services">UI/UX Services</MenuItem>
                   <MenuItem value="Mobile Apps Development">Web Designing</MenuItem>
@@ -196,7 +202,10 @@ const Serviceform = ({ onClose }) => {
                   <MenuItem value="Digital Marketing">Digital Marketing</MenuItem>
                 </Select>
                 {errors.requirement && <Typography variant="caption" color="error">{errors.requirement}</Typography>}
-              </FormControl>
+              </FormControl> 
+              
+  
+
               <TextField
                 fullWidth
                 id="message"
@@ -208,9 +217,10 @@ const Serviceform = ({ onClose }) => {
                 onChange={handleChange}
                 error={!!errors.textarea}
                 helperText={errors.textarea}
-                margin="normal"
                 required
+                className='input'
               />
+              
             </Box>
 
             <Box className="contact_section_second">
@@ -255,7 +265,7 @@ const Serviceform = ({ onClose }) => {
                     <FormControlLabel control={<Checkbox name="Application Services" onChange={handleCheckboxChange} />} label="Application Services" />
                     <FormControlLabel control={<Checkbox name="IT Consultancy" onChange={handleCheckboxChange} />} label="IT Consultancy" />
                   </FormGroup>
-                  <Button onClick={handleSubmit} id='submit' variant="contained" color="primary">Submit</Button>
+                  <Button onClick={handleSubmit} className='submit' variant="contained" >Submit</Button>
                 </FormControl>
               </Box>
             </Box>
@@ -263,9 +273,13 @@ const Serviceform = ({ onClose }) => {
         </Box>
       </Box>
     </Box>
+   </Box>
   );
 };
 
 export default Serviceform;
+
+
+
 
 

@@ -20,20 +20,19 @@ const SameOurWork = () => {
 
     return (
         <Box className="work flex-center-coulmn  container_space" >
-            <Box className="flex-center-coulmn we-take"  >
-                <Typography variant='h2' className='secondary_heading'   >
-                    {contents.SomeourWorks.heading}
-                </Typography>
-                <Typography  textAlign={"center"}  className='primary_subheading our-utality-p' >
-                    {contents.SomeourWorks.contant}
-                </Typography>
+            <Box className="container">
+                <Box className="flex-center-coulmn "  >
+                    <Typography variant='h2' className='secondary_heading'   >
+                        {contents.SomeourWorks.heading}
+                    </Typography>
+                    <Typography textAlign={"center"} className='primary_subheading our-utality-p' >
+                        {contents.SomeourWorks.contant}
+                    </Typography>
 
-            </Box>
+                </Box>
 
-            <Box  className="flex-center card-section"  >
-
-            
-            <Box className="flex-center card" >
+                <Box className="flex-center card-section"  >
+                    <Box className="flex-center card" >
                         <Box  >
                             <Box className="work-background flex-center" >
                                 <img src={Work3} alt="" />
@@ -52,9 +51,7 @@ const SameOurWork = () => {
                             <Button className='view-work' >Visit Website</Button>
                         </CardActions>
                     </Box>
-              
 
-                    
                     <Box className="flex-center card" >
                         <Box  >
                             <Box className="work-background flex-center"  >
@@ -74,9 +71,7 @@ const SameOurWork = () => {
                             <Button className='view-work' >Visit Website</Button>
                         </CardActions>
                     </Box>
-                   
 
-            
                     <Box className="flex-center card" >
                         <Box  >
                             <Box className="work-background flex-center"  >
@@ -96,7 +91,7 @@ const SameOurWork = () => {
                             <Button className='view-work' >Visit Website</Button>
                         </CardActions>
                     </Box>
-               
+                </Box>
             </Box>
         </Box>
     )

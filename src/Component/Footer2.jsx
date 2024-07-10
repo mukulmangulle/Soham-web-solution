@@ -21,7 +21,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 
 
-const Footer = () => {
+const Footer2 = () => {
     const dispatch = useDispatch()
     const { contents } = useSelector((state) => state.content);
 
@@ -33,9 +33,9 @@ const Footer = () => {
 
     return (
         <>
-            
+          
             <Box  color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
-                <Box className="footer_padding_section"  paddingTop={5} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
+                <Box className="footer_padding_section container"   display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
                         <Link to="/" >
                             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
@@ -152,8 +152,8 @@ const Footer = () => {
                     </Box>
                 </Box>
 
-                <Box className="copyright"   >
-                    <Box className="copyright-child">
+                <Box className="copyright "   >
+                    <Box className="copyright-child  flex-between-wrap">
                         <Box>
                             <Typography >
                                 {contents.footerData.copyrightText}
@@ -161,17 +161,17 @@ const Footer = () => {
                         </Box>
                        
 
-                        <Box className="copyright-privacy" padding={1}>
-                            < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white " margin={0.5}  >
+                        <Box className="copyright-privacy" >
+                            < Link to={`/${process.env.SLUG_URL}/privacy-policy/`}  className="color-white "   >
                                 Privacy
                             </Link>
 
                             <Typography> |  </Typography>
-                            < Link to={`/${process.env.SLUG_URL}/terms-conditions/`}  className="color-white "  margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/terms-conditions/`}  className="color-white "   >
                                 Terms
                             </Link>
                             <Typography> |  </Typography>
-                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`} className="color-white "  margin={0.5}  >
+                            < Link to={`/${process.env.SLUG_URL}/support-and-maintenance-packages/`} className="color-white "  >
                                 Support
                             </Link>
 
@@ -182,5 +182,5 @@ const Footer = () => {
         </>
     )
 }
-export default Footer;
+export default Footer2;
 

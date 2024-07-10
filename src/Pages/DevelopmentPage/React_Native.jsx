@@ -18,8 +18,8 @@ const React_Native = () => {
                 </Box>
             </Box>
 
-            <Box className="service_primary_section container_space flex-center" >
-
+            <Box className="service_primary_section  flex-center" >
+            <Box className="container">
                 <Box className="flex-center-coulmn padding-top-bottom  service_chid"  >
 
 
@@ -38,7 +38,7 @@ React Native's flexibility and performance make it a top choice for modern app d
 
 
                 </Box>
-
+</Box>
             </Box>
 
             <Service />

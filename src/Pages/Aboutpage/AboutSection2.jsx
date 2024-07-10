@@ -21,7 +21,7 @@ const AboutSection2 = () => {
       </Box>
 
       <Box className='aboutsectiocolor container_space  flex-center ' >
-        <Box className="flex-center">
+        <Box className="flex-center container">
           <img className='about_img' src={AboutSectionimg} alt="" />
           <Box className="about-welcome" >
             <Typography className='about-heading' variant='h3'>{contents.aboutSectionData.heading}</Typography>

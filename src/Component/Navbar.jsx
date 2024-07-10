@@ -36,12 +36,12 @@ const Navbar = () => {
   };
 
   return (
-    <Box className='navbar' position={"sticky"} top={"0%"} display={'flex'} alignItems={'center'} >
+    <Box className='navbar ' position={"sticky"} top={"0%"} display={'flex'} alignItems={'center'} >
       {/* <AppBar position="static" display={'flex'} alignItems={'center'} justifyContent={'center'} >  */}
       {/* <Toolbar >  */}
       <Box className="flex-center" >
 
-        <Box className="flex-between navbar-height"  >
+        <Box className="flex-between navbar-height "  >
           <Link to="/" >
             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
           </Link>

@@ -13,21 +13,18 @@ const CareerOpeningTeam = () => {
     return (
         <>
 
-            <Box  className="container_space" margin={"auto"} bgcolor={"#E6EBF3"} width={"100%"} display={"flex"} alignItems={"center"} justifyContent={"center"} flexDirection={"column"}>
-                <Typography className='secondary_heading' variant='h2'    >
-                    Current openings in Team
-                </Typography>
-
-
-                <Box className="carrer_toogle_section" >
-
+            <Box className="container_space flex-center"  bgcolor={"#E6EBF3"} >
+                <Box className="carrer_toogle_section container" >
+                    <Typography className='secondary_heading' variant='h2'    >
+                        Current openings in Team
+                    </Typography>
                     <Careertoggle1 />
                     <Careertoggle2 />
                     <Careertoggle3 />
                     <Careertoggle4 />
                     <Careertoggle5 />
-                    <Careertoggle6/>
-                    <Careertoggle7/>
+                    <Careertoggle6 />
+                    <Careertoggle7 />
                 </Box>
             </Box>
 

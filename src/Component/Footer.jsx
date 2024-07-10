@@ -33,7 +33,7 @@ const Footer = () => {
 
     return (
         <>
-            <Box className="flex-center man-want width1920"  >
+            <Box className="flex-center man-want "  >
                 <Box className='want flex-center' >
 
                    
@@ -45,7 +45,7 @@ const Footer = () => {
                 </Box>
             </Box>
             <Box  color={"#FFFFFF"} className="flex-center footer" flexDirection={'column'}  >
-                <Box className="footer_padding_section"  paddingTop={12} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
+                <Box className="footer_padding_section container"  paddingTop={12} display={'flex'} alignItems={'start'} justifyContent={"space-between"} flexWrap={'wrap'}>
                     <Box className="footer-sec1" >
                         <Link to="/" >
                             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
@@ -162,8 +162,8 @@ const Footer = () => {
                     </Box>
                 </Box>
 
-                <Box className="copyright"   >
-                    <Box className="copyright-child">
+                <Box className="copyright "   >
+                    <Box className="copyright-child  flex-between-wrap">
                         <Box>
                             <Typography >
                                 {contents.footerData.copyrightText}

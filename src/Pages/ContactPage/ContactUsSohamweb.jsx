@@ -36,7 +36,7 @@ const ContactUsSohamweb = () => {
       </Box>
       </Box>
       
-      <Box className=" container_space" >
+      <Box className="flex-center"><Box className=" container" >
         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} textAlign={'center'}>
           <Typography className="secondary_heading" variant='h3'   >Let's Build Something Amazing Together!
           </Typography>  
@@ -47,7 +47,7 @@ const ContactUsSohamweb = () => {
 
         </Box>
         <Contact />
-      </Box>
+      </Box></Box>
       <Box>
                 <img className='map-img' src={Map} alt="" />
             </Box>

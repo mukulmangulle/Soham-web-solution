@@ -4,7 +4,6 @@ import App from './App.jsx'
 import "./Css/index.css"
 import "./Css/Homepage/Navbar.css"
 import "./Css/Homepage/Home.css"
-import "./Css/Homepage/OurUtality.css"
 import "./Css/Toggle.css"
 import "./Css/AboutSection.css"
 import "./Css/Contact.css"

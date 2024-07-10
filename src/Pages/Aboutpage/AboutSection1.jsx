@@ -16,9 +16,10 @@ const AboutSection1 = () => {
 
   return (
     <>
-      <Box className="about_our-journey flex-center " >
+      <Box className="about_our-journey flex-center   " >
 
-        <Box className="flex-center-coulmn about_journey container_space" textAlign={'center'}>
+      <Box className="container_space">
+      <Box className="flex-center-coulmn about_journey container" textAlign={'center'}>
           <Typography  className='secondary_heading' variant='h2' >
             {contents.aboutData.subheading}
           </Typography>
@@ -34,6 +35,7 @@ const AboutSection1 = () => {
         </Box>
 
         </Box>
+      </Box>
       </Box>
 
     </>

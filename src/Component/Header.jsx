@@ -16,7 +16,7 @@ const Header = () => {
         <Box className='header'>
             <AppBar position="static">
                 <Box className="flex-center">
-                    <Box className="header-responsive" >
+                    <Box className="header-responsive " >
                         <Box className="header flex-between">
                             <Box className="flex-center" >
 

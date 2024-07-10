@@ -31,7 +31,8 @@ const AllBlogs = ({ Api_url }) => {
                 All Blogs
             </Typography>
            </Box>
-            <Box className="flex-center container_space">
+          <Box className="flex-center">
+          <Box className="flex-center container">
                 <Box  className="flex-between-wrap blog_section "  >
                     {blogcontents.map((blogcontent) => (
                         <Carditem key={blogcontent?.id} blogcontent={blogcontent} />
@@ -39,6 +40,7 @@ const AllBlogs = ({ Api_url }) => {
                     {showPagination && <AllPagination2 Api_url={Api_url} />}
                 </Box>
             </Box>
+          </Box>
             <Footer2/>
         </Box>
     );

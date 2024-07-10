@@ -21,90 +21,89 @@ const About_us = () => {
     }, [dispatch]);
     return (
         < >
-            <Box className="flex-center-column  about" >
-               <Box className="container_space">
-               <Box  >
-                    <Typography className='secondary_heading' variant='h2'  >
-                        {contents.aboutus.heading}
-                    </Typography>
-                    <Typography margin={"auto"} className='primary_subheading our-utality-p' >
-                        {contents.aboutus.contant}
-                    </Typography>
-                </Box>
+            <Box className="flex-center container_space">
+                <Box className="  about container" >
 
-                <Box className="flex-center">
-                    <Box className="flex-between  client-section-child"  >
-                       
-                        {/* 1 */}
-                        <Box className=" inner">
-                            <Box className=" light_holder">
-                                <img class="lamp " src={Pendant} alt="" />
-                                {/* <GiCeilingLight class="lamp " /> */}
-                                {/* <Typography  class="lamp " ></Typography> */}
-                                <Box class="light" >
-
-                                    <img src={Ab1} alt="" />
-                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography className='designtion' >
-                                        {contents.aboutus.childContainer1.designation}</Typography>
-
-                                    <Typography className='client_content'>
-                                        {contents.aboutus.childContainer1.testimonial}
-                                    </Typography>
-                                </Box>
-                            </Box>
-                        </Box>
-
-
-                        {/* 2 */}
-                        <Box className=" inner">
-                            <Box className=" light_holder">
-                            <img class="lamp " src={Pendant} alt="" />
-
-                                {/* <GiCeilingLight class="lamp " /> */}
-                                {/* <Typography  class="lamp " ></Typography> */}
-                                <Box class="light" >
-
-                                    <img src={Ab1} alt="" />
-                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography className='designtion' >
-                                        {contents.aboutus.childContainer1.designation}</Typography>
-
-                                    <Typography className='client_content'>
-                                        {contents.aboutus.childContainer1.testimonial}
-                                    </Typography>
-                                </Box>
-                            </Box>
-                        </Box>
-
-
-                        {/* 3*/}
-                        <Box className=" inner">
-                            <Box className=" light_holder">
-                            <img class="lamp " src={Pendant} alt="" />
-
-                                {/* <GiCeilingLight class="lamp " /> */}
-                                {/* <Typography  class="lamp " ></Typography> */}
-                                <Box class="light" >
-
-                                    <img src={Ab1} alt="" />
-                                    <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
-                                    <Typography className='designtion' >
-                                        {contents.aboutus.childContainer1.designation}</Typography>
-
-                                    <Typography className='client_content'>
-                                        {contents.aboutus.childContainer1.testimonial}
-                                    </Typography>
-                                </Box>
-                            </Box>
-                        </Box>
-
-
-                        
-
+                    <Box  >
+                        <Typography className='secondary_heading' variant='h2'  >
+                            {contents.aboutus.heading}
+                        </Typography>
+                        <Typography margin={"auto"} className='primary_subheading our-utality-p' >
+                            {contents.aboutus.contant}
+                        </Typography>
                     </Box>
+
+                    <Box className="flex-center">
+                        <Box className="flex-between  client-section-child"  >
+
+                            {/* 1 */}
+                            <Box className=" inner">
+                                <Box className=" light_holder">
+                                    <img class="lamp " src={Pendant} alt="" />
+                                    {/* <GiCeilingLight class="lamp " /> */}
+                                    {/* <Typography  class="lamp " ></Typography> */}
+                                    <Box class="light" >
+
+                                        <img src={Ab1} alt="" />
+                                        <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
+                                        <Typography className='designtion' >
+                                            {contents.aboutus.childContainer1.designation}</Typography>
+
+                                        <Typography className='client_content'>
+                                            {contents.aboutus.childContainer1.testimonial}
+                                        </Typography>
+                                    </Box>
+                                </Box>
+                            </Box>
+
+
+                            {/* 2 */}
+                            <Box className=" inner">
+                                <Box className=" light_holder">
+                                    <img class="lamp " src={Pendant} alt="" />
+
+                                    {/* <GiCeilingLight class="lamp " /> */}
+                                    {/* <Typography  class="lamp " ></Typography> */}
+                                    <Box class="light" >
+
+                                        <img src={Ab1} alt="" />
+                                        <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
+                                        <Typography className='designtion' >
+                                            {contents.aboutus.childContainer1.designation}</Typography>
+
+                                        <Typography className='client_content'>
+                                            {contents.aboutus.childContainer1.testimonial}
+                                        </Typography>
+                                    </Box>
+                                </Box>
+                            </Box>
+
+
+                            {/* 3*/}
+                            <Box className=" inner">
+                                <Box className=" light_holder">
+                                    <img class="lamp " src={Pendant} alt="" />
+
+                                    {/* <GiCeilingLight class="lamp " /> */}
+                                    {/* <Typography  class="lamp " ></Typography> */}
+                                    <Box class="light" >
+
+                                        <img src={Ab1} alt="" />
+                                        <Typography variant='h5'>{contents.aboutus.childContainer1.name}</Typography>
+                                        <Typography className='designtion' >
+                                            {contents.aboutus.childContainer1.designation}</Typography>
+
+                                        <Typography className='client_content'>
+                                            {contents.aboutus.childContainer1.testimonial}
+                                        </Typography>
+                                    </Box>
+                                </Box>
+                            </Box>
+
+                        </Box>
+                    </Box>
+
                 </Box>
-               </Box>
             </Box>
 
         </>

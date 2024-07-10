@@ -1,4 +1,4 @@
-header
+.header
 .header-responsive {
     width: 100%;
     max-width: 1200px;
@@ -34,6 +34,7 @@ background: linear-gradient(to right, #0160E7, #053480);
     width: 100%;
     max-width: 1200px;
     padding: 0px 20px;
+
 }
 
 .ul-box {

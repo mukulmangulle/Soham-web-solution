@@ -408,7 +408,7 @@ const Home = () => {
 
     return (
         <Box className="home flex-center  container_space" flexDirection={'column'}>
-            <Box className="home-continer flex-between"
+            <Box className="home-continer container flex-between"
             >
                 <Box className="home-content "   >
                     <Typography className="home-h1  text_color_blue" variant='h1'  >
@@ -446,7 +446,7 @@ const Home = () => {
             </Box>
 
 
-            <Box className="home-lastSection flex-between"   >
+            <Box className="home-lastSection flex-between container"   >
                 <Box display={'flex'} alignItems={"center"} >
                     <a className='text-decortion flex-center text_color_blue' target="_blank" href="tel:%20+91%207879231700" margin={0.5}  >
                         <IoCall fontSize={20} className='text_color_blue' />

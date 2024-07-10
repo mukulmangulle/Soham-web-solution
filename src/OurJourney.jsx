@@ -13,7 +13,7 @@ const OurJourney = () => {
                 </Typography>
             </Box>
             <Box className="flex-center padding-top-bottom " >
-                <Typography className="primary_subheading life-text "  textAlign={"center"}  >
+                <Typography className="primary_subheading life-text container"  textAlign={"center"}  >
                     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
                     demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used
                     as a placeholder before the final copy is available.

@@ -4,13 +4,12 @@
 
 .aboutsectiocolor div {
     width: 100%;
-    max-width: 1200px;
 }
 .aboutsectiocolor .about_img {
     width: 400px;
 }
 
-#submit {
+.form-control_man .submit {
     width: "150px";
     height: "50px";
     background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
@@ -36,23 +35,14 @@
     padding-bottom: 8px;
     color: white;
 }
-.convert_subheading{
-margin:0px 20px !important;
-}
+
 
 
 .aboutsectiocolor .innovation {
-    width: 100%;
     font-size:var(--font-h6);
 }
 
-.about_our-journey {
-    width:100%;
-    max-width: 1200px;
-    padding: 0px 20px !important;
-    margin: auto;
-    padding-bottom: 2.5rem;
-}
+
 
 .img_ceo {
    width: 300px;
@@ -71,10 +61,7 @@ margin:0px 20px !important;
     width: 100%;
     margin: 0px auto;
 }
-.technology_child_section{
-    max-width: 1200px;
-    padding: 0px 20px;
-}
+
 
 .techno .Technology-focus-grid {
     background: white;
@@ -93,43 +80,31 @@ margin:0px 20px !important;
     padding-left: 20px;
     padding-right: 20px;
 }
-.form_about{
-    width: 100%;
-    max-width: 1200px;
-  margin: 0 auto;
-
-
+.form-control .Ready{
+       font-size: var(--font-h3);
 }
-
+.form-control .input{
+    margin: 10px 0px;
+}
 .contact-1 {
     width: 50%;
     margin: 0px 1.5px;
 }
 
 .contact-2 {
-    width: 300px;
+    width: 270px;
     margin: 0px 1.5px;
 }
 
 .contact-3 {
-    width: 200px;
+    width: 180px;
     margin: 0px 1.5px;
     padding-top: 50px;
 }
 
 .leadership {
-    width: 100%;
-    max-width: 1200px ;
-    margin: 0px auto;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    
-
-}
+       text-align: center;
+    }
 
 .leadership_box {
     margin: 20px;
@@ -160,9 +135,7 @@ margin:0px 20px !important;
 }
 
 .vision-man .vision-child {
-    width: 100%;
-    max-width: 1200px;
-    padding: 10px 20px 0px 20px;
+    padding-top: 10px;
 
 }
 
@@ -193,9 +166,7 @@ margin:0px 20px !important;
     margin: 1rem;
 }
 
-.form_about {
-    padding-bottom: 2.5rem;
-}
+
 .form-control .contact_section_second{
 width: 50%;
 
@@ -217,7 +188,7 @@ padding-left: 20px;
 
 .form-control .border_bottom_form {
     border-bottom: 1px solid  var(--color-blue);
-    width: 70%;
+    width: 100%;
 }
 .form_control_child{
    display: flex;
@@ -230,6 +201,12 @@ padding-left: 20px;
         padding-top: 0px;
     margin: 0px;
      }
+     .form-control_man .submit {
+        
+        margin-top: 0px;
+      
+    }
+   
   
 
 }
@@ -312,6 +289,12 @@ padding-left: 20px;
     .form_control_child{
            flex-wrap: wrap;
     }
+    .form-control_man .submit {
+      
+        margin-top: 20px;
+       
+    }
+    
 }
 
 @media (max-width:768px) {
@@ -337,9 +320,6 @@ padding-left: 20px;
 
     }
 
-    .aboutsectiocolor img {
-        margin-bottom: 30px;
-    }
 
     .aboutsectiocolor .innovation {
         font-size:var(--font-h6);
@@ -366,6 +346,7 @@ padding-left: 20px;
     .team .leadership-p {
         font-size:var(--font-h6);  
     }
+   
 
     .contact-1 {
         width: 100%;
@@ -378,7 +359,9 @@ padding-left: 20px;
         align-items: center !important;
         justify-content: center !important;
     }
-
+    .form-control .Ready{
+        font-size: var(--font-h3);
+ }
     .form-control .requirement-label {
         font-size:var(--font-h5);    }
 
@@ -389,19 +372,21 @@ padding-left: 20px;
         
         padding-top: 50px;
     }
+  
 }
 
 @media (max-width:576px) {
     .form_about .form-control {
         box-shadow: none !important;
         width: 100%;
+        padding: 0px;
     }
-
+    .form-control .contact_section_second{
+        padding-left: 0px;
+    }
     .aboutsectiocolor img {
         width: 375px;
-        margin-top: 0%;
-        padding-top: 0%;
-        margin-bottom: 0px;
+        
     }
 
     .aboutsectiocolor div {
@@ -423,7 +408,9 @@ padding-left: 20px;
     .leadership_box {
         margin: 10PX;
     }
-
+    .form-control .input{
+        margin: 7px 0px;
+    }
     .contact-1 {
         width: 100%;
     }
@@ -448,7 +435,8 @@ padding-left: 20px;
     }
     
     .vision-man .card_1 {
-        margin: 10px;
+        margin-top: 10px ;
+        margin-bottom: 10px;
     }
 
     .vision-man .lizards {
@@ -467,6 +455,10 @@ padding-left: 20px;
     .contact-3 {
          padding: 0px;
         padding-top: 0px;
+    }
+    .form-control_man{
+        padding-left:0px;
+        padding-right: 0px;
     }
 }
 
@@ -504,9 +496,6 @@ padding-left: 20px;
     .form-control .border_bottom_form {
         width: 100%;
     }
-    
-    .vision-man .V-CARD {
-        padding: 4px;
-    }
+ 
     
 }

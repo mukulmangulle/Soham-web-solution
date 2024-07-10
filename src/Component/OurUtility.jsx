@@ -22,8 +22,8 @@ const OurUtility = () => {
 
 
     return (
-        <Box className="container_space">
-            <Box className="flex-center-column utility "  >
+        <Box className="container_space flex-center">
+            <Box className="flex-center-column utility container "  >
 
                 <Box className="flex-center-coulmn ">
                     <Typography variant='h2' className='secondary_heading'>

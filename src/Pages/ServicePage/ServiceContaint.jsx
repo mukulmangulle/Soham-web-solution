@@ -29,7 +29,7 @@ const ServiceContaint = () => {
                 <Box className="service-man flex-center-coulmn "  >
 
                     {/* 1 */}
-                    <Box className="service_container_one container_space flex-between-wrap" width={"100%"}  >
+                    <Box className="service_container_one container flex-between-wrap"  >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={Php_logo} alt="" />
 
@@ -54,7 +54,7 @@ const ServiceContaint = () => {
 
                     {/* 2 */}
                     <Box className="service_container_tow_man flex-center ">
-                        <Box className="service_container_two container_space flex-between-wrap" width={"100%"}   >
+                        <Box className="service_container_two container flex-between-wrap"  >
                         <img className='service_img' src={Wordpress} alt="" />
 
                             <Box className="devlopment-text">
@@ -79,7 +79,7 @@ const ServiceContaint = () => {
 
 
                     {/* 3 */}
-                    <Box className="service_container_one container_space flex-between-wrap" width={"100%"} >
+                    <Box className="service_container_one container flex-between-wrap" >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={Shopify_logo} alt="" />
                             <Typography variant='h2' className="service_secondary-heading">
@@ -103,7 +103,7 @@ const ServiceContaint = () => {
 
                     {/* 4 */}
                     <Box className="service_container_tow_man flex-center">
-                        <Box className="service_container_two container_space flex-between-wrap" width={"100%"}  >
+                        <Box className="service_container_two container flex-between-wrap"  >
                         <img className='service_img' src={Webdesigner} alt="" />
 
 
@@ -125,7 +125,7 @@ const ServiceContaint = () => {
                     </Box>
 
                     {/* 5 */}
-                    <Box className="service_container_one container_space flex-between-wrap" width={"100%"} >
+                    <Box className="service_container_one container flex-between-wrap"  >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={graphic_logo} alt="" />
                             <Typography variant='h2' className="service_secondary-heading">
@@ -146,7 +146,7 @@ const ServiceContaint = () => {
 
                     {/* 6 */}
                     <Box className="service_container_tow_man  flex-center">
-                        <Box className="service_container_two container_space flex-between-wrap" width={"100%"}  >
+                        <Box className="service_container_two container flex-between-wrap"   >
 
                         <img className='service_img' src={Ecoomerce} alt="" />
 
@@ -170,7 +170,7 @@ const ServiceContaint = () => {
                     </Box>
 
                     {/* 7 */}
-                    <Box className="service_container_one container_space flex-between-wrap" width={"100%"}  >
+                    <Box className="service_container_one container flex-between-wrap"  >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={Larval_logo} alt="" />
 
@@ -193,7 +193,7 @@ const ServiceContaint = () => {
                     </Box>
                     {/* 8 */}
                     <Box className="service_container_tow_man flex-center">
-                        <Box className="service_container_two container_space flex-between-wrap" width={"100%"}  >
+                        <Box className="service_container_two container flex-between-wrap" >
 
                         <img className='service_img' src={Codeigniter} alt="" />
 
@@ -217,7 +217,7 @@ const ServiceContaint = () => {
                     </Box>
 
                     {/* 9 */}
-                    <Box className="service_container_one container_space flex-between-wrap" width={"100%"}  >
+                    <Box className="service_container_one container flex-between-wrap"   >
                         <Box className="devlopment-text" >
                             <img className='service-logo' src={ReactNativer_logo} alt="" />
 
