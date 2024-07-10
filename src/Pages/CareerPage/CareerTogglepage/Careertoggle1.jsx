@@ -17,7 +17,7 @@ function Careertoggle1() {
     };
 
     return (
-        <Box className="current_opning" id="box-shadow "    >
+        <Box className="current_opning" id="box-shadow"    >
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} > 
                 <AccordionSummary   >
                     <Box className="flex-between careertoggle"  >
@@ -28,7 +28,7 @@ function Careertoggle1() {
                     </Box>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Box className="content-toggle panel" >
+                    <Box className="content-toggle" >
                         <Box className="D-CENTER"  >
                             <Typography className='career_toggle_subheading' >Experience :</Typography>
                             <Typography className='Typography-gray-career'   >0-1 year</Typography>

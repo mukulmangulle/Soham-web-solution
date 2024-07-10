@@ -21,8 +21,8 @@ const About_us = () => {
     }, [dispatch]);
     return (
         < >
-            <Box className="flex-center ">
-                <Box className="  about container" >
+            <Box className="flex-center container">
+                <Box className="  about " >
 
                     <Box  >
                         <Typography className='secondary_heading' variant='h2'  >

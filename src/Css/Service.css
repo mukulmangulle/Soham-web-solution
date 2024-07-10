@@ -121,31 +121,7 @@
       justify-content: space-evenly;
     }
   
-    .light img {
-      padding-bottom: 10px !important;
-    }
-  
-    .light h5 {
-  
-      width: 150px;
-  
-    }
-  
-    .light .client_content {
-      width: 75%;
-    }
-  
-    .light_holder {
-      width: 380px;
-      height: 100%;
-      margin: 10px 0px;
-    }
-  
-    .light {
-  
-      text-align: center;
-      padding-top: 100px;
-    }
+    
   
   }
   
