@@ -138,7 +138,7 @@ function Careertoggle6() {
                                 }}
                             >
 
-                                <CareerForm heading=" Frontend Developer" />
+                                <CareerForm heading=" Mobile App Developer (React Native)" />
 
 
 

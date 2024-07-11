@@ -36,7 +36,14 @@ background: linear-gradient(to right, #0160E7, #053480);
     padding: 0px 20px;
 
 }
-
+/* .dropdown_menu a {
+    display: block;
+    transition: transform 2.5s ease;
+    }
+    
+    .dropdown_menu a:hover {
+    transform: translateX(10px);
+    } */
 .ul-box {
     display: flex;
     align-items: top;

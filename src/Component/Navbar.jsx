@@ -35,6 +35,10 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
+ 
+  
+  
+
   return (
     <Box className='navbar ' position={"sticky"} top={"0%"} display={'flex'} alignItems={'center'} >
       {/* <AppBar position="static" display={'flex'} alignItems={'center'} justifyContent={'center'} >  */}

@@ -368,7 +368,7 @@
 
 
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Box from '@mui/material/Box';
 import Typography from "@mui/material/Typography"
 import Homeimg from "../assets/home.svg"
@@ -400,33 +400,31 @@ const Home = () => {
     const dispatch = useDispatch()
     const { contents, isLoading, isError } = useSelector((state) => state.content);
 
-    useEffect(() => {
-        dispatch(fetchcontents())
-    }, [dispatch]);
-
-
-
+   
     return (
         <Box className="home flex-center  container_space" flexDirection={'column'}>
             <Box className="home-continer container flex-between"
             >
                 <Box className="home-content "   >
                     <Typography className="home-h1  text_color_blue" variant='h1'  >
-                        We Trust In
-                        <Box className="text-box" marginLeft={1} >
+                        We Trust In <br></br>
+                        <Box className="text-box" >
                             <Box > Creativity</Box>
                             <Box>Enthusiasm</Box>
                             <Box >Commitment</Box>
                         </Box>
-{/* 
-                        <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div> */}
+                     
 
                     </Typography>
+
+
 
 
                     <Typography className='home-p1 text_color_blue' variant='h6' >
                         {contents.homeData.subheading}
                     </Typography>
+
+
 
                     <Box className="schadule-meeting" >
                         <Link target='_blank' className='text-decortion flex-center' to="https://calendly.com/sws-contact" >

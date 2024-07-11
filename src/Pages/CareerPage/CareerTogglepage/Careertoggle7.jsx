@@ -139,7 +139,7 @@ function Careertoggle7() {
                                 }}
                             >
 
-                                <CareerForm heading=" Frontend Developer" />
+                                <CareerForm heading="HR Executive" />
 
 
 
