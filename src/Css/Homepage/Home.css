@@ -1,12 +1,45 @@
-/* home */
-.home{
-  background-color:#e6f0fd;
+/* @import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
 }
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+} */
+/* home */
+
+
+
+.home {
+    background-color: #e6f0fd;
+}
+
 .home .home-continer {
     padding-top: 5rem;
     padding: 50px 20px;
-   
-    
+
+
 }
 
 .home-continer .home-content,
@@ -17,20 +50,20 @@
 
 .home-content .home-h1 {
     font-size: var(--font-h1);
-    font-weight: var(--font-weight);  
+    font-weight: var(--font-weight);
 }
 
 .home-content .home-p1 {
     font-size: var(--font-h5);
     padding-top: 2rem;
     max-width: 700px;
-    font-weight: var(--font-weight);  
+    font-weight: var(--font-weight);
 
 }
 
 .schadule-meeting .home-p2 {
     font-size: var(--font-h5);
-    font-weight: var(--font-weight);  
+    font-weight: var(--font-weight);
     margin-right: 15px;
 }
 
@@ -46,8 +79,8 @@
 
 
 .home-lastSection p {
-    font-weight: var(--font-weight);  
-      font-size: var(--font-p1);
+    font-weight: var(--font-weight);
+    font-size: var(--font-p1);
 }
 
 .schadule-meeting .Aroow_right {
@@ -203,21 +236,25 @@
     text-align: center;
 }
 
-.box_utility p{
+.box_utility p {
     color: black;
 }
-.life-text{
-padding-top: 30px;}
+
+.life-text {
+    padding-top: 30px;
+}
 
 .web-devlopment {
     flex-wrap: wrap;
     margin: 30px 0px 0px 0px;
-    
+
 }
+
 .web-devlopment P {
     font-size: var(--font-p1);
     line-height: 16px;
 }
+
 .web-devlopment .box_utility {
     border: 2px solid #6e92cb;
     width: 23%;
@@ -241,8 +278,8 @@ padding-top: 30px;}
 /* some our work */
 .work {
     background-color: #E6edf3;
-    
-   
+
+
 }
 
 .work-background {
@@ -252,6 +289,7 @@ padding-top: 30px;}
     width: 100px;
     height: 100px;
 }
+
 .work .view-work {
     width: 230px;
     height: 55px;
@@ -271,7 +309,7 @@ padding-top: 30px;}
 
 .card-heading {
     font-size: var(--font-h5) !important;
-    font-weight: var(--font-weight)!important;
+    font-weight: var(--font-weight) !important;
 }
 
 .ludo-earn-p {
@@ -308,7 +346,7 @@ padding-top: 30px;}
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 
 
 
@@ -342,64 +380,65 @@ padding-top: 30px;}
         height: calc(100% + 9px);
     }
 }
+
 /* about */
 
 
-  
-  .light img {
+
+.light img {
     padding-bottom: 20px !important;
-  }
-  
-  .light h5 {
+}
+
+.light h5 {
     font-size: var(--font-h6);
-    font-weight: var(--font-weight);  
-  
-  }
-  
-  .light .designtion {
+    font-weight: var(--font-weight);
+
+}
+
+.light .designtion {
     font-size: var(--font-p1);
     margin: 3px 0px;
-  }
-  
-  .light .client_content {
+}
+
+.light .client_content {
     font-size: var(--font-p3);
     width: 265px;
-  }
-  
-  
-  /* lamp */
-  .light_icon {
+}
+
+
+/* lamp */
+.light_icon {
     width: 30px;
     height: 50px;
-  }
-  
-  .lamp {
+}
+
+.lamp {
     height: 80px;
     width: 80px;
     color: #0534807d;
     /* filter: brightness(50) invert(9); */
-  position: relative;
-  top: 60px;
-  z-index: 1;
-  }
-  
-  .inner {
+    position: relative;
+    top: 60px;
+    z-index: 1;
+}
+
+.inner {
     /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
     background: none;
-  }
-  
-  .light_holder {
+}
+
+.light_holder {
     width: 360px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  
-  .light {
+}
+
+.light {
     width: 100%;
     height: 100%;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -409,15 +448,15 @@ padding-top: 30px;}
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-  }
-  
-  .inner:hover .light {
+
+}
+
+.inner:hover .light {
     background: linear-gradient(to bottom, var(--color-blue), var(--color-blue), #1976d26c, #1976d200);
-  }
-  
-  /* customer */
- 
+}
+
+/* customer */
+
 
 .custom-man .slick-slider div {
     background-color: #e6f0fd;
@@ -484,7 +523,7 @@ padding-top: 30px;}
 
 
 .man-want .want {
-    background: linear-gradient(to bottom,  var(--color-blue), #0160E7);
+    background: linear-gradient(to bottom, var(--color-blue), #0160E7);
     box-shadow: 0px 0px 10px 0px #ffffff;
     padding: 0rem 2rem;
     width: 100%;
@@ -501,19 +540,19 @@ padding-top: 30px;}
 
 .partner {
     margin-bottom: 40PX !important;
-  
+
 }
 
 .want p {
     font-size: var(--font-h5);
     color: white;
-    
+
 }
 
 .partner .partner-centert div {
-  
+
     margin-top: 16px;
-  
+
 }
 
 .partner .partner-centert img {
@@ -542,6 +581,7 @@ padding-top: 30px;}
         width: 310px;
         height: 440px;
     }
+
     /* custom */
     .slick-slider {
         background-color: none;
@@ -586,6 +626,7 @@ padding-top: 30px;}
     .home-content .schadule-meeting {
         margin-top: 1rem;
     }
+
     .web-devlopment {
         flex-wrap: wrap;
     }
@@ -617,7 +658,7 @@ padding-top: 30px;}
         padding: 1rem;
     }
 
-  
+
 
     .ludo-earn-p {
         align-items: center;
@@ -625,6 +666,7 @@ padding-top: 30px;}
         color: var(--color-blue);
         text-align: center;
     }
+
     /* partner */
     .partner .partner-centert img {
         width: 100px !important;
@@ -651,38 +693,39 @@ padding-top: 30px;}
         width: 85%;
         height: 95px;
     }
- 
+
 
     .want button {
         width: 160px;
         height: 38px;
     }
+
     .light img {
         padding-bottom: 10px !important;
-      }
-    
-      .light h5 {
-    
+    }
+
+    .light h5 {
+
         width: 150px;
-    
-      }
-    
-      .light .client_content {
+
+    }
+
+    .light .client_content {
         width: 75%;
-      }
-    
-      .light_holder {
+    }
+
+    .light_holder {
         width: 380px;
         height: 300px;
         margin: 10px 0px;
-      }
-    
-      .light {
-    
+    }
+
+    .light {
+
         text-align: center;
         padding-top: 100px;
-      }
- 
+    }
+
 }
 
 @media (max-width:768px) {
@@ -700,11 +743,12 @@ padding-top: 30px;}
     .schadule-meeting .home-p2 {
         font-size: var(--font-h5);
     }
- .home-continer .home_content_img_section {
-    width: 100%;
-    justify-content: center;
- }
-  
+
+    .home-continer .home_content_img_section {
+        width: 100%;
+        justify-content: center;
+    }
+
 
     .home-lastSection {
         display: none;
@@ -720,11 +764,12 @@ padding-top: 30px;}
     .text-box div:nth-child(3) {
         margin-top: 40px;
     }
+
     .web-devlopment P {
         font-size: var(--font-p1);
     }
 
-     .web-devlopment .box_utility {
+    .web-devlopment .box_utility {
         width: 46%;
         height: 180px;
         border-radius: 5px;
@@ -732,6 +777,7 @@ padding-top: 30px;}
         padding: 20px;
 
     }
+
     /* some our work */
     .card-heading {
         font-size: var(--font-h5) !important;
@@ -755,18 +801,19 @@ padding-top: 30px;}
     /* about */
     .light h5 {
         font-size: var(--font-h6);
-    
-      }
-    
-      .light .designtion {
+
+    }
+
+    .light .designtion {
         font-size: var(--font-p1);
-      }
-    
-      .light .client_content {
+    }
+
+    .light .client_content {
         font-size: var(--font-p3) !important;
-      }
-      /* partner */
-      .partner .partner-centert img {
+    }
+
+    /* partner */
+    .partner .partner-centert img {
         width: 80px !important;
         height: 50px;
         margin-top: 1%;
@@ -812,6 +859,7 @@ padding-top: 30px;}
     .home .home-img {
         width: 380px;
     }
+
     /* our utality */
     .web-devlopment .box_utility {
         width: 100%;
@@ -821,6 +869,7 @@ padding-top: 30px;}
         padding: 20px;
 
     }
+
     /* some our work */
     .work .card {
         width: 100%;
@@ -839,30 +888,31 @@ padding-top: 30px;}
     /* about */
     .light img {
         padding-bottom: 10px !important;
-      }
-    
-      .light h5 {
-    
+    }
+
+    .light h5 {
+
         width: 150px;
-    
-      }
-    
-      .light .client_content {
+
+    }
+
+    .light .client_content {
         width: 75%;
-      }
-    
-      .light_holder {
+    }
+
+    .light_holder {
         width: 280px;
         margin: 10px 0px;
-      }
-    
-      .light {
-    
+    }
+
+    .light {
+
         text-align: center;
         padding-top: 80px;
-      }
-      /* coustomer */
-      .box {
+    }
+
+    /* coustomer */
+    .box {
         padding: 0px 0px !important;
         display: flex;
         justify-content: center;
@@ -879,13 +929,15 @@ padding-top: 30px;}
     .box-white {
         margin: 10px;
     }
+
     /* partner */
     .man-want .want {
         width: 95%;
         height: 110px;
-       justify-content: center;
+        justify-content: center;
 
     }
+
     .partner .partner-centert img {
         width: 110px !important;
         height: 50px;
@@ -904,7 +956,8 @@ padding-top: 30px;}
         width: 110px;
         height: 28px;
     }
-    .client-section-child{
+
+    .client-section-child {
         margin-bottom: 30px;
     }
 
@@ -913,44 +966,46 @@ padding-top: 30px;}
 
 @media (max-width:375px) {
     .home .home-img {
-        width:280px;
+        width: 280px;
         order: 1;
 
     }
+
     /* our utality */
     .light img {
         padding-bottom: 10px !important;
-      }
-    
-      .light h5 {
+    }
+
+    .light h5 {
         width: 150px;
-    
-      }
-    
-      .light .client_content {
+
+    }
+
+    .light .client_content {
         width: 65%;
-      }
-    
-     
-      .light_holder {
+    }
+
+
+    .light_holder {
         width: 250px;
         margin: 10px 0px;
-      }
-    
-      .light {
-    
+    }
+
+    .light {
+
         text-align: center;
         padding-top: 80px;
-      }
-      /* partner */
-      .man-want .want {
-          width: 90%;
-          height: 110px;
-      }
-  
-      .want button {
-          width: 120px;
-          height: 25px;
-          margin: 0;
-      }
+    }
+
+    /* partner */
+    .man-want .want {
+        width: 90%;
+        height: 110px;
+    }
+
+    .want button {
+        width: 120px;
+        height: 25px;
+        margin: 0;
+    }
 }

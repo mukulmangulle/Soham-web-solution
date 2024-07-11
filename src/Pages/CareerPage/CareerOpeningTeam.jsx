@@ -1,109 +1,109 @@
-// import { Box, Button, FormControl, InputLabel, MenuItem, Select, Typography } from '@mui/material'
-// import React from 'react'
-// import Careertoggle1 from './CareerTogglepage/Careertoggle1'
-// import Careertoggle2 from './CareerTogglepage/Careertoggle2'
-// import Careertoggle3 from './CareerTogglepage/Careertoggle3'
-// import Careertoggle4 from './CareerTogglepage/Careertoggle4'
-// import Careertoggle5 from './CareerTogglepage/Careertoggle5'
-// import Careertoggle6 from './CareerTogglepage/Careertoggle6'
-// import Careertoggle7 from './CareerTogglepage/Careertoggle7'
 
 
-// const CareerOpeningTeam = () => {
-//     return (
-//         <>
-
-//             <Box className="container_space flex-center"  bgcolor={"#E6EBF3"} >
-//                 <Box className="carrer_toogle_section container" >
-//                     <Typography className='secondary_heading' variant='h2'    >
-//                         Current openings in Team
-//                     </Typography>
-//                     <Careertoggle1 />
-//                     <Careertoggle2 />
-//                     <Careertoggle3 />
-//                     <Careertoggle4 />
-//                     <Careertoggle5 />
-//                     <Careertoggle6 />
-//                     <Careertoggle7 />
-//                 </Box>
-//             </Box>
-
-//         </>
-//     )
-// }
-
-// export default CareerOpeningTeam
-
-
-import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react';
+import { Box, Typography, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Careertoggle1 from './CareerTogglepage/Careertoggle1';
+import Careertoggle2 from './CareerTogglepage/Careertoggle2';
+import Careertoggle3 from './CareerTogglepage/Careertoggle3';
+import Careertoggle4 from './CareerTogglepage/Careertoggle4';
+import Careertoggle5 from './CareerTogglepage/Careertoggle5';
+import Careertoggle7 from './CareerTogglepage/Careertoggle7';
+import Careertoggle6 from './CareerTogglepage/Careertoggle6';
 
 const CareerOpeningTeam = () => {
-  return (
-    <Box className="container_space flex-center" bgcolor="#E6EBF3">
-    <Box className="carrer_toogle_section container">
-        <Typography className='secondary_heading' variant='h2'>
-            Frequently Asked Questions
-        </Typography>
+    const [activeAccordion, setActiveAccordion] = useState(null);
 
-        <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header">
-                <Typography variant="h6">What is your name?</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus repellat magni!
+    const toggleAccordion = (index) => {
+        setActiveAccordion(prevIndex => (prevIndex === index ? null : index));
+    };
+
+    return (
+        <Box className="container_space flex-center" bgcolor="#E6EBF3">
+            <Box className="carrer_toogle_section container">
+                <Typography className='secondary_heading' variant='h2'    >
+                    Current openings in Team
                 </Typography>
-            </AccordionDetails>
-        </Accordion>
 
-        <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2a-content" id="panel2a-header">
-                <Typography variant="h6">What is your age?</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus repellat magni!
-                </Typography>
-            </AccordionDetails>
-        </Accordion>
 
-        <Accordion>
-            <AccordionSummary  aria-controls="panel3a-content" id="panel3a-header">
-                <Typography variant="h6">What is your location?</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus repellat magni!
-                </Typography>
-            </AccordionDetails>
-        </Accordion>
+                {/* 1 */}
+                <Accordion  className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 1} onChange={() => toggleAccordion(1)}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header">
+                        <Typography variant='h5' className="Hr-excutive"   >
+                            Frontend Developer
+                        </Typography>
+                    </AccordionSummary>
+                    <Careertoggle1 />
+                </Accordion>
 
-        <Accordion>
-            <AccordionSummary  aria-controls="panel4a-content" id="panel4a-header">
-                <Typography variant="h6">What is your city?</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus repellat magni!
-                </Typography>
-            </AccordionDetails>
-        </Accordion>
 
-        <Accordion>
-            <AccordionSummary  aria-controls="panel5a-content" id="panel5a-header">
-                <Typography variant="h6">What is your address?</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus repellat magni!
-                </Typography>
-            </AccordionDetails>
-        </Accordion>
+                {/* 2 */}
+                <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 2} onChange={() => toggleAccordion(2)}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2a-content" id="panel2a-header">
+                        <Typography variant='h5' className="Hr-excutive"   >
+                            PHP Developer
+                        </Typography>
+                    </AccordionSummary>
+                    <Careertoggle2 />
+                </Accordion>
 
-    </Box>
-</Box>
-  )
+                {/* 3 */}
+                <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 3} onChange={() => toggleAccordion(3)}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel3a-content" id="panel3a-header">
+                        <Typography variant='h5' className="Hr-excutive"   >
+                            Wordpress Developer
+                        </Typography>
+                    </AccordionSummary>
+                    <Careertoggle3 />
+                </Accordion>
+
+
+                {/* 4 */}
+                <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 4} onChange={() => toggleAccordion(4)}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4a-content" id="panel4a-header">
+                        <Typography variant='h5' className="Hr-excutive"   >
+                            Shopify Developer
+                        </Typography>
+                    </AccordionSummary>
+                    <Careertoggle4 />
+                </Accordion>
+
+
+                {/* 5 */}
+                <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 5} onChange={() => toggleAccordion(5)}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel5a-content" id="panel5a-header">
+                        <Typography variant='h5' className="Hr-excutive"   >
+                            Graphic Designer
+                        </Typography>
+                    </AccordionSummary>
+                    <Careertoggle5 />
+                </Accordion>
+
+
+
+                {/* 6 */}
+                <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 6} onChange={() => toggleAccordion(6)}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel5a-content" id="panel5a-header">
+                        <Typography variant='h5' className="Hr-excutive"   >
+                            Mobile App Developer (React Native)
+                        </Typography>
+                    </AccordionSummary>
+                    <Careertoggle6 />
+                </Accordion>
+
+                {/* 7 */}
+                <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 7} onChange={() => toggleAccordion(7)}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel5a-content" id="panel5a-header">
+                        <Typography variant='h5' className="Hr-excutive"   >
+                            HR Executive
+                        </Typography>
+                    </AccordionSummary>
+                    <Careertoggle7 />
+                </Accordion>
+
+            </Box>
+        </Box>
+    );
 }
 
-export default CareerOpeningTeam
+export default CareerOpeningTeam;

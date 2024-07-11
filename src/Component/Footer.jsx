@@ -163,7 +163,7 @@ const Footer = () => {
                 </Box>
 
                 <Box className="copyright "   >
-                    <Box className="copyright-child  flex-between-wrap">
+                    <Box className="copyright-child  flex-between-wrap" >
                         <Box>
                             <Typography >
                                 {contents.footerData.copyrightText}

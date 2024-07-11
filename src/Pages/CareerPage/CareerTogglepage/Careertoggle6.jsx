@@ -17,28 +17,20 @@ function Careertoggle6() {
     };
 
     return (
-        <Box className="current_opning" id="box-shadow"   >
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} > 
-                <AccordionSummary   >
-                    <Box className="flex-between careertoggle"  >
-                        <Typography variant='h5' className="Hr-excutive"   >
-                        Mobile App Developer (React Native)                      </Typography>
-                        <AddIcon className='add-icon' />
-                    </Box>
-                </AccordionSummary>
-                <AccordionDetails>
+        <Box  expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
+           
                     <Box className="content-toggle" >
                         <Box className="D-CENTER"  >
                             <Typography className='career_toggle_subheading' >Experience :</Typography>
-                            <Typography  className='Typography-gray-career'  >0-1 year</Typography>
+                            <Typography className='Typography-gray-career'  >0-1 year</Typography>
                         </Box>
 
                         <Box className="D-CENTER" marginY={1}>
                             <Typography className='career_toggle_subheading'>NO of  Openings:</Typography>
-                            <Typography  className='Typography-gray-career' >1</Typography>
+                            <Typography className='Typography-gray-career' >1</Typography>
                         </Box>
 
-                        <Box className="D-CENTER" flexWrap={"wrap"}  marginBottom={3}>
+                        <Box className="D-CENTER" flexWrap={"wrap"} marginBottom={3}>
                             <Typography className='career_toggle_subheading'>Location :</Typography>
                             <Typography className='Typography-gray-career'> 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
                         </Box>
@@ -48,28 +40,28 @@ function Careertoggle6() {
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >
+                                <Typography className="Typography-gray-career margin-left-1" >
 
-                                Develop high-quality mobile applications using React Native framework.</Typography>
+                                    Develop high-quality mobile applications using React Native framework.</Typography>
                             </Box>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Collaborate with cross-functional teams to define, design, and ship new features.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Collaborate with cross-functional teams to define, design, and ship new features.</Typography>
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Ensure robust code quality and responsiveness of applications.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Ensure robust code quality and responsiveness of applications.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Maintain code and write automated tests to ensure the product is of the highest quality.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Maintain code and write automated tests to ensure the product is of the highest quality.</Typography>
 
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Troubleshoot and debug to optimize performance.
+                                <Typography className="Typography-gray-career margin-left-1" >Troubleshoot and debug to optimize performance.
                                 </Typography>
 
                             </Box>
@@ -81,17 +73,17 @@ function Careertoggle6() {
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Proficiency in React Native with a solid understanding of its ecosystem.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Proficiency in React Native with a solid understanding of its ecosystem.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Experience with third-party libraries and APIs.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Experience with third-party libraries and APIs.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Familiarity with code versioning tools (such as Git).</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Familiarity with code versioning tools (such as Git).</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
@@ -101,17 +93,17 @@ function Careertoggle6() {
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" > Ability to work in a fast-paced environment and adapt to changing requirements.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" > Ability to work in a fast-paced environment and adapt to changing requirements.</Typography>
                             </Box>
 
                         </Box>
 
                         <Box className="careertoggle">
-                            <Typography  className='toggle_heading_career' >Why Soham Web Solutions:</Typography>
+                            <Typography className='toggle_heading_career' >Why Soham Web Solutions:</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Be at the forefront of mobile technology in a company that champions innovation.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Be at the forefront of mobile technology in a company that champions innovation.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
@@ -121,41 +113,39 @@ function Careertoggle6() {
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" > Work on projects that reach a diverse and global audience.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" > Work on projects that reach a diverse and global audience.</Typography>
 
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Enjoy a culture that supports continuous learning and career growth.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Enjoy a culture that supports continuous learning and career growth.</Typography>
 
                             </Box>
 
                             <Box className="D-CENTER" >
-                                 <Typography  className="Typography-gray-career margin-left-1" >If you're eager to take on the challenge and shape the future of mobile applications with Soham Web Solutions, we would love to hear from you. Together, let's turn visionary concepts into user-friendly realities.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >If you're eager to take on the challenge and shape the future of mobile applications with Soham Web Solutions, we would love to hear from you. Together, let's turn visionary concepts into user-friendly realities.</Typography>
 
                             </Box>
+                            <CareerButton onClick={toggleForm} />
+
+                            <Modal
+                                open={showForm}
+                                onClose={toggleForm}
+                                closeAfterTransition
+                                BackdropComponent={Backdrop}
+                                BackdropProps={{
+                                    timeout: 500,
+                                }}
+                            >
+
+                                <CareerForm heading=" Frontend Developer" />
+
+
+
+                            </Modal>
                         </Box>
                     </Box>
-                </AccordionDetails >
-
-                <CareerButton onClick={toggleForm} />
-
-                <Modal
-                    open={showForm}
-                    onClose={toggleForm}
-                    closeAfterTransition
-                    BackdropComponent={Backdrop}
-                    BackdropProps={{
-                        timeout: 500,
-                    }}
-                >
-
-                    <CareerForm heading=" Frontend Developer" />
-
-
-
-                </Modal>
-            </Accordion>
+             
 
         </Box>
 

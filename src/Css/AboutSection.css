@@ -1,4 +1,5 @@
 .aboutsectiocolor {
+    /* background-color: rgb(218, 229, 227); */
     background: linear-gradient(to bottom, rgba(1, 95, 229, 1), rgba(5, 52, 130, 1));
 }
 
@@ -81,7 +82,7 @@
        font-size: var(--font-h3);
 }
 .form-control .input{
-    margin: 10px 0px;
+    margin: 10px 0px !important;
 }
 .contact-1 {
     width: 50%;

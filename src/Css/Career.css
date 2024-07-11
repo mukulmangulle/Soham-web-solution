@@ -3,9 +3,9 @@
      background: linear-gradient(to bottom, #0160E7, var(--color-blue));
      font-size: var(--font-h5);
      width: 110px;
-     margin-left: 20px !important;
-     margin-bottom: 30px !important;
-     color: white !important;
+     margin-top: 10px !important;
+     margin-bottom: 10px !important;
+     color: white !important ;
      text-transform: capitalize;
 
 }
@@ -80,11 +80,22 @@
 .pop-form {
      background-color: rgb(225, 225, 218) !important;
 }
+.pop-form .pop_form_child{
+ background: white;
+ box-shadow: 0px 0px 10px 0px  #535454;
+   border-radius: 10px;
+   width: 600px;
+   height: 90vh;
+   padding: 20px;
+   overflow-y: scroll;
+} 
+.pop-form div{
+     width: 100%;
+}
+
 
 
 @media (max-width:1024px) {
-
-
      .we-man .we-img-section {
           width: 500px;
      }

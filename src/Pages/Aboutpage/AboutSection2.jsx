@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import React, { useEffect } from 'react'
-import AboutSectionimg from "../../assets/AboutSection1/aboutsection1.svg"
+import AboutSectionimg from "../../assets/new/about.png"
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchcontents } from '../../features/content/contentSlice';
 

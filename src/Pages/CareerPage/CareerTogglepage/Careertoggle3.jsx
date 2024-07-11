@@ -17,17 +17,7 @@ function Careertoggle3() {
     };
 
     return (
-        <Box className="current_opning" id="box-shadow"   >
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} > 
-                <AccordionSummary   >
-                    <Box className="flex-between careertoggle"  >
-                        <Typography variant='h5' className="Hr-excutive"   >
-                        Wordpress Developer 
-                                                </Typography>
-                        <AddIcon className='add-icon' />
-                    </Box>
-                </AccordionSummary>
-                <AccordionDetails>
+        <Box  expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                     <Box className="content-toggle" >
                         <Box className="D-CENTER"  >
                             <Typography className='career_toggle_subheading' >Experience :</Typography>
@@ -142,28 +132,25 @@ function Careertoggle3() {
                                 <Typography  className="Typography-gray-career margin-left-1" >If you're a WordPress enthusiast with a knack for creating stunning and user-friendly websites, we'd love to have you on board. Apply to Soham Web Solutions and let's create digital masterpieces together!</Typography>
 
                             </Box>
+                            <CareerButton onClick={toggleForm} />
+
+<Modal
+    open={showForm}
+    onClose={toggleForm}
+    closeAfterTransition
+    BackdropProps={{
+        timeout: 500,
+    }}
+>
+
+    <CareerForm heading=" Frontend Developer" />
+
+
+
+</Modal>
                         </Box>
                     </Box>
-                </AccordionDetails >
-
-                <CareerButton onClick={toggleForm} />
-
-                <Modal
-                    open={showForm}
-                    onClose={toggleForm}
-                    closeAfterTransition
-                    BackdropComponent={Backdrop}
-                    BackdropProps={{
-                        timeout: 500,
-                    }}
-                >
-
-                    <CareerForm heading=" Frontend Developer" />
-
-
-
-                </Modal>
-            </Accordion>
+             
 
         </Box>
 

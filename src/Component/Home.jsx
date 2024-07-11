@@ -412,13 +412,14 @@ const Home = () => {
             >
                 <Box className="home-content "   >
                     <Typography className="home-h1  text_color_blue" variant='h1'  >
-                        We Trust In   
+                        We Trust In
                         <Box className="text-box" marginLeft={1} >
                             <Box > Creativity</Box>
                             <Box>Enthusiasm</Box>
                             <Box >Commitment</Box>
                         </Box>
-
+{/* 
+                        <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div> */}
 
                     </Typography>
 

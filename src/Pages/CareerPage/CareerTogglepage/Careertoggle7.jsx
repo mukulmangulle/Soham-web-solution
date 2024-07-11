@@ -17,17 +17,7 @@ function Careertoggle7() {
     };
 
     return (
-        <Box id="box-shadow" className="current_opning"   >
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
-                <AccordionSummary   >
-                    <Box className="flex-between careertoggle"  >
-                        <Typography variant='h5' className="Hr-excutive"   >
-                            HR Executive
-                        </Typography>
-                        <AddIcon className='add-icon' />
-                    </Box>
-                </AccordionSummary>
-                <AccordionDetails>
+        <Box  expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
                     <Box className="content-toggle" >
                         <Box className="D-CENTER"  >
                             <Typography className='career_toggle_subheading' >Experience :</Typography>
@@ -137,28 +127,26 @@ function Careertoggle7() {
                                 <Typography className="Typography-gray-career margin-left-1" >At Soham Web Solutions, we believe that the right HR Executive can be the catalyst for a thriving workplace. If you're ready to take on this challenge and make a significant impact, we'd love to meet you.</Typography>
 
                             </Box>
+                            <CareerButton onClick={toggleForm} />
+
+                            <Modal
+                                open={showForm}
+                                onClose={toggleForm}
+                                closeAfterTransition
+                                BackdropComponent={Backdrop}
+                                BackdropProps={{
+                                    timeout: 500,
+                                }}
+                            >
+
+                                <CareerForm heading=" Frontend Developer" />
+
+
+
+                            </Modal>
                         </Box>
                     </Box>
-                </AccordionDetails >
-
-                <CareerButton onClick={toggleForm} />
-
-                <Modal
-                    open={showForm}
-                    onClose={toggleForm}
-                    closeAfterTransition
-                    BackdropComponent={Backdrop}
-                    BackdropProps={{
-                        timeout: 500,
-                    }}
-                >
-
-                    <CareerForm heading=" Frontend Developer" />
-
-
-
-                </Modal>
-            </Accordion>
+              
 
         </Box>
 

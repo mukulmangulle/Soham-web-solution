@@ -76,6 +76,12 @@
            align-items: center;
            justify-content: space-between;
  }
+ .copyright-child{
+    justify-content: space-between;
+    width: 100%;
+    width: 1200px;
+    padding: 0px 20px;
+ }
  .privacy_man{
     width: 64%;
 }

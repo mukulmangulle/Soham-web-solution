@@ -1,3 +1,6 @@
+
+
+
 import React, { useState } from 'react';
 import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
@@ -17,17 +20,8 @@ function Careertoggle1() {
     };
 
     return (
-        <Box className="current_opning" id="box-shadow"    >
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} > 
-                <AccordionSummary   >
-                    <Box className="flex-between careertoggle"  >
-                        <Typography variant='h5' className="Hr-excutive"   >
-                            Frontend Developer
-                        </Typography>
-                        <AddIcon className='add-icon' />
-                    </Box>
-                </AccordionSummary>
-                <AccordionDetails>
+        <Box expanded={expanded === 'panel1'} onChange={handleChange('panel1')}   >
+           
                     <Box className="content-toggle" >
                         <Box className="D-CENTER"  >
                             <Typography className='career_toggle_subheading' >Experience :</Typography>
@@ -39,7 +33,7 @@ function Careertoggle1() {
                             <Typography className='Typography-gray-career'   >1</Typography>
                         </Box>
 
-                        <Box className="D-CENTER" flexWrap={"wrap"}  marginBottom={3}>
+                        <Box className="D-CENTER" flexWrap={"wrap"} marginBottom={3}>
                             <Typography className='career_toggle_subheading'>Location :</Typography>
                             <Typography className='Typography-gray-career'  > 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
                         </Box>
@@ -49,28 +43,28 @@ function Careertoggle1() {
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >
+                                <Typography className="Typography-gray-career margin-left-1" >
 
                                     Transform design concepts into reality using HTML, CSS, and JavaScript.</Typography>
                             </Box>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Ensure a seamless user experience with responsive design and cross-browser compatibility.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Ensure a seamless user experience with responsive design and cross-browser compatibility.</Typography>
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Collaborate with backend developers to integrate APIs and other server-side functionalities.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Collaborate with backend developers to integrate APIs and other server-side functionalities.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Optimize web applications for maximum speed and scalability.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Optimize web applications for maximum speed and scalability.</Typography>
 
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className=" Typography-gray-career    margin-left-1" >Stay up-to-date with emerging trends and technologies in frontend development.
+                                <Typography className=" Typography-gray-career    margin-left-1" >Stay up-to-date with emerging trends and technologies in frontend development.
                                 </Typography>
 
                             </Box>
@@ -82,17 +76,17 @@ function Careertoggle1() {
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Proficiency in frontend languages and frameworks (e.g., React, Vue.js, Angular).</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Proficiency in frontend languages and frameworks (e.g., React, Vue.js, Angular).</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >A strong understanding of web markup and pre-processing platforms (e.g., SASS, LESS).</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >A strong understanding of web markup and pre-processing platforms (e.g., SASS, LESS).</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Familiarity with code versioning tools (e.g., Git) and agile methodologies.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Familiarity with code versioning tools (e.g., Git) and agile methodologies.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
@@ -102,17 +96,17 @@ function Careertoggle1() {
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" > Excellent problem-solving skills and attention to detail.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" > Excellent problem-solving skills and attention to detail.</Typography>
                             </Box>
 
                         </Box>
 
                         <Box className="careertoggle">
-                            <Typography  className='toggle_heading_career'  >Why Soham Web Solutions:</Typography>
+                            <Typography className='toggle_heading_career'  >Why Soham Web Solutions:</Typography>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Work with a team that values innovation and creativity.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Work with a team that values innovation and creativity.</Typography>
 
                             </Box>
                             <Box className="D-CENTER" >
@@ -122,42 +116,42 @@ function Careertoggle1() {
                             </Box>
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" > Enjoy a collaborative work environment that fosters growth.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" > Enjoy a collaborative work environment that fosters growth.</Typography>
 
                             </Box>
                             <Box className="D-CENTER">
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Be part of a company that's at the forefront of web technology.</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Be part of a company that's at the forefront of web technology.</Typography>
 
                             </Box>
 
                             <Box className="D-CENTER" >
                                 <Typography className='dot'>•</Typography>
-                                <Typography  className="Typography-gray-career margin-left-1" >Ready to code your career path with us? Apply now and let's build the web of tomorrow, together!</Typography>
+                                <Typography className="Typography-gray-career margin-left-1" >Ready to code your career path with us? Apply now and let's build the web of tomorrow, together!</Typography>
 
                             </Box>
+                       
+
+                        <CareerButton onClick={toggleForm} />
+
+                        <Modal
+                            open={showForm}
+                            onClose={toggleForm}
+                            closeAfterTransition
+                            BackdropProps={{
+                                timeout: 500,
+                            }}
+                        >
+
+                            <CareerForm heading=" Frontend Developer" />
+
+
+
+                        </Modal>
                         </Box>
                     </Box>
-                </AccordionDetails >
 
-                <CareerButton onClick={toggleForm} />
-
-                <Modal
-                    open={showForm}
-                    onClose={toggleForm}
-                    closeAfterTransition
-                    BackdropComponent={Backdrop}
-                    BackdropProps={{
-                        timeout: 500,
-                    }}
-                >
-
-                    <CareerForm heading=" Frontend Developer" />
-
-
-
-                </Modal>
-            </Accordion>
+              
 
         </Box>
 

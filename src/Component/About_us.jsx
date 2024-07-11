@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { fetchcontents } from '../features/content/contentSlice'
 import { Height } from '@mui/icons-material';
 import { GiCeilingLight } from "react-icons/gi";
-import Pendant from "../assets/pendant_lamp.webp"
+import Pendant from "../assets/lamp 5.svg"
 
 
 const About_us = () => {
