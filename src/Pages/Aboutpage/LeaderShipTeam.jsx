@@ -1,8 +1,5 @@
 import { Box, Typography } from '@mui/material'
 import React, { useEffect } from 'react'
-import Laravel from "../../assets/AboutSection1/laravel.svg"
-import Codeignetor from "../../assets/AboutSection1/codeignetor.svg"
-import Sql from "../../assets/AboutSection1/sql.svg"
 import co1 from "../../assets/AboutSection1/neeraj malakar.svg"
 import co2 from "../../assets/AboutSection1/anil meena.svg"
 import co3 from "../../assets/AboutSection1/ravi yadav.svg"

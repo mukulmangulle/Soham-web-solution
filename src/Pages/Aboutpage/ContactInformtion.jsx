@@ -174,8 +174,8 @@ const ContactInformation = ({ onClose }) => {
                   className='input'
                 />
               </Box>
-              <FormControl fullWidth margin="normal" required error={!!errors.requirement}>
-              <InputLabel id="requirement-labell">Select Requirement</InputLabel>
+              <FormControl  fullWidth margin="normal" required error={!!errors.requirement}>
+              <InputLabel margin='normal' id="requirement-labell">Select Requirement</InputLabel>
                 <Select
                   labelId="requirement-label"
                   id="requirement"

@@ -21,7 +21,7 @@ const Categories_name = () => {
         let scrollPosition = 0;
 
         const autoScroll = () => {
-            const scrollAmount = imageList.clientWidth / 2; 
+            const scrollAmount = imageList.clientWidth / 2;
             if (scrollPosition >= maxScrollLeft) {
                 scrollPosition = 0;
             } else {
@@ -33,10 +33,10 @@ const Categories_name = () => {
             });
         };
 
-        const autoScrollInterval = setInterval(autoScroll, 5000); 
+        const autoScrollInterval = setInterval(autoScroll, 5000);
 
         return () => clearInterval(autoScrollInterval);
-    };  
+    };
 
     if (isLoading) {
         return (
@@ -46,10 +46,15 @@ const Categories_name = () => {
 
     return (
         <>
-            <Box className="container " style={{ textAlign: 'center' }}>
+            <Box className="container box_category " style={{ textAlign: 'center' }}>
+                <Typography variant='h3' className='box-all-categories'>All Categories</Typography>
+
                 <Box className="slider-wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+
+
                     <button id="prev-slide" className="slide-button material-symbols-rounded">
                     </button>
+
                     <ul className="image-list" ref={imageListRef} style={{ listStyle: 'none', padding: 0 }}>
                         {categoriescontents.map((categoriescontent, index) => (
                             <Box key={index} className="image-item">
@@ -68,11 +73,7 @@ const Categories_name = () => {
                     <button id="next-slide" className="slide-button material-symbols-rounded">
                     </button>
                 </Box>
-                <Box className="slider-scrollbar">
-                    <Box className="scrollbar-track">
-                        <Box className="scrollbar-thumb"></Box>
-                    </Box>
-                </Box>
+                
             </Box>
         </>
     );

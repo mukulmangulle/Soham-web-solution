@@ -64,7 +64,6 @@ const BoxCategories = ({ Api_url }) => {
         </Box>
 
         <Box  className="box-section container" >
-          <Typography variant='h3'  className='box-all-categories'>All Categories</Typography>
 
           <Box  className="flex-between-wrap box-center"  >
             {categoriescontents?.slice(0, 4).map((categoriescontent) => (

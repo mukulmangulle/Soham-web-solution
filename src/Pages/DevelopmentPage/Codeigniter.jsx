@@ -11,7 +11,7 @@ const Codeigniter = () => {
             <Box >
                 <Box className="bg-img  " >
                     <Typography className='primary-heading' variant='h1' >
-                        Codeigniter Development
+                        CodeIgniter Development
                     </Typography>
                 </Box>
             </Box>
@@ -22,11 +22,11 @@ const Codeigniter = () => {
 
 
                         <Typography variant='h3' className='service_secondary-heading inner_heading' >
-                            CodeIgniter Development Services for Web Applications
+                        CodeIgniter Development Services for Web Applications
                         </Typography>
 
                         <Typography variant='h5' className='primary_subheading secvice_child_text' >
-                            CodeIgniter is an open-source PHP framework designed for developing high-end dynamic websites and applications. For developing custom CodeIgniter, it provides a comprehensive range of tools and libraries. CodeIgniter makes the development process more efficient with less configuration requirements. Programmers and developers can finish projects more quickly and effectively because to its special capabilities, which drastically decrease the need for substantial code.
+                        CodeIgniter is an open-source PHP framework designed for developing high-end dynamic websites and applications. For developing custom CodeIgniter, it provides a comprehensive range of tools and libraries. CodeIgniter makes the development process more efficient with less configuration requirements. Programmers and developers can finish projects more quickly and effectively because to its special capabilities, which drastically decrease the need for substantial code.
 
 
                         </Typography>

@@ -3,50 +3,54 @@
     background: linear-gradient(to bottom, rgba(1, 95, 229, 1), rgba(5, 52, 130, 1));
 }
 
-.aboutsectiocolor div {
-    width: 100%;
-}
+
 .aboutsectiocolor .about_img {
     width: 400px;
+    margin-right: 20PX;
 }
 
 .form-control_man .submit {
     width: "150px";
     height: "50px";
-    background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
+    background: linear-gradient(to bottom, #0160E7, var(--color-blue));
     margin-top: 50px;
     color: white;
 }
 
-.about-welcome{
+.about-welcome {
     width: 55%;
     display: flex;
-    align-items:start;
-    justify-content:center;
+    align-items: start;
+    justify-content: center;
     flex-direction: column;
-    padding: 1.5rem;
-   }
+    padding-left: 60px;
+}
 
 
 
 .about-welcome .about-heading {
     font-size: var(--font-h3);
-    font-weight: var(--font-weight);  
+    font-weight: var(--font-weight);
     text-align: start;
     padding-bottom: 8px;
     color: white;
+
+}
+
+.subheading-box {
+    display: flex;
+    gap: 25px;
 }
 
 
-
 .aboutsectiocolor .innovation {
-    font-size:var(--font-h6);
+    font-size: var(--font-h6);
 }
 
 
 
 .img_ceo {
-   width: 300px;
+    width: 300px;
 }
 
 .tecno-content {
@@ -56,34 +60,25 @@
     align-items: center;
     justify-content: space-between;
 }
-.techno{
-    background:#e6f0fd;
+
+.techno {
+    background: #e6f0fd;
     padding-bottom: 3px;
     width: 100%;
     margin: 0px auto;
 }
 
 
-.techno .Technology-focus-grid {
-    background: white;
-    max-width: 250px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+.form-control .Ready {
+    font-size: var(--font-h3);
 }
 
-.techno .Technology-focus-grid img {
-    width: 70%;
-    padding: 2px;
-}
-
-.form-control .Ready{
-       font-size: var(--font-h3);
-}
-.form-control .input{
+.form-control .input {
     margin: 10px 0px !important;
 }
+
 .contact-1 {
     width: 50%;
     margin: 0px 1.5px;
@@ -101,28 +96,28 @@
 }
 
 .leadership {
-       text-align: center;
-    }
+    text-align: center;
+}
 
 .leadership_box {
     margin: 20px;
 }
 
 .team {
-   margin-top: 12px;
+    margin-top: 12px;
 }
 
 .team .ceo_name {
     font-weight: 700;
     margin: 5px;
-    font-size:var(--font-h5);
-    color:  var(--color-blue);
+    font-size: var(--font-h5);
+    color: var(--color-blue);
 
 }
 
 .team .leadership-p {
-    font-size:var(--font-h6);  
-      color:  var(--color-blue);
+    font-size: var(--font-h6);
+    color: var(--color-blue);
 }
 
 .vision-man {
@@ -153,59 +148,76 @@
 }
 
 .vision-man .lizards {
-    font-size:var(--font-h6);
+    font-size: var(--font-h6);
     padding-top: 1rem;
 }
 
 .V-CARD .vision-heading {
     font-size: var(--font-h4);
-    font-weight: var(--font-weight);  
-    color:  var(--color-blue);
+    font-weight: var(--font-weight);
+    color: var(--color-blue);
     margin: 1rem;
 }
 
 
-.form-control .contact_section_second{
-width: 50%;
+.form-control .contact_section_second {
+    width: 50%;
 
-display: flex;
-flex-wrap:wrap ;
-padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
 }
+
 .form_about .form-control {
     width: 100%;
-   
+
     border-radius: 10px;
     padding: 40px;
     margin-top: 30px;
 }
 
 .form-control .requirement-label {
-    font-size:var(--font-h5);
+    font-size: var(--font-h5);
 }
 
 .form-control .border_bottom_form {
-    border-bottom: 1px solid  var(--color-blue);
+    border-bottom: 1px solid var(--color-blue);
     width: 100%;
 }
-.form_control_child{
-   display: flex;
-   justify-content: space-between;
+
+.form_control_child {
+    display: flex;
+    justify-content: space-between;
 }
 
+.Technology_img_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Technology_img_box img {
+    margin: 12px;
+    width: 220px;
+}
+
+.techno_tab button {
+    font-size: var(--font-h5);
+    font-weight: var(--font-weight);
+}
 
 @media (max-width:1194px) {
-     .contact-3{
+    .contact-3 {
         padding-top: 0px;
-    margin: 0px;
-     }
-     .form-control_man .submit {
-        
-        margin-top: 0px;
-      
+        margin: 0px;
     }
-   
-  
+
+    .form-control_man .submit {
+
+        margin-top: 0px;
+
+    }
+
+
 
 }
 
@@ -215,31 +227,35 @@ padding-left: 20px;
     .aboutsectiocolor .flex-center {
         align-items: center;
     }
+
     .aboutsectiocolor .about_img {
         width: 300px;
     }
-    .aboutsectiocolor div {
-        width: 100%;
+
+   
+
+    .convert_subheading_man {
+        flex-direction: column;
+
+
     }
-    .convert_subheading_man{
-          flex-direction: column;
-                   
-    }
-    .convert_subheading{
-         margin-top: 10px !important;
+
+    .convert_subheading {
+        margin-top: 10px !important;
+
     }
 
     .aboutsectiocolor .innovation {
-        width: 100% ;
+        width: 100%;
 
     }
 
     .team {
-       margin-top: 8px;
+        margin-top: 8px;
     }
 
     .img_ceo {
-        height: 220px;
+        width: 220px;
     }
 
     .leadership_box {
@@ -250,7 +266,7 @@ padding-left: 20px;
         margin: 3px;
     }
 
-   
+
 
     .form_about .form-control {
         width: 86%;
@@ -258,11 +274,12 @@ padding-left: 20px;
         padding: 25px;
         margin-top: 20px;
     }
-   
+
 
     .vision-man .V-CARD {
         padding: 12px;
     }
+
     .vision-man .vision-child {
         flex-wrap: wrap;
         width: 88%;
@@ -270,57 +287,75 @@ padding-left: 20px;
     }
 
     .V-CARD .vision-heading {
-        font-weight: var(--font-weight);  
+        font-weight: var(--font-weight);
         color: var(--color-blue);
     }
-    .contact-1{
+
+    .contact-1 {
         width: 100%;
     }
+
     .contact-3 {
         width: 200px;
         margin: 0px 1.5px;
         padding-top: 70px;
     }
-    .form-control .contact_section_second{
+
+    .form-control .contact_section_second {
         width: 100%;
     }
-    .form_control_child{
-           flex-wrap: wrap;
+
+    .form_control_child {
+        flex-wrap: wrap;
     }
+
     .form-control_man .submit {
-      
+
         margin-top: 20px;
-       
+
     }
-    
+
+    .Technology_img_box img {
+        width: 160px;
+    }
+
+    .techno_tab button {
+        font-size: var(--font-h5);
+    }
 }
 
 @media (max-width:768px) {
-    .aboutsectiocolor div{
-           display: flex;
-           align-items: center;
-           justify-content:center;
-           flex-direction: column;
-           text-align: center;
-           width: 100%;
+    .aboutsectiocolor div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
     }
+    .subheading-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
     .form_about .form-control {
         width: 90%;
     }
 
     .about-typography {
-        width: 80%;
+        width: 100%;
     }
 
 
     .about-welcome .about-heading {
         font-size: var(--font-h2);
-
+        text-align: center;
     }
 
 
     .aboutsectiocolor .innovation {
-        font-size:var(--font-h6);
+        font-size: var(--font-h6);
 
     }
 
@@ -329,7 +364,7 @@ padding-left: 20px;
     }
 
     .img_ceo {
-        height: 220px;
+        width: 220px;
     }
 
     .leadership_box {
@@ -338,13 +373,13 @@ padding-left: 20px;
 
     .team .ceo_name {
         margin: 3px;
-        font-size:var(--font-h5);  
+        font-size: var(--font-h5);
     }
 
     .team .leadership-p {
-        font-size:var(--font-h6);  
+        font-size: var(--font-h6);
     }
-   
+
 
     .contact-1 {
         width: 100%;
@@ -357,21 +392,49 @@ padding-left: 20px;
         align-items: center !important;
         justify-content: center !important;
     }
-    .form-control .Ready{
+
+    .form-control .Ready {
         font-size: var(--font-h3);
- }
+    }
+
     .form-control .requirement-label {
-        font-size:var(--font-h5);    }
+        font-size: var(--font-h5);
+    }
 
     .form-control .border_bottom_form {
         width: 90%;
     }
+
     .contact-3 {
-        
+
         padding-top: 50px;
     }
-  
+
+    .aboutsectiocolor .about_img {
+        margin-right: 0PX;
+        margin-bottom: 10PX;
+    }
+
 }
+
+
+@media (max-width:767px) {
+    .Technology_img_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Technology_img_box img {
+        margin: 12px;
+        width: 250px;
+    }
+}
+
+
+
+
+
 
 @media (max-width:576px) {
     .form_about .form-control {
@@ -379,19 +442,11 @@ padding-left: 20px;
         width: 100%;
         padding: 0px;
     }
-    .form-control .contact_section_second{
+
+    .form-control .contact_section_second {
         padding-left: 0px;
     }
-    .aboutsectiocolor img {
-        width: 375px;
-        
-    }
 
-    .aboutsectiocolor div {
-        width: 100% !important;
-
-
-    }
 
     .aboutsectiocolor .innovation {
         width: 100% !important;
@@ -406,9 +461,11 @@ padding-left: 20px;
     .leadership_box {
         margin: 10PX;
     }
-    .form-control .input{
+
+    .form-control .input {
         margin: 7px 0px;
     }
+
     .contact-1 {
         width: 100%;
     }
@@ -425,15 +482,17 @@ padding-left: 20px;
     .css-1coc09t {
         padding: 45px !important;
     }
+
     .vision-man .V-CARD {
         padding: 8px;
     }
+
     .vision-man .vision-child {
-        width:100%;
+        width: 100%;
     }
-    
+
     .vision-man .card_1 {
-        margin-top: 10px ;
+        margin-top: 10px;
         margin-bottom: 10px;
     }
 
@@ -446,24 +505,36 @@ padding-left: 20px;
     .form-control .border_bottom_form {
         width: 75%;
     }
-    .V-CARD img{
-          height: 40px !important;
+
+    .V-CARD img {
+        height: 40px !important;
     }
 
     .contact-3 {
-         padding: 0px;
+        padding: 0px;
         padding-top: 0px;
     }
-    
+
+    .Technology_img_box img {
+        margin: 12px;
+        width: 250px;
+    }
+
+    .techno_tab div {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .techno_tab AntTabs {
+        display: none;
+    }
 }
 
 @media (max-width:375px) {
 
-    .aboutsectiocolor img {
-        height: 200px !important;
-        margin-left: -40px;
-        margin-bottom: 20px;
-    }
+
 
 
     .leadership_box {
@@ -475,7 +546,7 @@ padding-left: 20px;
     }
 
     .img_ceo {
-        height: 190px;
+        width: 190px;
     }
 
     #heading2 {
@@ -491,6 +562,54 @@ padding-left: 20px;
     .form-control .border_bottom_form {
         width: 100%;
     }
- 
-    
+
+
+}
+
+
+
+
+
+/* sllider */
+
+.gallery {
+    --d: 10s;
+    /* duration */
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, #0000, #000 10% 90%, #0000);
+}
+
+.gallery>img {
+    grid-area: 1/1;
+    width:500px;
+    height: 500px;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+    background-size: cover;
+    background-position: top;
+    animation: r var(--d) linear infinite;
+}
+
+.gallery>img:nth-child(2) {
+    animation-delay: calc(1*var(--d)/-4)
+}
+
+.gallery>img:nth-child(3) {
+    animation-delay: calc(2*var(--d)/-4)
+}
+
+.gallery>img:nth-child(4) {
+    animation-delay: calc(3*var(--d)/-4)
+}
+
+@keyframes r {
+    75% {
+        transform: translate(-300%)
+    }
+
+    75.01% {
+        transform: translate(100%)
+    }
 }
