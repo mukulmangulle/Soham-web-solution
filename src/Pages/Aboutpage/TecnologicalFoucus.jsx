@@ -199,6 +199,9 @@ import Shopify from "../../assets/AboutSection1/language/shopify.svg";
 import Sql from "../../assets/AboutSection1/language/SQL.svg";
 import Wordpress from "../../assets/AboutSection1/language/wordpres.svg";
 import React_img from "../../assets/AboutSection1/language/react_library.svg";
+import Laraval from "../../assets/AboutSection1/language/laravel.svg";
+import Codelgniter from "../../assets/AboutSection1/language/codelgniter.svg";
+
 
 const AntTabs = styled(Tabs)({
   '& .MuiTabs-indicator': {
@@ -276,12 +279,12 @@ export default function CustomizedTabs() {
             <Typography className="primary_subheading our-utality-p">
               {contents.Technologyfocus.content}
             </Typography>
-            <Box  className="flex-between techno_tab" margin={3}>
+            <Box className="flex-between techno_tab" margin={3}>
               <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-                <AntTab  label="Languages" />
-                <AntTab  label="Frameworks" />
+                <AntTab label="Languages" />
+                <AntTab label="Frameworks" />
                 <AntTab label="CMS" />
-                <AntTab  label="Other" />
+                <AntTab label="Other" />
               </AntTabs>
             </Box>
 
@@ -296,27 +299,31 @@ export default function CustomizedTabs() {
                   sx={{ flexWrap: "wrap" }}
                 >
                   {value === 0 && (
-                    <Grid className='Technology_img_box'  item xs={12} sm={6}>
-                      <img src={Php} alt="PHP" />
-                      <img src={Js} alt="JavaScript" />
-                      <img src={Sql} alt="SQL" />
+                    <Grid className='Technology_img_box' item xs={12} sm={6}>
                       <img src={Html} alt="HTML" />
+                      <img src={Js} alt="JavaScript" />
+                      <img src={Php} alt="PHP" />
+                      <img src={Sql} alt="SQL" />
+
+
                     </Grid>
                   )}
                   {value === 1 && (
                     <Grid className='Technology_img_box' item xs={12} sm={6}>
                       <img src={React_native} alt="React Native" />
+                      <img src={Laraval} alt="Laraval" />
+                      <img src={Codelgniter} alt="Codelgniter" />
                     </Grid>
                   )}
                   {value === 2 && (
-                    <Grid className='Technology_img_box'  item xs={12} sm={6}>
+                    <Grid className='Technology_img_box' item xs={12} sm={6}>
                       <img src={Wordpress} alt="WordPress" />
                       <img src={Shopify} alt="Shopify" />
                     </Grid>
                   )}
                   {value === 3 && (
-                    <Grid className='Technology_img_box'  item xs={12} sm={6}>
-                      <img  src={React_img} alt="React" />
+                    <Grid className='Technology_img_box' item xs={12} sm={6}>
+                      <img src={React_img} alt="React" />
                       <img src={Figma} alt="Figma" />
                     </Grid>
                   )}

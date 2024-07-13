@@ -27,7 +27,7 @@ const CareerOpeningTeam = () => {
 
 
                 {/* 1 */}
-                <Accordion  className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 1} onChange={() => toggleAccordion(1)}>
+                <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 1} onChange={() => toggleAccordion(1)}>
                     <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header">
                         <Typography variant='h5' className="Hr-excutive"   >
                             Frontend Developer

@@ -76,12 +76,16 @@
 }
 
 .form-control .input {
-    margin: 10px 0px !important;
+    margin: 7px 0px;
+}
+.form-control .input p{
+    margin-left: 1px;
 }
 
 .contact-1 {
     width: 50%;
-    margin: 0px 1.5px;
+    margin: 20px 1.5px 0px;
+    
 }
 
 .contact-2 {
@@ -135,7 +139,7 @@
 .vision-man .card_1 {
     background-color: var(--color-blue);
     border-radius: 10px;
-    margin: 0px 15px 20px 15px;
+    margin: 0px 0px 20px 15px;
     padding-top: 10px;
     /* box-shadow:0.5PX 0.5PX 10PX 5PX #767677; */
     /* border: 2PX solid  var(--color-blue); */
@@ -282,7 +286,7 @@
 
     .vision-man .vision-child {
         flex-wrap: wrap;
-        width: 88%;
+        width: 100%;
 
     }
 
@@ -414,7 +418,9 @@
         margin-right: 0PX;
         margin-bottom: 10PX;
     }
-
+    .about-welcome{
+        padding-left: 0px;
+    }
 }
 
 
@@ -429,6 +435,7 @@
         margin: 12px;
         width: 250px;
     }
+   
 }
 
 
@@ -492,8 +499,7 @@
     }
 
     .vision-man .card_1 {
-        margin-top: 10px;
-        margin-bottom: 10px;
+     margin: 10px 0px;
     }
 
     .vision-man .lizards {

@@ -427,6 +427,8 @@ const Contact = () => {
                                                     helperText={errors.username}
                                                     fullWidth
                                                     required
+                                                    className="input"
+
                                                 />
                                             </Grid>
                                             <Grid item xs={12} sm={6}>
@@ -439,6 +441,7 @@ const Contact = () => {
                                                     helperText={errors.email}
                                                     fullWidth
                                                     required
+                                                    className="input"
                                                 />
                                             </Grid>
                                             <Grid item xs={12} sm={6}>
@@ -451,6 +454,8 @@ const Contact = () => {
                                                     helperText={errors.number}
                                                     fullWidth
                                                     required
+                                                    className="input"
+
                                                 />
                                             </Grid>
                                             <Grid item xs={12} sm={6}>
@@ -463,6 +468,8 @@ const Contact = () => {
                                                     helperText={errors.subject}
                                                     fullWidth
                                                     required
+                                                    className="input"
+
                                                 />
                                             </Grid>
                                             <Grid item xs={12}>
@@ -477,6 +484,8 @@ const Contact = () => {
                                                     multiline
                                                     rows={4}
                                                     required
+                                                    className="input"
+
                                                 />
                                             </Grid>
                                             <Grid item xs={12}>

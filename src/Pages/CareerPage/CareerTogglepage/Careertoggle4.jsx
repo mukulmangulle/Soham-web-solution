@@ -5,33 +5,32 @@ import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
 function Careertoggle4() {
-    const [expanded, setExpanded] = useState(false);
-
-
-    const handleChange = (panel) => (event, isExpanded) => {
-        setExpanded(isExpanded ? panel : false);
-    };
     const [showForm, setShowForm] = useState(false);
+
     const toggleForm = () => {
         setShowForm(!showForm);
     };
 
+    const handleCloseModal = () => {
+        setShowForm(false);
+    };
+
     return (
-        <Box expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <Box >
             <Box className="content-toggle" >
                 <Box className="D-CENTER"  >
                     <Typography className='career_toggle_subheading'>Experience :</Typography>
-                    <Typography className='Typography-gray-career'  >0-1 year</Typography>
+                    <Typography className='Typography-gray-career space_career_toggle'  > 0-1 year</Typography>
                 </Box>
 
                 <Box className="D-CENTER" marginY={1}>
-                    <Typography className='career_toggle_subheading'>NO of  Openings:</Typography>
-                    <Typography className='Typography-gray-career'  >1</Typography>
+                    <Typography className='career_toggle_subheading'>Number of opening:</Typography>
+                    <Typography className='Typography-gray-career space_career_toggle'  > 1</Typography>
                 </Box>
 
                 <Box className="D-CENTER" flexWrap={"wrap"} marginBottom={3}>
                     <Typography className='career_toggle_subheading'>Location :</Typography>
-                    <Typography className='Typography-gray-career'> 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
+                    <Typography className='Typography-gray-career space_career_toggle'> 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
                 </Box>
 
                 <Box className="career-pregraph ">
@@ -117,7 +116,7 @@ function Careertoggle4() {
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
-                        <Typography className="Typography-gray-career margin-left-1" > Participate in diverse projects that push the boundaries of online retail.</Typography>
+                        <Typography className="Typography-gray-career margin-left-1" >Participate in diverse projects that push the boundaries of online retail.</Typography>
 
                     </Box>
                     <Box className="D-CENTER">
@@ -130,21 +129,31 @@ function Careertoggle4() {
                         <Typography className="Typography-gray-career margin-left-1" >If you're ready to take your Shopify expertise to new heights and contribute to the success of online businesses, Soham Web Solutions is your next destination. Apply now and let's revolutionize the e-commerce space together!</Typography>
 
                     </Box>
+
+
+
+
+                </Box>
+                <Box>
                     <CareerButton onClick={toggleForm} />
 
                     <Modal
                         open={showForm}
-                        onClose={toggleForm}
+                        onClose={handleCloseModal}
                         closeAfterTransition
+                        BackdropComponent={Backdrop}
                         BackdropProps={{
-                            timeout: 500,
+                            sx: { backdropFilter: 'blur(0.01px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }
                         }}
                     >
-
-                        <CareerForm heading=" Shopify Developer" />
-
-
-
+                        <Box sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            minHeight: '100vh',
+                        }}>
+                            <CareerForm heading="Shopify Developer" onClose={handleCloseModal} />
+                        </Box>
                     </Modal>
                 </Box>
             </Box>

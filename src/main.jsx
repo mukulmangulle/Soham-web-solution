@@ -11,7 +11,6 @@ import "./Css/Blogpage.css"
 import "./Css/SingleBlogpage.css"
 import "./Css/Career.css"
 import "./Css/Service.css"
-import "./Css/Phpdepartment.css"
 import "./Css/categories.css"
 import "./Css/Homepage/Footer.css"
 import { Provider } from 'react-redux'

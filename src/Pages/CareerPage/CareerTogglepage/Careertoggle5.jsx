@@ -5,33 +5,32 @@ import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
 function Careertoggle5() {
-    const [expanded, setExpanded] = useState(false);
-
-
-    const handleChange = (panel) => (event, isExpanded) => {
-        setExpanded(isExpanded ? panel : false);
-    };
     const [showForm, setShowForm] = useState(false);
+
     const toggleForm = () => {
         setShowForm(!showForm);
     };
 
+    const handleCloseModal = () => {
+        setShowForm(false);
+    };
+
     return (
-        <Box expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <Box >
             <Box className="content-toggle" >
                 <Box className="D-CENTER"  >
                     <Typography className='career_toggle_subheading' >Experience :</Typography>
-                    <Typography className='Typography-gray-career'  >0-1 year</Typography>
+                    <Typography className='Typography-gray-career space_career_toggle'  > 0-1 year</Typography>
                 </Box>
 
                 <Box className="D-CENTER" marginY={1}>
-                    <Typography className='career_toggle_subheading'>NO of  Openings:</Typography>
-                    <Typography className='Typography-gray-career'  >1</Typography>
+                    <Typography className='career_toggle_subheading'>Number of opening:</Typography>
+                    <Typography className='Typography-gray-career space_career_toggle'  > 1</Typography>
                 </Box>
 
                 <Box className="D-CENTER" flexWrap={"wrap"} marginBottom={3}>
                     <Typography className='career_toggle_subheading'>Location :</Typography>
-                    <Typography className='Typography-gray-career' > 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
+                    <Typography className='Typography-gray-career space_career_toggle' > 12,Civil Lines,Chamunda Complex,Dewas  </Typography>
                 </Box>
 
                 <Box className="career-pregraph ">
@@ -107,7 +106,7 @@ function Careertoggle5() {
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
-                        <Typography className="Typography-gray-career margin-left-1" > Collaborate with a diverse range of clients from various sectors.</Typography>
+                        <Typography className="Typography-gray-career margin-left-1" >Collaborate with a diverse range of clients from various sectors.</Typography>
 
                     </Box>
                     <Box className="D-CENTER">
@@ -121,21 +120,30 @@ function Careertoggle5() {
                         <Typography className="Typography-gray-career margin-left-1" >If you're ready to unleash your creative spirit and make a lasting impact in the digital realm, Soham Web Solutions is your platform. Let's innovate, inspire, and implement designs that tell stories.</Typography>
 
                     </Box>
+
+
+
+                </Box>
+                <Box>
                     <CareerButton onClick={toggleForm} />
 
                     <Modal
                         open={showForm}
-                        onClose={toggleForm}
+                        onClose={handleCloseModal}
                         closeAfterTransition
+                        BackdropComponent={Backdrop}
                         BackdropProps={{
-                            timeout: 500,
+                            sx: { backdropFilter: 'blur(0.01px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }
                         }}
                     >
-
-                        <CareerForm heading=" Graphic Developer" />
-
-
-
+                        <Box sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            minHeight: '100vh',
+                        }}>
+                            <CareerForm heading="Graphic Developer" onClose={handleCloseModal} />
+                        </Box>
                     </Modal>
                 </Box>
             </Box>

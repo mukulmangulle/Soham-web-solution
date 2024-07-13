@@ -100,6 +100,36 @@
   text-align: center;
 }
 
+/* php department */
+.service {
+    background: linear-gradient(to right, #0160E7,  var(--color-blue));
+}
+
+.service-box {
+    width: 250px ;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+
+    font-size: var(--font-p1);
+    color:  var(--color-blue);
+    padding: 5px;
+    margin: 5px;
+   }
+
+
+.service-box img{
+      margin: 10px ;
+    
+}
+
+.service-box p{
+   font-size: var(--font-p1) ;
+   font-weight: var(--font-weight);
+}
+
+
+
 
 
 @media (max-width:1080px) {
@@ -135,7 +165,6 @@
 
     .services_box_section {
         width: 100%;
-        padding: 0px 20px;
     }
 
     .service-man .service_container_one {
@@ -181,6 +210,14 @@
     .service_chid .secvice_child_text {
         width: 100%;
     }
+    /* php department */
+    .service-box {
+        width: 170px;
+        height: 80px;
+        padding: 20px !important;
+        padding-left: 10PX;
+
+    }
 }
 
 
@@ -214,7 +251,25 @@
         font-size: var(--font-h3) !important ;
     
     }
-    
+    .servicebox_man{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* php department */
+    .service-box {
+        width: 45% !important;
+        font-size: var(--font-p1);
+       
+        margin: 15px 10px;
+
+
+    }
+    .service-box p{
+        font-size: var(--font-p1) ;
+     }
 }
 
 @media (max-width:576px) {
@@ -239,7 +294,12 @@
         width: 120px;
         height: 35px;
     }
-
+/* php department */
+.service-box {
+    width: 100% !important;
+    font-size: var(--font-p1);
+    margin: 15px 0px;
+}
 }
 
 @media (max-width:375px) {

@@ -127,8 +127,8 @@ const Serviceform = ({ onClose }) => {
       <Typography className='secondary_heading' variant='h2'>Contact Information</Typography>
       <Typography textAlign={"center"} className="primary_subheading">Some of our projects may interest you</Typography>
 
-      <Box className="form-control_man" width={"100%"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
-        <Box className="form-control" style={boxShadowStyle}>
+      <Box className="form-control_man flex-between" width={"100%"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
+        <Box className="form-control" style={boxShadowStyle} width={"100%"}>
           <Box width={"100%"} >
             <Typography className="Ready" variant='h3'  fontWeight={600} color={"#053480"}>Ready To work with us? Tell us more about your Project Requirement</Typography>
           </Box>
@@ -174,8 +174,8 @@ const Serviceform = ({ onClose }) => {
                   className='input'
                 />
               </Box>
-              <FormControl fullWidth margin="normal" required error={!!errors.requirement}>
-              <InputLabel  id="requirement-labell">Select Requirement</InputLabel>
+              <FormControl   fullWidth  required error={!!errors.requirement}>
+              <InputLabel sx={{marginTop:"6px"}} id="requirement-labell">Select Requirement</InputLabel>
                 <Select
                   labelId="requirement-label"
                   id="requirement"
@@ -249,8 +249,9 @@ const Serviceform = ({ onClose }) => {
                             error={!!errors.otherDescription}
                             helperText={errors.otherDescription}
                             fullWidth
-                            margin="normal"
                             required={showOtherInput}
+                            className='input'
+
                           />
                         </FormControl>
                       </Box>
@@ -278,6 +279,8 @@ const Serviceform = ({ onClose }) => {
 };
 
 export default Serviceform;
+
+
 
 
 

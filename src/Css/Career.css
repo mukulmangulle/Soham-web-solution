@@ -1,3 +1,10 @@
+.pop_form_child .input{
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+.pop_form_child .input p{
+     margin-left: 1px;
+}
 
 .apply-now-Team {
      background: linear-gradient(to bottom, #0160E7, var(--color-blue));
@@ -86,10 +93,22 @@
    height: 90vh;
    padding: 20px;
    overflow-y: scroll;
+   /* background-color:rgb(253, 249, 249) !important; */
 } 
-.pop-form div{
+.pop-form {
      width: 100%;
 }
+
+.career_form_opacity{
+     backdrop-filter: blur(0.01px);
+     background-color:rgba(255, 255, 255, 0.5) ;
+   
+}
+
+.space_career_toggle{
+        padding-left: 5px;
+}
+
 
 
 
