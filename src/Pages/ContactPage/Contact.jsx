@@ -407,14 +407,15 @@ const Contact = () => {
 
     return (
         <>
+        {/* className='contact_form_contorl' */}
             <Box width={"100%"} className="flex-center">
                 <Box className="contact_form">
                     <Box className="shadow-section">
-                        <Box className="GETINTOUCH" display={'flex'} justifyContent={"space-between"} flexWrap={'wrap'}>
-                            <Box className="GETINTOUCH1">
-                                <Typography className="about-soham">Get in Touch With Us</Typography>
+                        <Box className="GETINTOUCH contact_form_contorl" display={'flex'} justifyContent={"space-between"} flexWrap={'wrap'}>
+                            <Box className="GETINTOUCH1 ">
+                                <Typography  className="about-soham">Get in Touch With Us</Typography>
                                 <form onSubmit={handleSubmit}>
-                                    <FormControl>
+                                    <FormControl >
                                         <Grid container spacing={2} justifyContent="center">
                                             <Grid item xs={12} sm={6}>
                                                 <TextField

@@ -8,6 +8,7 @@ import Someourwork2 from './Someourwork2'
 import ContactInformtion from './ContactInformtion'
 import { Box, CircularProgress } from '@mui/material'
 import Footer2 from '../../Component/Footer2'
+import AttractiveSlider from './AttractiveSlider'
 
 const Aboutmain = () => {
   const [loading, setLoading] = useState(true);
@@ -40,6 +41,7 @@ const Aboutmain = () => {
       <TecnologicalFoucus />
       <LeaderShipTeam />
       <Someourwork2 />
+      <AttractiveSlider/>
       <ContactInformtion />
       <Footer2 />
     </>

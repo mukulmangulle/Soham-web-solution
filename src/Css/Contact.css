@@ -12,11 +12,11 @@
     align-items: center;
     justify-content: center !important;
     width: 100%;
-    max-width: 1150px ;
+    max-width: 1150px;
 }
 
 .contact_form .GETINTOUCH {
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -27,7 +27,7 @@
 }
 
 .contact_form .GETINTOUCH2 {
-    background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
+    background: linear-gradient(to bottom, #0160E7, var(--color-blue));
     border-radius: 0 18px 18px 0px;
     padding: 4rem;
     width: 40%;
@@ -47,7 +47,8 @@
 
 .contact_form .about-soham {
     font-size: var(--font-h2) !important;
-    font-weight: 600;    color:  var(--color-blue);
+    font-weight: 600;
+    color: var(--color-blue);
     text-align: center;
     margin: 0rem 0rem 2rem 0rem;
 }
@@ -55,7 +56,7 @@
 .get_in_touch_heading {
     font-size: var(--font-h3) !important;
     color: white;
-    font-weight: var(--font-weight)!important;
+    font-weight: var(--font-weight) !important;
 }
 
 .email_phone_heading {
@@ -64,7 +65,11 @@
     color: white !important;
 }
 
- @media (max-width:1200px) {
+.contact_form_contorl .input p {
+    margin-left: 0px;
+}
+
+@media (max-width:1200px) {
     .contact_form {
         width: 95% !important;
     }
@@ -75,7 +80,7 @@
     }
 
     .contact_form .GETINTOUCH2 {
-        background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
+        background: linear-gradient(to bottom, #0160E7, var(--color-blue));
         border-radius: 0 18px 18px 0px;
         width: 45%;
     }
@@ -85,7 +90,7 @@
     }
 
     .email_phone_heading {
-        font-weight: var(--font-weight)        !important;
+        font-weight: var(--font-weight) !important;
         margin: 10px 0px 0px 0px !important;
     }
 
@@ -93,9 +98,8 @@
         text-align: start;
         align-items: center;
     }
- 
-   
-} 
+
+}
 
 @media (max-width:1024px) {
     .contact_form {
@@ -104,17 +108,19 @@
         justify-content: center !important;
         width: 92% !important;
     }
-    .contant_pre{
+
+    .contant_pre {
         max-width: 100%;
         padding: 0x 20px;
-     }
+    }
+
     .contact_form .GETINTOUCH1 {
         padding: 3rem 2rem;
         width: 100%;
     }
 
     .contact_form .GETINTOUCH2 {
-        background: linear-gradient(to bottom, #0160E7,  var(--color-blue));
+        background: linear-gradient(to bottom, #0160E7, var(--color-blue));
         border-radius: 0px 0px 18px 18px;
         padding: 4rem;
         width: 100%;
@@ -139,11 +145,12 @@
     .contact_form {
         width: 100% !important;
     }
+
     .get_in_touch_heading {
         font-size: var(--font-h3) !important;
-       
+
     }
-    
+
     .contact_form .GETINTOUCH1 {
         padding: 0.5rem 1rem;
         width: 100%;
@@ -161,7 +168,7 @@
 
     .email_phone_heading {
         font-size: var(--font-h4);
-        font-weight: var(--font-weight)  !important;
+        font-weight: var(--font-weight) !important;
         margin: 10px 0px 0px 0px !important;
     }
 
@@ -178,8 +185,7 @@
 
 @media (max-width:576px) {
     .email_phone_heading {
-        font-weight: var(--font-weight)  
-        !important;
+        font-weight: var(--font-weight) !important;
         margin: 10px 0px 0px 0px !important;
     }
 
@@ -207,7 +213,7 @@
     }
 
     .email_phone_heading {
-        font-weight: var(--font-weight)  !important;
+        font-weight: var(--font-weight) !important;
         margin: 10px 0px 0px 0px !important;
     }
 
