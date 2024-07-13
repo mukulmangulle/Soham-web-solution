@@ -68,7 +68,6 @@
 
 .home .home-img {
     width: 500px;
-    box-shadow: 0px 0px 20px 0px #395889;
 }
 
 
@@ -460,7 +459,8 @@
     background-color: none;
     max-width: 1140px !important;
     width: 100%;
-    padding: 20px 0px 0px 0px;
+    padding: 30px 0px;
+    
 }
 
 .custom-man {
@@ -580,7 +580,7 @@
     .slick-slider {
         background-color: none;
         width: 100%;
-        padding: 20px;
+        padding: 30px 0px;
     }
 }
 

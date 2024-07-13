@@ -41,7 +41,7 @@ const Aboutmain = () => {
       <TecnologicalFoucus />
       <LeaderShipTeam />
       <Someourwork2 />
-      <AttractiveSlider/>
+      {/* <AttractiveSlider/> */}
       <ContactInformtion />
       <Footer2 />
     </>

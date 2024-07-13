@@ -6,6 +6,7 @@ import { Link, useLocation, useParams } from 'react-router-dom';
 import { fetchcategories } from '../../features/Categories/categoriesSlice';
 import Carditem from './Carditem';
 import Footer2 from '../../Component/Footer2';
+import Categories_name from './Categories_name';
 
 const BoxCategories = ({ Api_url }) => {
   const dispatch = useDispatch();
@@ -63,9 +64,9 @@ const BoxCategories = ({ Api_url }) => {
           )}
         </Box>
 
-        <Box  className="box-section container" >
-
-          <Box  className="flex-between-wrap box-center"  >
+        <Box  className="box-section " >
+            <Categories_name/>
+          {/* <Box  className="flex-between-wrap box-center"  >
             {categoriescontents?.slice(0, 4).map((categoriescontent) => (
               <Box className="categories-box " key={categoriescontent?.id}>
                 <Link
@@ -79,7 +80,7 @@ const BoxCategories = ({ Api_url }) => {
                 </Link>
               </Box>
             ))}
-          </Box>
+          </Box> */}
         </Box>
       </Box>
       <Footer2/>
