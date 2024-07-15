@@ -182,7 +182,7 @@ const ServiceContaint = () => {
                             Our Laravel development services are designed to deliver high-performance, scalable, and secure web applications tailored to your business needs. Leveraging the power of Laravel, a robust PHP framework, our skilled developers create custom solutions that streamline your operations and enhance user experience. We specialize in everything from building dynamic websites to developing complex web applications with advanced features.
 
                             </Typography>
-                            <Link to={`/${process.env.SLUG_URL}/laraval-development/`} style={{ textDecoration: "none", }} >
+                            <Link to={`/${process.env.SLUG_URL}/services/laraval-development/`} style={{ textDecoration: "none", }} >
                                 <Button className='btn_apply_now' >
                                     Read more
                                 </Button>

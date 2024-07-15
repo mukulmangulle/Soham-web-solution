@@ -27,7 +27,9 @@ const HomeSection = () => {
   if (loading) {
     return (
       <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
-        <CircularProgress />
+        <Box className="loder_shadow">
+          <CircularProgress />
+        </Box>
       </Box>
     );
   }

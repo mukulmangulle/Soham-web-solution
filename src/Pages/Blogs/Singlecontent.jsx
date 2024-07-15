@@ -45,7 +45,7 @@ const Singlecontent = ({ Api_url }) => {
 
   if (loading) {
     return (
-      <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
+      <Box  display="flex" justifyContent="center" alignItems="center">
         <CircularProgress />
       </Box>
     );
@@ -53,7 +53,7 @@ const Singlecontent = ({ Api_url }) => {
   return (
     <>
 
-      <Box className="flex-center padding-top--bottom" flexDirection={"column"}>
+      <Box className="flex-center " flexDirection={"column"}>
 
 
         <Box className="bg-img " >

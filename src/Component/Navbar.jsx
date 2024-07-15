@@ -40,9 +40,9 @@ const Navbar = () => {
   
 
   return (
-    <Box className='navbar ' position={"sticky"} top={"0%"} display={'flex'} alignItems={'center'} >
-      {/* <AppBar position="static" display={'flex'} alignItems={'center'} justifyContent={'center'} >  */}
-      {/* <Toolbar >  */}
+    <Box className='navbar '  position={"sticky"} top={"0%"} display={'flex'} alignItems={'center'} >
+      {/* <AppBar  position="static" display={'flex'} alignItems={'center'} justifyContent={'center'} >  */}
+     {/*  <Toolbar >  */}
       <Box className="flex-center" >
 
         <Box className="flex-between navbar-height "  >
@@ -130,8 +130,8 @@ const Navbar = () => {
       <Box sx={{ display: { xs: "flex", md: "none" } }}>
         <Sidebar />
       </Box>
-      {/* </Toolbar>  */}
-      {/* </AppBar> */}
+      {/* </Toolbar> */}
+      {/* </AppBar>  */}
     </Box>
   )
 }

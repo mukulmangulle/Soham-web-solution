@@ -1,17 +1,36 @@
-import React, { useEffect } from 'react'
-import { Box, Typography } from '@mui/material'
+import React, { useEffect, useState } from 'react'
+import { Box, CircularProgress, Typography } from '@mui/material'
 import WeHiring from './WeGrowing'
 import CareerOpeningTeam from './CurrentOpenings'
 import CareerForm from './CareerTogglepage/CareerForm'
 import Footer2 from '../../Component/Footer2'
-import Cookies from 'js-cookie'
 import WeGrowing from './WeGrowing'
 import CurrentOpenings from './CurrentOpenings'
 
 const Careermain = () => {
+    const [loading, setLoading] = useState(true);
+
     useEffect(() => {
-        Cookies.set('page-name', 'Career')
-    })
+      fetchDataFromAPI();
+    }, []);
+  
+    const fetchDataFromAPI = () => {
+  
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000);
+    };
+  
+  
+    if (loading) {
+      return (
+        <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
+          <Box className="loder_shadow">
+            <CircularProgress />
+          </Box>
+        </Box>
+      );
+    }
     return (
         <>
             <Box className="bg-img ">

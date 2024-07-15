@@ -1,34 +1,12 @@
 import { Box, CircularProgress, Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
-import Contact from './ContactForm';
-import Footer from '../../Component/Footer2';
-import Map from "../../assets/contactus soham web/map.svg";
+
 import ContactForm from './ContactForm';
 
 
 
 const Lets_Build = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchDataFromAPI();
-  }, []);
-
-  const fetchDataFromAPI = () => {
-
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  };
-
-
-  if (loading) {
-    return (
-      <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
-        <CircularProgress />
-      </Box>
-    );
-  }
+  
   return (
     <>
       <Box className="contact" >

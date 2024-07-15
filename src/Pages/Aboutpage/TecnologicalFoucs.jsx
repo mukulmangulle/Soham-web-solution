@@ -279,7 +279,7 @@ export default function TecnologicalFoucus() {
             <Typography className="primary_subheading our-utality-p">
               {contents.Technologyfocus.content}
             </Typography>
-            <Box className="flex-between techno_tab" margin={3}>
+            <Box className="flex-between techno_tab" margin={2}>
               <AntTabs value={value} onChange={handleChange} aria-label="ant example">
                 <AntTab label="Languages" />
                 <AntTab label="Frameworks" />
@@ -289,7 +289,7 @@ export default function TecnologicalFoucus() {
             </Box>
 
             <Box className="flex-center">
-              <Box paddingTop={2} width="100%" marginY={1}>
+              <Box width="100%" >
                 <StyledTabs
                   value={value}
                   onChange={handleChange}

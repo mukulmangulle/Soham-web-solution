@@ -1,10 +1,33 @@
-import React from 'react'
-import { Box, Typography } from '@mui/material'
+import React, { useEffect, useState } from 'react'
+import { Box, CircularProgress, Typography } from '@mui/material'
 import Service from './Service'
 import Form from "./Form"
 import Footer2 from '../../../Component/Footer2'
 
 const Codeigniter = () => {
+    const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchDataFromAPI();
+  }, []);
+
+  const fetchDataFromAPI = () => {
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  };
+
+
+  if (loading) {
+    return (
+      <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
+        <Box className="loder_shadow">
+          <CircularProgress />
+        </Box>
+      </Box>
+    );
+  }
     return (
         <>
             <Box >
