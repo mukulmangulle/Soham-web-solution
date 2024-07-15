@@ -62,7 +62,7 @@ const Navbar = () => {
                     <img className='down-arrow' src={Down} alt="" />
                   </div>
 
-                  <div className='dropdown_menu'>
+                  <div  className={`dropdown_menu ${isOpen ? 'open' : ''}`}>
                     <ul >
                       <Link to={`/${process.env.SLUG_URL}/about/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>About us</Link>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
                     <img className='down-arrow' src={Down} alt="" />
                   </div>
 
-                  <div className='dropdown_menu' >
+                  <div className={`dropdown_menu ${isOpen ? 'open' : ''}`} >
                     <ul  >
 
                       <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>PHP Development</Link>

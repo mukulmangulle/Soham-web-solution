@@ -46,7 +46,7 @@ function OurCustomer() {
 
     return (
 
-        <Box className=" custom-man  container_space"   >
+        <Box className=" custom-man  "   >
            <Box className="container">
            <Box className="customer-child ">
                 <Typography className='secondary_heading' variant='h2' >

@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchcontents } from '../features/content/contentSlice';
 import { Link } from 'react-router-dom';
 
-function Partner() {
+function OurPartner() {
     const dispatch = useDispatch()
     const { contents } = useSelector((state) => state.content);
 
@@ -54,7 +54,7 @@ function Partner() {
     ); F
 }
 
-export default Partner;
+export default OurPartner;
 
 
 

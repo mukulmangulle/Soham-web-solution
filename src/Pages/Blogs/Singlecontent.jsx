@@ -8,9 +8,10 @@ import Blckt from "../../assets/single blog page/blact.svg";
 import Youtuve from "../../assets/single blog page/youtuve.svg";
 import Wordpress from "../../assets/single blog page/wordpress.svg";
 import { useLocation, useParams } from 'react-router';
-import Categories_name from './Categories_name';
+import Categories_name from './Categories';
 import NextPrevious from './NextPrevious';
 import Footer2 from '../../Component/Footer2';
+import Categories from './Categories';
 
 const Singlecontent = ({ Api_url }) => {
   const [blog, setBlog] = useState([]);
@@ -81,7 +82,7 @@ const Singlecontent = ({ Api_url }) => {
       </Box>
     
     <Box className="flex-center">
-    <Categories_name Api_url={Api_url} />
+    <Categories Api_url={Api_url} />
     </Box>
       <Footer2 />
     </>

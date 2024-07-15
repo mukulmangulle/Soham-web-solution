@@ -6,7 +6,7 @@ import { Link, useLocation, useParams } from 'react-router-dom';
 import { fetchcategories } from '../../features/Categories/categoriesSlice';
 import Carditem from './Carditem';
 import Footer2 from '../../Component/Footer2';
-import Categories_name from './Categories_name';
+import Categories_name from './Categories';
 
 const BoxCategories = ({ Api_url }) => {
   const dispatch = useDispatch();
@@ -64,7 +64,7 @@ const BoxCategories = ({ Api_url }) => {
           )}
         </Box>
 
-        <Box  className="box-section " >
+        <Box  className="box-section container" paddingY={"0PX"}>
             <Categories_name/>
           {/* <Box  className="flex-between-wrap box-center"  >
             {categoriescontents?.slice(0, 4).map((categoriescontent) => (
