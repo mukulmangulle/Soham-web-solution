@@ -1,135 +1,3 @@
-// import React, { useState, useRef } from 'react';
-// import { Box, FormControl, Typography, RadioGroup, Radio, Grid, Button, FormControlLabel } from '@mui/material';
-// import Input1 from '../../../Child-Component/Input';
-// import { ImCross } from 'react-icons/im';
-// import { Modal, Backdrop } from '@mui/material';
-
-// const CareerForm = ({ onClose, heading }) => {
-//     const [showExperienceInputs, setShowExperienceInputs] = useState(false);
-//     const formRef = useRef(null); // Ref to hold the form element
-
-//     const handleRadioChange = (event) => {
-//         setShowExperienceInputs(event.target.value === 'Experience');
-//     };
-
-//     const handleSubmit = (event) => {
-//         event.preventDefault();
-//         const formData = new FormData(formRef.current); // Access form element using ref
-//         const data = Object.fromEntries(formData.entries());
-//         console.log(data);
-//         resetForm();
-//     };
-
-//     const resetForm = () => {
-//         formRef.current.reset(); // Reset the form using the ref
-//         setShowExperienceInputs(false); // Reset any conditional states
-//     };
-
-//     return (
-//         <Box className="pop-form" sx={{
-//             display: 'flex', alignItems: 'center',
-//             justifyContent: 'center', minHeight: '100vh',
-//         }} >
-//             <Box className="pop_form_child" sx={{
-//                 bgcolor: "white", boxShadow: 24, p: 4, borderRadius: 2, width:"600px", height: "80vh", margin: "5px", overflowY: 'scroll',
-//             }}>
-//                 <Box width={"100%"} onClick={onClose}>
-//                     <FormControl onClick={(e) => e.stopPropagation()}>
-//                        <Box textAlign={"end"} >
-//                        <ImCross onClick={onClose} />
-//                        </Box>
-
-//                         <Box>
-//                             <Typography textAlign={"center"} color={"#0160E7"} fontSize={25} fontWeight={700}>Apply Now</Typography>
-//                             <Typography textAlign={"center"} color={"#0160E7"} fontSize={25} fontWeight={700}>{heading}</Typography>
-//                         </Box>
-
-//                         <form ref={formRef} onSubmit={handleSubmit}>
-//                             <Input1  
-//                                 id="name"
-//                                 name="username"
-//                                 label="Name"
-//                                 fullWidth
-//                                 required
-//                             />
-//                             <Input1
-//                                 name="email"
-//                                 label="Email"
-//                                 fullWidth
-//                                 required
-//                             />
-//                             <Input1
-//                                 name="number"
-//                                 label="Phone Number"
-//                                 fullWidth
-//                                 required
-//                             />
-//                             <Input1
-//                                 name="text"
-//                                 label="Current City"
-//                                 fullWidth
-//                             />
-
-//                             <RadioGroup
-//                                 sx={{ justifyContent: "space-between", flexDirection: "row" }}
-//                                 aria-labelledby="demo-controlled-radio-buttons-group"
-//                                 name="controlled-radio-buttons-group"
-//                                 onChange={handleRadioChange}
-//                             >
-//                                 <FormControlLabel value="Fresher" control={<Radio />} label="Fresher" />
-//                                 <FormControlLabel value="Experience" control={<Radio />} label="Experience" />
-//                             </RadioGroup>
-
-//                             {showExperienceInputs && (
-//                                 <Grid container spacing={2}>
-//                                     <Grid item xs={6}>
-//                                         <Input1 name="experienceMonths" label="Months of Experience" />
-//                                     </Grid>
-//                                     <Grid item xs={6}>
-//                                         <Input1 name="experienceYears" label="Years of Experience" />
-//                                     </Grid>
-//                                 </Grid>
-//                             )}
-
-//                             <Input1
-//                                 name="jobRole"
-//                                 label="Select job role"
-//                                 fullWidth
-//                             />
-//                             <Input1
-//                                 name="expectedCTC"
-//                                 label="Expected CTC"
-//                                 fullWidth
-//                             />
-
-//                             <Box sx={{ marginTop: "10px" }} border={2} borderColor={'#0160E7'} padding={0.5} >
-//                                 <Button variant="contained" component="label">
-//                                     Upload Resume
-//                                     <input type="file" hidden />
-//                                 </Button>
-//                             </Box>
-
-//                             <Button sx={{ marginTop: "15px" }} type="submit" variant="contained" color="primary" >
-//                                 Submit
-//                             </Button>
-//                         </form>
-//                     </FormControl>
-//                 </Box>
-//             </Box>
-//         </Box>
-//     );
-// };
-
-// export default CareerForm;
-
-
-
-
-
-
-
-
-
 import React, { useState, useRef } from 'react';
 import { Box, FormControl, Typography, RadioGroup, Radio, Grid, Button, FormControlLabel, TextField } from '@mui/material';
 import { ImCross } from 'react-icons/im';
@@ -206,12 +74,6 @@ const CareerForm = ({ onClose, heading }) => {
                 validationErrors.experienceYears = 'Years of experience is required';
             }
         }
-
-
-
-
-
-
         if (!formData.jobRole.trim()) {
             validationErrors.jobRole = 'Job role is required';
         }
@@ -274,7 +136,6 @@ const CareerForm = ({ onClose, heading }) => {
                         </Box>
 
                         <form ref={formRef} onSubmit={handleSubmit}>
-
                             <TextField
                                 id="name"
                                 name="username"
@@ -284,8 +145,7 @@ const CareerForm = ({ onClose, heading }) => {
                                 error={!!errors.username}
                                 helperText={errors.username}
                                 fullWidth
-                                className='input'
-                            />
+                                className='input' />
 
                             <TextField
                                 name="email"
@@ -295,9 +155,7 @@ const CareerForm = ({ onClose, heading }) => {
                                 error={!!errors.email}
                                 helperText={errors.email}
                                 fullWidth
-                                className='input'
-
-                            />
+                                className='input' />
 
                             <TextField
                                 name="number"
@@ -307,10 +165,7 @@ const CareerForm = ({ onClose, heading }) => {
                                 error={!!errors.number}
                                 helperText={errors.number}
                                 fullWidth
-                                className='input'
-
-
-                            />
+                                className='input' />
 
                             <TextField
                                 name="city"
@@ -320,8 +175,7 @@ const CareerForm = ({ onClose, heading }) => {
                                 error={!!errors.city}
                                 helperText={errors.city}
                                 fullWidth
-                                className='input'
-                            />
+                                className='input' />
 
                             <TextField
                                 name="message"
@@ -333,17 +187,15 @@ const CareerForm = ({ onClose, heading }) => {
                                 fullWidth
                                 multiline
                                 rows={4}
-                                className='input'
-
-                            />
+                                className='input' />
 
 
                             <RadioGroup
                                 sx={{ justifyContent: "space-between", flexDirection: "row" }}
                                 aria-labelledby="demo-controlled-radio-buttons-group"
                                 name="controlled-radio-buttons-group"
-                                onChange={handleRadioChange}
-                            >
+                                onChange={handleRadioChange}>
+
                                 <FormControlLabel value="Fresher" control={<Radio />} label="Fresher*" />
                                 <FormControlLabel value="Experience" control={<Radio />} label="Experience*" />
                             </RadioGroup>
@@ -358,10 +210,7 @@ const CareerForm = ({ onClose, heading }) => {
                                         error={!!errors.experienceMonths}
                                         helperText={errors.experienceMonths}
                                         fullWidth
-                                        className='input'
-
-
-                                    />
+                                        className='input' />
 
                                     <TextField
                                         name="experienceYears"
@@ -371,10 +220,7 @@ const CareerForm = ({ onClose, heading }) => {
                                         error={!!errors.experienceYears}
                                         helperText={errors.experienceYears}
                                         fullWidth
-                                        className='input'
-
-                                    />
-
+                                        className='input' />
                                 </Box>
                             )}
                             <TextField
@@ -385,9 +231,7 @@ const CareerForm = ({ onClose, heading }) => {
                                 error={!!errors.jobRole}
                                 helperText={errors.jobRole}
                                 fullWidth
-                                className='input'
-
-                            />
+                                className='input' />
 
 
                             <TextField
@@ -398,17 +242,7 @@ const CareerForm = ({ onClose, heading }) => {
                                 error={!!errors.expectedCTC}
                                 helperText={errors.expectedCTC}
                                 fullWidth
-                                className='input'
-
-                            />
-
-                            {/* 
-                            <Box sx={{ marginTop: "10px" }} border={1} borderRadius={1} borderColor={'#0160E7'} padding={0.7}>
-                                <Button variant="contained" component="label">
-                                    Upload Resume
-                                    <input type="file" hidden />
-                                </Button>
-                            </Box> */}
+                                className='input' />
 
                             <Box sx={{ marginTop: "10px", border: 1, borderRadius: 1, borderColor: '#0160E7', padding: 0.7 }}>
                                 <Button
@@ -425,21 +259,18 @@ const CareerForm = ({ onClose, heading }) => {
                                         '&:active': {
                                             transform: 'scale(0.95)',
                                         },
-                                    }}
-                                >
+                                    }} >
                                     Upload Resume
                                     <input type="file" hidden />
                                 </Button>
                             </Box>
-
-
+                            
                             <Button
                                 type="submit"
                                 variant="contained"
                                 color="primary"
                                 className="gradientbutton"
-                                sx={{ width: '100%', padding: '5px', fontSize: '16px', marginTop: '15px' }}
-                            >
+                                sx={{ width: '100%', padding: '5px', fontSize: '16px', marginTop: '15px' }} >
                                 Submit
                             </Button>
                         </form>

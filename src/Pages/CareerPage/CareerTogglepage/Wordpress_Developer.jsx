@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Typography, Box, Modal, Backdrop } from '@mui/material';
 import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
@@ -55,15 +54,13 @@ function Wordpress_Developer() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Collaborate with the design team to ensure visual coherence and user experience.</Typography>
-
                     </Box>
+
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Maintain and update website features and security.
                         </Typography>
-
                     </Box>
-
                 </Box>
 
                 <Box className="toggle_heading_career">
@@ -77,8 +74,8 @@ function Wordpress_Developer() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Strong understanding of front-end technologies, such as HTML5, CSS3, JavaScript, and jQuery.</Typography>
-
                     </Box>
+
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" > Experience with PHP and MySQL.</Typography>
@@ -99,7 +96,6 @@ function Wordpress_Developer() {
                         <Typography className="Typography-gray-career margin-left-1" > Excellent problem-solving skills and attention to detail.
                         </Typography>
                     </Box>
-
                 </Box>
 
                 <Box className="toggle_heading_career">
@@ -108,31 +104,23 @@ function Wordpress_Developer() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Be part of a creative team that values innovation and quality.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Work on projects that challenge your skills and allow for personal growth.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Enjoy a supportive work environment that encourages new ideas.</Typography>
-
                     </Box>
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Contribute to projects that make a real difference for our clients.</Typography>
-
                     </Box>
 
                     <Box className="D-CENTER" >
                         <Typography className="Typography-gray-career margin-left-1" >If you're a WordPress enthusiast with a knack for creating stunning and user-friendly websites, we'd love to have you on board. Apply to Soham Web Solutions and let's create digital masterpieces together!</Typography>
-
                     </Box>
-
-
-
 
                 </Box>
                 <Box>
@@ -158,10 +146,7 @@ function Wordpress_Developer() {
                     </Modal>
                 </Box>
             </Box>
-
-
         </Box>
-
     );
 }
 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Typography, Box, Modal, Backdrop } from '@mui/material';
 import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
@@ -40,7 +39,6 @@ function React_Native() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >
-
                             Develop high-quality mobile applications using React Native framework.</Typography>
                     </Box>
 
@@ -51,7 +49,6 @@ function React_Native() {
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Ensure robust code quality and responsiveness of applications.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
@@ -62,9 +59,7 @@ function React_Native() {
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Troubleshoot and debug to optimize performance.
                         </Typography>
-
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
@@ -73,17 +68,14 @@ function React_Native() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Proficiency in React Native with a solid understanding of its ecosystem.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Experience with third-party libraries and APIs.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Familiarity with code versioning tools (such as Git).</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
@@ -94,43 +86,33 @@ function React_Native() {
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" > Ability to work in a fast-paced environment and adapt to changing requirements.</Typography>
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
                     <Typography className='toggle_heading_career' >Why Soham Web Solutions:</Typography>
-
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Be at the forefront of mobile technology in a company that champions innovation.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Collaborate with a team that values creativity and fresh ideas.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Work on projects that reach a diverse and global audience.</Typography>
-
                     </Box>
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Enjoy a culture that supports continuous learning and career growth.</Typography>
-
                     </Box>
 
                     <Box className="D-CENTER" >
                         <Typography className="Typography-gray-career margin-left-1" >If you're eager to take on the challenge and shape the future of mobile applications with Soham Web Solutions, we would love to hear from you. Together, let's turn visionary concepts into user-friendly realities.</Typography>
-
                     </Box>
-
-
                 </Box>
                 <Box>
                     <CareerButton onClick={toggleForm} />
-
                     <Modal
                         open={showForm}
                         onClose={handleCloseModal}
@@ -138,8 +120,7 @@ function React_Native() {
                         BackdropComponent={Backdrop}
                         BackdropProps={{
                             sx: { backdropFilter: 'blur(0.01px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }
-                        }}
-                    >
+                        }}>
                         <Box sx={{
                             display: 'flex',
                             alignItems: 'center',
@@ -151,10 +132,7 @@ function React_Native() {
                     </Modal>
                 </Box>
             </Box>
-
-
         </Box>
-
     );
 }
 

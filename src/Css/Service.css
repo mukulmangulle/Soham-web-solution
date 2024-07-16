@@ -1,25 +1,18 @@
-
-
 .service_primary_section .service-man {
     width: 100%;
-    
-
 }
-
-
 
 .service-man .service_container_tow_man {
     width: 100%;
     background-color: #E6F0Fd;
 }
 
-
 .service-man .devlopment-text {
     width: 42%;
 }
 
 .devlopment-text .service-logo {
-   width: 55px ;
+    width: 55px;
     margin-bottom: 1rem;
 }
 
@@ -27,11 +20,10 @@
     width: 530px;
 }
 
-
 .service-man .service_secondary-heading {
     font-size: var(--font-h2);
     color: var(--color-blue);
-    font-weight: var(--font-weight)  ;
+    font-weight: var(--font-weight);
 }
 
 .service-man .service_text {
@@ -71,8 +63,7 @@
 .get_the_best {
     color: white;
     text-align: center;
-    font-size: var(--font-h3) !important ;
-
+    font-size: var(--font-h3) !important;
 }
 
 
@@ -80,14 +71,14 @@
     text-align: center;
     color: white;
     font-size: var(--font-h2);
-    font-weight: var(--font-weight)  ;
+    font-weight: var(--font-weight);
     margin-bottom: 50px;
 }
 
 .service_chid .inner_heading {
     text-align: center;
     color: var(--color-blue);
-    font-weight: var(--font-weight)  ;
+    font-weight: var(--font-weight);
     font-size: var(--font-h2);
 }
 
@@ -96,66 +87,53 @@
     text-align: center;
     margin-top: 20px;
 }
-.requirement{
-  text-align: center;
+
+.requirement {
+    text-align: center;
 }
 
 /* php department */
 .service {
-    background: linear-gradient(to right, #0160E7,  var(--color-blue));
+    background: linear-gradient(to right, #0160E7, var(--color-blue));
 }
 
 .service-box {
-    width: 250px ;
+    width: 250px;
     height: 100px;
     border-radius: 10px;
     background-color: white;
-
     font-size: var(--font-p1);
-    color:  var(--color-blue);
+    color: var(--color-blue);
     padding: 5px;
     margin: 5px;
-   }
-
-
-.service-box img{
-      margin: 10px ;
-    
 }
 
-.service-box p{
-   font-size: var(--font-p1) ;
-   font-weight: var(--font-weight);
+.service-box img {
+    margin: 10px;
 }
 
-
-
-
+.service-box p {
+    font-size: var(--font-p1);
+    font-weight: var(--font-weight);
+}
 
 @media (max-width:1080px) {
-
     .about-welcome {
-      width: 100%;
-  
+        width: 100%;
     }
-  
-    #about-heading {
-      margin: auto;
-    }
-  
-    .client-section-child {
-      width: 100%;
-      flex-wrap: wrap;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-    }
-  
-    
-  
-  }
-  
 
+    #about-heading {
+        margin: auto;
+    }
+
+    .client-section-child {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
 
 @media (max-width:1024px) {
     .service_chid {
@@ -184,12 +162,9 @@
         width: 350px;
     }
 
-    
     .service-man .service_text {
         padding: 0.5rem 0px;
     }
-
-  
 
     .project-requirement {
         height: 250px;
@@ -200,33 +175,27 @@
         height: 45px;
     }
 
-   
-
-
     .devlopment-text .service-logo {
-        width: 45px ;
+        width: 45px;
     }
 
     .service_chid .secvice_child_text {
         width: 100%;
     }
+
     /* php department */
     .service-box {
         width: 170px;
         height: 80px;
         padding: 20px !important;
         padding-left: 10PX;
-
     }
 }
-
 
 @media (max-width:767px) {
     .service-man .devlopment-text {
         width: 100% !important;
     }
-
-   
 
     .service-man .service_img {
         width: 450px;
@@ -247,11 +216,13 @@
         flex-direction: column;
         flex-direction: column-reverse;
     }
+
     .get_the_best {
-        font-size: var(--font-h3) !important ;
-    
+        font-size: var(--font-h3) !important;
+
     }
-    .servicebox_man{
+
+    .servicebox_man {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -262,22 +233,19 @@
     .service-box {
         width: 45% !important;
         font-size: var(--font-p1);
-       
         margin: 15px 10px;
 
-
     }
-    .service-box p{
-        font-size: var(--font-p1) ;
-     }
+
+    .service-box p {
+        font-size: var(--font-p1);
+    }
 }
 
 @media (max-width:576px) {
-
     .service-man .service_img {
         width: 320px;
     }
-
 
     .project-requirement {
         height: 180px;
@@ -289,17 +257,17 @@
         width: 170px;
     }
 
-    
     .service-man .btn_apply_now {
         width: 120px;
         height: 35px;
     }
-/* php department */
-.service-box {
-    width: 100% !important;
-    font-size: var(--font-p1);
-    margin: 15px 0px;
-}
+
+    /* php department */
+    .service-box {
+        width: 100% !important;
+        font-size: var(--font-p1);
+        margin: 15px 0px;
+    }
 }
 
 @media (max-width:375px) {
@@ -316,5 +284,4 @@
         height: 35px;
         width: 150px;
     }
-
 }

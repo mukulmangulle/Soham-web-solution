@@ -9,7 +9,7 @@ const Privacy = () => {
         <Typography variant='h2' className='primary-heading'> Privacy Policy </Typography>
       </Box>
       <Box className=" flex-center padding-top-bottom" >
-     
+
         <Box className="flex-center-column privacy_man"  >
           <Typography className='terms_conditon_heading'>Last updated on 21-11-2023</Typography>
           <Typography className="terms_conditon_content">This privacy policy (“Policy”) relates to the manner Soham Web Solution (“we”, “us”, “our”) in which we use, handle and process the data that you provide us in connection with using the products or services we offer. By using this website or by availing goods or services offered by us, you agree to the terms and conditions of this Policy, and consent to our use, storage, disclosure, and transfer of your information or data in the manner described in this Policy.</Typography>

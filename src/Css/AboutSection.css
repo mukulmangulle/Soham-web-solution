@@ -1,15 +1,6 @@
-.slide-button{
-    background-color: red;
-}
-
-
-
-
 .aboutsectiocolor {
-    /* background-color: rgb(218, 229, 227); */
     background: linear-gradient(to bottom, rgba(1, 95, 229, 1), rgba(5, 52, 130, 1));
 }
-
 
 .aboutsectiocolor .about_img {
     width: 400px;
@@ -33,15 +24,12 @@
     padding-left: 60px;
 }
 
-
-
 .about-welcome .about-heading {
     font-size: var(--font-h3);
     font-weight: var(--font-weight);
     text-align: start;
     padding-bottom: 8px;
     color: white;
-
 }
 
 .subheading-box {
@@ -49,12 +37,9 @@
     gap: 25px;
 }
 
-
 .aboutsectiocolor .innovation {
     font-size: var(--font-h6);
 }
-
-
 
 .img_ceo {
     width: 300px;
@@ -62,7 +47,6 @@
 
 .tecno-content {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,9 +59,6 @@
     margin: 0px auto;
 }
 
-
-
-
 .form-control .Ready {
     font-size: var(--font-h3);
 }
@@ -85,14 +66,14 @@
 .form-control .input {
     margin: 7px 0px;
 }
-.form-control .input p{
+
+.form-control .input p {
     margin-left: 1px;
 }
 
 .contact-1 {
     width: 50%;
     margin: 20px 1.5px 0px;
-    
 }
 
 .contact-2 {
@@ -104,7 +85,8 @@
     margin: 0px 1.5px;
     padding-top: 44px;
 }
-.contact-3 div{
+
+.contact-3 div {
     width: 200px;
 }
 
@@ -125,7 +107,6 @@
     margin: 5px;
     font-size: var(--font-h5);
     color: var(--color-blue);
-
 }
 
 .team .leadership-p {
@@ -142,7 +123,6 @@
 
 .vision-man .vision-child {
     padding-top: 10px;
-
 }
 
 .vision-man .card_1 {
@@ -150,8 +130,6 @@
     border-radius: 10px;
     margin: 0px 0px 20px 15px;
     padding-top: 10px;
-    /* box-shadow:0.5PX 0.5PX 10PX 5PX #767677; */
-    /* border: 2PX solid  var(--color-blue); */
 }
 
 .vision-man .V-CARD {
@@ -172,10 +150,8 @@
     margin: 1rem;
 }
 
-
 .form-control .contact_section_second {
     width: 50%;
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -219,11 +195,7 @@
     font-size: var(--font-h5);
 }
 
-
-
-
 @media (max-width:1024px) {
-
     .aboutsectiocolor .flex-center {
         align-items: center;
     }
@@ -232,22 +204,16 @@
         width: 300px;
     }
 
-   
-
     .convert_subheading_man {
         flex-direction: column;
-
-
     }
 
     .convert_subheading {
         margin-top: 10px !important;
-
     }
 
     .aboutsectiocolor .innovation {
         width: 100%;
-
     }
 
     .team {
@@ -266,15 +232,12 @@
         margin: 3px;
     }
 
-
-
     .form_about .form-control {
         width: 86%;
         border-radius: 10px;
         padding: 25px;
         margin-top: 20px;
     }
-
 
     .vision-man .V-CARD {
         padding: 12px;
@@ -283,7 +246,6 @@
     .vision-man .vision-child {
         flex-wrap: wrap;
         width: 100%;
-
     }
 
     .V-CARD .vision-heading {
@@ -295,25 +257,20 @@
         width: 100%;
     }
 
-   
     .form_about .form-control {
         width: 100%;
-        }
-    .form-control .contact_section_second {
-        width:70%;
-     
     }
 
-   
+    .form-control .contact_section_second {
+        width: 70%;
+    }
 
     .form_control_child {
         flex-wrap: wrap;
     }
 
     .form-control_man .submit {
-
         margin-top: 20px;
-
     }
 
     .Technology_img_box img {
@@ -333,18 +290,7 @@
         text-align: center;
 
     }
-    /* .aboutsectiocolor div{
-          width: 400px !important;
-height: 400px !important;
-    }
-    .aboutsectiocolor .about_img {
-        width: 400px !important;
-height: 400px !important;
-        margin-right: 0PX;
-        object-fit: cover;
-        background-position: center;
-    } */
-    
+
     .subheading-box {
         display: flex;
         flex-wrap: wrap;
@@ -354,7 +300,8 @@ height: 400px !important;
     .form_about .form-control {
         width: 100%;
     }
-    .form-control .contact_section_second{
+
+    .form-control .contact_section_second {
         width: 100%;
     }
 
@@ -362,16 +309,13 @@ height: 400px !important;
         width: 100%;
     }
 
-
     .about-welcome .about-heading {
         font-size: var(--font-h2);
         text-align: center;
     }
 
-
     .aboutsectiocolor .innovation {
         font-size: var(--font-h6);
-
     }
 
     .team {
@@ -421,7 +365,6 @@ height: 400px !important;
     }
 
     .contact-3 {
-
         padding-top: 50px;
     }
 
@@ -429,7 +372,8 @@ height: 400px !important;
         margin-right: 0PX;
         margin-bottom: 10PX;
     }
-    .about-welcome{
+
+    .about-welcome {
         padding-left: 0px;
     }
 }
@@ -446,13 +390,7 @@ height: 400px !important;
         margin: 12px;
         width: 250px;
     }
-   
 }
-
-
-
-
-
 
 @media (max-width:576px) {
     .form_about .form-control {
@@ -475,7 +413,6 @@ height: 400px !important;
         margin-top: 2px;
     }
 
-
     .leadership_box {
         margin: 10PX;
     }
@@ -491,7 +428,6 @@ height: 400px !important;
     .contact-2 {
         width: 100%;
         margin-bottom: -25px !important;
-
     }
 
     .contact-3 {
@@ -512,14 +448,12 @@ height: 400px !important;
     }
 
     .vision-man .card_1 {
-     margin: 10px 0px;
+        margin: 10px 0px;
     }
 
     .vision-man .lizards {
         padding-top: 0.5rem;
-
     }
-
 
     .form-control .border_bottom_form {
         width: 75%;
@@ -552,10 +486,6 @@ height: 400px !important;
 }
 
 @media (max-width:375px) {
-
-
-
-
     .leadership_box {
         margin: 12PX;
     }
@@ -581,30 +511,20 @@ height: 400px !important;
     .form-control .border_bottom_form {
         width: 100%;
     }
-
-
 }
 
-
-
-
-
 /* sllider */
-
 .gallery {
     --d: 10s;
-    /* duration */
     display: grid;
     align-items: center;
     overflow: hidden;
-    /* border: 1PX SOLID WHITE; */
     -webkit-mask: linear-gradient(90deg, #0000, #000 10% 90%, #0000);
-
 }
 
 .gallery>img {
     grid-area: 1/1;
-    width:500px;
+    width: 500px;
     height: 500px;
     aspect-ratio: 1.5;
     object-fit: cover;
@@ -637,11 +557,10 @@ height: 400px !important;
 
 
 @media (max-width: 768px) {
-    
-    .gallery > img {
-    width: 80%; /* Adjust width for smaller screens */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add some space between images */
-    }
-    }
 
+    .gallery>img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}

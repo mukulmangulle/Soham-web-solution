@@ -1,9 +1,5 @@
-
-
-
 import React, { useState } from 'react';
-import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Typography, Box, Modal, Backdrop } from '@mui/material';
 import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
@@ -19,8 +15,7 @@ function Frontend_Developer() {
     };
 
     return (
-        <Box    >
-
+        <Box>
             <Box className="content-toggle" >
                 <Box className="D-CENTER"  >
                     <Typography className='career_toggle_subheading' >Experience :</Typography>
@@ -43,7 +38,6 @@ function Frontend_Developer() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >
-
                             Transform design concepts into reality using HTML, CSS, and JavaScript.</Typography>
                     </Box>
 
@@ -65,9 +59,7 @@ function Frontend_Developer() {
                         <Typography className='dot'>•</Typography>
                         <Typography className=" Typography-gray-career    margin-left-1" >Stay up-to-date with emerging trends and technologies in frontend development.
                         </Typography>
-
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
@@ -111,7 +103,6 @@ function Frontend_Developer() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Engage in projects that challenge and enhance your skills.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
@@ -129,9 +120,6 @@ function Frontend_Developer() {
                         <Typography className="Typography-gray-career margin-left-1" >Ready to code your career path with us? Apply now and let's build the web of tomorrow, together!</Typography>
 
                     </Box>
-
-
-
                 </Box>
                 <Box >
                     <CareerButton onClick={toggleForm} />
@@ -157,13 +145,8 @@ function Frontend_Developer() {
                     </Modal>
                 </Box>
             </Box>
-
-
-
         </Box>
-
     );
 }
-
 export default Frontend_Developer;
 

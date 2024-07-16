@@ -12,8 +12,6 @@ import { fetchcontents } from '../features/content/contentSlice';
 const OurWork = () => {
     const dispatch = useDispatch()
     const { contents } = useSelector((state) => state.content);
-
-
     useEffect(() => {
         dispatch(fetchcontents())
     }, [dispatch]);
@@ -28,7 +26,6 @@ const OurWork = () => {
                     <Typography textAlign={"center"} className='primary_subheading our-utality-p' >
                         {contents.SomeourWorks.contant}
                     </Typography>
-
                 </Box>
 
                 <Box className="flex-center card-section"  >
@@ -96,5 +93,4 @@ const OurWork = () => {
         </Box>
     )
 }
-
 export default OurWork

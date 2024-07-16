@@ -204,8 +204,6 @@ const Form = ({ onClose }) => {
                 {errors.requirement && <Typography variant="caption" color="error">{errors.requirement}</Typography>}
               </FormControl> 
               
-  
-
               <TextField
                 fullWidth
                 id="message"
@@ -218,8 +216,7 @@ const Form = ({ onClose }) => {
                 error={!!errors.textarea}
                 helperText={errors.textarea}
                 required
-                className='input'
-              />
+                className='input' />
               
             </Box>
 
@@ -236,8 +233,8 @@ const Form = ({ onClose }) => {
                     <FormControlLabel control={<Checkbox name="CMS Development" onChange={handleCheckboxChange} />} label="CMS Development" />
                     <FormControlLabel
                       control={<Checkbox name="Other" checked={showOtherInput} onChange={handleCheckboxChange} />}
-                      label="Other"
-                    />
+                      label="Other" />
+
                     {showOtherInput && (
                       <Box width={'200px'}>
                         <FormControl component="fieldset" fullWidth >
@@ -250,9 +247,8 @@ const Form = ({ onClose }) => {
                             helperText={errors.otherDescription}
                             fullWidth
                             required={showOtherInput}
-                            className='input'
-
-                          />
+                            className='input'/>
+                            
                         </FormControl>
                       </Box>
                     )}

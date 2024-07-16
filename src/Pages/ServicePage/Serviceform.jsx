@@ -119,162 +119,155 @@ const Serviceform = ({ onClose }) => {
     }
   };
 
-  
+
 
   return (
-   <Box className="flex-center">
-     <Box className="form_about container">
-      <Typography className='secondary_heading' variant='h2'>Contact Information</Typography>
-      <Typography textAlign={"center"} className="primary_subheading">Some of our projects may interest you</Typography>
+    <Box className="flex-center">
+      <Box className="form_about container">
+        <Typography className='secondary_heading' variant='h2'>Contact Information</Typography>
+        <Typography textAlign={"center"} className="primary_subheading">Some of our projects may interest you</Typography>
 
-      <Box className="form-control_man flex-between" width={"100%"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
-        <Box className="form-control" style={boxShadowStyle} width={"100%"}>
-          <Box width={"100%"} >
-            <Typography className="Ready" variant='h3'  fontWeight={600} color={"#053480"}>Ready To work with us? Tell us more about your Project Requirement</Typography>
-          </Box>
-          <Box className="form_control_child">
-            <Box className="contact-1"  >
-              <Box >
-                <TextField
-                  id="name"
-                  name="username"
-                  label="Name"
-                  value={formData.username}
-                  onChange={handleChange}
-                  error={!!errors.username}
-                  helperText={errors.username}
-                  fullWidth
-                  required
-                  className='input'
-                />
-              </Box>
-              <Box >
-                <TextField
-                  name="email"
-                  label="Email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  error={!!errors.email}
-                  helperText={errors.email}
-                  fullWidth
-                  required
-                  className='input'
-                />
-              </Box>
-              <Box >
-                <TextField
-                  name="number"
-                  label="Phone Number"
-                  value={formData.number}
-                  onChange={handleChange}
-                  error={!!errors.number}
-                  helperText={errors.number}
-                  fullWidth
-                  required
-                  className='input'
-                />
-              </Box>
-              <FormControl   fullWidth  required error={!!errors.requirement}>
-              <InputLabel sx={{marginTop:"6px"}} id="requirement-labell">Select Requirement</InputLabel>
-                <Select
-                  labelId="requirement-label"
-                  id="requirement"
-                  name="requirement"
-                  value={formData.requirement}
-                  onChange={handleChange}
-                  error={!!errors.requirement}
-                  fullWidth
-                  className='input'
-                  label="Select Requirement"
-
-                >
-
-
-                   <MenuItem value="Enterprise Web Solution">Web Development</MenuItem>
-                  <MenuItem value="UI/UX Services">UI/UX Services</MenuItem>
-                  <MenuItem value="Mobile Apps Development">Web Designing</MenuItem>
-                  <MenuItem value="Application Services">Hire Dedicated Resources</MenuItem>
-                  <MenuItem value="Hire Dedicated Resources">CMS Development</MenuItem>
-                  <MenuItem value="Framework Development">Framework Development</MenuItem>
-                  <MenuItem value="Enterprise Solution">Enterprise Solution</MenuItem>
-                  <MenuItem value="IT Consultancy">IT Consultancy</MenuItem>
-                  <MenuItem value="CMS Development">CMS Development</MenuItem>
-                  <MenuItem value="Digital Marketing">Digital Marketing</MenuItem>
-                </Select>
-                {errors.requirement && <Typography variant="caption" color="error">{errors.requirement}</Typography>}
-              </FormControl> 
-              
-  
-
-              <TextField
-                fullWidth
-                id="message"
-                name="textarea"
-                label="Brief Project Information"
-                multiline
-                rows={4}
-                value={formData.textarea}
-                onChange={handleChange}
-                error={!!errors.textarea}
-                helperText={errors.textarea}
-                required
-                className='input'
-              />
-              
+        <Box className="form-control_man flex-between" width={"100%"} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={'column'}>
+          <Box className="form-control" style={boxShadowStyle} width={"100%"}>
+            <Box width={"100%"} >
+              <Typography className="Ready" variant='h3' fontWeight={600} color={"#053480"}>Ready To work with us? Tell us more about your Project Requirement</Typography>
             </Box>
+            <Box className="form_control_child">
+              <Box className="contact-1"  >
+                <Box >
+                  <TextField
+                    id="name"
+                    name="username"
+                    label="Name"
+                    value={formData.username}
+                    onChange={handleChange}
+                    error={!!errors.username}
+                    helperText={errors.username}
+                    fullWidth
+                    required
+                    className='input' />
 
-            <Box className="contact_section_second">
-              <Box className="contact-2">
-                <FormControl component="fieldset" fullWidth margin="normal">
-                  <Box paddingY={1}>
-                    <Typography className="requirement-label border_bottom_form" color={'gray'} variant='h3'>Select Your Requirement</Typography>
-                  </Box>
-                  <FormGroup>
-                    <FormControlLabel control={<Checkbox name="Web Development" onChange={handleCheckboxChange} />} label="Web Development" />
-                    <FormControlLabel control={<Checkbox name="Web Designing" onChange={handleCheckboxChange} />} label="Web Designing" />
-                    <FormControlLabel control={<Checkbox name="Hire Dedicated Resources" onChange={handleCheckboxChange} />} label="Hire Dedicated Resources " />
-                    <FormControlLabel control={<Checkbox name="CMS Development" onChange={handleCheckboxChange} />} label="CMS Development" />
-                    <FormControlLabel
-                      control={<Checkbox name="Other" checked={showOtherInput} onChange={handleCheckboxChange} />}
-                      label="Other"
-                    />
-                    {showOtherInput && (
-                      <Box width={'200px'}>
-                        <FormControl component="fieldset" fullWidth >
-                          <TextField
-                            name="otherDescription"
-                            label="Please specify"
-                            value={formData.otherDescription}
-                            onChange={handleChange}
-                            error={!!errors.otherDescription}
-                            helperText={errors.otherDescription}
-                            fullWidth
-                            required={showOtherInput}
-                            className='input'
+                </Box>
+                <Box >
+                  <TextField
+                    name="email"
+                    label="Email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    error={!!errors.email}
+                    helperText={errors.email}
+                    fullWidth
+                    required
+                    className='input' />
 
-                          />
-                        </FormControl>
-                      </Box>
-                    )}
-                  </FormGroup>
+                </Box>
+                <Box >
+                  <TextField
+                    name="number"
+                    label="Phone Number"
+                    value={formData.number}
+                    onChange={handleChange}
+                    error={!!errors.number}
+                    helperText={errors.number}
+                    fullWidth
+                    required
+                    className='input' />
+
+                </Box>
+                <FormControl fullWidth required error={!!errors.requirement}>
+                  <InputLabel sx={{ marginTop: "6px" }} id="requirement-labell">Select Requirement</InputLabel>
+                  <Select
+                    labelId="requirement-label"
+                    id="requirement"
+                    name="requirement"
+                    value={formData.requirement}
+                    onChange={handleChange}
+                    error={!!errors.requirement}
+                    fullWidth
+                    className='input'
+                    label="Select Requirement">
+
+                    <MenuItem value="Enterprise Web Solution">Web Development</MenuItem>
+                    <MenuItem value="UI/UX Services">UI/UX Services</MenuItem>
+                    <MenuItem value="Mobile Apps Development">Web Designing</MenuItem>
+                    <MenuItem value="Application Services">Hire Dedicated Resources</MenuItem>
+                    <MenuItem value="Hire Dedicated Resources">CMS Development</MenuItem>
+                    <MenuItem value="Framework Development">Framework Development</MenuItem>
+                    <MenuItem value="Enterprise Solution">Enterprise Solution</MenuItem>
+                    <MenuItem value="IT Consultancy">IT Consultancy</MenuItem>
+                    <MenuItem value="CMS Development">CMS Development</MenuItem>
+                    <MenuItem value="Digital Marketing">Digital Marketing</MenuItem>
+                  </Select>
+                  {errors.requirement && <Typography variant="caption" color="error">{errors.requirement}</Typography>}
                 </FormControl>
+
+                <TextField
+                  fullWidth
+                  id="message"
+                  name="textarea"
+                  label="Brief Project Information"
+                  multiline
+                  rows={4}
+                  value={formData.textarea}
+                  onChange={handleChange}
+                  error={!!errors.textarea}
+                  helperText={errors.textarea}
+                  required
+                  className='input'
+                />
+
               </Box>
-              <Box className="contact-3" width={'200px'}>
-                <FormControl component="fieldset" fullWidth margin="normal">
-                  <FormGroup>
-                    <FormControlLabel control={<Checkbox name="UI/UX Services" onChange={handleCheckboxChange} />} label="UI/UX Services" />
-                    <FormControlLabel control={<Checkbox name="Application Services" onChange={handleCheckboxChange} />} label="Application Services" />
-                    <FormControlLabel control={<Checkbox name="IT Consultancy" onChange={handleCheckboxChange} />} label="IT Consultancy" />
-                  </FormGroup>
-                  <Button onClick={handleSubmit} className='submit' variant="contained" >Submit</Button>
-                </FormControl>
+              <Box className="contact_section_second">
+                <Box className="contact-2">
+                  <FormControl component="fieldset" fullWidth margin="normal">
+                    <Box paddingY={1}>
+                      <Typography className="requirement-label border_bottom_form" color={'gray'} variant='h3'>Select Your Requirement</Typography>
+                    </Box>
+                    <FormGroup>
+                      <FormControlLabel control={<Checkbox name="Web Development" onChange={handleCheckboxChange} />} label="Web Development" />
+                      <FormControlLabel control={<Checkbox name="Web Designing" onChange={handleCheckboxChange} />} label="Web Designing" />
+                      <FormControlLabel control={<Checkbox name="Hire Dedicated Resources" onChange={handleCheckboxChange} />} label="Hire Dedicated Resources " />
+                      <FormControlLabel control={<Checkbox name="CMS Development" onChange={handleCheckboxChange} />} label="CMS Development" />
+                      <FormControlLabel
+                        control={<Checkbox name="Other" checked={showOtherInput} onChange={handleCheckboxChange} />}
+                        label="Other" />
+
+                      {showOtherInput && (
+                        <Box width={'200px'}>
+                          <FormControl component="fieldset" fullWidth >
+                            <TextField
+                              name="otherDescription"
+                              label="Please specify"
+                              value={formData.otherDescription}
+                              onChange={handleChange}
+                              error={!!errors.otherDescription}
+                              helperText={errors.otherDescription}
+                              fullWidth
+                              required={showOtherInput}
+                              className='input' />
+
+                          </FormControl>
+                        </Box>
+                      )}
+                    </FormGroup>
+                  </FormControl>
+                </Box>
+                <Box className="contact-3" width={'200px'}>
+                  <FormControl component="fieldset" fullWidth margin="normal">
+                    <FormGroup>
+                      <FormControlLabel control={<Checkbox name="UI/UX Services" onChange={handleCheckboxChange} />} label="UI/UX Services" />
+                      <FormControlLabel control={<Checkbox name="Application Services" onChange={handleCheckboxChange} />} label="Application Services" />
+                      <FormControlLabel control={<Checkbox name="IT Consultancy" onChange={handleCheckboxChange} />} label="IT Consultancy" />
+                    </FormGroup>
+                    <Button onClick={handleSubmit} className='submit' variant="contained" >Submit</Button>
+                  </FormControl>
+                </Box>
               </Box>
             </Box>
           </Box>
         </Box>
       </Box>
     </Box>
-   </Box>
   );
 };
 

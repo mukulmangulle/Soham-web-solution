@@ -43,7 +43,6 @@ const CurrentOpenings = () => {
                     <Frontend_Developer />
                 </Accordion>
 
-
                 {/* PHP Developer*/}
                 <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 2} onChange={() => toggleAccordion(2)}>
                     <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2a-content" id="panel2a-header">
@@ -51,7 +50,7 @@ const CurrentOpenings = () => {
                             PHP Developer
                         </Typography>
                     </AccordionSummary>
-                    <PHP_Developer/>
+                    <PHP_Developer />
                 </Accordion>
 
                 {/*  Wordpress Developer */}
@@ -61,9 +60,8 @@ const CurrentOpenings = () => {
                             Wordpress Developer
                         </Typography>
                     </AccordionSummary>
-                    <Wordpress_Developer/>
+                    <Wordpress_Developer />
                 </Accordion>
-
 
                 {/* Graphic Designer */}
                 <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 4} onChange={() => toggleAccordion(4)}>
@@ -72,9 +70,8 @@ const CurrentOpenings = () => {
                             Graphic Designer
                         </Typography>
                     </AccordionSummary>
-                    < Shopify_Developer/>
+                    < Shopify_Developer />
                 </Accordion>
-
 
                 {/*  Graphic Designer*/}
                 <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 5} onChange={() => toggleAccordion(5)}>
@@ -85,8 +82,6 @@ const CurrentOpenings = () => {
                     </AccordionSummary>
                     <Graphic_Designer />
                 </Accordion>
-
-
 
                 {/* Mobile App Developer (React Native)*/}
                 <Accordion className="current_opning careertoggle" id="box-shadow" expanded={activeAccordion === 6} onChange={() => toggleAccordion(6)}>
@@ -107,7 +102,6 @@ const CurrentOpenings = () => {
                     </AccordionSummary>
                     < HR_Executive />
                 </Accordion>
-
             </Box>
         </Box>
     );

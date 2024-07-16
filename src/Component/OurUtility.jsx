@@ -1,7 +1,6 @@
 
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import Email from "../assets/whatsapp1.svg"
 import Our1 from "../assets/our service/our1.svg"
 import Our2 from "../assets/our service/our2.svg"
 import Our3 from "../assets/our service/our3.svg"
@@ -15,11 +14,9 @@ const OurUtility = () => {
     const dispatch = useDispatch()
     const { contents } = useSelector((state) => state.content);
 
-
     useEffect(() => {
         dispatch(fetchcontents())
     }, [dispatch]);
-
 
     return (
         <Box className=" flex-center">
@@ -49,7 +46,7 @@ const OurUtility = () => {
                         </Typography>
                     </Link>
 
-                    <Link  to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} className='text-decortion flex-center  box_utility flex-center-coulmn'  >
+                    <Link to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} className='text-decortion flex-center  box_utility flex-center-coulmn'  >
                         <img src={Our3} alt="" className="zoom-img" />
                         <Typography  >
                             E-commerce <br /> Development
@@ -62,13 +59,9 @@ const OurUtility = () => {
                             Mobile App <br /> Development
                         </Typography>
                     </Link>
-
-
                 </Box>
-
             </Box>
         </Box>
     )
 }
-
 export default OurUtility

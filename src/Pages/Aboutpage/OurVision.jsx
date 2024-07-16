@@ -6,7 +6,7 @@ import Mission from "../../assets/AboutSection1/mission.svg"
 const OurVision = () => {
     return (
         <Box className="flex-center vision-man ">
-          <Box className=" flex-center-coulmn container">
+            <Box className=" flex-center-coulmn container">
                 <Typography className='secondary_heading' variant='h2'  >
                     Our Vision & Mission
                 </Typography>
@@ -46,9 +46,7 @@ const OurVision = () => {
                                         <Typography className='vision-heading' gutterBottom variant="h5" component="div">
                                             Mission
                                         </Typography>
-
                                     </Box>
-
 
                                     <Typography className='lizards' variant="body2" >
                                         Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -59,13 +57,10 @@ const OurVision = () => {
                                 </Box>
                             </CardContent>
                         </Card>
-
                     </Box>
-
                 </Box>
             </Box>
         </Box>
     )
 }
-
 export default OurVision

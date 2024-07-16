@@ -30,7 +30,6 @@ const ServiceMan = () => {
     );
   }
 
-
   return (
     <>
       <Box >
@@ -41,11 +40,7 @@ const ServiceMan = () => {
 
       <ServiceContaint />
       <Project_requirment />
-
       <Footer2 />
-
-
-
     </>
   )
 }

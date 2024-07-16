@@ -1,12 +1,7 @@
-import { Box, CircularProgress, Typography } from '@mui/material'
-import React, { useEffect, useState } from 'react'
-
+import { Box,Typography } from '@mui/material'
 import ContactForm from './ContactForm';
 
-
-
 const Lets_Build = () => {
-  
   return (
     <>
       <Box className="contact" >
@@ -28,7 +23,7 @@ const Lets_Build = () => {
         <ContactForm />
       </Box>
       </Box>
-      
+
     </>
 
   )

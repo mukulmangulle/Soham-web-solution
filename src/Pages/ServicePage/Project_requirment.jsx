@@ -16,12 +16,12 @@ const Project_requirment = () => {
   return (
     <>
       <Box className="project-requirement flex-center ">
-      <Box className="container flex-center-column requirement" >
-      <Typography variant='h4' className='get_the_best'>
-          Get the best quote for your project requirement
-        </Typography>
-        <Button className='view-more' onClick={openPopup}>Get in Touch</Button>
-      </Box>
+        <Box className="container flex-center-column requirement" >
+          <Typography variant='h4' className='get_the_best'>
+            Get the best quote for your project requirement
+          </Typography>
+          <Button className='view-more' onClick={openPopup}>Get in Touch</Button>
+        </Box>
       </Box>
 
       {showPopup && <Serviceform onClose={closePopup} />}

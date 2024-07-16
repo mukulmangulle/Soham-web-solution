@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Typography, Box, Modal, Backdrop } from '@mui/material';
 import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
 function HR_Executive() {
     const [showForm, setShowForm] = useState(false);
-
     const toggleForm = () => {
         setShowForm(!showForm);
     };
@@ -39,7 +37,6 @@ function HR_Executive() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >
-
                             Lead the recruitment process to attract top-tier talent.</Typography>
                     </Box>
 
@@ -55,13 +52,11 @@ function HR_Executive() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Manage HR records, such as contracts, leave applications, and attendance data</Typography>
-
                     </Box>
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >  Organize training & development initiatives to enhance employee skills.
                         </Typography>
-
                     </Box>
 
                 </Box>
@@ -72,17 +67,14 @@ function HR_Executive() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" > Proven experience as an HR executive or similar role.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Familiarity with labor laws and HR best practices.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Strong interpersonal and negotiation skills.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
@@ -94,7 +86,6 @@ function HR_Executive() {
                         <Typography className="Typography-gray-career margin-left-1" > A degree in Human Resources or related field.
                         </Typography>
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
@@ -118,21 +109,15 @@ function HR_Executive() {
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Enjoy opportunities for professional development and career advancement.</Typography>
-
                     </Box>
 
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >At Soham Web Solutions, we believe that the right HR Executive can be the catalyst for a thriving workplace. If you're ready to take on this challenge and make a significant impact, we'd love to meet you.</Typography>
-
                     </Box>
-
-
-
                 </Box>
                 <Box>
                     <CareerButton onClick={toggleForm} />
-
                     <Modal
                         open={showForm}
                         onClose={handleCloseModal}
@@ -153,8 +138,6 @@ function HR_Executive() {
                     </Modal>
                 </Box>
             </Box>
-
-
         </Box>
 
     );

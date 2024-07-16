@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -8,11 +7,10 @@ function ScrollToTop() {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth" 
+      behavior: "smooth"
     });
-  }, [pathname]); 
+  }, [pathname]);
 
   return null;
 }
-
 export default ScrollToTop;

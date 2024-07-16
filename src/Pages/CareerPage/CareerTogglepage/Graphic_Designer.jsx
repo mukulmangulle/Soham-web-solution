@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Typography, Box, Modal, Backdrop } from '@mui/material';
 import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
@@ -39,7 +38,6 @@ function Graphic_Designer() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >
-
                             Design stunning graphics that resonate with our clients' vision.</Typography>
                     </Box>
 
@@ -57,8 +55,6 @@ function Graphic_Designer() {
                         <Typography className="Typography-gray-career margin-left-1" >Handle a diverse range of projects, including website graphics, promotional materials, and brand identity design.</Typography>
 
                     </Box>
-
-
                 </Box>
 
                 <Box className="careertoggle">
@@ -120,9 +116,6 @@ function Graphic_Designer() {
                         <Typography className="Typography-gray-career margin-left-1" >If you're ready to unleash your creative spirit and make a lasting impact in the digital realm, Soham Web Solutions is your platform. Let's innovate, inspire, and implement designs that tell stories.</Typography>
 
                     </Box>
-
-
-
                 </Box>
                 <Box>
                     <CareerButton onClick={toggleForm} />
@@ -147,10 +140,7 @@ function Graphic_Designer() {
                     </Modal>
                 </Box>
             </Box>
-
-
         </Box>
-
     );
 }
 

@@ -1,8 +1,6 @@
 
-
 import React, { useState } from 'react';
-import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Typography, Box, Modal, Backdrop } from '@mui/material';
 import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
@@ -17,10 +15,8 @@ function PHP_Developer() {
         setShowForm(false);
     };
 
-
     return (
         <Box >
-
             <Box className="content-toggle" >
                 <Box className="D-CENTER"  >
                     <Typography className='career_toggle_subheading' >Experience :</Typography>
@@ -68,7 +64,6 @@ function PHP_Developer() {
                         </Typography>
 
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
@@ -87,7 +82,6 @@ function PHP_Developer() {
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Experience with SQL/NoSQL databases and their declarative query languages.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
@@ -98,7 +92,6 @@ function PHP_Developer() {
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" > Knowledge of code versioning tools, such as Git.</Typography>
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
@@ -108,38 +101,28 @@ function PHP_Developer() {
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >
                             Be part of a forward-thinking company that embraces new technologies.                                    </Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Work in a collaborative environment that values each team member's input.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Engage with diverse projects that challenge your skills and help you grow.</Typography>
-
                     </Box>
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Enjoy a culture that supports work-life balance and employee well-being.</Typography>
-
                     </Box>
 
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Are you ready to code with a purpose? If you're a PHP Developer looking for an opportunity to make an impact, apply to Soham Web Solutions today and let's innovate together!</Typography>
-
                     </Box>
-
-
-
-
 
                 </Box>
                 <Box>
                     <CareerButton onClick={toggleForm} />
-
                     <Modal
                         open={showForm}
                         onClose={handleCloseModal}
@@ -161,10 +144,7 @@ function PHP_Developer() {
                     </Modal>
                 </Box>
             </Box>
-
-
         </Box>
-
     );
 }
 

@@ -8,35 +8,33 @@ import ClientAbout from './ClientAbout';
 import OurCustomer from './OurCustomer';
 import OurPartner from './OurPartner';
 
-
 const HomeSection = () => {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchDataFromAPI();
-  }, []);
+  // useEffect(() => {
+  //   fetchDataFromAPI();
+  // }, []);
 
-  const fetchDataFromAPI = () => {
+  // const fetchDataFromAPI = () => {
 
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  };
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
+  // };
 
-
-  if (loading) {
-    return (
-      <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
-        <Box className="loder_shadow">
-          <CircularProgress />
-        </Box>
-      </Box>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <Box display="flex" justifyContent="center" alignItems="center" height="70vh">
+  //       <Box className="loder_shadow">
+  //         <CircularProgress />
+  //       </Box>
+  //     </Box>
+  //   );
+  // }
 
   return (
     <>
-      <Box className="home-mane-1" >
+      <Box>
         <HeroSection />
         <OurUtility />
         <OurWork />

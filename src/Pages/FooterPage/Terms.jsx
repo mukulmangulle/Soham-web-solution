@@ -38,13 +38,9 @@ const Terms = () => {
                         <li>All disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in Dewas, Madhya Pradesh</li>
                         <li>All concerns or communications relating to these Terms must be communicated to us using the contact information provided on this website.</li>
                     </ul>
-
-
                 </Box>
             </Box>
-
             <Footer2 />
-
         </>
     )
 }

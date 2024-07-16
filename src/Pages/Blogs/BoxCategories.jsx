@@ -1,8 +1,7 @@
-
 import React, { useEffect, useState } from 'react';
-import { Box, CircularProgress, Typography } from '@mui/material';
+import { Box, CircularProgress } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { fetchcategories } from '../../features/Categories/categoriesSlice';
 import Carditem from './Carditem';
 import Footer2 from '../../Component/Footer2';
@@ -64,26 +63,11 @@ const BoxCategories = ({ Api_url }) => {
           )}
         </Box>
 
-        <Box  className="box-section container" paddingY={"0PX"}>
-            <Categories_name/>
-          {/* <Box  className="flex-between-wrap box-center"  >
-            {categoriescontents?.slice(0, 4).map((categoriescontent) => (
-              <Box className="categories-box " key={categoriescontent?.id}>
-                <Link
-                  to={`/${process.env.SLUG_URL}/categories/${categoriescontent?.slug}/`}
-                  state={{ id: categoriescontent?.id, name: categoriescontent?.name }}
-                  className="text-decortion"
-                >
-                  <Typography id='card-heading' >
-                    {categoriescontent.name}
-                  </Typography>
-                </Link>
-              </Box>
-            ))}
-          </Box> */}
+        <Box className="box-section container" paddingY={"0PX"}>
+          <Categories_name />
         </Box>
       </Box>
-      <Footer2/>
+      <Footer2 />
     </>
   );
 }

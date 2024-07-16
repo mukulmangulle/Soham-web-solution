@@ -6,7 +6,7 @@ import Carditem from './Carditem';
 const AllPagination2 = ({ Api_url }) => {
   const [blog, setBlog] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [page, setPage] = useState(2); 
+  const [page, setPage] = useState(2);
   const [exhausted, setExhausted] = useState(false);
   const observer = useRef();
 
@@ -54,7 +54,7 @@ const AllPagination2 = ({ Api_url }) => {
         return response.json();
       })
       .then(data => {
-        setBlog(prevBlog => (page === 2 ? [...data] : [...prevBlog, ...data])); 
+        setBlog(prevBlog => (page === 2 ? [...data] : [...prevBlog, ...data]));
         setLoading(false);
         if (data.length === 0) {
           setExhausted(true);
@@ -78,7 +78,7 @@ const AllPagination2 = ({ Api_url }) => {
           ) : (
             <Box>Data is not an array</Box>
           )}
-      
+
           <Box id="bottom-of-list" />
         </>
       )}

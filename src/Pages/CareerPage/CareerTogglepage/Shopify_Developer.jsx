@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Typography, Accordion, AccordionSummary, AccordionDetails, Box, Button, Modal, Backdrop, Fade } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Typography, Box, Modal, Backdrop } from '@mui/material';
 import CareerButton from '../../../Child-Component/CareerButton';
 import CareerForm from './CareerForm';
 
@@ -49,20 +48,16 @@ function Shopify_Developer() {
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Ensure the technical feasibility of UI/UX designs and optimize for mobile platforms.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Collaborate with cross-functional teams to ensure a consistent and effective end-user experience.</Typography>
-
                     </Box>
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Conduct website performance tests and optimize for speed and scalability.
                         </Typography>
-
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
@@ -72,18 +67,15 @@ function Shopify_Developer() {
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Proven experience as a Shopify Developer with a strong understanding of the Shopify platform.
                         </Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Proficiency in web technologies such as HTML5, CSS3, JavaScript, and Liquid.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Experience with Shopify's theming system and store setup.
                         </Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
@@ -98,41 +90,30 @@ function Shopify_Developer() {
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" > Excellent problem-solving skills and the ability to work in a fast-paced environment.</Typography>
                     </Box>
-
                 </Box>
 
                 <Box className="careertoggle">
                     <Typography className='toggle_heading_career'>Why Soham Web Solutions:</Typography>
-
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Be at the forefront of e-commerce development and work with the latest technologies.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Join a team that values creativity, collaboration, and innovation.</Typography>
-
                     </Box>
                     <Box className="D-CENTER" >
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Participate in diverse projects that push the boundaries of online retail.</Typography>
-
                     </Box>
                     <Box className="D-CENTER">
                         <Typography className='dot'>•</Typography>
                         <Typography className="Typography-gray-career margin-left-1" >Enjoy a culture that supports professional growth and personal achievement.</Typography>
-
                     </Box>
 
                     <Box className="D-CENTER" >
                         <Typography className="Typography-gray-career margin-left-1" >If you're ready to take your Shopify expertise to new heights and contribute to the success of online businesses, Soham Web Solutions is your next destination. Apply now and let's revolutionize the e-commerce space together!</Typography>
-
                     </Box>
-
-
-
-
                 </Box>
                 <Box>
                     <CareerButton onClick={toggleForm} />
@@ -144,8 +125,7 @@ function Shopify_Developer() {
                         BackdropComponent={Backdrop}
                         BackdropProps={{
                             sx: { backdropFilter: 'blur(0.01px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }
-                        }}
-                    >
+                        }}  >
                         <Box sx={{
                             display: 'flex',
                             alignItems: 'center',
@@ -157,8 +137,6 @@ function Shopify_Developer() {
                     </Modal>
                 </Box>
             </Box>
-
-
         </Box>
 
     );

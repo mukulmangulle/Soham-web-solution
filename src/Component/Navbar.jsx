@@ -1,14 +1,11 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import Swslogo from "../assets/soham.svg"
 import Down from "../assets/down-arow.svg"
 import Sidebar from '../Pages/Toggle/Sidebar';
 import { Link } from 'react-router-dom';
-import { AppBar, Toolbar } from '@mui/material';
-
-import { Margin } from '@mui/icons-material';
 import { useEffect, useRef, useState } from 'react';
+import ScrollToTopBottomButton from '../ScrollToTopButton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,16 +32,9 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
- 
-  
-  
-
   return (
-    <Box className='navbar '  position={"sticky"} top={"0%"} display={'flex'} alignItems={'center'} >
-      {/* <AppBar  position="static" display={'flex'} alignItems={'center'} justifyContent={'center'} >  */}
-     {/*  <Toolbar >  */}
-      <Box className="flex-center" >
-
+    <Box className='navbar ' sx={{ bgcolor: "#053480" }} position={"sticky"} top={"0%"} >
+      <Box className="flex-center"  >
         <Box className="flex-between navbar-height "  >
           <Link to="/" >
             <img color='#FFFFFF' src={Swslogo} alt="" className='sws-logo' />
@@ -52,86 +42,60 @@ const Navbar = () => {
 
           <Box flexGrow={1 / 10} className="flex-between ul-list"
             sx={{ display: { xs: 'none', md: 'flex' } }}>
-
-
             <Box className="ul-box service_child_menu" >
               <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/about/`}  >Company</Link>
               <Typography className='fontSize16' marginTop={"2px"}>
-                <div style={{ position: 'relative' }} ref={menuRef}>
-                  <div style={{ cursor: 'pointer' }} className='navbar-ul'>
+                <Box style={{ position: 'relative' }} ref={menuRef}>
+                  <Box style={{ cursor: 'pointer' }} className='navbar-ul'>
                     <img className='down-arrow' src={Down} alt="" />
-                  </div>
+                  </Box>
 
-                  <div  className={`dropdown_menu ${isOpen ? 'open' : ''}`}>
+                  <Box className={`dropdown_menu ${isOpen ? 'open' : ''}`}>
                     <ul >
-                      <Link to={`/${process.env.SLUG_URL}/about/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>About us</Link>
-
-                      <Link  to={`/${process.env.SLUG_URL}/career/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Career</Link>
-
-                      {/* <Link to={`/${process.env.SLUG_URL}/services/`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}>Services</Link> */}
-
-                      <Link to={`/${process.env.SLUG_URL}/blogs/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Blogs</Link>
-
-                      <Link to={`/${process.env.SLUG_URL}/life-at-soham/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Life@Soham</Link>
-                      {/* <Link to={`/${process.env.SLUG_URL}/bloges`} style={{ padding: '12px', textDecoration: "none" }} onClick={closeMenu}> blog</Link> */}
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/about/`} onClick={closeMenu}>About us</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/career/`} onClick={closeMenu}>Career</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/blogs/`} onClick={closeMenu}>Blogs</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/life-at-soham/`} onClick={closeMenu}>Life@Soham</Link>
                     </ul>
-                  </div>
-
-                </div>
+                  </Box>
+                </Box>
 
               </Typography>
             </Box>
             <Box className="ul-box service_child_menu" >
               <Link className='color-white text text-decortion' to={`/${process.env.SLUG_URL}/services/`}  >Services</Link>
               <Typography className='fontSize16' marginTop={"2px"}>
-                <div style={{ position: 'relative' }} ref={menuRef}>
-                  <div style={{ cursor: 'pointer' }} className='navbar-ul'>
+                <Box style={{ position: 'relative' }} ref={menuRef}>
+                  <Box style={{ cursor: 'pointer' }} className='navbar-ul'>
                     <img className='down-arrow' src={Down} alt="" />
-                  </div>
+                  </Box>
 
-                  <div className={`dropdown_menu ${isOpen ? 'open' : ''}`} >
+                  <Box className={`dropdown_menu ${isOpen ? 'open' : ''}`} >
                     <ul  >
-
-                      <Link to={`/${process.env.SLUG_URL}/services/php-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>PHP Development</Link>
-
-                      <Link to={`/${process.env.SLUG_URL}/services/wordpress-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Wordpress Development</Link>
-
-                      <Link to={`/${process.env.SLUG_URL}/services/shopify-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Shopify Development</Link>
-
-                      <Link to={`/${process.env.SLUG_URL}/services/web-designing/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>Website Designing
-                      </Link>
-                      <Link to={`/${process.env.SLUG_URL}/services/graphic-designing/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>
-                        Graphic Designing</Link>
-                      <Link to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>E-commerce Development</Link>
-                      <Link to={`/${process.env.SLUG_URL}/services/laraval-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>
-                        Laravel Development</Link>
-                      <Link to={`/${process.env.SLUG_URL}/services/codeigniter_development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>CodeIgniter Development</Link>
-
-                      <Link to={`/${process.env.SLUG_URL}/services/react-native-development/`} style={{ padding: '10px', textDecoration: "none" }} onClick={closeMenu}>React Native Development</Link>
-
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/php-development/`} onClick={closeMenu}>PHP Development</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/wordpress-development/`} onClick={closeMenu}>Wordpress Development</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/shopify-development/`} onClick={closeMenu}>Shopify Development</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/web-designing/`} onClick={closeMenu}>Website Designing</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/graphic-designing/`} onClick={closeMenu}>Graphic Designing</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/ecommerce-development/`} onClick={closeMenu}>E-commerce Development</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/laraval-development/`} onClick={closeMenu}>Laravel Development</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/codeigniter_development/`} onClick={closeMenu}>CodeIgniter Development</Link>
+                      <Link className='text_color_blue text-decortion link_space' to={`/${process.env.SLUG_URL}/services/react-native-development/`} onClick={closeMenu}>React Native Development</Link>
                     </ul>
-
-   
-                  </div>
-
-                </div>
-
+                  </Box>
+                </Box>
               </Typography>
             </Box>
-
-          
 
             <Link className="text-decortion flex-center hire-button" to={`/${process.env.SLUG_URL}/contact-us/`}>Contact us</Link>
 
           </Box>
         </Box>
+        <Box sx={{ display: { xs: "flex", md: "none" } }}>
+          <Sidebar />
+        </Box>
       </Box>
-
-      <Box sx={{ display: { xs: "flex", md: "none" } }}>
-        <Sidebar />
-      </Box>
-      {/* </Toolbar> */}
-      {/* </AppBar>  */}
+<ScrollToTopBottomButton/>  
     </Box>
   )
 }

@@ -5,9 +5,6 @@ import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
 
-
-
-
 export const SidebarData = [
   {
     id: "ram",
@@ -47,8 +44,6 @@ export const SidebarData = [
         icon: <IoIcons.IoIosPaper />
       }
     ]
-
-
 
   },
   {
@@ -118,17 +113,5 @@ export const SidebarData = [
       }
     ]
   },
-  // {
-  //   title: 'Solution',
-  //   icon: <FaIcons.FaCartPlus />
-  // },
-  // {
-  //   title: 'HireDevelopment',
-  //   icon: <IoIcons.IoMdPeople />
-  // },
-
-  // {
-  //   title: 'Work',
-  //   icon: <IoIcons.IoMdHelpCircle />
-  // }
+  
 ];

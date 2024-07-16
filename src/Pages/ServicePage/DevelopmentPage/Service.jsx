@@ -37,13 +37,10 @@ const Service = () => {
                   <Typography>  Custom Framework Development</Typography>
                 </Box>
               </Box>
-
-
             </Box>
           </Box>
         </Box>
       </Box>
-
     </>
   )
 }

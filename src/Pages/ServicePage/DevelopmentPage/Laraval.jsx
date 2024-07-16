@@ -5,7 +5,6 @@ import Service from './Service'
 import Form from "./Form"
 import Footer2 from '../../../Component/Footer2'
 
-
 const Laraval = () => {
   const [loading, setLoading] = useState(true);
 
@@ -52,9 +51,6 @@ const Laraval = () => {
 
 
             </Typography>
-           
-
-       
     </Box>
 </Box>
 </Box>

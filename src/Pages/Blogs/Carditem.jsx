@@ -18,12 +18,11 @@ const Carditem = ({ blogcontent }) => {
             </Typography>
           </Link>
           <Typography
-           className='card_text'
+            className='card_text'
             dangerouslySetInnerHTML={{ __html: blogcontent?.excerpt.rendered }}
           />
         </CardContent>
       </Card>
-      
     </>
   );
 };

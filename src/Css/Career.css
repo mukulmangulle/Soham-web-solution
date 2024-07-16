@@ -1,8 +1,9 @@
-.pop_form_child .input{
+.pop_form_child .input {
      margin-top: 5px;
      margin-bottom: 5px;
 }
-.pop_form_child .input p{
+
+.pop_form_child .input p {
      margin-left: 1px;
 }
 
@@ -12,15 +13,13 @@
      width: 110px;
      margin-top: 10px !important;
      margin-bottom: 10px !important;
-     color: white !important ;
+     color: white !important;
      text-transform: capitalize;
-
 }
 
 .career-pregraph {
      width: 100%;
 }
-
 
 .we-man {
      width: 100%;
@@ -41,9 +40,7 @@
 
 .we-man .growing {
      width: 60%;
-
 }
-
 
 .growing .gorw-p1 {
      font-size: var(--font-h2);
@@ -52,7 +49,6 @@
      text-align: start;
      margin-bottom: 2rem;
 }
-
 
 .we-man .grow-email {
      text-decoration: none;
@@ -77,82 +73,74 @@
      font-size: var(--font-h6);
      color: gray;
      text-align: start;
-
 }
 
 .current_opning {
      margin: 20px 0px;
 }
 
+.pop-form .pop_form_child {
+     background: white;
+     box-shadow: 0px 0px 10px 0px #535454;
+     border-radius: 10px;
+     width: 600px;
+     height: 90vh;
+     padding: 20px;
+     overflow-y: scroll;
+}
 
-.pop-form .pop_form_child{
- background: white;
- box-shadow: 0px 0px 10px 0px  #535454;
-   border-radius: 10px;
-   width: 600px;
-   height: 90vh;
-   padding: 20px;
-   overflow-y: scroll;
-   /* background-color:rgb(253, 249, 249) !important; */
-} 
 .pop-form {
      width: 100%;
 }
 
-.career_form_opacity{
+.career_form_opacity {
      backdrop-filter: blur(0.01px);
-     background-color:rgba(255, 255, 255, 0.5) ;
-   
+     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.space_career_toggle{
-        padding-left: 5px;
+.space_career_toggle {
+     padding-left: 5px;
 }
 
 .careertoggle {
      width: 100%;
      padding: 0.5rem;
-   }
-   
-   .careertoggle .Hr-excutive {
+}
+
+.careertoggle .Hr-excutive {
      font-size: var(--font-h5);
      font-weight: var(--font-weight);
-   
-   
-   }
-   
-   .careertoggle .add-icon {
+}
+
+.careertoggle .add-icon {
      color: #0160E7;
      font-size: var(--font-h3);
-   }
-   
-   .content-toggle {
+}
+
+.content-toggle {
      padding: 0px 1.5rem;
-   }
-   
-   .content-toggle .toggle-typo {
+}
+
+.content-toggle .toggle-typo {
      font-weight: var(--font-weight);
-   }
-   
-   .margin-left-1 {
+}
+
+.margin-left-1 {
      margin-left: 1rem;
-   }
-   
-   .content-toggle .dot {
+}
+
+.content-toggle .dot {
      font-size: var(--font-h4);
      margin-top: -5PX;
      margin-right: 5PX;
-   
-   }
-   
-   .content-toggle .D-CENTER {
+
+}
+
+.content-toggle .D-CENTER {
      display: flex;
      align-items: START;
      margin: 7px 0px;
-   }
-   
-
-
+}
 
 @media (max-width:1024px) {
      .we-man .we-img-section {
@@ -178,35 +166,26 @@
 
      .categories-box {
           height: 150px;
-      
-      
-        }
-      
-      
-        .content-toggle .toggle-typo {
-          font-weight: var(--font-weight);  
-        }
+     }
 
+     .content-toggle .toggle-typo {
+          font-weight: var(--font-weight);
+     }
 }
 
 @media (max-width:768px) {
-
      .growing .gorw-p1 {
           font-size: var(--font-h2);
           margin-bottom: 1rem;
      }
 
-
      .we-man .growing {
           padding: 0rem 0rem 2rem 0rem;
      }
 
-
-
      .we-man .grow-email {
           font-size: var(--font-h6);
      }
-
 
      .content-toggle .toggle_heading_career {
           font-size: var(--font-h6);
@@ -220,27 +199,27 @@
      .D-CENTER .Typography-gray-career {
           font-size: var(--font-h6);
      }
+
      .categories-box {
           height: 120px;
-        }
-      
-        #categories-box-typo {
+     }
+
+     #categories-box-typo {
           font-size: var(--font-h2);
-        }
-      
-        #date-title {
+     }
+
+     #date-title {
           font-size: var(--font-h6);
-        }
-      
-        .careertoggle .Hr-excutive {
+     }
+
+     .careertoggle .Hr-excutive {
           font-size: var(--font-h3);
-      
-        }
-      
-        .slider-wrapper .image-list .image-item {
+     }
+
+     .slider-wrapper .image-list .image-item {
           width: 120px;
           height: 120px;
-        }
+     }
 }
 
 @media (max-width:767px) {
@@ -255,7 +234,6 @@
 @media (max-width:576px) {
      .we-man {
           width: 100%;
-
      }
 
      .we-man .we-img-section {
@@ -267,7 +245,6 @@
 
      .we-man .we-img {
           width: 280px;
-
      }
 
      .growing .gorw-p1 {
@@ -276,7 +253,6 @@
 
      .we-man .grow-email {
           margin-top: 1rem;
-
      }
 
      .carrer_toogle_section {
@@ -296,7 +272,6 @@
 
      .we-man .we-img-section {
           height: 250px;
-
      }
 
      .growing .gorw-p1 {
@@ -313,18 +288,11 @@
 
 }
 
-
-
-
-
-
-
 .slider-wrapper {
      position: relative;
-   }
-   
-   
-   .slider-wrapper .image-list {
+}
+
+.slider-wrapper .image-list {
      display: grid;
      grid-template-columns: repeat(10, 1fr);
      gap: 1px;
@@ -332,15 +300,9 @@
      overflow-x: auto;
      scrollbar-width: none;
      border-radius: 1rem;
-   
-   
-   
-   }
-   
-   
-   
-   
-   .slider-wrapper .image-list .image-item {
+}
+
+.slider-wrapper .image-list .image-item {
      width: 250px;
      height: 230px;
      object-fit: cover;
@@ -349,41 +311,32 @@
      display: flex;
      align-items: center;
      justify-content: center;
-   
-   }
-   
-   
-   
-   .slider-wrapper .image-list {
-   
+}
+
+.slider-wrapper .image-list {
      scroll-snap-type: x mandatory;
-   }
-   
-   @media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1600px) {
      .slider-wrapper .slide-button {
-       display: none !important;
+          display: none !important;
      }
-   
+
      .slider-wrapper .image-list {
-       gap: 0px 0px;
-       scroll-snap-type: x mandatory;
+          gap: 0px 0px;
+          scroll-snap-type: x mandatory;
      }
-   
+
      .slider-wrapper .image-list .image-item {
-       width: 180px;
-       height: 180px;
-   
+          width: 180px;
+          height: 180px;
      }
-   
-   }
-   
-   
-   @media only screen and (max-width: 1200px) {
-   
+}
+
+
+@media only screen and (max-width: 1200px) {
      .slider-wrapper .image-list .image-item {
-       width: 150px;
-       height: 150px;
+          width: 150px;
+          height: 150px;
      }
-   
-   
-   }
+}
