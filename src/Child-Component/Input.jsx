@@ -5,9 +5,8 @@ const Input1 = (props) => {
     const { children, onClick, label, rows, name } = props
     return (
         <>
-            <TextField sx={{margin:"5px"}}
+            <TextField sx={{ margin: "5px" }}
                 fullWidth
-               
                 label={label}
                 required
                 className='TextField'
